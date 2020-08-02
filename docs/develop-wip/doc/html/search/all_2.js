@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['child_5fid',['child_id',['../structThunderegg_1_1Experimental_1_1Node.html#a74d81c3755d2b84bba92286d18ab06be',1,'Thunderegg::Experimental::Node']]],
+  ['child_5fids',['child_ids',['../structThunderegg_1_1PatchInfo.html#a75e4a2ceb789909f51d8ba0052abe031',1,'Thunderegg::PatchInfo']]],
+  ['child_5franks',['child_ranks',['../structThunderegg_1_1PatchInfo.html#ac851bf82f507c4a0bf6eba052b7b359a',1,'Thunderegg::PatchInfo']]],
+  ['childid',['childId',['../structThunderegg_1_1Experimental_1_1Node.html#acc933081a54ed386c5e86b40a19fb94b',1,'Thunderegg::Experimental::Node']]],
+  ['coarse_5fglobal_5findex',['coarse_global_index',['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#a245ec06d2f0a9e04019af1899425578e',1,'Thunderegg::Schur::CoarseIfaceInfo']]],
+  ['coarse_5fid',['coarse_id',['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#a4af7abfa13eb292cfc4782bebbd17d28',1,'Thunderegg::Schur::CoarseIfaceInfo']]],
+  ['coarse_5flocal_5findex',['coarse_local_index',['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#a3f85458e149fd7bdd6b29de34ee94432',1,'Thunderegg::Schur::CoarseIfaceInfo']]],
+  ['coarse_5frank',['coarse_rank',['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#adf6da1b2feada713d3300c60ca8f3681',1,'Thunderegg::Schur::CoarseIfaceInfo']]],
+  ['coarse_5fsweeps',['coarse_sweeps',['../structThunderegg_1_1GMG_1_1CycleOpts.html#a244ef0eda38cf272b3959bd06a85669d',1,'Thunderegg::GMG::CycleOpts']]],
+  ['coarse_5fto_5fcoarse',['coarse_to_coarse',['../classThunderegg_1_1Schur_1_1IfaceType.html#a5f2aaab3854024eed718b60324183f0e',1,'Thunderegg::Schur::IfaceType']]],
+  ['coarse_5fto_5ffine',['coarse_to_fine',['../classThunderegg_1_1Schur_1_1IfaceType.html#a489f7b369d379c71faebcc46488b02ce',1,'Thunderegg::Schur::IfaceType']]],
+  ['coarseifaceinfo',['CoarseIfaceInfo',['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html',1,'Thunderegg::Schur::CoarseIfaceInfo&lt; D &gt;'],['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#a9a1ef0fab0af38ce10de0279d2f77f7c',1,'Thunderegg::Schur::CoarseIfaceInfo::CoarseIfaceInfo()']]],
+  ['coarsenbrinfo',['CoarseNbrInfo',['../classThunderegg_1_1CoarseNbrInfo.html',1,'Thunderegg::CoarseNbrInfo&lt; D &gt;'],['../classThunderegg_1_1CoarseNbrInfo.html#aa13ffede738c004c1023626bd15faf1b',1,'Thunderegg::CoarseNbrInfo::CoarseNbrInfo()=default'],['../classThunderegg_1_1CoarseNbrInfo.html#a39929432c41745d8f6f80e9407f4e1b1',1,'Thunderegg::CoarseNbrInfo::CoarseNbrInfo(int id, Orthant&lt; D - 1 &gt; orth_on_coarse)']]],
+  ['coarsesh',['CoarseSH',['../classThunderegg_1_1Poisson_1_1CoarseSH.html',1,'Thunderegg::Poisson']]],
+  ['coarsest',['coarsest',['../classThunderegg_1_1GMG_1_1Level.html#a834dcd8f3d022dda6a9666f0426b4f99',1,'Thunderegg::GMG::Level']]],
+  ['collapseonaxis',['collapseOnAxis',['../classThunderegg_1_1Orthant.html#aa82a6e0f69d476cc57e812c28375db5b',1,'Thunderegg::Orthant']]],
+  ['comm',['comm',['../classThunderegg_1_1Vector.html#a85ce882a402060900e657218090796cc',1,'Thunderegg::Vector']]],
+  ['contigfftwsolver',['ContigFftwSolver',['../classContigFftwSolver.html',1,'']]],
+  ['copy',['copy',['../classThunderegg_1_1Vector.html#a38633df1ccfbbf17ad56ce35aa4f928f',1,'Thunderegg::Vector']]],
+  ['cycle',['Cycle',['../classThunderegg_1_1GMG_1_1Cycle.html',1,'Thunderegg::GMG::Cycle&lt; D &gt;'],['../classThunderegg_1_1GMG_1_1Cycle.html#abe9773819871f635e7ba468c2d329f9c',1,'Thunderegg::GMG::Cycle::Cycle()']]],
+  ['cycle_5ftype',['cycle_type',['../structThunderegg_1_1GMG_1_1CycleOpts.html#a231e57fcc2172e03fe7faa00b1bd159b',1,'Thunderegg::GMG::CycleOpts']]],
+  ['cyclefactory',['CycleFactory',['../classThunderegg_1_1GMG_1_1CycleFactory.html',1,'Thunderegg::GMG']]],
+  ['cyclefactory2d',['CycleFactory2d',['../classThunderegg_1_1GMG_1_1CycleFactory2d.html',1,'Thunderegg::GMG']]],
+  ['cyclefactoryctx',['CycleFactoryCtx',['../structThunderegg_1_1GMG_1_1CycleFactoryCtx.html',1,'Thunderegg::GMG']]],
+  ['cycleopts',['CycleOpts',['../structThunderegg_1_1GMG_1_1CycleOpts.html',1,'Thunderegg::GMG']]]
+];

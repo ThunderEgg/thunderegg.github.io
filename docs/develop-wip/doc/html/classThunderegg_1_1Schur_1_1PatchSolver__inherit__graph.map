@@ -1,0 +1,5 @@
+<map id="Thunderegg::Schur::PatchSolver&lt; D &gt;" name="Thunderegg::Schur::PatchSolver&lt; D &gt;">
+<area shape="rect" id="node2" href="$classThunderegg_1_1Poisson_1_1Schur_1_1DftPatchSolver.html" title="Thunderegg::Poisson\l::Schur::DftPatchSolver\&lt; D \&gt;" alt="" coords="208,5,419,47"/>
+<area shape="rect" id="node3" href="$classThunderegg_1_1Poisson_1_1Schur_1_1FftwPatchSolver.html" title="Thunderegg::Poisson\l::Schur::FftwPatchSolver\&lt; D \&gt;" alt="" coords="204,71,423,112"/>
+<area shape="rect" id="node4" href="$classThunderegg_1_1Schur_1_1BiCGStabSolver.html" title="Solves the patches using a BiCGStab iterative solver on each patch. " alt="" coords="231,136,395,177"/>
+</map>

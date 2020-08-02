@@ -1,0 +1,7 @@
+<map id="Thunderegg::Poisson::StencilHelper" name="Thunderegg::Poisson::StencilHelper">
+<area shape="rect" id="node2" href="$classThunderegg_1_1Poisson_1_1CoarseSH.html" title="Thunderegg::Poisson\l::CoarseSH" alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node3" href="$classThunderegg_1_1Poisson_1_1DirichletSH.html" title="Thunderegg::Poisson\l::DirichletSH" alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node4" href="$classThunderegg_1_1Poisson_1_1FineSH.html" title="Thunderegg::Poisson\l::FineSH" alt="" coords="211,136,368,177"/>
+<area shape="rect" id="node5" href="$classThunderegg_1_1Poisson_1_1NeumannSH.html" title="Thunderegg::Poisson\l::NeumannSH" alt="" coords="211,201,368,243"/>
+<area shape="rect" id="node6" href="$classThunderegg_1_1Poisson_1_1NormalSH.html" title="Thunderegg::Poisson\l::NormalSH" alt="" coords="211,267,368,308"/>
+</map>
