@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['timer',['Timer',['../classThunderegg_1_1Timer.html#afd468dac4eeac863440919b654349899',1,'Thunderegg::Timer']]],
-  ['tne',['tne',['../classThunderegg_1_1Orthant.html#a5ab988b1710f551c0bc3a47de3a610f5',1,'Thunderegg::Orthant']]],
-  ['tnw',['tnw',['../classThunderegg_1_1Orthant.html#a644fbf01685df6aeac194b26841e537a',1,'Thunderegg::Orthant']]],
-  ['toint',['toInt',['../classThunderegg_1_1Schur_1_1IfaceType.html#a4d0100f1e479488cd6caf949633beda9',1,'Thunderegg::Schur::IfaceType']]],
-  ['top',['top',['../classThunderegg_1_1Side.html#ac3108c4ece405a444820380c2e272389',1,'Thunderegg::Side']]],
-  ['tree',['Tree',['../structThunderegg_1_1Experimental_1_1Tree.html#a90bdd522e1e7662dde4f251c384782ea',1,'Thunderegg::Experimental::Tree::Tree()'],['../structThunderegg_1_1Experimental_1_1Tree.html#a4eb112ccc5e718c646834cbe10ebc49e',1,'Thunderegg::Experimental::Tree::Tree(std::string file_name)']]],
-  ['trilinintp',['TriLinIntp',['../classThunderegg_1_1GMG_1_1TriLinIntp.html#ad86951086d7305d650555fae1fe3bf1e',1,'Thunderegg::GMG::TriLinIntp']]],
-  ['tse',['tse',['../classThunderegg_1_1Orthant.html#af470a1a7483532a6ebcc10711e189b48',1,'Thunderegg::Orthant']]],
-  ['tsw',['tsw',['../classThunderegg_1_1Orthant.html#a66ea4c85744686bd4acbe7ea8e433552',1,'Thunderegg::Orthant']]],
-  ['twonorm',['twoNorm',['../classThunderegg_1_1Vector.html#a430b3180bec4797cdd40f7718225c034',1,'Thunderegg::Vector']]]
+  ['timer',['Timer',['../classThunderEgg_1_1Timer.html#ab75138b88f954a785afc99a10f435152',1,'ThunderEgg::Timer']]],
+  ['tne',['tne',['../classThunderEgg_1_1Orthant.html#a23ec121b1b27181ca29fba97922b3d89',1,'ThunderEgg::Orthant']]],
+  ['tnw',['tnw',['../classThunderEgg_1_1Orthant.html#a6ed0c1f674e06fd37d570e136349e35c',1,'ThunderEgg::Orthant']]],
+  ['toint',['toInt',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a1456405291e142372fd179a5a833d2b4',1,'ThunderEgg::Schur::IfaceType']]],
+  ['top',['top',['../classThunderEgg_1_1Side.html#a517a8a05674bf0a151493e6151cf169f',1,'ThunderEgg::Side']]],
+  ['tree',['Tree',['../structThunderEgg_1_1Experimental_1_1Tree.html#ad65cd6cc7934afff5d29d57b0e9fce03',1,'ThunderEgg::Experimental::Tree::Tree()'],['../structThunderEgg_1_1Experimental_1_1Tree.html#abe1b60cb1a1a4b64800fd6673eb6f575',1,'ThunderEgg::Experimental::Tree::Tree(std::string file_name)']]],
+  ['trilinintp',['TriLinIntp',['../classThunderEgg_1_1GMG_1_1TriLinIntp.html#acaaee14f9184445e858f70c8deee3de9',1,'ThunderEgg::GMG::TriLinIntp']]],
+  ['tse',['tse',['../classThunderEgg_1_1Orthant.html#aea7a3bbe3320debf4c369e4e2cac7ae1',1,'ThunderEgg::Orthant']]],
+  ['tsw',['tsw',['../classThunderEgg_1_1Orthant.html#a9d0bf5caecfcd7a8946cbb01181c59f9',1,'ThunderEgg::Orthant']]],
+  ['twonorm',['twoNorm',['../classThunderEgg_1_1Vector.html#a184a43107d6526e16905123fd6d70566',1,'ThunderEgg::Vector']]]
 ];

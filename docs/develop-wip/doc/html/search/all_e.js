@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadinterpolator',['QuadInterpolator',['../classThunderegg_1_1QuadInterpolator.html',1,'Thunderegg']]]
+  ['quadinterpolator',['QuadInterpolator',['../classThunderEgg_1_1QuadInterpolator.html',1,'ThunderEgg']]]
 ];

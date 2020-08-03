@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nbrtype',['NbrType',['../PatchInfo_8h.html#a17e2b1da4202eaeac5b7d57a01d8bb0d',1,'Thunderegg']]]
+  ['nbrtype',['NbrType',['../PatchInfo_8h.html#a49f4aa7867b8d56b98e80a1d04635464',1,'ThunderEgg']]]
 ];

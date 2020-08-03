@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vec',['vec',['../classThunderegg_1_1PetscVector.html#afdca8067be86956375c9557b574187c2',1,'Thunderegg::PetscVector']]]
+  ['vec',['vec',['../classThunderEgg_1_1PetscVector.html#abb1cb7ada330cdc9eec24b20a078fde0',1,'ThunderEgg::PetscVector']]]
 ];

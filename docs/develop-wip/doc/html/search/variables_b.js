@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['rank',['rank',['../structThunderegg_1_1PatchInfo.html#a0810029bebb79ceccdbaa667754e55f5',1,'Thunderegg::PatchInfo::rank()'],['../classThunderegg_1_1NormalNbrInfo.html#a15c230e5d2d3620a3864f3ec879c3565',1,'Thunderegg::NormalNbrInfo::rank()'],['../classThunderegg_1_1CoarseNbrInfo.html#ace82088f4228e6893023e22c730d3071',1,'Thunderegg::CoarseNbrInfo::rank()'],['../classThunderegg_1_1Schur_1_1IfaceInfo.html#a92a4dc0aa0b2ed482ccf8afb5e96e29c',1,'Thunderegg::Schur::IfaceInfo::rank()']]],
-  ['ranks',['ranks',['../classThunderegg_1_1FineNbrInfo.html#a8187f05640ee4631cfc106e9f58a6777',1,'Thunderegg::FineNbrInfo']]],
-  ['refine_5flevel',['refine_level',['../structThunderegg_1_1PatchInfo.html#a8552c3693b9ac883f7235cb28b9e4588',1,'Thunderegg::PatchInfo']]],
-  ['root',['root',['../structThunderegg_1_1Experimental_1_1Tree.html#a4df75d3cb1e4fe49354c39d59312f8cd',1,'Thunderegg::Experimental::Tree']]]
+  ['rank',['rank',['../structThunderEgg_1_1PatchInfo.html#ab83cbde09cd38bff06ca987fe179bec8',1,'ThunderEgg::PatchInfo::rank()'],['../classThunderEgg_1_1NormalNbrInfo.html#ae3c4f7df54bac052ea165ecccd295622',1,'ThunderEgg::NormalNbrInfo::rank()'],['../classThunderEgg_1_1CoarseNbrInfo.html#a89611875c9627f03a4934984a35194db',1,'ThunderEgg::CoarseNbrInfo::rank()'],['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#a77f58c44b4d14de09a09ab1ad875cb6d',1,'ThunderEgg::Schur::IfaceInfo::rank()']]],
+  ['ranks',['ranks',['../classThunderEgg_1_1FineNbrInfo.html#a853754881e73157ef5d9f77670173384',1,'ThunderEgg::FineNbrInfo']]],
+  ['refine_5flevel',['refine_level',['../structThunderEgg_1_1PatchInfo.html#a89c16c009daaeff958634a7fbe51090a',1,'ThunderEgg::PatchInfo']]],
+  ['root',['root',['../structThunderEgg_1_1Experimental_1_1Tree.html#ae29db182def37c99f3c2c7dca9f2ca8d',1,'ThunderEgg::Experimental::Tree']]]
 ];

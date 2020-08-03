@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['nbr_5fid',['nbr_id',['../structThunderegg_1_1Experimental_1_1Node.html#a609f41e1ff036a2514024f11a23a7877',1,'Thunderegg::Experimental::Node']]],
-  ['nbr_5finfo',['nbr_info',['../structThunderegg_1_1PatchInfo.html#a48187680b00c9bf0480174b790e06ace',1,'Thunderegg::PatchInfo::nbr_info()'],['../classThunderegg_1_1Schur_1_1NormalIfaceInfo.html#a13d2eaf353cf7b31cf1a6ca2982505af',1,'Thunderegg::Schur::NormalIfaceInfo::nbr_info()'],['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#afc18d72bb42108371ff589bdbb12eb66',1,'Thunderegg::Schur::CoarseIfaceInfo::nbr_info()'],['../classThunderegg_1_1Schur_1_1FineIfaceInfo.html#ac7bd07d912fa683a7efd523c74242cbe',1,'Thunderegg::Schur::FineIfaceInfo::nbr_info()']]],
-  ['neumann',['neumann',['../structThunderegg_1_1PatchInfo.html#aea47215fc12a8859fa27d9d3f25a444e',1,'Thunderegg::PatchInfo']]],
-  ['nodes',['nodes',['../structThunderegg_1_1Experimental_1_1Tree.html#a997ec370ba3012b6f1f1ac6280bd8965',1,'Thunderegg::Experimental::Tree']]],
-  ['normal',['normal',['../classThunderegg_1_1Schur_1_1IfaceType.html#a9dff9c98480e356d8140553b3b891403',1,'Thunderegg::Schur::IfaceType']]],
-  ['ns',['ns',['../structThunderegg_1_1PatchInfo.html#a8e01e6476fe25486cccbdfe4dd2237fa',1,'Thunderegg::PatchInfo']]],
-  ['num_5fghost_5fcells',['num_ghost_cells',['../structThunderegg_1_1PatchInfo.html#a98592be1d36943e9ca10c3925515e641',1,'Thunderegg::PatchInfo']]],
-  ['num_5flevels',['num_levels',['../structThunderegg_1_1Experimental_1_1Tree.html#ab629808427696e5b9fff51b1b2367761',1,'Thunderegg::Experimental::Tree']]],
-  ['num_5flocal_5fcells',['num_local_cells',['../classThunderegg_1_1Vector.html#ac8d056f18cdc016522bb8fdc69b5f896',1,'Thunderegg::Vector']]],
-  ['num_5flocal_5fpatches',['num_local_patches',['../classThunderegg_1_1Vector.html#aec27b3c09179630ab735f8047a1a0118',1,'Thunderegg::Vector']]],
-  ['num_5fsides',['num_sides',['../classThunderegg_1_1Side.html#acacb0731fb0a927682725917e688c783',1,'Thunderegg::Side']]]
+  ['nbr_5fid',['nbr_id',['../structThunderEgg_1_1Experimental_1_1Node.html#a454368e3a4691b638e63d2d5670dc2c4',1,'ThunderEgg::Experimental::Node']]],
+  ['nbr_5finfo',['nbr_info',['../structThunderEgg_1_1PatchInfo.html#a7605d552fee057103f68d035e4876cf2',1,'ThunderEgg::PatchInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a9952501f9ce135ee02f2c9c62cb8ae11',1,'ThunderEgg::Schur::NormalIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a037dd72921efd832975125f90ebc0ca0',1,'ThunderEgg::Schur::CoarseIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a516b0f1a156adfef8b6881ce90dd7742',1,'ThunderEgg::Schur::FineIfaceInfo::nbr_info()']]],
+  ['neumann',['neumann',['../structThunderEgg_1_1PatchInfo.html#a3f4b5e449bfd9b48b3aed85a07f14191',1,'ThunderEgg::PatchInfo']]],
+  ['nodes',['nodes',['../structThunderEgg_1_1Experimental_1_1Tree.html#a926ecf6e50ac24cf3cb86e848402f216',1,'ThunderEgg::Experimental::Tree']]],
+  ['normal',['normal',['../classThunderEgg_1_1Schur_1_1IfaceType.html#ae0238edcbd9c421a190a45a0ddbfea33',1,'ThunderEgg::Schur::IfaceType']]],
+  ['ns',['ns',['../structThunderEgg_1_1PatchInfo.html#a8b5088be35be8a1a924365d3e42f46dd',1,'ThunderEgg::PatchInfo']]],
+  ['num_5fghost_5fcells',['num_ghost_cells',['../structThunderEgg_1_1PatchInfo.html#a95fa872e35b6f6a9987973c5d9882c26',1,'ThunderEgg::PatchInfo']]],
+  ['num_5flevels',['num_levels',['../structThunderEgg_1_1Experimental_1_1Tree.html#a51ef6ec18da8b3041520fdb627986b49',1,'ThunderEgg::Experimental::Tree']]],
+  ['num_5flocal_5fcells',['num_local_cells',['../classThunderEgg_1_1Vector.html#a0ce99a125974c6e65ed0740ec720f0ac',1,'ThunderEgg::Vector']]],
+  ['num_5flocal_5fpatches',['num_local_patches',['../classThunderEgg_1_1Vector.html#aa1ef6e504fa5bbe5b926338cfb6be5a3',1,'ThunderEgg::Vector']]],
+  ['num_5fsides',['num_sides',['../classThunderEgg_1_1Side.html#a619f57109c57a1372e6d029816a39251',1,'ThunderEgg::Side']]]
 ];

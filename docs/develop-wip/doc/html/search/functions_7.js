@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['haschildren',['hasChildren',['../structThunderegg_1_1Experimental_1_1Node.html#ae322f3483575463c7e2e81363e3e7ffc',1,'Thunderegg::Experimental::Node']]],
-  ['hascoarseparent',['hasCoarseParent',['../structThunderegg_1_1PatchInfo.html#ae6c380ae56a38a21e12595523bbaded6',1,'Thunderegg::PatchInfo']]],
-  ['hascoarserdomain',['hasCoarserDomain',['../classThunderegg_1_1DomainGenerator.html#ab2f94368f5613852632342543ad87320',1,'Thunderegg::DomainGenerator::hasCoarserDomain()'],['../classThunderegg_1_1Experimental_1_1DomGen.html#a53fa53bbdd9ccf388e938fe64cfd463a',1,'Thunderegg::Experimental::DomGen::hasCoarserDomain()'],['../classThunderegg_1_1P4estDomGen.html#a5640f53cba1ca4b2ecc853bb7146806e',1,'Thunderegg::P4estDomGen::hasCoarserDomain()']]],
-  ['hasnbr',['hasNbr',['../structThunderegg_1_1Experimental_1_1Node.html#a8fd5a3c38995204d2ac878ebdafbcdc4',1,'Thunderegg::Experimental::Node::hasNbr()'],['../structThunderegg_1_1PatchInfo.html#aa6344658e92408d62a0df183f6a506a5',1,'Thunderegg::PatchInfo::hasNbr()']]],
-  ['highersideonaxis',['HigherSideOnAxis',['../classThunderegg_1_1Side.html#a770d780ed833ee0fd925f9e71b386f18',1,'Thunderegg::Side']]]
+  ['haschildren',['hasChildren',['../structThunderEgg_1_1Experimental_1_1Node.html#ac31071dbcd252b9b502fa92a3edf8780',1,'ThunderEgg::Experimental::Node']]],
+  ['hascoarseparent',['hasCoarseParent',['../structThunderEgg_1_1PatchInfo.html#a2de495da2773d79e535ed094eb2ef5ca',1,'ThunderEgg::PatchInfo']]],
+  ['hascoarserdomain',['hasCoarserDomain',['../classThunderEgg_1_1DomainGenerator.html#a6569d564aa93b5ad96e0033bf298f2f7',1,'ThunderEgg::DomainGenerator::hasCoarserDomain()'],['../classThunderEgg_1_1Experimental_1_1DomGen.html#a248a6e132dbe449b0857680234f5d9d4',1,'ThunderEgg::Experimental::DomGen::hasCoarserDomain()'],['../classThunderEgg_1_1P4estDomGen.html#a598bb12a4533b6fed6fafc4ba9c7d120',1,'ThunderEgg::P4estDomGen::hasCoarserDomain()']]],
+  ['hasnbr',['hasNbr',['../structThunderEgg_1_1Experimental_1_1Node.html#ac550eb00ffc623b8087e3ff0f00414c1',1,'ThunderEgg::Experimental::Node::hasNbr()'],['../structThunderEgg_1_1PatchInfo.html#ad4d10d4a0710723a19fb42b67804ba27',1,'ThunderEgg::PatchInfo::hasNbr()']]],
+  ['highersideonaxis',['HigherSideOnAxis',['../classThunderEgg_1_1Side.html#a9d6e701879e77b0640cc0f12f4bcc705',1,'ThunderEgg::Side']]]
 ];

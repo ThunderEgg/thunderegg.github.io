@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['level',['Level',['../classThunderegg_1_1GMG_1_1Level.html#ac192d7d7302a035d3563d04a4fee9b3d',1,'Thunderegg::GMG::Level']]],
-  ['linearrestrictor',['LinearRestrictor',['../classThunderegg_1_1GMG_1_1LinearRestrictor.html#ac57c1ecd3b68d3d0456682f31b0b0078',1,'Thunderegg::GMG::LinearRestrictor']]],
-  ['localdata',['LocalData',['../classThunderegg_1_1LocalData.html#a4c8e5f09824ae9907a16e3d756635747',1,'Thunderegg::LocalData']]],
-  ['lower',['lower',['../classThunderegg_1_1Orthant.html#a79ab7fc76d2f4059fb574c597788eeff',1,'Thunderegg::Orthant']]],
-  ['lowersideonaxis',['LowerSideOnAxis',['../classThunderegg_1_1Side.html#a1b02ce14ac4011e03a2882c8b1660d6e',1,'Thunderegg::Side']]]
+  ['level',['Level',['../classThunderEgg_1_1GMG_1_1Level.html#a3adf6468dd55857dbb6052f058941fd8',1,'ThunderEgg::GMG::Level']]],
+  ['linearrestrictor',['LinearRestrictor',['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html#a5354d49a35d98fdc79b467352727e2ad',1,'ThunderEgg::GMG::LinearRestrictor']]],
+  ['localdata',['LocalData',['../classThunderEgg_1_1LocalData.html#a50bc19b5971278ecadb2cadc631a12dc',1,'ThunderEgg::LocalData']]],
+  ['lower',['lower',['../classThunderEgg_1_1Orthant.html#aff09bc5cbd4ab30dcf1014708b3d445d',1,'ThunderEgg::Orthant']]],
+  ['lowersideonaxis',['LowerSideOnAxis',['../classThunderEgg_1_1Side.html#a0483adf17b9f111f50f9271db6d5ab9e',1,'ThunderEgg::Side']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['east',['east',['../classThunderegg_1_1Side.html#a7bc87353edea82e84e15413bcc608a2a',1,'Thunderegg::Side']]],
-  ['end',['end',['../classThunderegg_1_1Orthant_1_1Range.html#ab7656391d2ad61ef86bec2331bbdee06',1,'Thunderegg::Orthant::Range::end()'],['../classThunderegg_1_1Side_1_1Range.html#a3e7eed352c3017f278f49fb9b7ef107e',1,'Thunderegg::Side::Range::end()']]],
-  ['enumerateifaces',['EnumerateIfaces',['../structThunderegg_1_1Schur_1_1IfaceSet.html#a3a45a5ae8ae8057f50efc0c13f3fca5c',1,'Thunderegg::Schur::IfaceSet']]]
+  ['east',['east',['../classThunderEgg_1_1Side.html#a02f3bf26acdf0b8daaf2e113577d35d0',1,'ThunderEgg::Side']]],
+  ['end',['end',['../classThunderEgg_1_1Orthant_1_1Range.html#ab2118e5bfc95dfac3b0006ac0d7e68dd',1,'ThunderEgg::Orthant::Range::end()'],['../classThunderEgg_1_1Side_1_1Range.html#afa4ef1cda43029e56c025156da23e7d8',1,'ThunderEgg::Side::Range::end()']]],
+  ['enumerateifaces',['EnumerateIfaces',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#ae42cd0b0e6f3624b4a533ac3adb5f142',1,'ThunderEgg::Schur::IfaceSet']]]
 ];

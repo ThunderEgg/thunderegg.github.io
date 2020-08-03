@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['parent',['parent',['../structThunderegg_1_1Experimental_1_1Node.html#a0d71446de14beefee67a1fb6261bc37e',1,'Thunderegg::Experimental::Node']]],
-  ['parent_5fid',['parent_id',['../structThunderegg_1_1PatchInfo.html#a95796d4222c8cf953f8562722a03f4fa',1,'Thunderegg::PatchInfo']]],
-  ['parent_5frank',['parent_rank',['../structThunderegg_1_1PatchInfo.html#aa2fd49d8b1dc12acff4493c611512bab',1,'Thunderegg::PatchInfo']]],
-  ['patches_5fper_5fproc',['patches_per_proc',['../structThunderegg_1_1GMG_1_1CycleOpts.html#a599c9063d53b99a0f99714a654031294',1,'Thunderegg::GMG::CycleOpts']]],
-  ['pinfo',['pinfo',['../structThunderegg_1_1Schur_1_1SchurInfo.html#a613c44024d387587c5b4a14b8fe66a64',1,'Thunderegg::Schur::SchurInfo']]],
-  ['post_5fsweeps',['post_sweeps',['../structThunderegg_1_1GMG_1_1CycleOpts.html#a7ecfcc3dc7cb191c0b41c828c8683fce',1,'Thunderegg::GMG::CycleOpts']]],
-  ['pre_5fsweeps',['pre_sweeps',['../structThunderegg_1_1GMG_1_1CycleOpts.html#ab5c55323cd494dc6f7e1586565473c44',1,'Thunderegg::GMG::CycleOpts']]],
-  ['ptr',['ptr',['../classThunderegg_1_1NormalNbrInfo.html#a0ad98b782b9ec072ed59d1075a55c565',1,'Thunderegg::NormalNbrInfo::ptr()'],['../classThunderegg_1_1CoarseNbrInfo.html#ad4bbbb100c95349e7abd808e63bea0c6',1,'Thunderegg::CoarseNbrInfo::ptr()']]],
-  ['ptrs',['ptrs',['../classThunderegg_1_1FineNbrInfo.html#a6fef697b38f235b3c3ed09c4523d4d01',1,'Thunderegg::FineNbrInfo']]]
+  ['parent',['parent',['../structThunderEgg_1_1Experimental_1_1Node.html#a741942a4f6e2e0e3220fc04d5906e961',1,'ThunderEgg::Experimental::Node']]],
+  ['parent_5fid',['parent_id',['../structThunderEgg_1_1PatchInfo.html#a0e8736d9a81316864cdf5669a706975a',1,'ThunderEgg::PatchInfo']]],
+  ['parent_5frank',['parent_rank',['../structThunderEgg_1_1PatchInfo.html#af7a0eeb13e4081f6254e3e0841160d5c',1,'ThunderEgg::PatchInfo']]],
+  ['patches_5fper_5fproc',['patches_per_proc',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a98bb5651e0155d80afbf00e795ce8cf2',1,'ThunderEgg::GMG::CycleOpts']]],
+  ['pinfo',['pinfo',['../structThunderEgg_1_1Schur_1_1SchurInfo.html#ac84a6c2fd2719711472cd88ea3e58538',1,'ThunderEgg::Schur::SchurInfo']]],
+  ['post_5fsweeps',['post_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a4c3f50e3d2915fa3ecd0fa2344db1326',1,'ThunderEgg::GMG::CycleOpts']]],
+  ['pre_5fsweeps',['pre_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a734dad3e94d3b8e7458b0c070dac7109',1,'ThunderEgg::GMG::CycleOpts']]],
+  ['ptr',['ptr',['../classThunderEgg_1_1NormalNbrInfo.html#a50750b99d10a6c642df3f15790cad40d',1,'ThunderEgg::NormalNbrInfo::ptr()'],['../classThunderEgg_1_1CoarseNbrInfo.html#a0a38b72bf75de6fc32ee52da82608818',1,'ThunderEgg::CoarseNbrInfo::ptr()']]],
+  ['ptrs',['ptrs',['../classThunderEgg_1_1FineNbrInfo.html#aa0e8a6f8840c9e29d5bf2b7cc6933862',1,'ThunderEgg::FineNbrInfo']]]
 ];

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['p4estdomgen',['P4estDomGen',['../classThunderegg_1_1P4estDomGen.html#a1eb2f2375fbd337e180b25ab63121e2d',1,'Thunderegg::P4estDomGen']]],
-  ['patchinfo',['PatchInfo',['../structThunderegg_1_1PatchInfo.html#a1888ded1cb5a0780f086d9d862eb8013',1,'Thunderegg::PatchInfo']]],
-  ['patchoperator',['PatchOperator',['../classThunderegg_1_1PatchOperator.html#a5486f44b716bcba96f4601f3efa80eca',1,'Thunderegg::PatchOperator']]],
-  ['patchsolver',['PatchSolver',['../classThunderegg_1_1PatchSolver.html#a1fea9182029f9abe610f92536313cb72',1,'Thunderegg::PatchSolver']]],
-  ['polychebprec',['PolyChebPrec',['../classThunderegg_1_1Schur_1_1PolyChebPrec.html#a02abc0b77fcd48bf9fc079f8511f7f80',1,'Thunderegg::Schur::PolyChebPrec']]],
-  ['prepcoarser',['prepCoarser',['../classThunderegg_1_1GMG_1_1Cycle.html#ada347e7ced4146ea82675e7b3f5bf192',1,'Thunderegg::GMG::Cycle']]],
-  ['prepfiner',['prepFiner',['../classThunderegg_1_1GMG_1_1Cycle.html#a3de8258a1996faf9fe67d07b08c1c3fa',1,'Thunderegg::GMG::Cycle']]],
-  ['pw',['PW',['../classThunderegg_1_1PW.html#ad52d68e647da0197f514d83b4d06a11a',1,'Thunderegg::PW::PW(X obj=nullptr, bool owns=true)'],['../classThunderegg_1_1PW.html#ad7e55f9211043addc42d2a8ec411d128',1,'Thunderegg::PW::PW(const PW&lt; X &gt; &amp;other)']]]
+  ['p4estdomgen',['P4estDomGen',['../classThunderEgg_1_1P4estDomGen.html#afe952d7c20a1a7f4edec79e530970584',1,'ThunderEgg::P4estDomGen']]],
+  ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo']]],
+  ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator']]],
+  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a13fad2d7723ab9e0ba000688d38b2878',1,'ThunderEgg::PatchSolver']]],
+  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html#af46ded193373c4e386bb954e15b850ba',1,'ThunderEgg::Schur::PolyChebPrec']]],
+  ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],
+  ['prepfiner',['prepFiner',['../classThunderEgg_1_1GMG_1_1Cycle.html#a7e0e1e63f0d98cc46c17ada5b8a4dbac',1,'ThunderEgg::GMG::Cycle']]],
+  ['pw',['PW',['../classThunderEgg_1_1PW.html#a4d99c1a97c5a327163d7656a9e760021',1,'ThunderEgg::PW::PW(X obj=nullptr, bool owns=true)'],['../classThunderEgg_1_1PW.html#a63f3295579020ced145db2ede4dbb9a8',1,'ThunderEgg::PW::PW(const PW&lt; X &gt; &amp;other)']]]
 ];

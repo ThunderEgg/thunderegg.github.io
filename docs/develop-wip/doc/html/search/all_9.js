@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['lengths',['lengths',['../structThunderegg_1_1Experimental_1_1Node.html#ac516756e42c75beebba567daac9517c1',1,'Thunderegg::Experimental::Node']]],
-  ['level',['Level',['../classThunderegg_1_1GMG_1_1Level.html',1,'Thunderegg::GMG::Level&lt; D &gt;'],['../structThunderegg_1_1Experimental_1_1Node.html#a69f041d76641042885dbb261b685cd60',1,'Thunderegg::Experimental::Node::level()'],['../classThunderegg_1_1GMG_1_1Level.html#ac192d7d7302a035d3563d04a4fee9b3d',1,'Thunderegg::GMG::Level::Level()']]],
-  ['levels',['levels',['../structThunderegg_1_1Experimental_1_1Tree.html#a7cf88bda399bf7ab07d72c94d263a132',1,'Thunderegg::Experimental::Tree']]],
-  ['linearrestrictor',['LinearRestrictor',['../classThunderegg_1_1GMG_1_1LinearRestrictor.html',1,'Thunderegg::GMG::LinearRestrictor&lt; D &gt;'],['../classThunderegg_1_1GMG_1_1LinearRestrictor.html#ac57c1ecd3b68d3d0456682f31b0b0078',1,'Thunderegg::GMG::LinearRestrictor::LinearRestrictor()']]],
-  ['local_5findex',['local_index',['../structGMG_1_1Schur_1_1ILCFineToCoarseMetadata.html#af2be43b25e4590292e163b11beeae7b5',1,'GMG::Schur::ILCFineToCoarseMetadata::local_index()'],['../structThunderegg_1_1PatchInfo.html#a1e4ee773765a8e6846860f45ac44af1f',1,'Thunderegg::PatchInfo::local_index()'],['../classThunderegg_1_1NormalNbrInfo.html#a66438db0e02265993fe99222c988ca7c',1,'Thunderegg::NormalNbrInfo::local_index()'],['../classThunderegg_1_1CoarseNbrInfo.html#a1b49d6a491c2c5df97af27991f4dcd82',1,'Thunderegg::CoarseNbrInfo::local_index()'],['../classThunderegg_1_1Schur_1_1IfaceInfo.html#abbeb4ece3d80b49908cacee269054460',1,'Thunderegg::Schur::IfaceInfo::local_index()']]],
-  ['local_5findexes',['local_indexes',['../classThunderegg_1_1FineNbrInfo.html#acd8cdf2a4115bd04867a1f177e384b5d',1,'Thunderegg::FineNbrInfo']]],
-  ['localdata',['LocalData',['../classThunderegg_1_1LocalData.html',1,'Thunderegg::LocalData&lt; D &gt;'],['../classThunderegg_1_1LocalData.html#a4c8e5f09824ae9907a16e3d756635747',1,'Thunderegg::LocalData::LocalData()']]],
-  ['localdatamanager',['LocalDataManager',['../classThunderegg_1_1LocalDataManager.html',1,'Thunderegg']]],
-  ['loop',['Loop',['../classThunderegg_1_1Loop.html',1,'Thunderegg']]],
-  ['loop_3c_20start_2c_20start_2c_20t_20_3e',['Loop&lt; start, start, T &gt;',['../classThunderegg_1_1Loop_3_01start_00_01start_00_01T_01_4.html',1,'Thunderegg']]],
-  ['lower',['lower',['../classThunderegg_1_1Orthant.html#a79ab7fc76d2f4059fb574c597788eeff',1,'Thunderegg::Orthant']]],
-  ['lowersideonaxis',['LowerSideOnAxis',['../classThunderegg_1_1Side.html#a1b02ce14ac4011e03a2882c8b1660d6e',1,'Thunderegg::Side']]]
+  ['lengths',['lengths',['../structThunderEgg_1_1Experimental_1_1Node.html#a54ac2d2a9e2235e042a74725393b7cd0',1,'ThunderEgg::Experimental::Node']]],
+  ['level',['Level',['../classThunderEgg_1_1GMG_1_1Level.html',1,'ThunderEgg::GMG::Level&lt; D &gt;'],['../structThunderEgg_1_1Experimental_1_1Node.html#a97462630b4f994e4349a2a9bbd220c52',1,'ThunderEgg::Experimental::Node::level()'],['../classThunderEgg_1_1GMG_1_1Level.html#a3adf6468dd55857dbb6052f058941fd8',1,'ThunderEgg::GMG::Level::Level()']]],
+  ['levels',['levels',['../structThunderEgg_1_1Experimental_1_1Tree.html#ae16add77f1cda4f1a6aeada0b4c9a8c6',1,'ThunderEgg::Experimental::Tree']]],
+  ['linearrestrictor',['LinearRestrictor',['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html',1,'ThunderEgg::GMG::LinearRestrictor&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html#a5354d49a35d98fdc79b467352727e2ad',1,'ThunderEgg::GMG::LinearRestrictor::LinearRestrictor()']]],
+  ['local_5findex',['local_index',['../structGMG_1_1Schur_1_1ILCFineToCoarseMetadata.html#af2be43b25e4590292e163b11beeae7b5',1,'GMG::Schur::ILCFineToCoarseMetadata::local_index()'],['../structThunderEgg_1_1PatchInfo.html#a16063a5feb7086e685dd7c2a2d53772f',1,'ThunderEgg::PatchInfo::local_index()'],['../classThunderEgg_1_1NormalNbrInfo.html#a5d734bead9ca8dc369997b64a6684738',1,'ThunderEgg::NormalNbrInfo::local_index()'],['../classThunderEgg_1_1CoarseNbrInfo.html#afc5ec7a0db579494fc147e94e4bd344f',1,'ThunderEgg::CoarseNbrInfo::local_index()'],['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#a8705d16dfc51c2a72f10dc43046d0ba4',1,'ThunderEgg::Schur::IfaceInfo::local_index()']]],
+  ['local_5findexes',['local_indexes',['../classThunderEgg_1_1FineNbrInfo.html#a04e1980d3c33ee33fce2727f8ef8f187',1,'ThunderEgg::FineNbrInfo']]],
+  ['localdata',['LocalData',['../classThunderEgg_1_1LocalData.html',1,'ThunderEgg::LocalData&lt; D &gt;'],['../classThunderEgg_1_1LocalData.html#a50bc19b5971278ecadb2cadc631a12dc',1,'ThunderEgg::LocalData::LocalData()']]],
+  ['localdatamanager',['LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html',1,'ThunderEgg']]],
+  ['loop',['Loop',['../classThunderEgg_1_1Loop.html',1,'ThunderEgg']]],
+  ['loop_3c_20start_2c_20start_2c_20t_20_3e',['Loop&lt; start, start, T &gt;',['../classThunderEgg_1_1Loop_3_01start_00_01start_00_01T_01_4.html',1,'ThunderEgg']]],
+  ['lower',['lower',['../classThunderEgg_1_1Orthant.html#aff09bc5cbd4ab30dcf1014708b3d445d',1,'ThunderEgg::Orthant']]],
+  ['lowersideonaxis',['LowerSideOnAxis',['../classThunderEgg_1_1Side.html#a0483adf17b9f111f50f9271db6d5ab9e',1,'ThunderEgg::Side']]]
 ];

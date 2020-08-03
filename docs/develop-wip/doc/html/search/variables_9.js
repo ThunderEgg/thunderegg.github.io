@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['orth_5fon_5fcoarse',['orth_on_coarse',['../classThunderegg_1_1CoarseNbrInfo.html#ab80349f1bc0a32f7c16e03fc5d2bf19d',1,'Thunderegg::CoarseNbrInfo::orth_on_coarse()'],['../classThunderegg_1_1Schur_1_1CoarseIfaceInfo.html#aef0db198bcdd954c076aa8a92916fcee',1,'Thunderegg::Schur::CoarseIfaceInfo::orth_on_coarse()']]],
-  ['orth_5fon_5fparent',['orth_on_parent',['../structThunderegg_1_1PatchInfo.html#a109d156a76bc0214465d46d64505d103',1,'Thunderegg::PatchInfo']]]
+  ['orth_5fon_5fcoarse',['orth_on_coarse',['../classThunderEgg_1_1CoarseNbrInfo.html#ae0753238e0e5adeb37f42a66de6c58df',1,'ThunderEgg::CoarseNbrInfo::orth_on_coarse()'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a39592ec112d44ebb7e74d6908302615d',1,'ThunderEgg::Schur::CoarseIfaceInfo::orth_on_coarse()']]],
+  ['orth_5fon_5fparent',['orth_on_parent',['../structThunderEgg_1_1PatchInfo.html#ab44706e47fece26538c44dc2cc9e7243',1,'ThunderEgg::PatchInfo']]]
 ];

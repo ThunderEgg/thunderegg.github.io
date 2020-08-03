@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['timer',['timer',['../classThunderegg_1_1PatchSolver.html#a4ee3267dd19c216d8763144ce8100e30',1,'Thunderegg::PatchSolver']]],
-  ['types',['types',['../structThunderegg_1_1Schur_1_1IfaceSet.html#a97349de5f38062eadebbdec373a21330',1,'Thunderegg::Schur::IfaceSet']]]
+  ['timer',['timer',['../classThunderEgg_1_1PatchSolver.html#a984d15ea55e0a00fd778b8c0fccde3c8',1,'ThunderEgg::PatchSolver']]],
+  ['types',['types',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#ad106138b01e1e0a4602ed88883b6a9b1',1,'ThunderEgg::Schur::IfaceSet']]]
 ];
