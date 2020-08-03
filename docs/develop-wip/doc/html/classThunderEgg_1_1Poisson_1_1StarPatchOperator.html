@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a055cbf45270ea2d40c3b7249f3953a0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#a055cbf45270ea2d40c3b7249f3953a0f">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const override</td></tr>
 <tr class="memdesc:a055cbf45270ea2d40c3b7249f3953a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a055cbf45270ea2d40c3b7249f3953a0f">More...</a><br /></td></tr>
 <tr class="separator:a055cbf45270ea2d40c3b7249f3953a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4262d73d585fa6cd0eab9b69ad63e06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#aa4262d73d585fa6cd0eab9b69ad63e06">addGhostToRHS</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const</td></tr>
-<tr class="memdesc:aa4262d73d585fa6cd0eab9b69ad63e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the internal patch boundaries as an dirichlet boundary condition, and modify the RHS accordingly.  <a href="#aa4262d73d585fa6cd0eab9b69ad63e06">More...</a><br /></td></tr>
-<tr class="separator:aa4262d73d585fa6cd0eab9b69ad63e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3c060a51e01230246501291b314357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#aac3c060a51e01230246501291b314357">addGhostToRHS</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const override</td></tr>
+<tr class="memdesc:aac3c060a51e01230246501291b314357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the internal patch boundaries as an dirichlet boundary condition, and modify the RHS accordingly.  <a href="#aac3c060a51e01230246501291b314357">More...</a><br /></td></tr>
+<tr class="separator:aac3c060a51e01230246501291b314357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eecd39de6166bf120c5b522dc6df1b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#a5eecd39de6166bf120c5b522dc6df1b9">addDrichletBCToRHS</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; f, std::function&lt; double(const std::array&lt; double, D &gt; &amp;)&gt; gfunc)</td></tr>
 <tr class="memdesc:a5eecd39de6166bf120c5b522dc6df1b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function for adding Dirichlet boundary conditions to right hand side.  <a href="#a5eecd39de6166bf120c5b522dc6df1b9">More...</a><br /></td></tr>
 <tr class="separator:a5eecd39de6166bf120c5b522dc6df1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +136,11 @@ std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Do
 std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchOperator.html#af7f7eccee2748ba8ecb8024198c646b5">getGhostFiller</a> () const</td></tr>
 <tr class="memdesc:af7f7eccee2748ba8ecb8024198c646b5 inherit pub_methods_classThunderEgg_1_1PatchOperator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> object associated with this <a class="el" href="classThunderEgg_1_1PatchOperator.html" title="This is an Operator where derived classes only have to implement the two virtual functions that opera...">PatchOperator</a>. <br /></td></tr>
 <tr class="separator:af7f7eccee2748ba8ecb8024198c646b5 inherit pub_methods_classThunderEgg_1_1PatchOperator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classThunderEgg_1_1Operator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThunderEgg_1_1Operator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classThunderEgg_1_1Operator.html">ThunderEgg::Operator&lt; D &gt;</a></td></tr>
+<tr class="memitem:ab39411e3930fc78b6fa990c63b7b3047 inherit pub_methods_classThunderEgg_1_1Operator"><td class="memItemLeft" align="right" valign="top"><a id="ab39411e3930fc78b6fa990c63b7b3047"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047">~Operator</a> ()</td></tr>
+<tr class="memdesc:ab39411e3930fc78b6fa990c63b7b3047 inherit pub_methods_classThunderEgg_1_1Operator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1Operator.html" title="Base class for operators. ">Operator</a> object. <br /></td></tr>
+<tr class="separator:ab39411e3930fc78b6fa990c63b7b3047 inherit pub_methods_classThunderEgg_1_1Operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -264,8 +269,8 @@ template&lt;size_t D&gt; </div>
 
 </div>
 </div>
-<a id="aa4262d73d585fa6cd0eab9b69ad63e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4262d73d585fa6cd0eab9b69ad63e06">&#9670;&nbsp;</a></span>addGhostToRHS()</h2>
+<a id="aac3c060a51e01230246501291b314357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3c060a51e01230246501291b314357">&#9670;&nbsp;</a></span>addGhostToRHS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +306,7 @@ template&lt;size_t D&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
