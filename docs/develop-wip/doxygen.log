@@ -454,8 +454,8 @@ Generating code for file /home/tra/home/travis/build/ThunderEgg/ThunderEgg/src/T
   parameter 'timer'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiCGStabPatchSolver.h:233: warning: argument 'filler_gen' of command @param is not found in the argument list of ThunderEgg::BiCGStabPatchSolver< D >::Generator::Generator(std::shared_ptr< const BiCGStabPatchSolver< D >> solver)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiCGStabPatchSolver.h:233: warning: argument 'op_gen' of command @param is not found in the argument list of ThunderEgg::BiCGStabPatchSolver< D >::Generator::Generator(std::shared_ptr< const BiCGStabPatchSolver< D >> solver)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:115: warning: Member BiLinearGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:157: warning: Member BiQuadraticGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:118: warning: Member BiLinearGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:160: warning: Member BiQuadraticGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:47: warning: Member patch_id_bc_map_vec (variable) of class ThunderEgg::Domain is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:173: warning: The following parameters of ThunderEgg::Domain::Domain(std::map< int, std::shared_ptr< PatchInfo< D >>> pinfo_map, std::array< int, D > ns_in, int num_ghost_cells_in, bool local_id_set=false, bool global_id_set=false) are not documented:
   parameter 'ns_in'
@@ -1283,5 +1283,5 @@ Patching output file 87/90
 Patching output file 88/90
 Patching output file 89/90
 Patching output file 90/90
-lookup cache used 3078/65536 hits=37392 misses=3278
+lookup cache used 3078/65536 hits=37394 misses=3278
 finished...
