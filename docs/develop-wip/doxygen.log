@@ -210,7 +210,7 @@ Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Schur
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:43: warning: Compound ThunderEgg::Poisson::Schur::DomainK is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:73: warning: Compound ThunderEgg::NestedLoop< 0, -1, T, A > is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:30: warning: Compound ThunderEgg::Loop is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:531: warning: Compound ThunderEgg::VectorGenerator is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:532: warning: Compound ThunderEgg::VectorGenerator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:41: warning: Compound ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:42: warning: Compound ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PatchOperator.h:31: warning: Compound ThunderEgg::Schur::PatchOperator is not documented.
@@ -478,7 +478,7 @@ Generating code for file /home/tra/home/travis/build/ThunderEgg/ThunderEgg/src/T
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:88: warning: Member PetscVector(Vec vec, int num_local_patches, const std::array< int, D > &lengths, int num_ghost_cells, bool own=true) (function) of class ThunderEgg::PetscVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:182: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::PetscVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:218: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PetscVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:315: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:316: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:123: warning: Member GetNewVector(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::PetscVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:130: warning: Member GetNewBCVector(std::shared_ptr< Domain< D >> domain) (function) of class ThunderEgg::PetscVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PetscVector.h:121: warning: Member ghost_data (variable) of class ThunderEgg::PetscVector is not documented.
@@ -574,13 +574,13 @@ G/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:43: war
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h:37: warning: Member TimerException(std::string message) (function) of class ThunderEgg::TimerException is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:41: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths, int num_ghost_cells, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:81: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::ValVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:315: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:316: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:66: warning: Member GetNewVector(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:39: warning: Member vec (variable) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:40: warning: Member ghost_data (variable) of class ThunderEgg::ValVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:315: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:333: warning: Member setNumGhostPatches(int num_ghost_patches)=0 (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:534: warning: Member getNewVector()=0 (function) of class ThunderEgg::VectorGenerator is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:316: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:334: warning: Member setNumGhostPatches(int num_ghost_patches)=0 (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:535: warning: Member getNewVector()=0 (function) of class ThunderEgg::VectorGenerator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:115: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -642,8 +642,8 @@ G/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:43: war
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:80: warning: The following parameters of ThunderEgg::GMG::Level::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg) are not documented:
   parameter 'domain'
   parameter 'vg'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/LinearRestrictor.h:95: warning: argument 'ilc' of command @param is not found in the argument list of ThunderEgg::GMG::LinearRestrictor< D >::LinearRestrictor(std::shared_ptr< InterLevelComm< D >> ilc_in)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/LinearRestrictor.h:99: warning: The following parameters of ThunderEgg::GMG::LinearRestrictor::LinearRestrictor(std::shared_ptr< InterLevelComm< D >> ilc_in) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/LinearRestrictor.h:97: warning: argument 'ilc' of command @param is not found in the argument list of ThunderEgg::GMG::LinearRestrictor< D >::LinearRestrictor(std::shared_ptr< InterLevelComm< D >> ilc_in)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/LinearRestrictor.h:101: warning: The following parameters of ThunderEgg::GMG::LinearRestrictor::LinearRestrictor(std::shared_ptr< InterLevelComm< D >> ilc_in) are not documented:
   parameter 'ilc_in'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/MPIInterpolator.h:65: warning: argument 'ilc' of command @param is not found in the argument list of ThunderEgg::GMG::MPIInterpolator< D >::MPIInterpolator(std::shared_ptr< InterLevelComm< D >> ilc_in)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/MPIInterpolator.h:69: warning: The following parameters of ThunderEgg::GMG::MPIInterpolator::MPIInterpolator(std::shared_ptr< InterLevelComm< D >> ilc_in) are not documented:
@@ -1283,5 +1283,5 @@ Patching output file 87/90
 Patching output file 88/90
 Patching output file 89/90
 Patching output file 90/90
-lookup cache used 3078/65536 hits=37393 misses=3278
+lookup cache used 3079/65536 hits=37401 misses=3279
 finished...
