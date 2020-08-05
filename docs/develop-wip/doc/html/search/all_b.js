@@ -4,7 +4,6 @@ var searchData=
   ['nbr_5finfo',['nbr_info',['../structThunderEgg_1_1PatchInfo.html#a7605d552fee057103f68d035e4876cf2',1,'ThunderEgg::PatchInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a9952501f9ce135ee02f2c9c62cb8ae11',1,'ThunderEgg::Schur::NormalIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a037dd72921efd832975125f90ebc0ca0',1,'ThunderEgg::Schur::CoarseIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a516b0f1a156adfef8b6881ce90dd7742',1,'ThunderEgg::Schur::FineIfaceInfo::nbr_info()']]],
   ['nbrid',['nbrId',['../structThunderEgg_1_1Experimental_1_1Node.html#ae9c6ea3cc8cc8cb006c2ff4ec5840957',1,'ThunderEgg::Experimental::Node']]],
   ['nbrinfo',['NbrInfo',['../classThunderEgg_1_1NbrInfo.html',1,'ThunderEgg']]],
-  ['nbrtype',['NbrType',['../PatchInfo_8h.html#a49f4aa7867b8d56b98e80a1d04635464',1,'ThunderEgg']]],
   ['ne',['ne',['../classThunderEgg_1_1Orthant.html#aeddb39e1e1927cc2682ed3a94641f99c',1,'ThunderEgg::Orthant']]],
   ['nestedloop',['NestedLoop',['../classThunderEgg_1_1NestedLoop.html',1,'ThunderEgg']]],
   ['nestedloop_3c_200_2c_20_2d1_2c_20t_2c_20a_20_3e',['NestedLoop&lt; 0, -1, T, A &gt;',['../classThunderEgg_1_1NestedLoop_3_010_00_01-1_00_01T_00_01A_01_4.html',1,'ThunderEgg']]],

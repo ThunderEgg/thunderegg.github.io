@@ -1,7 +1,7 @@
 var searchData=
 [
   ['range',['Range',['../classThunderEgg_1_1Orthant_1_1Range.html',1,'ThunderEgg::Orthant&lt; D &gt;::Range'],['../classThunderEgg_1_1Side_1_1Range.html',1,'ThunderEgg::Side&lt; D &gt;::Range']]],
-  ['rank',['rank',['../structThunderEgg_1_1PatchInfo.html#ab83cbde09cd38bff06ca987fe179bec8',1,'ThunderEgg::PatchInfo::rank()'],['../classThunderEgg_1_1NormalNbrInfo.html#ae3c4f7df54bac052ea165ecccd295622',1,'ThunderEgg::NormalNbrInfo::rank()'],['../classThunderEgg_1_1CoarseNbrInfo.html#a89611875c9627f03a4934984a35194db',1,'ThunderEgg::CoarseNbrInfo::rank()'],['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#a77f58c44b4d14de09a09ab1ad875cb6d',1,'ThunderEgg::Schur::IfaceInfo::rank()']]],
+  ['rank',['rank',['../classThunderEgg_1_1CoarseNbrInfo.html#a89611875c9627f03a4934984a35194db',1,'ThunderEgg::CoarseNbrInfo::rank()'],['../classThunderEgg_1_1NormalNbrInfo.html#ae3c4f7df54bac052ea165ecccd295622',1,'ThunderEgg::NormalNbrInfo::rank()'],['../structThunderEgg_1_1PatchInfo.html#ab83cbde09cd38bff06ca987fe179bec8',1,'ThunderEgg::PatchInfo::rank()'],['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#a77f58c44b4d14de09a09ab1ad875cb6d',1,'ThunderEgg::Schur::IfaceInfo::rank()']]],
   ['ranks',['ranks',['../classThunderEgg_1_1FineNbrInfo.html#a853754881e73157ef5d9f77670173384',1,'ThunderEgg::FineNbrInfo']]],
   ['refine_5flevel',['refine_level',['../structThunderEgg_1_1PatchInfo.html#a89c16c009daaeff958634a7fbe51090a',1,'ThunderEgg::PatchInfo']]],
   ['refineleaves',['refineLeaves',['../structThunderEgg_1_1Experimental_1_1Tree.html#aeb0a537b948ccbdff8ce95ea2de0a42e',1,'ThunderEgg::Experimental::Tree']]],
