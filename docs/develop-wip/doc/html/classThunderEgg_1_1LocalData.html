@@ -73,13 +73,13 @@ $(function() {
 <p>Array for acessing data of a patch. It supports variable striding.  
  <a href="classThunderEgg_1_1LocalData.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="Vector_8h_source.html">Vector.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="LocalData_8h_source.html">LocalData.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a50bc19b5971278ecadb2cadc631a12dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1LocalData.html#a50bc19b5971278ecadb2cadc631a12dc">LocalData</a> (double *data, const std::array&lt; int, D &gt; &amp;strides, const std::array&lt; int, D &gt; &amp;lengths, int num_ghost_cells, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1LocalDataManager.html">LocalDataManager</a> &gt; ldm=nullptr)</td></tr>
-<tr class="memdesc:a50bc19b5971278ecadb2cadc631a12dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object.  <a href="#a50bc19b5971278ecadb2cadc631a12dc">More...</a><br /></td></tr>
-<tr class="separator:a50bc19b5971278ecadb2cadc631a12dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1a674516207d8dbae3508229abfb2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1LocalData.html#a4d1a674516207d8dbae3508229abfb2f">LocalData</a> (double *data_in, const std::array&lt; int, D &gt; &amp;strides_in, const std::array&lt; int, D &gt; &amp;lengths_in, int num_ghost_cells_in, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1LocalDataManager.html">LocalDataManager</a> &gt; ldm_in=nullptr)</td></tr>
+<tr class="memdesc:a4d1a674516207d8dbae3508229abfb2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object.  <a href="#a4d1a674516207d8dbae3508229abfb2f">More...</a><br /></td></tr>
+<tr class="separator:a4d1a674516207d8dbae3508229abfb2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a361117838c71b255f3c3498150be5e35"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1LocalData.html#a361117838c71b255f3c3498150be5e35">getPtr</a> (const std::array&lt; int, D &gt; &amp;coord)</td></tr>
 <tr class="memdesc:a361117838c71b255f3c3498150be5e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pointer the data at the specified coordinate.  <a href="#a361117838c71b255f3c3498150be5e35">More...</a><br /></td></tr>
 <tr class="separator:a361117838c71b255f3c3498150be5e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,8 +146,8 @@ class ThunderEgg::LocalData&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a50bc19b5971278ecadb2cadc631a12dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50bc19b5971278ecadb2cadc631a12dc">&#9670;&nbsp;</a></span>LocalData()</h2>
+<a id="a4d1a674516207d8dbae3508229abfb2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1a674516207d8dbae3508229abfb2f">&#9670;&nbsp;</a></span>LocalData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,31 +161,31 @@ template&lt;size_t D&gt; </div>
           <td class="memname"><a class="el" href="classThunderEgg_1_1LocalData.html">ThunderEgg::LocalData</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a> </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramname"><em>data_in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::array&lt; int, D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>strides</em>, </td>
+          <td class="paramname"><em>strides_in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::array&lt; int, D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>lengths</em>, </td>
+          <td class="paramname"><em>lengths_in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_ghost_cells</em>, </td>
+          <td class="paramname"><em>num_ghost_cells_in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1LocalDataManager.html">LocalDataManager</a> &gt;&#160;</td>
-          <td class="paramname"><em>ldm</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>ldm_in</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -203,11 +203,11 @@ template&lt;size_t D&gt; </div>
 <p>Construct a new <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>pointer to the first element in the patch (non-ghost cell element) </td></tr>
-    <tr><td class="paramname">strides</td><td>the strides in each direction </td></tr>
-    <tr><td class="paramname">lengths</td><td>the lengths in each direction </td></tr>
-    <tr><td class="paramname">num_ghost_cells</td><td>the number of ghost cells on each side of the patch </td></tr>
-    <tr><td class="paramname">ldm</td><td>the local data manager for the data </td></tr>
+    <tr><td class="paramname">data_in</td><td>pointer to the first element in the patch (non-ghost cell element) </td></tr>
+    <tr><td class="paramname">strides_in</td><td>the strides in each direction </td></tr>
+    <tr><td class="paramname">lengths_in</td><td>the lengths in each direction </td></tr>
+    <tr><td class="paramname">num_ghost_cells_in</td><td>the number of ghost cells on each side of the patch </td></tr>
+    <tr><td class="paramname">ldm_in</td><td>the local data manager for the data </td></tr>
   </table>
   </dd>
 </dl>
@@ -508,7 +508,7 @@ template&lt;size_t D&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/<a class="el" href="Vector_8h_source.html">Vector.h</a></li>
+<li>/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/<a class="el" href="LocalData_8h_source.html">LocalData.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
