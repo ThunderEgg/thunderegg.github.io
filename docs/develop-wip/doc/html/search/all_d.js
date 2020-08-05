@@ -23,8 +23,6 @@ var searchData=
   ['pre_5fsweeps',['pre_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a734dad3e94d3b8e7458b0c070dac7109',1,'ThunderEgg::GMG::CycleOpts']]],
   ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],
   ['prepfiner',['prepFiner',['../classThunderEgg_1_1GMG_1_1Cycle.html#a7e0e1e63f0d98cc46c17ada5b8a4dbac',1,'ThunderEgg::GMG::Cycle']]],
-  ['ptr',['ptr',['../classThunderEgg_1_1NormalNbrInfo.html#a50750b99d10a6c642df3f15790cad40d',1,'ThunderEgg::NormalNbrInfo::ptr()'],['../classThunderEgg_1_1CoarseNbrInfo.html#a0a38b72bf75de6fc32ee52da82608818',1,'ThunderEgg::CoarseNbrInfo::ptr()']]],
-  ['ptrs',['ptrs',['../classThunderEgg_1_1FineNbrInfo.html#aa0e8a6f8840c9e29d5bf2b7cc6933862',1,'ThunderEgg::FineNbrInfo']]],
   ['pw',['PW',['../classThunderEgg_1_1PW.html',1,'ThunderEgg::PW&lt; X &gt;'],['../classThunderEgg_1_1PW.html#a4d99c1a97c5a327163d7656a9e760021',1,'ThunderEgg::PW::PW(X obj=nullptr, bool owns=true)'],['../classThunderEgg_1_1PW.html#a63f3295579020ced145db2ede4dbb9a8',1,'ThunderEgg::PW::PW(const PW&lt; X &gt; &amp;other)']]],
   ['pw_3c_20mat_20_3e',['PW&lt; Mat &gt;',['../classThunderEgg_1_1PW.html',1,'ThunderEgg']]],
   ['pw_5fexplicit',['PW_explicit',['../classThunderEgg_1_1PW__explicit.html',1,'ThunderEgg']]]

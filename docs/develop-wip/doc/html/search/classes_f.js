@@ -13,7 +13,7 @@ var searchData=
   ['side',['Side',['../classThunderEgg_1_1Side.html',1,'ThunderEgg']]],
   ['simpleghostfiller',['SimpleGhostFiller',['../classThunderEgg_1_1SimpleGhostFiller.html',1,'ThunderEgg']]],
   ['smoother',['Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html',1,'ThunderEgg::GMG']]],
-  ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1Schur_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::Schur::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html',1,'ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;']]],
-  ['starpatchoperatorexception',['StarPatchOperatorException',['../structThunderEgg_1_1Poisson_1_1StarPatchOperatorException.html',1,'ThunderEgg::Poisson::StarPatchOperatorException'],['../structThunderEgg_1_1VarPoisson_1_1StarPatchOperatorException.html',1,'ThunderEgg::VarPoisson::StarPatchOperatorException']]],
+  ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1Poisson_1_1Schur_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::Schur::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html',1,'ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;']]],
+  ['starpatchoperatorexception',['StarPatchOperatorException',['../structThunderEgg_1_1VarPoisson_1_1StarPatchOperatorException.html',1,'ThunderEgg::VarPoisson::StarPatchOperatorException'],['../structThunderEgg_1_1Poisson_1_1StarPatchOperatorException.html',1,'ThunderEgg::Poisson::StarPatchOperatorException']]],
   ['stencilhelper',['StencilHelper',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html',1,'ThunderEgg::Poisson']]]
 ];

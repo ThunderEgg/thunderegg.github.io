@@ -1,7 +1,8 @@
 <map id="/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h" name="/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h">
-<area shape="rect" id="node2" href="$BufferIO_8h_source.html" title="ThunderEgg/BufferIO.h" alt="" coords="296,109,462,136"/>
-<area shape="rect" id="node3" href="$Serializable_8h_source.html" title="ThunderEgg/Serializable.h" alt="" coords="24,184,214,211"/>
-<area shape="rect" id="node8" href="$Orthant_8h_source.html" title="ThunderEgg/Orthant.h" alt="" coords="610,109,774,136"/>
-<area shape="rect" id="node13" href="$TypeDefs_8h.html" title="Useful type definitions for ThunderEgg library. " alt="" coords="806,109,981,136"/>
-<area shape="rect" id="node9" href="$Side_8h_source.html" title="ThunderEgg/Side.h" alt="" coords="602,184,745,211"/>
+<area shape="rect" id="node2" href="$BufferReader_8h_source.html" title="ThunderEgg/BufferReader.h" alt="" coords="174,109,373,136"/>
+<area shape="rect" id="node3" href="$Serializable_8h_source.html" title="ThunderEgg/Serializable.h" alt="" coords="22,184,213,211"/>
+<area shape="rect" id="node8" href="$BufferWriter_8h_source.html" title="ThunderEgg/BufferWriter.h" alt="" coords="398,109,590,136"/>
+<area shape="rect" id="node9" href="$Orthant_8h_source.html" title="ThunderEgg/Orthant.h" alt="" coords="665,109,829,136"/>
+<area shape="rect" id="node14" href="$TypeDefs_8h.html" title="Useful type definitions for ThunderEgg library. " alt="" coords="929,109,1104,136"/>
+<area shape="rect" id="node10" href="$Side_8h_source.html" title="ThunderEgg/Side.h" alt="" coords="653,184,796,211"/>
 </map>

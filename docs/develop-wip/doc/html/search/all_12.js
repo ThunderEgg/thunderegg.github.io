@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['updaterank',['updateRank',['../structThunderEgg_1_1PatchInfo.html#a5efa784dfe03978034bdb2f172c6fb71',1,'ThunderEgg::PatchInfo::updateRank()'],['../classThunderEgg_1_1NormalNbrInfo.html#ae5062308eae6abdcc83dcfcd45e968e8',1,'ThunderEgg::NormalNbrInfo::updateRank()'],['../classThunderEgg_1_1CoarseNbrInfo.html#ab71a7431f7b9de889034dbc1fc7e9448',1,'ThunderEgg::CoarseNbrInfo::updateRank()'],['../classThunderEgg_1_1FineNbrInfo.html#a37fd3ccc0b5134e1944bbdeec6428e2c',1,'ThunderEgg::FineNbrInfo::updateRank()']]],
-  ['updaterankonneighbors',['updateRankOnNeighbors',['../classThunderEgg_1_1NbrInfo.html#a189d07dd4c2be9923eb39b5fbb015745',1,'ThunderEgg::NbrInfo::updateRankOnNeighbors()'],['../classThunderEgg_1_1NormalNbrInfo.html#aa7fd08119df0013de4403584bcd95d27',1,'ThunderEgg::NormalNbrInfo::updateRankOnNeighbors()'],['../classThunderEgg_1_1CoarseNbrInfo.html#a434b15ef94c3f2993c623bae5c244cb0',1,'ThunderEgg::CoarseNbrInfo::updateRankOnNeighbors()'],['../classThunderEgg_1_1FineNbrInfo.html#accb1f26e294830f15b59a4f4dce895dc',1,'ThunderEgg::FineNbrInfo::updateRankOnNeighbors()']]],
   ['upper',['upper',['../classThunderEgg_1_1Orthant.html#a9c876a6c79b00ebbcc82b746811b3289',1,'ThunderEgg::Orthant']]]
 ];

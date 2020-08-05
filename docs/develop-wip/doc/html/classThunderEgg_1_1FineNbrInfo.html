@@ -121,15 +121,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a4704677ff9423785b34c3edce0fd5144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a4704677ff9423785b34c3edce0fd5144">setLocalIndexes</a> (std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
 <tr class="memdesc:a4704677ff9423785b34c3edce0fd5144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the global indexes in the <a class="el" href="classThunderEgg_1_1NbrInfo.html" title="Represents information about a patch&#39;s neighbor. ">NbrInfo</a> objects.  <a href="#a4704677ff9423785b34c3edce0fd5144">More...</a><br /></td></tr>
 <tr class="separator:a4704677ff9423785b34c3edce0fd5144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e33cea94ea7abe4b3a8041386e4137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a42e33cea94ea7abe4b3a8041386e4137">setPtrs</a> (std::map&lt; int, std::shared_ptr&lt; <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt;&gt; &amp;domains)</td></tr>
-<tr class="memdesc:a42e33cea94ea7abe4b3a8041386e4137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the pointers to neighboring patches.  <a href="#a42e33cea94ea7abe4b3a8041386e4137">More...</a><br /></td></tr>
-<tr class="separator:a42e33cea94ea7abe4b3a8041386e4137"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37fd3ccc0b5134e1944bbdeec6428e2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a37fd3ccc0b5134e1944bbdeec6428e2c">updateRank</a> (int new_rank, <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D - 1 &gt; orth_on_coarse)</td></tr>
-<tr class="memdesc:a37fd3ccc0b5134e1944bbdeec6428e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update a rank in this object.  <a href="#a37fd3ccc0b5134e1944bbdeec6428e2c">More...</a><br /></td></tr>
-<tr class="separator:a37fd3ccc0b5134e1944bbdeec6428e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb1f26e294830f15b59a4f4dce895dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#accb1f26e294830f15b59a4f4dce895dc">updateRankOnNeighbors</a> (int new_rank, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s)</td></tr>
-<tr class="memdesc:accb1f26e294830f15b59a4f4dce895dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the ranks on the neighbor objects.  <a href="#accb1f26e294830f15b59a4f4dce895dc">More...</a><br /></td></tr>
-<tr class="separator:accb1f26e294830f15b59a4f4dce895dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57d1c77b2e54bcb94dc89d5e9c1eec77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a57d1c77b2e54bcb94dc89d5e9c1eec77">serialize</a> (char *buffer) const</td></tr>
 <tr class="memdesc:a57d1c77b2e54bcb94dc89d5e9c1eec77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize object into buffer.  <a href="#a57d1c77b2e54bcb94dc89d5e9c1eec77">More...</a><br /></td></tr>
 <tr class="separator:a57d1c77b2e54bcb94dc89d5e9c1eec77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,9 +140,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa0e8a6f8840c9e29d5bf2b7cc6933862"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::shared_ptr&lt; <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt; &gt;, <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D - 1 &gt;::num_orthants &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#aa0e8a6f8840c9e29d5bf2b7cc6933862">ptrs</a></td></tr>
-<tr class="memdesc:aa0e8a6f8840c9e29d5bf2b7cc6933862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointers to neighboring <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> objects.  <a href="#aa0e8a6f8840c9e29d5bf2b7cc6933862">More...</a><br /></td></tr>
-<tr class="separator:aa0e8a6f8840c9e29d5bf2b7cc6933862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853754881e73157ef5d9f77670173384"><td class="memItemLeft" align="right" valign="top"><a id="a853754881e73157ef5d9f77670173384"></a>
 std::array&lt; int, <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D - 1 &gt;::num_orthants &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a853754881e73157ef5d9f77670173384">ranks</a></td></tr>
 <tr class="memdesc:a853754881e73157ef5d9f77670173384"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mpi rank that the neighbor resides on. <br /></td></tr>
@@ -369,161 +357,6 @@ template&lt;size_t D&gt; </div>
 </dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1NbrInfo.html#af25c528cd96c1353040e5793e5be633e">ThunderEgg::NbrInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a42e33cea94ea7abe4b3a8041386e4137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e33cea94ea7abe4b3a8041386e4137">&#9670;&nbsp;</a></span>setPtrs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">ThunderEgg::FineNbrInfo</a>&lt; D &gt;::setPtrs </td>
-          <td>(</td>
-          <td class="paramtype">std::map&lt; int, std::shared_ptr&lt; <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>domains</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the pointers to neighboring patches. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">domains</td><td>map of patch id to <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> ptr of patches on this processor. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classThunderEgg_1_1NbrInfo.html#ae07e7d074703675be7d8b9869a4f8231">ThunderEgg::NbrInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a37fd3ccc0b5134e1944bbdeec6428e2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37fd3ccc0b5134e1944bbdeec6428e2c">&#9670;&nbsp;</a></span>updateRank()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">ThunderEgg::FineNbrInfo</a>&lt; D &gt;::updateRank </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>new_rank</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D - 1 &gt;&#160;</td>
-          <td class="paramname"><em>orth_on_coarse</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update a rank in this object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">new_rank</td><td>the new rank </td></tr>
-    <tr><td class="paramname">orth_on_coarse</td><td>the orthant of the neighbor being updated </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="accb1f26e294830f15b59a4f4dce895dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb1f26e294830f15b59a4f4dce895dc">&#9670;&nbsp;</a></span>updateRankOnNeighbors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">ThunderEgg::FineNbrInfo</a>&lt; D &gt;::updateRankOnNeighbors </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>new_rank</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt;&#160;</td>
-          <td class="paramname"><em>s</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update the ranks on the neighbor objects. </p>
-<p>TODO make this work across processors. This only updates the objects on the same processor</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">new_rank</td><td>The new rank of this patch </td></tr>
-    <tr><td class="paramname">s</td><td>the side of tha patch that the neighbor is on. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classThunderEgg_1_1NbrInfo.html#a189d07dd4c2be9923eb39b5fbb015745">ThunderEgg::NbrInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa0e8a6f8840c9e29d5bf2b7cc6933862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0e8a6f8840c9e29d5bf2b7cc6933862">&#9670;&nbsp;</a></span>ptrs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;std::shared_ptr&lt;<a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt;D&gt; &gt;, <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt;D - 1&gt;::num_orthants&gt; <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">ThunderEgg::FineNbrInfo</a>&lt; D &gt;::ptrs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pointers to neighboring <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> objects. </p>
-<p>If the neighbor is on a different processor, it will be set to nullptr. </p>
 
 </div>
 </div>
