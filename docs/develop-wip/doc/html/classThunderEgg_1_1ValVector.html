@@ -71,6 +71,11 @@ $(function() {
 <div class="title">ThunderEgg::ValVector&lt; D &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a> class the uses std::valarray for data storage.  
+ <a href="classThunderEgg_1_1ValVector.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ValVector_8h_source.html">ValVector.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ThunderEgg::ValVector&lt; D &gt;:</div>
 <div class="dyncontent">
@@ -173,14 +178,15 @@ virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="memItemLeft" align="right" valign="top"><a id="a771a9dd82ed9255c9ddce9fe80f2a976"></a>
-static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetNewVector</b> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
+<tr class="memitem:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#a771a9dd82ed9255c9ddce9fe80f2a976">GetNewVector</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
+<tr class="memdesc:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#a771a9dd82ed9255c9ddce9fe80f2a976">More...</a><br /></td></tr>
 <tr class="separator:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a422568cb60dfd89379b3146fcbf34d22"><td class="memItemLeft" align="right" valign="top"><a id="a422568cb60dfd89379b3146fcbf34d22"></a>
-std::valarray&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vec</b></td></tr>
+std::valarray&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#a422568cb60dfd89379b3146fcbf34d22">vec</a></td></tr>
+<tr class="memdesc:a422568cb60dfd89379b3146fcbf34d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">the underlying vector <br /></td></tr>
 <tr class="separator:a422568cb60dfd89379b3146fcbf34d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ae828e404e378a60a025abaf7e1597a"><td class="memItemLeft" align="right" valign="top"><a id="a5ae828e404e378a60a025abaf7e1597a"></a>
 std::valarray&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ghost_data</b></td></tr>
@@ -202,7 +208,18 @@ MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 <tr class="memdesc:ab3857b6e185f6205b4c633270250fd78 inherit pro_attribs_classThunderEgg_1_1Vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">the mpi comm <br /></td></tr>
 <tr class="separator:ab3857b6e185f6205b4c633270250fd78 inherit pro_attribs_classThunderEgg_1_1Vector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;size_t D&gt;<br />
+class ThunderEgg::ValVector&lt; D &gt;</h3>
+
+<p><a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a> class the uses std::valarray for data storage. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">D</td><td>the number of Cartesian dimensions </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad8917d26f784341a2bfbae52abb34d61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8917d26f784341a2bfbae52abb34d61">&#9670;&nbsp;</a></span>getLocalData() <span class="overload">[1/2]</span></h2>
 
@@ -278,6 +295,43 @@ template&lt;size_t D&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>LocalData&lt;D&gt; the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object </dd></dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1Vector.html#a176087dd4f619edd8647656e69f2c095">ThunderEgg::Vector&lt; D &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a771a9dd82ed9255c9ddce9fe80f2a976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771a9dd82ed9255c9ddce9fe80f2a976">&#9670;&nbsp;</a></span>GetNewVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::shared_ptr&lt;<a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1ValVector.html">ThunderEgg::ValVector</a>&lt; D &gt;::GetNewVector </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>domain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a new <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;ValVector&lt;D&gt;&gt; the new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a> </dd></dl>
 
 </div>
 </div>

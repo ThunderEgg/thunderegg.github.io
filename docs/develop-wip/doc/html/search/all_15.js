@@ -14,5 +14,6 @@ var searchData=
   ['_7erestrictor',['~Restrictor',['../classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11',1,'ThunderEgg::GMG::Restrictor']]],
   ['_7eserializable',['~Serializable',['../classThunderEgg_1_1Serializable.html#a3b39aed7f11caf84cda71c529eae1460',1,'ThunderEgg::Serializable']]],
   ['_7esmoother',['~Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html#a658ca92bced694154e23f7a8669941b0',1,'ThunderEgg::GMG::Smoother']]],
-  ['_7evector',['~Vector',['../classThunderEgg_1_1Vector.html#a82611c6436f802530cf5147681edc645',1,'ThunderEgg::Vector']]]
+  ['_7evector',['~Vector',['../classThunderEgg_1_1Vector.html#a82611c6436f802530cf5147681edc645',1,'ThunderEgg::Vector']]],
+  ['_7evectorgenerator',['~VectorGenerator',['../classThunderEgg_1_1VectorGenerator.html#ac944e50dfa48a320b65b656dd616bb48',1,'ThunderEgg::VectorGenerator']]]
 ];

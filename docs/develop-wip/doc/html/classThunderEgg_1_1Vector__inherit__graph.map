@@ -1,4 +1,4 @@
 <map id="ThunderEgg::Vector&lt; D &gt;" name="ThunderEgg::Vector&lt; D &gt;">
 <area shape="rect" id="node2" href="$classThunderEgg_1_1PetscVector.html" title="Wrap a petsc vector for use in ThunderEgg. " alt="" coords="5,80,228,107"/>
-<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVector.html" title="ThunderEgg::ValVector\&lt; D \&gt;" alt="" coords="253,80,461,107"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. " alt="" coords="253,80,461,107"/>
 </map>

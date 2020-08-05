@@ -8,7 +8,6 @@ var searchData=
   ['domaingenerator_3c_202_20_3e',['DomainGenerator&lt; 2 &gt;',['../classThunderEgg_1_1DomainGenerator.html',1,'ThunderEgg']]],
   ['domaink',['DomainK',['../structThunderEgg_1_1Poisson_1_1Schur_1_1DomainK.html',1,'ThunderEgg::Poisson::Schur']]],
   ['domaintools',['DomainTools',['../structThunderEgg_1_1DomainTools.html',1,'ThunderEgg']]],
-  ['domainvg',['DomainVG',['../classThunderEgg_1_1DomainVG.html',1,'ThunderEgg']]],
   ['domainwrapop',['DomainWrapOp',['../classThunderEgg_1_1DomainWrapOp.html',1,'ThunderEgg']]],
   ['domgen',['DomGen',['../classThunderEgg_1_1Experimental_1_1DomGen.html',1,'ThunderEgg::Experimental::DomGen&lt; D &gt;'],['../classThunderEgg_1_1Experimental_1_1DomGen.html#ae380523b505b2639fe372c7bcf3cd56e',1,'ThunderEgg::Experimental::DomGen::DomGen()']]],
   ['dot',['dot',['../classThunderEgg_1_1Vector.html#a5f66a5d010d5f17aa1b9b38f7d873187',1,'ThunderEgg::Vector']]],
