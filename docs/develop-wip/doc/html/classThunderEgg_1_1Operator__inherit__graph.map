@@ -3,9 +3,9 @@
 <area shape="rect" id="node3" href="$classThunderEgg_1_1GMG_1_1Cycle.html" title="Base class for cycles. Includes functions for preparing vectors for finer and coarser levels..." alt="" coords="272,93,495,120"/>
 <area shape="rect" id="node6" href="$classThunderEgg_1_1PatchOperator.html" title="This is an Operator where derived classes only have to implement the two virtual functions that opera..." alt="" coords="264,180,503,207"/>
 <area shape="rect" id="node9" href="$classThunderEgg_1_1PatchSolver.html" title="Solves the problem on the patches using a specified interface value. " alt="" coords="272,239,495,265"/>
-<area shape="rect" id="node13" href="$classThunderEgg_1_1PetscMatOp.html" title="Base class for operators. " alt="" coords="271,289,495,316"/>
-<area shape="rect" id="node14" href="$classThunderEgg_1_1SchurDomainOp.html" title="ThunderEgg::SchurDomainOp\&lt; D \&gt;" alt="" coords="257,340,509,367"/>
-<area shape="rect" id="node15" href="$classThunderEgg_1_1SchwarzPrec.html" title="Additive Schwarz Preconditioner. " alt="" coords="269,391,498,417"/>
+<area shape="rect" id="node13" href="$classThunderEgg_1_1PETSc_1_1MatWrapper.html" title="Wraps a PETSc Mat object for use as a ThunderEgg Operator. " alt="" coords="306,290,461,331"/>
+<area shape="rect" id="node14" href="$classThunderEgg_1_1SchurDomainOp.html" title="ThunderEgg::SchurDomainOp\&lt; D \&gt;" alt="" coords="257,356,509,383"/>
+<area shape="rect" id="node15" href="$classThunderEgg_1_1SchwarzPrec.html" title="Additive Schwarz Preconditioner. " alt="" coords="269,407,498,433"/>
 <area shape="rect" id="node4" href="$classThunderEgg_1_1GMG_1_1VCycle.html" title="Implementation of a V&#45;cycle. " alt="" coords="559,5,790,32"/>
 <area shape="rect" id="node5" href="$classThunderEgg_1_1GMG_1_1WCycle.html" title="Implementation of a W&#45;cycle. " alt="" coords="557,56,792,83"/>
 <area shape="rect" id="node7" href="$classThunderEgg_1_1Poisson_1_1StarPatchOperator.html" title="Implements 2nd order laplacian operator. " alt="" coords="581,107,769,149"/>

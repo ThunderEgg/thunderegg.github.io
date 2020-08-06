@@ -4,6 +4,7 @@ var searchData=
   ['child_5fids',['child_ids',['../structThunderEgg_1_1PatchInfo.html#ab5c6d0678573d06af0e58f27ee5231d3',1,'ThunderEgg::PatchInfo']]],
   ['child_5franks',['child_ranks',['../structThunderEgg_1_1PatchInfo.html#a48eed678898ffb3fe25902f41365eab6',1,'ThunderEgg::PatchInfo']]],
   ['childid',['childId',['../structThunderEgg_1_1Experimental_1_1Node.html#a3c972d409a201b92a7d126426d3121cb',1,'ThunderEgg::Experimental::Node']]],
+  ['coarse',['Coarse',['../namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464a1fb282a269a2bc94abc136c0511daa59',1,'ThunderEgg']]],
   ['coarse_5fglobal_5findex',['coarse_global_index',['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a31fb7e20577f3c047c103a295124e137',1,'ThunderEgg::Schur::CoarseIfaceInfo']]],
   ['coarse_5fid',['coarse_id',['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a75c96723cfeebd0c40fb34a12d3033d3',1,'ThunderEgg::Schur::CoarseIfaceInfo']]],
   ['coarse_5flocal_5findex',['coarse_local_index',['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#aa4366221f22ac0cd9d018c4eb589b81a',1,'ThunderEgg::Schur::CoarseIfaceInfo']]],
