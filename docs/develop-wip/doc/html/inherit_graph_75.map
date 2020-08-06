@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classThunderEgg_1_1VarPoisson_1_1StarPatchOperator_1_1Generator.html" title="Generator for GMG levels. " alt="" coords="5,5,184,61"/>
+<area shape="rect" id="node1" href="$classThunderEgg_1_1VectorGenerator.html" title="Generates temporary work vectors. " alt="" coords="5,42,259,69"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1Schur_1_1SchurHelperVG.html" title="ThunderEgg::Schur::\lSchurHelperVG\&lt; D \&gt;" alt="" coords="363,5,523,47"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. " alt="" coords="307,71,580,98"/>
 </map>

@@ -6,10 +6,10 @@ var searchData=
   ['parent_5frank',['parent_rank',['../structThunderEgg_1_1PatchInfo.html#af7a0eeb13e4081f6254e3e0841160d5c',1,'ThunderEgg::PatchInfo']]],
   ['patches_5fper_5fproc',['patches_per_proc',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a98bb5651e0155d80afbf00e795ce8cf2',1,'ThunderEgg::GMG::CycleOpts']]],
   ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html',1,'ThunderEgg::PatchInfo&lt; D &gt;'],['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo::PatchInfo()']]],
-  ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html',1,'ThunderEgg::PatchOperator&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1PatchOperator.html',1,'ThunderEgg::Schur::PatchOperator&lt; D &gt;'],['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator::PatchOperator()']]],
+  ['patchoperator',['PatchOperator',['../classThunderEgg_1_1Schur_1_1PatchOperator.html',1,'ThunderEgg::Schur::PatchOperator&lt; D &gt;'],['../classThunderEgg_1_1PatchOperator.html',1,'ThunderEgg::PatchOperator&lt; D &gt;'],['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator::PatchOperator()']]],
   ['patchoperator_3c_202_20_3e',['PatchOperator&lt; 2 &gt;',['../classThunderEgg_1_1Schur_1_1PatchOperator.html',1,'ThunderEgg::Schur']]],
   ['patchoperator_3c_203_20_3e',['PatchOperator&lt; 3 &gt;',['../classThunderEgg_1_1Schur_1_1PatchOperator.html',1,'ThunderEgg::Schur']]],
-  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1Schur_1_1PatchSolver.html',1,'ThunderEgg::Schur::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1PatchSolver.html#a13fad2d7723ab9e0ba000688d38b2878',1,'ThunderEgg::PatchSolver::PatchSolver()']]],
+  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1PatchSolver.html',1,'ThunderEgg::Schur::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1PatchSolver.html#a13fad2d7723ab9e0ba000688d38b2878',1,'ThunderEgg::PatchSolver::PatchSolver()']]],
   ['pblock',['PBlock',['../structThunderEgg_1_1Experimental_1_1PBMatrix_1_1PBlock.html',1,'ThunderEgg::Experimental::PBMatrix']]],
   ['pbmatrix',['PBMatrix',['../classThunderEgg_1_1Experimental_1_1PBMatrix.html',1,'ThunderEgg::Experimental']]],
   ['petscldm',['PetscLDM',['../classThunderEgg_1_1PetscLDM.html',1,'ThunderEgg']]],
@@ -21,8 +21,5 @@ var searchData=
   ['post_5fsweeps',['post_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a4c3f50e3d2915fa3ecd0fa2344db1326',1,'ThunderEgg::GMG::CycleOpts']]],
   ['pre_5fsweeps',['pre_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a734dad3e94d3b8e7458b0c070dac7109',1,'ThunderEgg::GMG::CycleOpts']]],
   ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],
-  ['prepfiner',['prepFiner',['../classThunderEgg_1_1GMG_1_1Cycle.html#a7e0e1e63f0d98cc46c17ada5b8a4dbac',1,'ThunderEgg::GMG::Cycle']]],
-  ['pw',['PW',['../classThunderEgg_1_1PW.html',1,'ThunderEgg::PW&lt; X &gt;'],['../classThunderEgg_1_1PW.html#a4d99c1a97c5a327163d7656a9e760021',1,'ThunderEgg::PW::PW(X obj=nullptr, bool owns=true)'],['../classThunderEgg_1_1PW.html#a63f3295579020ced145db2ede4dbb9a8',1,'ThunderEgg::PW::PW(const PW&lt; X &gt; &amp;other)']]],
-  ['pw_3c_20mat_20_3e',['PW&lt; Mat &gt;',['../classThunderEgg_1_1PW.html',1,'ThunderEgg']]],
-  ['pw_5fexplicit',['PW_explicit',['../classThunderEgg_1_1PW__explicit.html',1,'ThunderEgg']]]
+  ['prepfiner',['prepFiner',['../classThunderEgg_1_1GMG_1_1Cycle.html#a7e0e1e63f0d98cc46c17ada5b8a4dbac',1,'ThunderEgg::GMG::Cycle']]]
 ];

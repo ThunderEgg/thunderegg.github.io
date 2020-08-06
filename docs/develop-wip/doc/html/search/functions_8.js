@@ -12,6 +12,5 @@ var searchData=
   ['isloweronaxis',['isLowerOnAxis',['../classThunderEgg_1_1Side.html#a5751f49796961d5cebfcde9df4a9d543',1,'ThunderEgg::Side']]],
   ['isneumann',['isNeumann',['../structThunderEgg_1_1PatchInfo.html#a642f83bf7f187db52e718ffeadc6a369',1,'ThunderEgg::PatchInfo']]],
   ['isonside',['isOnSide',['../classThunderEgg_1_1Orthant.html#a5b33d8b7175fcce0ef27c06b95a24c72',1,'ThunderEgg::Orthant']]],
-  ['isset',['isSet',['../classThunderEgg_1_1PW.html#ada4ffefb751fa0591accf7dbb3847b5a',1,'ThunderEgg::PW']]],
   ['iterator',['Iterator',['../classThunderEgg_1_1Orthant_1_1Range_1_1Iterator.html#ada40d0b3fc3c5e7f4ad80ae51f42fbc1',1,'ThunderEgg::Orthant::Range::Iterator::Iterator()'],['../classThunderEgg_1_1Side_1_1Range_1_1Iterator.html#adbfd25ba0025a0e0c3d975b71b94c53b',1,'ThunderEgg::Side::Range::Iterator::Iterator()']]]
 ];
