@@ -12,7 +12,6 @@ var searchData=
   ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1PatchSolver.html',1,'ThunderEgg::Schur::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1PatchSolver.html#a13fad2d7723ab9e0ba000688d38b2878',1,'ThunderEgg::PatchSolver::PatchSolver()']]],
   ['pblock',['PBlock',['../structThunderEgg_1_1Experimental_1_1PBMatrix_1_1PBlock.html',1,'ThunderEgg::Experimental::PBMatrix']]],
   ['pbmatrix',['PBMatrix',['../classThunderEgg_1_1Experimental_1_1PBMatrix.html',1,'ThunderEgg::Experimental']]],
-  ['petsc',['PETSc',['../namespacePETSc.html',1,'']]],
   ['petscldm',['PetscLDM',['../classThunderEgg_1_1PetscLDM.html',1,'ThunderEgg']]],
   ['petscshellcreator',['PetscShellCreator',['../classThunderEgg_1_1PetscShellCreator.html',1,'ThunderEgg']]],
   ['petscvector',['PetscVector',['../classThunderEgg_1_1PetscVector.html',1,'ThunderEgg']]],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['petsc',['PETSc',['../namespacePETSc.html',1,'']]]
+  ['petsc',['PETSc',['../namespaceThunderEgg_1_1PETSc.html',1,'ThunderEgg']]],
+  ['thunderegg',['ThunderEgg',['../namespaceThunderEgg.html',1,'']]]
 ];

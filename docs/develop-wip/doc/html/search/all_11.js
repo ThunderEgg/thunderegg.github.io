@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['petsc',['PETSc',['../namespaceThunderEgg_1_1PETSc.html',1,'ThunderEgg']]],
   ['thunderegg',['ThunderEgg',['../namespaceThunderEgg.html',1,'']]],
   ['timer',['Timer',['../classThunderEgg_1_1Timer.html',1,'ThunderEgg::Timer'],['../classThunderEgg_1_1PatchSolver.html#a984d15ea55e0a00fd778b8c0fccde3c8',1,'ThunderEgg::PatchSolver::timer()'],['../classThunderEgg_1_1Timer.html#ab75138b88f954a785afc99a10f435152',1,'ThunderEgg::Timer::Timer()']]],
   ['timerexception',['TimerException',['../structThunderEgg_1_1TimerException.html',1,'ThunderEgg']]],
