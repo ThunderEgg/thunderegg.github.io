@@ -8,8 +8,6 @@ var searchData=
   ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1PatchSolver.html',1,'ThunderEgg::Schur::PatchSolver&lt; D &gt;']]],
   ['pblock',['PBlock',['../structThunderEgg_1_1Experimental_1_1PBMatrix_1_1PBlock.html',1,'ThunderEgg::Experimental::PBMatrix']]],
   ['pbmatrix',['PBMatrix',['../classThunderEgg_1_1Experimental_1_1PBMatrix.html',1,'ThunderEgg::Experimental']]],
-  ['petscldm',['PetscLDM',['../classThunderEgg_1_1PetscLDM.html',1,'ThunderEgg']]],
   ['petscshellcreator',['PetscShellCreator',['../classThunderEgg_1_1PetscShellCreator.html',1,'ThunderEgg']]],
-  ['petscvector',['PetscVector',['../classThunderEgg_1_1PetscVector.html',1,'ThunderEgg']]],
   ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html',1,'ThunderEgg::Schur']]]
 ];
