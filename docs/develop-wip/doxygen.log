@@ -262,8 +262,6 @@ Parsing file /home/travis/build/ThunderEgg/Thunder/home/travis/build/ThunderEgg/
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Helper2dSchur.h:31: warning: Compound GMG::Helper2dSchur is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:40: warning: Compound ThunderEgg::Experimental::PBMatrix::PBlock is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:40: warning: Compound ThunderEgg::Loop< start, start, T > is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/MatShellCreator.h:32: warning: Compound ThunderEgg::PETSc::MatShellCreator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/PCShellCreator.h:31: warning: Compound ThunderEgg::PETSc::PCShellCreator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp.h:85: warning: Compound ThunderEgg::GMG::DrctIntp::Generator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:30: warning: Compound AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:40: warning: Compound FftwChunkX is not documented.
@@ -685,10 +683,8 @@ Generating docs for compo/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:47: warning: The following parameters of ThunderEgg::GMG::WCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
   parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/MatShellCreator.h:88: warning: Member GetNewMatShell(std::shared_ptr< Operator< D >> op, std::shared_ptr< VectorGenerator< D >> vg) (function) of class ThunderEgg::PETSc::MatShellCreator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/PCShellCreator.h:94: warning: Member GetNewPCShell(std::shared_ptr< Operator< D >> prec, std::shared_ptr< Operator< D >> op, std::shared_ptr< VectorGenerator< D >> vg) (function) of class ThunderEgg::PETSc::PCShellCreator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:170: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:171: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:172: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:173: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:83: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:293: warning: Member CoarseSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:351: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
@@ -1290,5 +1286,5 @@ Patching output file 82/85
 Patching output file 83/85
 Patching output file 84/85
 Patching output file 85/85
-lookup cache used 2919/65536 hits=33810 misses=3113
+lookup cache used 2922/65536 hits=33862 misses=3116
 finished...
