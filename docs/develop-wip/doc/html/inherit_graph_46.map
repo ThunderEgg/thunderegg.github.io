@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structThunderEgg_1_1Poisson_1_1Schur_1_1DomainK.html" title="ThunderEgg::Poisson\l::Schur::DomainK\&lt; D \&gt;" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" href="$classThunderEgg_1_1Poisson_1_1StencilHelper.html" title="ThunderEgg::Poisson\l::StencilHelper" alt="" coords="5,136,163,177"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1Poisson_1_1CoarseSH.html" title="ThunderEgg::Poisson\l::CoarseSH" alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1Poisson_1_1DirichletSH.html" title="ThunderEgg::Poisson\l::DirichletSH" alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node4" href="$classThunderEgg_1_1Poisson_1_1FineSH.html" title="ThunderEgg::Poisson\l::FineSH" alt="" coords="211,136,368,177"/>
+<area shape="rect" id="node5" href="$classThunderEgg_1_1Poisson_1_1NeumannSH.html" title="ThunderEgg::Poisson\l::NeumannSH" alt="" coords="211,201,368,243"/>
+<area shape="rect" id="node6" href="$classThunderEgg_1_1Poisson_1_1NormalSH.html" title="ThunderEgg::Poisson\l::NormalSH" alt="" coords="211,267,368,308"/>
 </map>

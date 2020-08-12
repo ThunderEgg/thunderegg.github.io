@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. " alt="" coords="5,5,217,32"/>
+<area shape="rect" id="node1" href="$classThunderEgg_1_1LocalDataManager.html" title="This object does any necessary cleanup for the LocalData object when deleted. " alt="" coords="5,13,233,39"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1PETSc_1_1VecLocalDataManager.html" title="Manages access to a PETSc Vec pointer to data. " alt="" coords="281,5,448,47"/>
 </map>
