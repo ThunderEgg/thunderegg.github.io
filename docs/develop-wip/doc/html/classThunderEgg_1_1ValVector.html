@@ -104,9 +104,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ef1cad1624f10d1d44db4d5876ffa9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#a6ef1cad1624f10d1d44db4d5876ffa9c">getLocalData</a> (int local_patch_id) const</td></tr>
 <tr class="memdesc:a6ef1cad1624f10d1d44db4d5876ffa9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified path.  <a href="#a6ef1cad1624f10d1d44db4d5876ffa9c">More...</a><br /></td></tr>
 <tr class="separator:a6ef1cad1624f10d1d44db4d5876ffa9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d6ec0a05554bbba173f3e267ffc1c7d"><td class="memItemLeft" align="right" valign="top"><a id="a3d6ec0a05554bbba173f3e267ffc1c7d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setNumGhostPatches</b> (int num_ghost_patches)</td></tr>
-<tr class="separator:a3d6ec0a05554bbba173f3e267ffc1c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classThunderEgg_1_1Vector"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThunderEgg_1_1Vector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classThunderEgg_1_1Vector.html">ThunderEgg::Vector&lt; D &gt;</a></td></tr>
 <tr class="memitem:a85a0ece09b47d01266eda901ffe163b0 inherit pub_methods_classThunderEgg_1_1Vector"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a85a0ece09b47d01266eda901ffe163b0">Vector</a> (MPI_Comm comm_in)</td></tr>
 <tr class="memdesc:a85a0ece09b47d01266eda901ffe163b0 inherit pub_methods_classThunderEgg_1_1Vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a> object.  <a href="classThunderEgg_1_1Vector.html#a85a0ece09b47d01266eda901ffe163b0">More...</a><br /></td></tr>
@@ -122,8 +119,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a7e6c4fae9d75f3f47e7c6b2e43d12a7c">getNumLocalPatches</a> () const</td></tr>
 <tr class="memdesc:a7e6c4fae9d75f3f47e7c6b2e43d12a7c inherit pub_methods_classThunderEgg_1_1Vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local patches. <br /></td></tr>
 <tr class="separator:a7e6c4fae9d75f3f47e7c6b2e43d12a7c inherit pub_methods_classThunderEgg_1_1Vector"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6bc231e2b5aaca93ea758827a2fbc4 inherit pub_methods_classThunderEgg_1_1Vector"><td class="memItemLeft" align="right" valign="top"><a id="a5d6bc231e2b5aaca93ea758827a2fbc4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumLocalCells</b> () const</td></tr>
+<tr class="memitem:a5d6bc231e2b5aaca93ea758827a2fbc4 inherit pub_methods_classThunderEgg_1_1Vector"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a5d6bc231e2b5aaca93ea758827a2fbc4">getNumLocalCells</a> () const</td></tr>
+<tr class="memdesc:a5d6bc231e2b5aaca93ea758827a2fbc4 inherit pub_methods_classThunderEgg_1_1Vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local cells int he vector (excluding ghost cells)  <a href="classThunderEgg_1_1Vector.html#a5d6bc231e2b5aaca93ea758827a2fbc4">More...</a><br /></td></tr>
 <tr class="separator:a5d6bc231e2b5aaca93ea758827a2fbc4 inherit pub_methods_classThunderEgg_1_1Vector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad74933700db9f085d3b4c9d4f591a9ff inherit pub_methods_classThunderEgg_1_1Vector"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#ad74933700db9f085d3b4c9d4f591a9ff">set</a> (double alpha)</td></tr>
 <tr class="memdesc:ad74933700db9f085d3b4c9d4f591a9ff inherit pub_methods_classThunderEgg_1_1Vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all value in the vector  <a href="classThunderEgg_1_1Vector.html#ad74933700db9f085d3b4c9d4f591a9ff">More...</a><br /></td></tr>
@@ -188,9 +185,6 @@ Public Attributes</h2></td></tr>
 std::valarray&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#a422568cb60dfd89379b3146fcbf34d22">vec</a></td></tr>
 <tr class="memdesc:a422568cb60dfd89379b3146fcbf34d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">the underlying vector <br /></td></tr>
 <tr class="separator:a422568cb60dfd89379b3146fcbf34d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae828e404e378a60a025abaf7e1597a"><td class="memItemLeft" align="right" valign="top"><a id="a5ae828e404e378a60a025abaf7e1597a"></a>
-std::valarray&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ghost_data</b></td></tr>
-<tr class="separator:a5ae828e404e378a60a025abaf7e1597a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

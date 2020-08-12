@@ -517,12 +517,7 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:40: warning: Member SimpleGhostFiller(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:37: warning: Member domain (variable) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h:37: warning: Member TimerException(std::string message) (function) of class ThunderEgg::TimerException is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:64: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths, int num_ghost_cells, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:109: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::ValVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:83: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:63: warning: Member ghost_data (variable) of class ThunderEgg::ValVector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:83: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:101: warning: Member setNumGhostPatches(int num_ghost_patches)=0 (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:63: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths, int num_ghost_cells, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:112: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -671,9 +666,7 @@ Generating d/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:47: warning: The following parameters of ThunderEgg::GMG::WCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
   parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:174: warning: Member setNumGhostPatches(int num_ghost_patches) (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:175: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:83: warning: Member getNumLocalCells() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:174: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:293: warning: Member CoarseSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:351: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:355: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
@@ -1226,5 +1219,5 @@ Patching output file 82/85
 Patching output file 83/85
 Patching output file 84/85
 Patching output file 85/85
-lookup cache used 2764/65536 hits=32829 misses=2941
+lookup cache used 2757/65536 hits=32799 misses=2934
 finished...

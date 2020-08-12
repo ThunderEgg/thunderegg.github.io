@@ -55,7 +55,7 @@ var searchData=
   ['getnumglobalcells',['getNumGlobalCells',['../classThunderEgg_1_1Domain.html#a0b25b3f53797ebc4832b7575b9c08611',1,'ThunderEgg::Domain']]],
   ['getnumglobalpatches',['getNumGlobalPatches',['../classThunderEgg_1_1Domain.html#a89b224c94def2efcc2dc0f575e99e6c4',1,'ThunderEgg::Domain']]],
   ['getnumlocalbccells',['getNumLocalBCCells',['../classThunderEgg_1_1Domain.html#ab99fe6d0519fce6c31a8418bf211e847',1,'ThunderEgg::Domain']]],
-  ['getnumlocalcells',['getNumLocalCells',['../classThunderEgg_1_1Domain.html#aa6a4e26213f1998a15ef7e443ecb2730',1,'ThunderEgg::Domain']]],
+  ['getnumlocalcells',['getNumLocalCells',['../classThunderEgg_1_1Domain.html#aa6a4e26213f1998a15ef7e443ecb2730',1,'ThunderEgg::Domain::getNumLocalCells()'],['../classThunderEgg_1_1Vector.html#a5d6bc231e2b5aaca93ea758827a2fbc4',1,'ThunderEgg::Vector::getNumLocalCells()']]],
   ['getnumlocalcellswithghost',['getNumLocalCellsWithGhost',['../classThunderEgg_1_1Domain.html#a5eb26f4f7e0d702524c2b9489cfe1c13',1,'ThunderEgg::Domain']]],
   ['getnumlocalpatches',['getNumLocalPatches',['../classThunderEgg_1_1Domain.html#a49bcd058b44681aa58405a9b0a0a3a67',1,'ThunderEgg::Domain::getNumLocalPatches()'],['../classThunderEgg_1_1Vector.html#a7e6c4fae9d75f3f47e7c6b2e43d12a7c',1,'ThunderEgg::Vector::getNumLocalPatches()']]],
   ['getoperator',['getOperator',['../classThunderEgg_1_1GMG_1_1Level.html#a8d95fd697b47cf16b65174107d5c3787',1,'ThunderEgg::GMG::Level']]],

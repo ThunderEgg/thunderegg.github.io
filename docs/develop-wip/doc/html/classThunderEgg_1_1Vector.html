@@ -101,8 +101,8 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a7e6c4fae9d75f3f47e7c6b2e43d12a7c">getNumLocalPatches</a> () const</td></tr>
 <tr class="memdesc:a7e6c4fae9d75f3f47e7c6b2e43d12a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local patches. <br /></td></tr>
 <tr class="separator:a7e6c4fae9d75f3f47e7c6b2e43d12a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6bc231e2b5aaca93ea758827a2fbc4"><td class="memItemLeft" align="right" valign="top"><a id="a5d6bc231e2b5aaca93ea758827a2fbc4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumLocalCells</b> () const</td></tr>
+<tr class="memitem:a5d6bc231e2b5aaca93ea758827a2fbc4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a5d6bc231e2b5aaca93ea758827a2fbc4">getNumLocalCells</a> () const</td></tr>
+<tr class="memdesc:a5d6bc231e2b5aaca93ea758827a2fbc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local cells int he vector (excluding ghost cells)  <a href="#a5d6bc231e2b5aaca93ea758827a2fbc4">More...</a><br /></td></tr>
 <tr class="separator:a5d6bc231e2b5aaca93ea758827a2fbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3ad58ca252db2b050266d7bc8908dd8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#ac3ad58ca252db2b050266d7bc8908dd8">getLocalData</a> (int patch_local_index)=0</td></tr>
 <tr class="memdesc:ac3ad58ca252db2b050266d7bc8908dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified path.  <a href="#ac3ad58ca252db2b050266d7bc8908dd8">More...</a><br /></td></tr>
@@ -110,9 +110,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumLocalCells</b> (
 <tr class="memitem:a176087dd4f619edd8647656e69f2c095"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#a176087dd4f619edd8647656e69f2c095">getLocalData</a> (int patch_local_index) const =0</td></tr>
 <tr class="memdesc:a176087dd4f619edd8647656e69f2c095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified path.  <a href="#a176087dd4f619edd8647656e69f2c095">More...</a><br /></td></tr>
 <tr class="separator:a176087dd4f619edd8647656e69f2c095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55278bf6c1570496017c5d85a734f26c"><td class="memItemLeft" align="right" valign="top"><a id="a55278bf6c1570496017c5d85a734f26c"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setNumGhostPatches</b> (int num_ghost_patches)=0</td></tr>
-<tr class="separator:a55278bf6c1570496017c5d85a734f26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad74933700db9f085d3b4c9d4f591a9ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Vector.html#ad74933700db9f085d3b4c9d4f591a9ff">set</a> (double alpha)</td></tr>
 <tr class="memdesc:ad74933700db9f085d3b4c9d4f591a9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all value in the vector  <a href="#ad74933700db9f085d3b4c9d4f591a9ff">More...</a><br /></td></tr>
 <tr class="separator:ad74933700db9f085d3b4c9d4f591a9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -405,6 +402,36 @@ template&lt;size_t D&gt; </div>
 
 <p>get the MPI Comm that this vector uses </p>
 <dl class="section return"><dt>Returns</dt><dd>MPI_Comm the comm </dd></dl>
+
+</div>
+</div>
+<a id="a5d6bc231e2b5aaca93ea758827a2fbc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6bc231e2b5aaca93ea758827a2fbc4">&#9670;&nbsp;</a></span>getNumLocalCells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classThunderEgg_1_1Vector.html">ThunderEgg::Vector</a>&lt; D &gt;::getNumLocalCells </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of local cells int he vector (excluding ghost cells) </p>
+<dl class="section return"><dt>Returns</dt><dd>int the number of local cells </dd></dl>
 
 </div>
 </div>
