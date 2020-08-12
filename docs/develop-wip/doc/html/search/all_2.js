@@ -23,8 +23,5 @@ var searchData=
   ['cycle',['Cycle',['../classThunderEgg_1_1GMG_1_1Cycle.html',1,'ThunderEgg::GMG::Cycle&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1Cycle.html#a299d59edee62e593c1504a5019294d3d',1,'ThunderEgg::GMG::Cycle::Cycle()']]],
   ['cycle_5ftype',['cycle_type',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a15ab5da8c49363dfe23f4f05aec629cd',1,'ThunderEgg::GMG::CycleOpts']]],
   ['cyclebuilder',['CycleBuilder',['../classThunderEgg_1_1GMG_1_1CycleBuilder.html',1,'ThunderEgg::GMG::CycleBuilder&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1CycleBuilder.html#a0f6b87b434c233e6a2235ccfee451431',1,'ThunderEgg::GMG::CycleBuilder::CycleBuilder()']]],
-  ['cyclefactory',['CycleFactory',['../classThunderEgg_1_1GMG_1_1CycleFactory.html',1,'ThunderEgg::GMG']]],
-  ['cyclefactory2d',['CycleFactory2d',['../classThunderEgg_1_1GMG_1_1CycleFactory2d.html',1,'ThunderEgg::GMG']]],
-  ['cyclefactoryctx',['CycleFactoryCtx',['../structThunderEgg_1_1GMG_1_1CycleFactoryCtx.html',1,'ThunderEgg::GMG']]],
   ['cycleopts',['CycleOpts',['../structThunderEgg_1_1GMG_1_1CycleOpts.html',1,'ThunderEgg::GMG']]]
 ];
