@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['generator',['Generator',['../classThunderEgg_1_1BiLinearGhostFiller_1_1Generator.html#a582ae6c209f2f7a172fed48de1046bde',1,'ThunderEgg::BiLinearGhostFiller::Generator::Generator()'],['../classThunderEgg_1_1BiQuadraticGhostFiller_1_1Generator.html#abf2d87a264a000e36954a085fd315502',1,'ThunderEgg::BiQuadraticGhostFiller::Generator::Generator()'],['../classThunderEgg_1_1SimpleGhostFiller_1_1Generator.html#a2a4eb931565774068007612585c1dc62',1,'ThunderEgg::SimpleGhostFiller::Generator::Generator()']]],
   ['getaxisindex',['getAxisIndex',['../classThunderEgg_1_1Side.html#a94e0fa259ff192d0da8cb86c5daa7bfb',1,'ThunderEgg::Side']]],
   ['getbcglobalindex',['getBCGlobalIndex',['../structThunderEgg_1_1PatchInfo.html#ab4ec20e5b9e3e73025f79c02ac382e86',1,'ThunderEgg::PatchInfo']]],
   ['getbclocalindex',['getBCLocalIndex',['../structThunderEgg_1_1PatchInfo.html#ac3ef84bf5eca996d1fcdd154371160b2',1,'ThunderEgg::PatchInfo']]],
