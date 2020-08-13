@@ -516,7 +516,6 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
   parameter 'interp'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:40: warning: Member SimpleGhostFiller(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:37: warning: Member domain (variable) of class ThunderEgg::SimpleGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:72: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths_in, int num_ghost_cells_in, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:112: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -1199,5 +1198,5 @@ Patching output file 78/81
 Patching output file 79/81
 Patching output file 80/81
 Patching output file 81/81
-lookup cache used 2733/65536 hits=32444 misses=2910
+lookup cache used 2737/65536 hits=32480 misses=2914
 finished...
