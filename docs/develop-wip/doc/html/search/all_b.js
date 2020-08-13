@@ -22,8 +22,6 @@ var searchData=
   ['null',['null',['../classThunderEgg_1_1Orthant.html#ac27ef0346a1fa7f592a46a8bd629d700',1,'ThunderEgg::Orthant::null()'],['../classThunderEgg_1_1Side.html#a3713535802952d38a494a6bd05e9d416',1,'ThunderEgg::Side::null()']]],
   ['num_5fghost_5fcells',['num_ghost_cells',['../structThunderEgg_1_1PatchInfo.html#a95fa872e35b6f6a9987973c5d9882c26',1,'ThunderEgg::PatchInfo']]],
   ['num_5flevels',['num_levels',['../structThunderEgg_1_1Experimental_1_1Tree.html#a51ef6ec18da8b3041520fdb627986b49',1,'ThunderEgg::Experimental::Tree']]],
-  ['num_5flocal_5fcells',['num_local_cells',['../classThunderEgg_1_1Vector.html#a0ce99a125974c6e65ed0740ec720f0ac',1,'ThunderEgg::Vector']]],
-  ['num_5flocal_5fpatches',['num_local_patches',['../classThunderEgg_1_1Vector.html#aa1ef6e504fa5bbe5b926338cfb6be5a3',1,'ThunderEgg::Vector']]],
   ['num_5fsides',['num_sides',['../classThunderEgg_1_1Side.html#a619f57109c57a1372e6d029816a39251',1,'ThunderEgg::Side']]],
   ['nw',['nw',['../classThunderEgg_1_1Orthant.html#ac1dfe3a4ffb085bf3cbb25ea6f9c9eab',1,'ThunderEgg::Orthant']]]
 ];

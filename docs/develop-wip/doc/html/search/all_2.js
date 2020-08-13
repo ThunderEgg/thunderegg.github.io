@@ -17,7 +17,6 @@ var searchData=
   ['coarsesh',['CoarseSH',['../classThunderEgg_1_1Poisson_1_1CoarseSH.html',1,'ThunderEgg::Poisson']]],
   ['coarsest',['coarsest',['../classThunderEgg_1_1GMG_1_1Level.html#aafb350e90290d0d7cf76ce6774985712',1,'ThunderEgg::GMG::Level']]],
   ['collapseonaxis',['collapseOnAxis',['../classThunderEgg_1_1Orthant.html#a321f6e393e3271ef3ed69a89c89240fa',1,'ThunderEgg::Orthant']]],
-  ['comm',['comm',['../classThunderEgg_1_1Vector.html#ab3857b6e185f6205b4c633270250fd78',1,'ThunderEgg::Vector']]],
   ['contigfftwsolver',['ContigFftwSolver',['../classContigFftwSolver.html',1,'']]],
   ['copy',['copy',['../classThunderEgg_1_1Vector.html#a894cea0d01638d56aa0dd4e0d1759d5e',1,'ThunderEgg::Vector']]],
   ['cycle',['Cycle',['../classThunderEgg_1_1GMG_1_1Cycle.html',1,'ThunderEgg::GMG::Cycle&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1Cycle.html#a299d59edee62e593c1504a5019294d3d',1,'ThunderEgg::GMG::Cycle::Cycle()']]],

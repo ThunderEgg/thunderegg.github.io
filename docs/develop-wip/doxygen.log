@@ -516,7 +516,7 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
   parameter 'interp'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:40: warning: Member SimpleGhostFiller(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:37: warning: Member domain (variable) of class ThunderEgg::SimpleGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:63: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths, int num_ghost_cells, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:72: warning: Member ValVector(MPI_Comm comm_in, const std::array< int, D > &lengths_in, int num_ghost_cells_in, int num_patches) (function) of class ThunderEgg::ValVector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:112: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -664,7 +664,7 @@ Generating d/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:47: warning: The following parameters of ThunderEgg::GMG::WCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
   parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:174: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:204: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:293: warning: Member CoarseSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:351: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:355: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
@@ -1199,5 +1199,5 @@ Patching output file 78/81
 Patching output file 79/81
 Patching output file 80/81
 Patching output file 81/81
-lookup cache used 2729/65536 hits=32345 misses=2906
+lookup cache used 2733/65536 hits=32444 misses=2910
 finished...
