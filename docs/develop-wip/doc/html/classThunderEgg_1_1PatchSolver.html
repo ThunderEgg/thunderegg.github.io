@@ -99,9 +99,9 @@ Collaboration diagram for ThunderEgg::PatchSolver&lt; D &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a13fad2d7723ab9e0ba000688d38b2878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a13fad2d7723ab9e0ba000688d38b2878">PatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain_in, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt; ghost_filler_in)</td></tr>
-<tr class="memdesc:a13fad2d7723ab9e0ba000688d38b2878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1PatchSolver.html" title="Solves the problem on the patches using a specified interface value. ">PatchSolver</a> object.  <a href="#a13fad2d7723ab9e0ba000688d38b2878">More...</a><br /></td></tr>
-<tr class="separator:a13fad2d7723ab9e0ba000688d38b2878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3a09f8dc2b507b7acbbff3d2d4871e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e">PatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html#a7afb6d30749f2a268896930a3096bcb0">domain</a>, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html#a457e72d6f857b6c66087c3752c4df253">ghost_filler</a>)</td></tr>
+<tr class="memdesc:a1b3a09f8dc2b507b7acbbff3d2d4871e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1PatchSolver.html" title="Solves the problem on the patches using a specified interface value. ">PatchSolver</a> object.  <a href="#a1b3a09f8dc2b507b7acbbff3d2d4871e">More...</a><br /></td></tr>
+<tr class="separator:a1b3a09f8dc2b507b7acbbff3d2d4871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83c9b911317e4e29e7ec0182d5796ff2"><td class="memItemLeft" align="right" valign="top"><a id="a83c9b911317e4e29e7ec0182d5796ff2"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a83c9b911317e4e29e7ec0182d5796ff2">~PatchSolver</a> ()</td></tr>
 <tr class="memdesc:a83c9b911317e4e29e7ec0182d5796ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Patch Solver object. <br /></td></tr>
@@ -112,6 +112,12 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a385189164a9f655971949418337f51d3"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">Timer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a385189164a9f655971949418337f51d3">getTimer</a> () const</td></tr>
 <tr class="memdesc:a385189164a9f655971949418337f51d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Timer.html" title="Class for keeping track of parallel timings. ">Timer</a> object.  <a href="#a385189164a9f655971949418337f51d3">More...</a><br /></td></tr>
 <tr class="separator:a385189164a9f655971949418337f51d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3870316711548792347613da2795740e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a3870316711548792347613da2795740e">getDomain</a> () const</td></tr>
+<tr class="memdesc:a3870316711548792347613da2795740e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object.  <a href="#a3870316711548792347613da2795740e">More...</a><br /></td></tr>
+<tr class="separator:a3870316711548792347613da2795740e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a1fae828954315f65ab594cc6a5213"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#ae9a1fae828954315f65ab594cc6a5213">getGhostFiller</a> () const</td></tr>
+<tr class="memdesc:ae9a1fae828954315f65ab594cc6a5213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> object.  <a href="#ae9a1fae828954315f65ab594cc6a5213">More...</a><br /></td></tr>
+<tr class="separator:ae9a1fae828954315f65ab594cc6a5213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a3ed8addf865e7d07c876051e9bb6e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a05a3ed8addf865e7d07c876051e9bb6e">solveSinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const =0</td></tr>
 <tr class="memdesc:a05a3ed8addf865e7d07c876051e9bb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single solve over a patch.  <a href="#a05a3ed8addf865e7d07c876051e9bb6e">More...</a><br /></td></tr>
 <tr class="separator:a05a3ed8addf865e7d07c876051e9bb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,8 +165,8 @@ class ThunderEgg::PatchSolver&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a13fad2d7723ab9e0ba000688d38b2878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13fad2d7723ab9e0ba000688d38b2878">&#9670;&nbsp;</a></span>PatchSolver()</h2>
+<a id="a1b3a09f8dc2b507b7acbbff3d2d4871e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3a09f8dc2b507b7acbbff3d2d4871e">&#9670;&nbsp;</a></span>PatchSolver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -174,13 +180,13 @@ template&lt;size_t D&gt; </div>
           <td class="memname"><a class="el" href="classThunderEgg_1_1PatchSolver.html">ThunderEgg::PatchSolver</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1PatchSolver.html">PatchSolver</a> </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>domain_in</em>, </td>
+          <td class="paramname"><em>domain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ghost_filler_in</em>&#160;</td>
+          <td class="paramname"><em>ghost_filler</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -199,8 +205,8 @@ template&lt;size_t D&gt; </div>
 <p>This sets the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> and the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> that the object uses.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">domain_in</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
-    <tr><td class="paramname">ghost_filler_in</td><td>the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> </td></tr>
+    <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">ghost_filler</td><td>the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -254,6 +260,66 @@ template&lt;size_t D&gt; </div>
 </dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1Operator.html#a177aea0566939e97c5d510a6948fcc73">ThunderEgg::Operator&lt; D &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a3870316711548792347613da2795740e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3870316711548792347613da2795740e">&#9670;&nbsp;</a></span>getDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html">ThunderEgg::PatchSolver</a>&lt; D &gt;::getDomain </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;const Domain&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae9a1fae828954315f65ab594cc6a5213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a1fae828954315f65ab594cc6a5213">&#9670;&nbsp;</a></span>getGhostFiller()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html">ThunderEgg::PatchSolver</a>&lt; D &gt;::getGhostFiller </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> object. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;const GhostFiller&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> </dd></dl>
 
 </div>
 </div>
