@@ -7,6 +7,8 @@ var searchData=
   ['fftwchunkz',['FftwChunkZ',['../structFftwChunkZ.html',1,'']]],
   ['fftwpatchsolver',['FFTWPatchSolver',['../classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html',1,'ThunderEgg::Poisson::FFTWPatchSolver&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1Schur_1_1FftwPatchSolver.html',1,'ThunderEgg::Poisson::Schur::FftwPatchSolver&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#a260813e223d08b019757dec0fb711501',1,'ThunderEgg::Poisson::FFTWPatchSolver::FFTWPatchSolver()']]],
   ['fillghost',['fillGhost',['../classThunderEgg_1_1GhostFiller.html#a6b29f1c88762bf2b14b723b123d30375',1,'ThunderEgg::GhostFiller::fillGhost()'],['../classThunderEgg_1_1MPIGhostFiller.html#a05ca2c0676706d9f208d9b9c45138550',1,'ThunderEgg::MPIGhostFiller::fillGhost()'],['../classThunderEgg_1_1SimpleGhostFiller.html#a67166077b7fd0cd840a0f9b65e732c9a',1,'ThunderEgg::SimpleGhostFiller::fillGhost()']]],
+  ['fillghostcellsforlocalpatch',['fillGhostCellsForLocalPatch',['../classThunderEgg_1_1MPIGhostFiller.html#aeaa7de9be2812239ce10f87cf5d53b97',1,'ThunderEgg::MPIGhostFiller']]],
+  ['fillghostcellsfornbrpatch',['fillGhostCellsForNbrPatch',['../classThunderEgg_1_1MPIGhostFiller.html#ab7be5e247752b835f222331559484646',1,'ThunderEgg::MPIGhostFiller']]],
   ['fine',['Fine',['../namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464a5999b8900bb8b90cfa1af137d355ff14',1,'ThunderEgg']]],
   ['fine_5fglobal_5findexes',['fine_global_indexes',['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#afefbee3819acee5be5e778a638c346ec',1,'ThunderEgg::Schur::FineIfaceInfo']]],
   ['fine_5fids',['fine_ids',['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a4897320599ea812f4c6d1cd1d20574a3',1,'ThunderEgg::Schur::FineIfaceInfo']]],

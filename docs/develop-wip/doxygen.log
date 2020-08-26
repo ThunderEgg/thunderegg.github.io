@@ -489,8 +489,12 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
   parameter 'max_it'
   parameter 'tolerance'
   parameter 'timer'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:118: warning: Member BiLinearGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:160: warning: Member BiQuadraticGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:34: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const LocalData< 2 > &local_data, const LocalData< 2 > &nbr_data, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:76: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const LocalData< 2 > &local_data) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:117: warning: Member BiLinearGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:99: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const LocalData< 2 > &local_data, const LocalData< 2 > &nbr_data, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:135: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const LocalData< 2 > &local_data) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:161: warning: Member BiQuadraticGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:47: warning: Member patch_id_bc_map_vec (variable) of class ThunderEgg::Domain is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:173: warning: The following parameters of ThunderEgg::Domain::Domain(std::map< int, std::shared_ptr< PatchInfo< D >>> pinfo_map, std::array< int, D > ns_in, int num_ghost_cells_in, bool local_id_set=false, bool global_id_set=false) are not documented:
   parameter 'ns_in'
@@ -516,6 +520,8 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
   parameter 'interp'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:40: warning: Member SimpleGhostFiller(std::shared_ptr< const Domain< D >> domain) (function) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:37: warning: Member domain (variable) of class ThunderEgg::SimpleGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:37: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const LocalData< 3 > &local_data, const LocalData< 3 > &nbr_data, const Side< 3 > side, const NbrType nbr_type, const Orthant< 3 > orthant) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:42: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const LocalData< 3 > &local_data) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:112: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -1205,5 +1211,5 @@ Patching output file 79/82
 Patching output file 80/82
 Patching output file 81/82
 Patching output file 82/82
-lookup cache used 2763/65536 hits=32622 misses=2941
+lookup cache used 2771/65536 hits=32844 misses=2949
 finished...
