@@ -225,35 +225,36 @@ Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEg/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:27: warning: Compound IfaceMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:327: warning: Compound ThunderEgg::Poisson::FineSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/FftwPatchSolver.h:57: warning: Compound ThunderEgg::Poisson::Schur::FftwPatchSolver is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:27: warning: Compound FftwChunk is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/StarPatchOperator.h:35: warning: Compound ThunderEgg::Poisson::Schur::StarPatchOperator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:63: warning: Compound ThunderEgg::NestedLoop< D, 0, T, A > is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:31: warning: Compound ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:31: warning: Compound ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:61: warning: Compound ThunderEgg::Poisson::Schur::DftPatchSolver is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:149: warning: Compound ThunderEgg::Poisson::NormalSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:111: warning: Compound ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:37: warning: Compound ThunderEgg::Schur::SchurMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:483: warning: Compound ThunderEgg::Schur::SchurHelperVG is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:32: warning: Compound ThunderEgg::SchurDomainOp is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:52: warning: Compound ThunderEgg::NestedLoop is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:327: warning: Compound ThunderEgg::Poisson::FineSH is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:31: warning: Compound ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:41: warning: Compound ThunderEgg::Poisson::DirichletSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:401: warning: Compound ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/FivePtPatchOperator.h:32: warning: Compound ThunderEgg::Poisson::Schur::FivePtPatchOperator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:149: warning: Compound ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:196: warning: Compound ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:38: warning: Compound ThunderEgg::Experimental::PBMatrix is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/CycleOpts.h:53: warning: Compound ThunderEgg::GMG::CycleOpts is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:95: warning: Compound ThunderEgg::Poisson::NeumannSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:31: warning: Compound ThunderEgg::Schur::TriLinInterp is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/SevenPtPatchOperator.h:34: warning: Compound ThunderEgg::Poisson::Schur::SevenPtPatchOperator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:95: warning: Compound ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:119: warning: Compound ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:53: warning: Compound ContigFftwSolver is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/FftwPatchSolver.h:39: warning: Compound ThunderEgg::Poisson::Schur::DomainK is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:43: warning: Compound ThunderEgg::Poisson::Schur::DomainK is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:73: warning: Compound ThunderEgg::NestedLoop< 0, -1, T, A > is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:30: warning: Compound ThunderEgg::Loop is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:41: warning: Compound ThunderEgg::Poisson::DirichletSH is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:209: warning: Compound ThunderEgg::Poisson::CoarseSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:42: warning: Compound ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PatchOperator.h:32: warning: Compound ThunderEgg::Schur::PatchOperator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Helper2dSchur.h:31: warning: Compound GMG::Helper2dSchur is not documented.
@@ -263,7 +264,6 @@ Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEg/home/travis/
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:40: warning: Compound FftwChunkX is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:44: warning: Compound FftwChunkY is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:48: warning: Compound FftwChunkZ is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:209: warning: Compound ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:282: warning: Compound ThunderEgg::Poisson::CoarseSH is not documented.
 g/ValVector.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVectorGenerator.h...
@@ -673,77 +673,77 @@ Generating docs for nested /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderE
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:355: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:359: warning: Member coeffs(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:363: warning: Member cols(int xi, int yi) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:223: warning: Member CoarseSH(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:269: warning: Member row(int i) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:273: warning: Member size(int i) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:281: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:289: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::CoarseSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:223: warning: Member CoarseSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:269: warning: Member row(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:273: warning: Member size(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:281: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:289: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:51: warning: Member DirichletSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:100: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:104: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:108: warning: Member coeffs(int xi, int yi) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:112: warning: Member cols(int xi, int yi) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:49: warning: Member DirichletSH(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:76: warning: Member row(int i) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:80: warning: Member size(int i) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:84: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:88: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::DirichletSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:49: warning: Member DirichletSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::DirichletSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:76: warning: Member row(int i) (function) of class ThunderEgg::Poisson::DirichletSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:80: warning: Member size(int i) (function) of class ThunderEgg::Poisson::DirichletSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:84: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::DirichletSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:88: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::DirichletSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:411: warning: Member FineSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:484: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:488: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:492: warning: Member coeffs(int xi, int yi) (function) of class ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:496: warning: Member cols(int xi, int yi) (function) of class ThunderEgg::Poisson::FineSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:340: warning: Member FineSH(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::FineSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:379: warning: Member row(int i) (function) of class ThunderEgg::Poisson::FineSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:383: warning: Member size(int i) (function) of class ThunderEgg::Poisson::FineSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:387: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::FineSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:409: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::FineSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:340: warning: Member FineSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::FineSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:379: warning: Member row(int i) (function) of class ThunderEgg::Poisson::FineSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:383: warning: Member size(int i) (function) of class ThunderEgg::Poisson::FineSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:387: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::FineSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:409: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::FineSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:128: warning: Member NeumannSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:177: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:181: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:185: warning: Member coeffs(int xi, int yi) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:189: warning: Member cols(int xi, int yi) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:103: warning: Member NeumannSH(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:130: warning: Member row(int i) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:134: warning: Member size(int i) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:138: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:142: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::NeumannSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:103: warning: Member NeumannSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::NeumannSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:130: warning: Member row(int i) (function) of class ThunderEgg::Poisson::NeumannSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:134: warning: Member size(int i) (function) of class ThunderEgg::Poisson::NeumannSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:138: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::NeumannSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:142: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::NeumannSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:206: warning: Member NormalSH(PatchInfo< 3 > &d, Side< 3 > s) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:263: warning: Member row(int xi, int yi) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:267: warning: Member size(int xi, int yi) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:271: warning: Member coeffs(int xi, int yi) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:275: warning: Member cols(int xi, int yi) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:158: warning: Member NormalSH(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:190: warning: Member row(int i) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:194: warning: Member size(int i) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:198: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:202: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::NormalSH is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:158: warning: Member NormalSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::NormalSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:190: warning: Member row(int i) (function) of class ThunderEgg::Poisson::NormalSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:194: warning: Member size(int i) (function) of class ThunderEgg::Poisson::NormalSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:198: warning: Member coeffs(int i) (function) of class ThunderEgg::Poisson::NormalSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:202: warning: Member cols(int i) (function) of class ThunderEgg::Poisson::NormalSH2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:36: warning: Member row(int xi, int yi)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:37: warning: Member size(int xi, int yi)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:38: warning: Member coeffs(int xi, int yi)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:39: warning: Member cols(int xi, int yi)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:35: warning: Member row(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:36: warning: Member size(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:37: warning: Member coeffs(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:38: warning: Member cols(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:33: warning: Member nx (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h:34: warning: Member ny (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:35: warning: Member row(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:36: warning: Member size(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:37: warning: Member coeffs(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:38: warning: Member cols(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:86: warning: Member DftPatchSolver(std::shared_ptr< ThunderEgg::Schur::SchurHelper< D >> sh, double lambda=0) (function) of class ThunderEgg::Poisson::Schur::DftPatchSolver is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:87: warning: Member solve(ThunderEgg::Schur::SchurInfo< D > &sinfo, std::shared_ptr< const Vector< D >> f, std::shared_ptr< Vector< D >> u, std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Poisson::Schur::DftPatchSolver is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/Schur/DftPatchSolver.h:89: warning: argument 'patches' of command @param is not found in the argument list of ThunderEgg::Poisson::Schur::DftPatchSolver< D >::solve(std::shared_ptr< const Vector< D >> f, std::shared_ptr< Vector< D >> u, std::shared_ptr< const Vector< D - 1 >> gamma) inherited from member solve at line 53 in file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PatchSolver.h
@@ -820,20 +820,6 @@ Generating docs for nested /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderE
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'off_proc_ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'incoming_procs' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:48: warning: Member SchurMatrixHelper(std::shared_ptr< SchurHelper< 3 >> sh, std::shared_ptr< PatchSolver< 3 >> solver, std::shared_ptr< IfaceInterp< 3 >> interp) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:56: warning: Member formCRSMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:57: warning: Member formPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:58: warning: Member getPBDiagInv(PC p) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:59: warning: Member getPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:60: warning: Member getPBDiagInv() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h:53: warning: Member SchurMatrixHelper2d(std::shared_ptr< SchurHelper< 2 >> sh) (function) of class ThunderEgg::Schur::SchurMatrixHelper2d is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h:46: warning: Member SchurWrapOp(std::shared_ptr< Domain< D >> domain, std::shared_ptr< SchurHelper< D >> sh, std::shared_ptr< PatchSolver< D >> solver, std::shared_ptr< IfaceInterp< D >> interp) (function) of class ThunderEgg::Schur::SchurWrapOp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:36: warning: Member TriLinInterp(std::shared_ptr< SchurHelper< 3 >> sh) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:40: warning: Member interpolateToInterface(std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) override (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:42: warning: Member interpolate(SchurInfo< 3 > &d, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:44: warning: Member interpolate(SchurInfo< 3 > &d, Side< 3 > s, int local_index, IfaceType< 3 > itype, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:48: warning: Member addValue(int axis) const (function) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:46: warning: Member coeffs (variable) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
 compound ThunderEgg::Experimental::PBMatrix::PBlock...
 Generating docs for compound ThunderEgg::Experimental::Tree...
 Generating docs for compound ThunderEgg::GMG::AvgRstr...
@@ -860,16 +846,22 @@ Generating docs for compound ThunderEgg::PETSc::PCShellCreator...
 Generating docs for compound ThunderEgg::PETSc::VecLocalDataManager...
 Generating docs for compound ThunderEgg::PETSc::VecWrapper...
 Generating docs for compound ThunderEgg::Poisson::CoarseSH...
+Generating docs for compound ThunderEgg::Poisson::CoarseSH2d...
 Generating docs for compound ThunderEgg::Poisson::DFTPatchSolver...
 Generating docs for compound ThunderEgg::Poisson::DirichletSH...
+Generating docs for compound ThunderEgg::Poisson::DirichletSH2d...
 Generating docs for compound ThunderEgg::Poisson::FFTWPatchSolver...
 Generating docs for compound ThunderEgg::Poisson::FineSH...
+Generating docs for compound ThunderEgg::Poisson::FineSH2d...
 Generating docs for compound ThunderEgg::Poisson::MatrixHelper...
 Generating docs for compound ThunderEgg::Poisson::MatrixHelper2d...
 Generating docs for compound ThunderEgg::Poisson::NeumannSH...
+Generating docs for compound ThunderEgg::Poisson::NeumannSH2d...
 Generating docs for compound ThunderEgg::Poisson::NormalSH...
+Generating docs for compound ThunderEgg::Poisson::NormalSH2d...
 Generating docs for compound ThunderEgg::Poisson::StarPatchOperator...
 Generating docs for compound ThunderEgg::Poisson::StencilHelper...
+Generating docs for compound ThunderEgg::Poisson::StencilHelper2d...
 Generating docs for compound ThunderEgg::Poisson::Schur::DftPatchSolver...
 Generating docs for compound ThunderEgg::Poisson::Schur::DomainK...
 Generating docs for compound ThunderEgg::Poisson::Schur::FftwPatchSolver...
@@ -891,7 +883,21 @@ Generating docs for compound ThunderEgg::Schur::PolyChebPrec...
 Generating docs for compound ThunderEgg::Schur::SchurHelper...
 Generating docs for compound ThunderEgg::Schur::SchurHelperVG...
 Generating docs for compound ThunderEgg::Schur::SchurInfo...
-Generating docs for compound ThunderEgg::Schur::SchurMatrixHelper...
+Generating docs for compound ThunderEgg::/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:48: warning: Member SchurMatrixHelper(std::shared_ptr< SchurHelper< 3 >> sh, std::shared_ptr< PatchSolver< 3 >> solver, std::shared_ptr< IfaceInterp< 3 >> interp) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:56: warning: Member formCRSMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:57: warning: Member formPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:58: warning: Member getPBDiagInv(PC p) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:59: warning: Member getPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:60: warning: Member getPBDiagInv() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h:53: warning: Member SchurMatrixHelper2d(std::shared_ptr< SchurHelper< 2 >> sh) (function) of class ThunderEgg::Schur::SchurMatrixHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h:46: warning: Member SchurWrapOp(std::shared_ptr< Domain< D >> domain, std::shared_ptr< SchurHelper< D >> sh, std::shared_ptr< PatchSolver< D >> solver, std::shared_ptr< IfaceInterp< D >> interp) (function) of class ThunderEgg::Schur::SchurWrapOp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:36: warning: Member TriLinInterp(std::shared_ptr< SchurHelper< 3 >> sh) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:40: warning: Member interpolateToInterface(std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) override (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:42: warning: Member interpolate(SchurInfo< 3 > &d, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:44: warning: Member interpolate(SchurInfo< 3 > &d, Side< 3 > s, int local_index, IfaceType< 3 > itype, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:48: warning: Member addValue(int axis) const (function) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:46: warning: Member coeffs (variable) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
+Schur::SchurMatrixHelper...
 Generating docs for compound ThunderEgg::Schur::SchurMatrixHelper2d...
 Generating docs for compound ThunderEgg::Schur::SchurWrapOp...
 Generating docs for compound ThunderEgg::Schur::TriLinInterp...
@@ -915,301 +921,319 @@ finalizing index lists...
 writing tag file...
 Running dot...
 Generating dot graphs using 3 parallel threads...
-Running dot for graph 1/214
-Running dot for graph 2/214
-Running dot for graph 3/214
-Running dot for graph 4/214
-Running dot for graph 5/214
-Running dot for graph 6/214
-Running dot for graph 7/214
-Running dot for graph 8/214
-Running dot for graph 9/214
-Running dot for graph 10/214
-Running dot for graph 11/214
-Running dot for graph 12/214
-Running dot for graph 13/214
-Running dot for graph 14/214
-Running dot for graph 15/214
-Running dot for graph 16/214
-Running dot for graph 17/214
-Running dot for graph 18/214
-Running dot for graph 19/214
-Running dot for graph 20/214
-Running dot for graph 21/214
-Running dot for graph 22/214
-Running dot for graph 23/214
-Running dot for graph 24/214
-Running dot for graph 25/214
-Running dot for graph 26/214
-Running dot for graph 27/214
-Running dot for graph 28/214
-Running dot for graph 29/214
-Running dot for graph 30/214
-Running dot for graph 31/214
-Running dot for graph 32/214
-Running dot for graph 33/214
-Running dot for graph 34/214
-Running dot for graph 35/214
-Running dot for graph 36/214
-Running dot for graph 37/214
-Running dot for graph 38/214
-Running dot for graph 39/214
-Running dot for graph 40/214
-Running dot for graph 41/214
-Running dot for graph 42/214
-Running dot for graph 43/214
-Running dot for graph 44/214
-Running dot for graph 45/214
-Running dot for graph 46/214
-Running dot for graph 47/214
-Running dot for graph 48/214
-Running dot for graph 49/214
-Running dot for graph 50/214
-Running dot for graph 51/214
-Running dot for graph 52/214
-Running dot for graph 53/214
-Running dot for graph 54/214
-Running dot for graph 55/214
-Running dot for graph 56/214
-Running dot for graph 57/214
-Running dot for graph 58/214
-Running dot for graph 59/214
-Running dot for graph 60/214
-Running dot for graph 61/214
-Running dot for graph 62/214
-Running dot for graph 63/214
-Running dot for graph 64/214
-Running dot for graph 65/214
-Running dot for graph 66/214
-Running dot for graph 67/214
-Running dot for graph 68/214
-Running dot for graph 69/214
-Running dot for graph 70/214
-Running dot for graph 71/214
-Running dot for graph 72/214
-Running dot for graph 73/214
-Running dot for graph 74/214
-Running dot for graph 75/214
-Running dot for graph 76/214
-Running dot for graph 77/214
-Running dot for graph 78/214
-Running dot for graph 79/214
-Running dot for graph 80/214
-Running dot for graph 81/214
-Running dot for graph 82/214
-Running dot for graph 83/214
-Running dot for graph 84/214
-Running dot for graph 85/214
-Running dot for graph 86/214
-Running dot for graph 87/214
-Running dot for graph 88/214
-Running dot for graph 89/214
-Running dot for graph 90/214
-Running dot for graph 91/214
-Running dot for graph 92/214
-Running dot for graph 93/214
-Running dot for graph 94/214
-Running dot for graph 95/214
-Running dot for graph 96/214
-Running dot for graph 97/214
-Running dot for graph 98/214
-Running dot for graph 99/214
-Running dot for graph 100/214
-Running dot for graph 101/214
-Running dot for graph 102/214
-Running dot for graph 103/214
-Running dot for graph 104/214
-Running dot for graph 105/214
-Running dot for graph 106/214
-Running dot for graph 107/214
-Running dot for graph 108/214
-Running dot for graph 109/214
-Running dot for graph 110/214
-Running dot for graph 111/214
-Running dot for graph 112/214
-Running dot for graph 113/214
-Running dot for graph 114/214
-Running dot for graph 115/214
-Running dot for graph 116/214
-Running dot for graph 117/214
-Running dot for graph 118/214
-Running dot for graph 119/214
-Running dot for graph 120/214
-Running dot for graph 121/214
-Running dot for graph 122/214
-Running dot for graph 123/214
-Running dot for graph 124/214
-Running dot for graph 125/214
-Running dot for graph 126/214
-Running dot for graph 127/214
-Running dot for graph 128/214
-Running dot for graph 129/214
-Running dot for graph 130/214
-Running dot for graph 131/214
-Running dot for graph 132/214
-Running dot for graph 133/214
-Running dot for graph 134/214
-Running dot for graph 135/214
-Running dot for graph 136/214
-Running dot for graph 137/214
-Running dot for graph 138/214
-Running dot for graph 139/214
-Running dot for graph 140/214
-Running dot for graph 141/214
-Running dot for graph 142/214
-Running dot for graph 143/214
-Running dot for graph 144/214
-Running dot for graph 145/214
-Running dot for graph 146/214
-Running dot for graph 147/214
-Running dot for graph 148/214
-Running dot for graph 149/214
-Running dot for graph 150/214
-Running dot for graph 151/214
-Running dot for graph 152/214
-Running dot for graph 153/214
-Running dot for graph 154/214
-Running dot for graph 155/214
-Running dot for graph 156/214
-Running dot for graph 157/214
-Running dot for graph 158/214
-Running dot for graph 159/214
-Running dot for graph 160/214
-Running dot for graph 161/214
-Running dot for graph 162/214
-Running dot for graph 163/214
-Running dot for graph 164/214
-Running dot for graph 165/214
-Running dot for graph 166/214
-Running dot for graph 167/214
-Running dot for graph 168/214
-Running dot for graph 169/214
-Running dot for graph 170/214
-Running dot for graph 171/214
-Running dot for graph 172/214
-Running dot for graph 173/214
-Running dot for graph 174/214
-Running dot for graph 175/214
-Running dot for graph 176/214
-Running dot for graph 177/214
-Running dot for graph 178/214
-Running dot for graph 179/214
-Running dot for graph 180/214
-Running dot for graph 181/214
-Running dot for graph 182/214
-Running dot for graph 183/214
-Running dot for graph 184/214
-Running dot for graph 185/214
-Running dot for graph 186/214
-Running dot for graph 187/214
-Running dot for graph 188/214
-Running dot for graph 189/214
-Running dot for graph 190/214
-Running dot for graph 191/214
-Running dot for graph 192/214
-Running dot for graph 193/214
-Running dot for graph 194/214
-Running dot for graph 195/214
-Running dot for graph 196/214
-Running dot for graph 197/214
-Running dot for graph 198/214
-Running dot for graph 199/214
-Running dot for graph 200/214
-Running dot for graph 201/214
-Running dot for graph 202/214
-Running dot for graph 203/214
-Running dot for graph 204/214
-Running dot for graph 205/214
-Running dot for graph 206/214
-Running dot for graph 207/214
-Running dot for graph 208/214
-Running dot for graph 209/214
-Running dot for graph 210/214
-Running dot for graph 211/214
-Running dot for graph 212/214
-Running dot for graph 213/214
-Running dot for graph 214/214
-Patching output file 1/82
-Patching output file 2/82
-Patching output file 3/82
-Patching output file 4/82
-Patching output file 5/82
-Patching output file 6/82
-Patching output file 7/82
-Patching output file 8/82
-Patching output file 9/82
-Patching output file 10/82
-Patching output file 11/82
-Patching output file 12/82
-Patching output file 13/82
-Patching output file 14/82
-Patching output file 15/82
-Patching output file 16/82
-Patching output file 17/82
-Patching output file 18/82
-Patching output file 19/82
-Patching output file 20/82
-Patching output file 21/82
-Patching output file 22/82
-Patching output file 23/82
-Patching output file 24/82
-Patching output file 25/82
-Patching output file 26/82
-Patching output file 27/82
-Patching output file 28/82
-Patching output file 29/82
-Patching output file 30/82
-Patching output file 31/82
-Patching output file 32/82
-Patching output file 33/82
-Patching output file 34/82
-Patching output file 35/82
-Patching output file 36/82
-Patching output file 37/82
-Patching output file 38/82
-Patching output file 39/82
-Patching output file 40/82
-Patching output file 41/82
-Patching output file 42/82
-Patching output file 43/82
-Patching output file 44/82
-Patching output file 45/82
-Patching output file 46/82
-Patching output file 47/82
-Patching output file 48/82
-Patching output file 49/82
-Patching output file 50/82
-Patching output file 51/82
-Patching output file 52/82
-Patching output file 53/82
-Patching output file 54/82
-Patching output file 55/82
-Patching output file 56/82
-Patching output file 57/82
-Patching output file 58/82
-Patching output file 59/82
-Patching output file 60/82
-Patching output file 61/82
-Patching output file 62/82
-Patching output file 63/82
-Patching output file 64/82
-Patching output file 65/82
-Patching output file 66/82
-Patching output file 67/82
-Patching output file 68/82
-Patching output file 69/82
-Patching output file 70/82
-Patching output file 71/82
-Patching output file 72/82
-Patching output file 73/82
-Patching output file 74/82
-Patching output file 75/82
-Patching output file 76/82
-Patching output file 77/82
-Patching output file 78/82
-Patching output file 79/82
-Patching output file 80/82
-Patching output file 81/82
-Patching output file 82/82
-lookup cache used 2771/65536 hits=32844 misses=2949
+Running dot for graph 1/226
+Running dot for graph 2/226
+Running dot for graph 3/226
+Running dot for graph 4/226
+Running dot for graph 5/226
+Running dot for graph 6/226
+Running dot for graph 7/226
+Running dot for graph 8/226
+Running dot for graph 9/226
+Running dot for graph 10/226
+Running dot for graph 11/226
+Running dot for graph 12/226
+Running dot for graph 13/226
+Running dot for graph 14/226
+Running dot for graph 15/226
+Running dot for graph 16/226
+Running dot for graph 17/226
+Running dot for graph 18/226
+Running dot for graph 19/226
+Running dot for graph 20/226
+Running dot for graph 21/226
+Running dot for graph 22/226
+Running dot for graph 23/226
+Running dot for graph 24/226
+Running dot for graph 25/226
+Running dot for graph 26/226
+Running dot for graph 27/226
+Running dot for graph 28/226
+Running dot for graph 29/226
+Running dot for graph 30/226
+Running dot for graph 31/226
+Running dot for graph 32/226
+Running dot for graph 33/226
+Running dot for graph 34/226
+Running dot for graph 35/226
+Running dot for graph 36/226
+Running dot for graph 37/226
+Running dot for graph 38/226
+Running dot for graph 39/226
+Running dot for graph 40/226
+Running dot for graph 41/226
+Running dot for graph 42/226
+Running dot for graph 43/226
+Running dot for graph 44/226
+Running dot for graph 45/226
+Running dot for graph 46/226
+Running dot for graph 47/226
+Running dot for graph 48/226
+Running dot for graph 49/226
+Running dot for graph 50/226
+Running dot for graph 51/226
+Running dot for graph 52/226
+Running dot for graph 53/226
+Running dot for graph 54/226
+Running dot for graph 55/226
+Running dot for graph 56/226
+Running dot for graph 57/226
+Running dot for graph 58/226
+Running dot for graph 59/226
+Running dot for graph 60/226
+Running dot for graph 61/226
+Running dot for graph 62/226
+Running dot for graph 63/226
+Running dot for graph 64/226
+Running dot for graph 65/226
+Running dot for graph 66/226
+Running dot for graph 67/226
+Running dot for graph 68/226
+Running dot for graph 69/226
+Running dot for graph 70/226
+Running dot for graph 71/226
+Running dot for graph 72/226
+Running dot for graph 73/226
+Running dot for graph 74/226
+Running dot for graph 75/226
+Running dot for graph 76/226
+Running dot for graph 77/226
+Running dot for graph 78/226
+Running dot for graph 79/226
+Running dot for graph 80/226
+Running dot for graph 81/226
+Running dot for graph 82/226
+Running dot for graph 83/226
+Running dot for graph 84/226
+Running dot for graph 85/226
+Running dot for graph 86/226
+Running dot for graph 87/226
+Running dot for graph 88/226
+Running dot for graph 89/226
+Running dot for graph 90/226
+Running dot for graph 91/226
+Running dot for graph 92/226
+Running dot for graph 93/226
+Running dot for graph 94/226
+Running dot for graph 95/226
+Running dot for graph 96/226
+Running dot for graph 97/226
+Running dot for graph 98/226
+Running dot for graph 99/226
+Running dot for graph 100/226
+Running dot for graph 101/226
+Running dot for graph 102/226
+Running dot for graph 103/226
+Running dot for graph 104/226
+Running dot for graph 105/226
+Running dot for graph 106/226
+Running dot for graph 107/226
+Running dot for graph 108/226
+Running dot for graph 109/226
+Running dot for graph 110/226
+Running dot for graph 111/226
+Running dot for graph 112/226
+Running dot for graph 113/226
+Running dot for graph 114/226
+Running dot for graph 115/226
+Running dot for graph 116/226
+Running dot for graph 117/226
+Running dot for graph 118/226
+Running dot for graph 119/226
+Running dot for graph 120/226
+Running dot for graph 121/226
+Running dot for graph 122/226
+Running dot for graph 123/226
+Running dot for graph 124/226
+Running dot for graph 125/226
+Running dot for graph 126/226
+Running dot for graph 127/226
+Running dot for graph 128/226
+Running dot for graph 129/226
+Running dot for graph 130/226
+Running dot for graph 131/226
+Running dot for graph 132/226
+Running dot for graph 133/226
+Running dot for graph 134/226
+Running dot for graph 135/226
+Running dot for graph 136/226
+Running dot for graph 137/226
+Running dot for graph 138/226
+Running dot for graph 139/226
+Running dot for graph 140/226
+Running dot for graph 141/226
+Running dot for graph 142/226
+Running dot for graph 143/226
+Running dot for graph 144/226
+Running dot for graph 145/226
+Running dot for graph 146/226
+Running dot for graph 147/226
+Running dot for graph 148/226
+Running dot for graph 149/226
+Running dot for graph 150/226
+Running dot for graph 151/226
+Running dot for graph 152/226
+Running dot for graph 153/226
+Running dot for graph 154/226
+Running dot for graph 155/226
+Running dot for graph 156/226
+Running dot for graph 157/226
+Running dot for graph 158/226
+Running dot for graph 159/226
+Running dot for graph 160/226
+Running dot for graph 161/226
+Running dot for graph 162/226
+Running dot for graph 163/226
+Running dot for graph 164/226
+Running dot for graph 165/226
+Running dot for graph 166/226
+Running dot for graph 167/226
+Running dot for graph 168/226
+Running dot for graph 169/226
+Running dot for graph 170/226
+Running dot for graph 171/226
+Running dot for graph 172/226
+Running dot for graph 173/226
+Running dot for graph 174/226
+Running dot for graph 175/226
+Running dot for graph 176/226
+Running dot for graph 177/226
+Running dot for graph 178/226
+Running dot for graph 179/226
+Running dot for graph 180/226
+Running dot for graph 181/226
+Running dot for graph 182/226
+Running dot for graph 183/226
+Running dot for graph 184/226
+Running dot for graph 185/226
+Running dot for graph 186/226
+Running dot for graph 187/226
+Running dot for graph 188/226
+Running dot for graph 189/226
+Running dot for graph 190/226
+Running dot for graph 191/226
+Running dot for graph 192/226
+Running dot for graph 193/226
+Running dot for graph 194/226
+Running dot for graph 195/226
+Running dot for graph 196/226
+Running dot for graph 197/226
+Running dot for graph 198/226
+Running dot for graph 199/226
+Running dot for graph 200/226
+Running dot for graph 201/226
+Running dot for graph 202/226
+Running dot for graph 203/226
+Running dot for graph 204/226
+Running dot for graph 205/226
+Running dot for graph 206/226
+Running dot for graph 207/226
+Running dot for graph 208/226
+Running dot for graph 209/226
+Running dot for graph 210/226
+Running dot for graph 211/226
+Running dot for graph 212/226
+Running dot for graph 213/226
+Running dot for graph 214/226
+Running dot for graph 215/226
+Running dot for graph 216/226
+Running dot for graph 217/226
+Running dot for graph 218/226
+Running dot for graph 219/226
+Running dot for graph 220/226
+Running dot for graph 221/226
+Running dot for graph 222/226
+Running dot for graph 223/226
+Running dot for graph 224/226
+Running dot for graph 225/226
+Running dot for graph 226/226
+Patching output file 1/88
+Patching output file 2/88
+Patching output file 3/88
+Patching output file 4/88
+Patching output file 5/88
+Patching output file 6/88
+Patching output file 7/88
+Patching output file 8/88
+Patching output file 9/88
+Patching output file 10/88
+Patching output file 11/88
+Patching output file 12/88
+Patching output file 13/88
+Patching output file 14/88
+Patching output file 15/88
+Patching output file 16/88
+Patching output file 17/88
+Patching output file 18/88
+Patching output file 19/88
+Patching output file 20/88
+Patching output file 21/88
+Patching output file 22/88
+Patching output file 23/88
+Patching output file 24/88
+Patching output file 25/88
+Patching output file 26/88
+Patching output file 27/88
+Patching output file 28/88
+Patching output file 29/88
+Patching output file 30/88
+Patching output file 31/88
+Patching output file 32/88
+Patching output file 33/88
+Patching output file 34/88
+Patching output file 35/88
+Patching output file 36/88
+Patching output file 37/88
+Patching output file 38/88
+Patching output file 39/88
+Patching output file 40/88
+Patching output file 41/88
+Patching output file 42/88
+Patching output file 43/88
+Patching output file 44/88
+Patching output file 45/88
+Patching output file 46/88
+Patching output file 47/88
+Patching output file 48/88
+Patching output file 49/88
+Patching output file 50/88
+Patching output file 51/88
+Patching output file 52/88
+Patching output file 53/88
+Patching output file 54/88
+Patching output file 55/88
+Patching output file 56/88
+Patching output file 57/88
+Patching output file 58/88
+Patching output file 59/88
+Patching output file 60/88
+Patching output file 61/88
+Patching output file 62/88
+Patching output file 63/88
+Patching output file 64/88
+Patching output file 65/88
+Patching output file 66/88
+Patching output file 67/88
+Patching output file 68/88
+Patching output file 69/88
+Patching output file 70/88
+Patching output file 71/88
+Patching output file 72/88
+Patching output file 73/88
+Patching output file 74/88
+Patching output file 75/88
+Patching output file 76/88
+Patching output file 77/88
+Patching output file 78/88
+Patching output file 79/88
+Patching output file 80/88
+Patching output file 81/88
+Patching output file 82/88
+Patching output file 83/88
+Patching output file 84/88
+Patching output file 85/88
+Patching output file 86/88
+Patching output file 87/88
+Patching output file 88/88
+lookup cache used 2833/65536 hits=32641 misses=3014
 finished...

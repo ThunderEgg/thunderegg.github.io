@@ -15,6 +15,7 @@ var searchData=
   ['coarseifaceinfo',['CoarseIfaceInfo',['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html',1,'ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a1bdcd2fd44a2860c15a87bd45551b444',1,'ThunderEgg::Schur::CoarseIfaceInfo::CoarseIfaceInfo()']]],
   ['coarsenbrinfo',['CoarseNbrInfo',['../classThunderEgg_1_1CoarseNbrInfo.html',1,'ThunderEgg::CoarseNbrInfo&lt; D &gt;'],['../classThunderEgg_1_1CoarseNbrInfo.html#a256cbc073bc48974734b4912796e648d',1,'ThunderEgg::CoarseNbrInfo::CoarseNbrInfo()=default'],['../classThunderEgg_1_1CoarseNbrInfo.html#a624efc7294147341cb39b13de4808252',1,'ThunderEgg::CoarseNbrInfo::CoarseNbrInfo(int id, Orthant&lt; D - 1 &gt; orth_on_coarse)']]],
   ['coarsesh',['CoarseSH',['../classThunderEgg_1_1Poisson_1_1CoarseSH.html',1,'ThunderEgg::Poisson']]],
+  ['coarsesh2d',['CoarseSH2d',['../classThunderEgg_1_1Poisson_1_1CoarseSH2d.html',1,'ThunderEgg::Poisson']]],
   ['coarsest',['coarsest',['../classThunderEgg_1_1GMG_1_1Level.html#aafb350e90290d0d7cf76ce6774985712',1,'ThunderEgg::GMG::Level']]],
   ['collapseonaxis',['collapseOnAxis',['../classThunderEgg_1_1Orthant.html#abdf3158ca3998e0e53e19bfb5374aabd',1,'ThunderEgg::Orthant']]],
   ['contigfftwsolver',['ContigFftwSolver',['../classContigFftwSolver.html',1,'']]],
