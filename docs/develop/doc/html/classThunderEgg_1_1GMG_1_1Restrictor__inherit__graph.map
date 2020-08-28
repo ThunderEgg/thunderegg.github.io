@@ -1,0 +1,5 @@
+<map id="ThunderEgg::GMG::Restrictor&lt; D &gt;" name="ThunderEgg::GMG::Restrictor&lt; D &gt;">
+<area shape="rect" id="node2" href="$classThunderEgg_1_1GMG_1_1MPIRestrictor.html" title="Restrictor that implements the necessary mpi calls, derived classes only have to implement restrictor..." alt="" coords="131,80,401,107"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1GMG_1_1AvgRstr.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. " alt="" coords="5,155,241,181"/>
+<area shape="rect" id="node4" href="$classThunderEgg_1_1GMG_1_1LinearRestrictor.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. " alt="" coords="266,155,554,181"/>
+</map>
