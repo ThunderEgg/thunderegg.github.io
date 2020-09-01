@@ -119,10 +119,7 @@ const <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html">Coar
 <tr class="memitem:ac0dc5e0be862c2298c42414f81d83a9d"><td class="memItemLeft" align="right" valign="top"><a id="ac0dc5e0be862c2298c42414f81d83a9d"></a>
 const <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html">FineIfaceInfo</a>&lt; D &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getFineIfaceInfo</b> (<a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s) const</td></tr>
 <tr class="separator:ac0dc5e0be862c2298c42414f81d83a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6c5b14df23f1f93f9d6c7309fd92fe5"><td class="memItemLeft" align="right" valign="top">std::deque&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html#ab6c5b14df23f1f93f9d6c7309fd92fe5">getIds</a> ()</td></tr>
-<tr class="separator:ab6c5b14df23f1f93f9d6c7309fd92fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d0b35b1a34aa5ad82758511dffb69e"><td class="memItemLeft" align="right" valign="top"><a id="a24d0b35b1a34aa5ad82758511dffb69e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setLocalIndexes</b> (const std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
+<tr class="memitem:a24d0b35b1a34aa5ad82758511dffb69e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html#a24d0b35b1a34aa5ad82758511dffb69e">setLocalIndexes</a> (const std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
 <tr class="separator:a24d0b35b1a34aa5ad82758511dffb69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad56ab224c60787706c2e73541870cd1"><td class="memItemLeft" align="right" valign="top"><a id="aad56ab224c60787706c2e73541870cd1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setGlobalIndexes</b> (const std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
@@ -235,41 +232,6 @@ template&lt;size_t D&gt; </div>
 
 </div>
 </div>
-<a id="ab6c5b14df23f1f93f9d6c7309fd92fe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6c5b14df23f1f93f9d6c7309fd92fe5">&#9670;&nbsp;</a></span>getIds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::deque&lt;int&gt; <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">ThunderEgg::Schur::SchurInfo</a>&lt; D &gt;::getIds </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ifaces</td><td></td></tr>
-    <tr><td class="paramname">off_proc_ifaces</td><td></td></tr>
-    <tr><td class="paramname">incoming_procs</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a5be6998a787d68f1c09bc8d1dc06a4d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5be6998a787d68f1c09bc8d1dc06a4d0">&#9670;&nbsp;</a></span>getIfaceInfoPtr()</h2>
 
@@ -342,6 +304,42 @@ template&lt;size_t D&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>int the size of the serialized object </dd></dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1Serializable.html#a7fd54e0e0f11400e6b7a0489471ab92b">ThunderEgg::Serializable</a>.</p>
+
+</div>
+</div>
+<a id="a24d0b35b1a34aa5ad82758511dffb69e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d0b35b1a34aa5ad82758511dffb69e">&#9670;&nbsp;</a></span>setLocalIndexes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">ThunderEgg::Schur::SchurInfo</a>&lt; D &gt;::setLocalIndexes </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; int, int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rev_map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ifaces</td><td></td></tr>
+    <tr><td class="paramname">off_proc_ifaces</td><td></td></tr>
+    <tr><td class="paramname">incoming_procs</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

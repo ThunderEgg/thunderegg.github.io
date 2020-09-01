@@ -95,27 +95,12 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#ac8ae6917b6ec2b8e29414b8584352e27">~IfaceInfo</a> ()</td></tr>
 <tr class="memdesc:ac8ae6917b6ec2b8e29414b8584352e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html" title="The IfaceInfo class represents the information for an interface on a given side of the patch...">IfaceInfo</a> object. <br /></td></tr>
 <tr class="separator:ac8ae6917b6ec2b8e29414b8584352e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3325bfa07d1393ba322221f652c9ee8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a3325bfa07d1393ba322221f652c9ee8e">getIds</a> (std::deque&lt; int &gt; &amp;ids)=0</td></tr>
-<tr class="memdesc:a3325bfa07d1393ba322221f652c9ee8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">add to a deque of globally unique ids  <a href="#a3325bfa07d1393ba322221f652c9ee8e">More...</a><br /></td></tr>
-<tr class="separator:a3325bfa07d1393ba322221f652c9ee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61cbbf3522d39b5a40f03b39decd4a0a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a61cbbf3522d39b5a40f03b39decd4a0a">getLocalIndexes</a> (std::deque&lt; int &gt; &amp;idx)=0</td></tr>
-<tr class="memdesc:a61cbbf3522d39b5a40f03b39decd4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">add to a deque of local interface indexes  <a href="#a61cbbf3522d39b5a40f03b39decd4a0a">More...</a><br /></td></tr>
-<tr class="separator:a61cbbf3522d39b5a40f03b39decd4a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a465636f7eff0f0fdf7fc52239f60a4d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a465636f7eff0f0fdf7fc52239f60a4d5">getGlobalIndexes</a> (std::deque&lt; int &gt; &amp;idx)=0</td></tr>
-<tr class="memdesc:a465636f7eff0f0fdf7fc52239f60a4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">add to a deque of global interface indexes  <a href="#a465636f7eff0f0fdf7fc52239f60a4d5">More...</a><br /></td></tr>
-<tr class="separator:a465636f7eff0f0fdf7fc52239f60a4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b345d9cd23528df3c5fe1413ba40856"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a8b345d9cd23528df3c5fe1413ba40856">getIfaceTypes</a> (std::deque&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceType.html">IfaceType</a>&lt; D &gt;&gt; &amp;types)=0</td></tr>
-<tr class="memdesc:a8b345d9cd23528df3c5fe1413ba40856"><td class="mdescLeft">&#160;</td><td class="mdescRight">add to a deque of IfaceTypes  <a href="#a8b345d9cd23528df3c5fe1413ba40856">More...</a><br /></td></tr>
-<tr class="separator:a8b345d9cd23528df3c5fe1413ba40856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0909fc290473597470e4cc36034e674e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a0909fc290473597470e4cc36034e674e">getRanks</a> (std::deque&lt; int &gt; &amp;ranks)=0</td></tr>
-<tr class="memdesc:a0909fc290473597470e4cc36034e674e"><td class="mdescLeft">&#160;</td><td class="mdescRight">add to a deque of interface ranks  <a href="#a0909fc290473597470e4cc36034e674e">More...</a><br /></td></tr>
-<tr class="separator:a0909fc290473597470e4cc36034e674e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa4138c3b99f663c9ed9acd3970ccb4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a6fa4138c3b99f663c9ed9acd3970ccb4">setLocalIndexes</a> (const std::map&lt; int, int &gt; &amp;rev_map)=0</td></tr>
-<tr class="memdesc:a6fa4138c3b99f663c9ed9acd3970ccb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the local indexes in the <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html" title="The IfaceInfo class represents the information for an interface on a given side of the patch...">IfaceInfo</a> objects.  <a href="#a6fa4138c3b99f663c9ed9acd3970ccb4">More...</a><br /></td></tr>
-<tr class="separator:a6fa4138c3b99f663c9ed9acd3970ccb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11815b4aac5828d5201264057323c93e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a11815b4aac5828d5201264057323c93e">setGlobalIndexes</a> (const std::map&lt; int, int &gt; &amp;rev_map)=0</td></tr>
-<tr class="memdesc:a11815b4aac5828d5201264057323c93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the global indexes in the <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html" title="The IfaceInfo class represents the information for an interface on a given side of the patch...">IfaceInfo</a> objects.  <a href="#a11815b4aac5828d5201264057323c93e">More...</a><br /></td></tr>
-<tr class="separator:a11815b4aac5828d5201264057323c93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c6c1afd71998a0d80be772cecac249"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a49c6c1afd71998a0d80be772cecac249">setLocalIndexesFromId</a> (const std::map&lt; int, int &gt; &amp;rev_map)=0</td></tr>
+<tr class="memdesc:a49c6c1afd71998a0d80be772cecac249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the local indexes in the <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html" title="The IfaceInfo class represents the information for an interface on a given side of the patch...">IfaceInfo</a> objects.  <a href="#a49c6c1afd71998a0d80be772cecac249">More...</a><br /></td></tr>
+<tr class="separator:a49c6c1afd71998a0d80be772cecac249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78033de9e01f3a2415d00523e5b10483"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a78033de9e01f3a2415d00523e5b10483">setGlobalIndexesFromLocalIndex</a> (const std::map&lt; int, int &gt; &amp;rev_map)=0</td></tr>
+<tr class="memdesc:a78033de9e01f3a2415d00523e5b10483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the global indexes in the <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html" title="The IfaceInfo class represents the information for an interface on a given side of the patch...">IfaceInfo</a> objects.  <a href="#a78033de9e01f3a2415d00523e5b10483">More...</a><br /></td></tr>
+<tr class="separator:a78033de9e01f3a2415d00523e5b10483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -211,8 +196,8 @@ template&lt;size_t D&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a465636f7eff0f0fdf7fc52239f60a4d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a465636f7eff0f0fdf7fc52239f60a4d5">&#9670;&nbsp;</a></span>getGlobalIndexes()</h2>
+<a id="a78033de9e01f3a2415d00523e5b10483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78033de9e01f3a2415d00523e5b10483">&#9670;&nbsp;</a></span>setGlobalIndexesFromLocalIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,197 +208,7 @@ template&lt;size_t D&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::getGlobalIndexes </td>
-          <td>(</td>
-          <td class="paramtype">std::deque&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add to a deque of global interface indexes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">idx</td><td>adds to the deque of global interface indexes </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#ada88d7878894c9dd4e47db2b7da00efe">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a770f98cd59f790cadd59c30614269ee1">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a28199e85347305e864ae9b9de33c3d39">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a3325bfa07d1393ba322221f652c9ee8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3325bfa07d1393ba322221f652c9ee8e">&#9670;&nbsp;</a></span>getIds()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::getIds </td>
-          <td>(</td>
-          <td class="paramtype">std::deque&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>ids</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add to a deque of globally unique ids </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ids</td><td>adds to the deque of ids </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a7ce2601066c6945ffdfe3b89be53e971">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a07ca7fe641f04cba05505e93adea5647">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a663b8b6f383a042f895dda42e9b3fd92">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a8b345d9cd23528df3c5fe1413ba40856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b345d9cd23528df3c5fe1413ba40856">&#9670;&nbsp;</a></span>getIfaceTypes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::getIfaceTypes </td>
-          <td>(</td>
-          <td class="paramtype">std::deque&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceType.html">IfaceType</a>&lt; D &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>types</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add to a deque of IfaceTypes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">types</td><td>adds to the deque of IfaceTypes </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a905e819909d18b0bf862defecdb592a4">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#ab477715b1309c4dc05af1b51cf57cbfa">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#af0b09dfc1da4437d3e2f486a16fe0278">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a61cbbf3522d39b5a40f03b39decd4a0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61cbbf3522d39b5a40f03b39decd4a0a">&#9670;&nbsp;</a></span>getLocalIndexes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::getLocalIndexes </td>
-          <td>(</td>
-          <td class="paramtype">std::deque&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>idx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add to a deque of local interface indexes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">idx</td><td>adds to the deque of local interface indexes </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a9ee2b4ee3085402ac8e778252a57b598">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a376720955b129f23e47c1891acff764d">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a5763c50774d2c8f976b0954a5c7eb34b">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a0909fc290473597470e4cc36034e674e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0909fc290473597470e4cc36034e674e">&#9670;&nbsp;</a></span>getRanks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::getRanks </td>
-          <td>(</td>
-          <td class="paramtype">std::deque&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>ranks</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add to a deque of interface ranks </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ranks</td><td>adds to the deque of interface ranks </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a31c45afff2f6c6f01597753ec8f5c38a">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#af13bfb306acecf68568f5f05803ae7ce">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a35066710ea76afc00f172574e7f788b9">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a11815b4aac5828d5201264057323c93e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11815b4aac5828d5201264057323c93e">&#9670;&nbsp;</a></span>setGlobalIndexes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;size_t D&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::setGlobalIndexes </td>
+          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::setGlobalIndexesFromLocalIndex </td>
           <td>(</td>
           <td class="paramtype">const std::map&lt; int, int &gt; &amp;&#160;</td>
           <td class="paramname"><em>rev_map</em></td><td>)</td>
@@ -435,12 +230,12 @@ template&lt;size_t D&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a5b07afc4b3642e0d144b7f74b5209c90">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#af96336f4a39d1f59b2286e7d491b91a2">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#ae4f264e77e52e65a3b84572fcd098171">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#adfa63606829417b47675b533c3375f31">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a43f32793e17162472130a19629137571">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a2475ea962db3f88f9b76c93e739a8d69">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a6fa4138c3b99f663c9ed9acd3970ccb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa4138c3b99f663c9ed9acd3970ccb4">&#9670;&nbsp;</a></span>setLocalIndexes()</h2>
+<a id="a49c6c1afd71998a0d80be772cecac249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c6c1afd71998a0d80be772cecac249">&#9670;&nbsp;</a></span>setLocalIndexesFromId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +246,7 @@ template&lt;size_t D&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::setLocalIndexes </td>
+          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html">ThunderEgg::Schur::IfaceInfo</a>&lt; D &gt;::setLocalIndexesFromId </td>
           <td>(</td>
           <td class="paramtype">const std::map&lt; int, int &gt; &amp;&#160;</td>
           <td class="paramname"><em>rev_map</em></td><td>)</td>
@@ -473,7 +268,7 @@ template&lt;size_t D&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#ad5f203bb46a3daec3e22192b2f0c2e45">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#aabd42d22eb03b94e65c7b91f6c92284d">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a5c57e50ee9c35e49aee1f3a36a51ae3a">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#afcaf468e7d0ad66336d8f4a07717415b">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#ae448a1abbe75056cf37a0811cb36364c">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#ae3e0fbe6b462c0342f96b6665e080ac4">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>.</p>
 
 </div>
 </div>
