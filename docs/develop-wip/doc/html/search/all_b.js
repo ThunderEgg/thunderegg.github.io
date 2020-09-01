@@ -1,7 +1,7 @@
 var searchData=
 [
   ['nbr_5fid',['nbr_id',['../structThunderEgg_1_1Experimental_1_1Node.html#a454368e3a4691b638e63d2d5670dc2c4',1,'ThunderEgg::Experimental::Node']]],
-  ['nbr_5finfo',['nbr_info',['../structThunderEgg_1_1PatchInfo.html#a7605d552fee057103f68d035e4876cf2',1,'ThunderEgg::PatchInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a9952501f9ce135ee02f2c9c62cb8ae11',1,'ThunderEgg::Schur::NormalIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a037dd72921efd832975125f90ebc0ca0',1,'ThunderEgg::Schur::CoarseIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a516b0f1a156adfef8b6881ce90dd7742',1,'ThunderEgg::Schur::FineIfaceInfo::nbr_info()']]],
+  ['nbr_5finfo',['nbr_info',['../structThunderEgg_1_1PatchInfo.html#a7605d552fee057103f68d035e4876cf2',1,'ThunderEgg::PatchInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a037dd72921efd832975125f90ebc0ca0',1,'ThunderEgg::Schur::CoarseIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a516b0f1a156adfef8b6881ce90dd7742',1,'ThunderEgg::Schur::FineIfaceInfo::nbr_info()'],['../classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a9952501f9ce135ee02f2c9c62cb8ae11',1,'ThunderEgg::Schur::NormalIfaceInfo::nbr_info()']]],
   ['nbrid',['nbrId',['../structThunderEgg_1_1Experimental_1_1Node.html#ae9c6ea3cc8cc8cb006c2ff4ec5840957',1,'ThunderEgg::Experimental::Node']]],
   ['nbrinfo',['NbrInfo',['../classThunderEgg_1_1NbrInfo.html',1,'ThunderEgg']]],
   ['nbrtype',['NbrType',['../namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464',1,'ThunderEgg']]],
