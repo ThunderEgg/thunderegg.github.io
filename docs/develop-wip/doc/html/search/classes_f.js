@@ -1,17 +1,7 @@
 var searchData=
 [
-  ['schurdomainop',['SchurDomainOp',['../classThunderEgg_1_1SchurDomainOp.html',1,'ThunderEgg']]],
-  ['schurhelper',['SchurHelper',['../classThunderEgg_1_1Schur_1_1SchurHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurhelpervg',['SchurHelperVG',['../classThunderEgg_1_1Schur_1_1SchurHelperVG.html',1,'ThunderEgg::Schur']]],
-  ['schurinfo',['SchurInfo',['../structThunderEgg_1_1Schur_1_1SchurInfo.html',1,'ThunderEgg::Schur']]],
-  ['schurmatrixhelper',['SchurMatrixHelper',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurmatrixhelper2d',['SchurMatrixHelper2d',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper2d.html',1,'ThunderEgg::Schur']]],
-  ['schurwrapop',['SchurWrapOp',['../classThunderEgg_1_1Schur_1_1SchurWrapOp.html',1,'ThunderEgg::Schur']]],
-  ['serializable',['Serializable',['../classThunderEgg_1_1Serializable.html',1,'ThunderEgg']]],
-  ['side',['Side',['../classThunderEgg_1_1Side.html',1,'ThunderEgg']]],
-  ['simpleghostfiller',['SimpleGhostFiller',['../classThunderEgg_1_1SimpleGhostFiller.html',1,'ThunderEgg']]],
-  ['smoother',['Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html',1,'ThunderEgg::GMG']]],
-  ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html',1,'ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;']]],
-  ['stencilhelper',['StencilHelper',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html',1,'ThunderEgg::Poisson']]],
-  ['stencilhelper2d',['StencilHelper2d',['../classThunderEgg_1_1Poisson_1_1StencilHelper2d.html',1,'ThunderEgg::Poisson']]]
+  ['timer',['Timer',['../classThunderEgg_1_1Timer.html',1,'ThunderEgg']]],
+  ['tree',['Tree',['../structThunderEgg_1_1Experimental_1_1Tree.html',1,'ThunderEgg::Experimental']]],
+  ['trilinearghostfiller',['TriLinearGhostFiller',['../classThunderEgg_1_1TriLinearGhostFiller.html',1,'ThunderEgg']]],
+  ['trilinintp',['TriLinIntp',['../classThunderEgg_1_1GMG_1_1TriLinIntp.html',1,'ThunderEgg::GMG']]]
 ];

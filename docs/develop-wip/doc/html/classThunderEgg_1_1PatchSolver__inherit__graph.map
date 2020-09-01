@@ -2,7 +2,6 @@
 <area shape="rect" id="node4" href="$classThunderEgg_1_1BiCGStabPatchSolver.html" title="Solves the patches using a BiCGStab iterative solver on each patch. " alt="" coords="573,5,776,47"/>
 <area shape="rect" id="node5" href="$classThunderEgg_1_1Poisson_1_1DFTPatchSolver.html" title="This patch solver uses DFT transforms to solve for the Poisson equation. " alt="" coords="589,71,760,112"/>
 <area shape="rect" id="node6" href="$classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html" title="This patch solver uses FFT transforms to solve for the Poisson equation. " alt="" coords="584,136,765,177"/>
-<area shape="rect" id="node7" href="$classThunderEgg_1_1Schur_1_1BiCGStabSolver.html" title="Solves the patches using a BiCGStab iterative solver on each patch. " alt="" coords="593,201,757,243"/>
-<area shape="rect" id="node2" href="$classThunderEgg_1_1Operator.html" title="Base class for operators. " alt="" coords="28,86,232,113"/>
-<area shape="rect" id="node3" href="$classThunderEgg_1_1GMG_1_1Smoother.html" title="Base class for multi&#45;grid smoothing operators. " alt="" coords="5,137,255,163"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1Operator.html" title="Base class for operators. " alt="" coords="28,53,232,79"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1GMG_1_1Smoother.html" title="Base class for multi&#45;grid smoothing operators. " alt="" coords="5,103,255,130"/>
 </map>

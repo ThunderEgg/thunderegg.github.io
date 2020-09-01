@@ -159,12 +159,6 @@ Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/St
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/RuntimeError.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/RuntimeError.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceInterp.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceInterp.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceSet.h...
@@ -173,21 +167,27 @@ Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Ifac
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/QuadInterpolator.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/QuadInterpolator.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h...
-Preprocessing /home/travis/build/Thund/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:27: warning: Compound IfaceMatrixHelper is not documented.
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
+Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
+Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
+Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
+Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:27: warning: Compound IfaceMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:327: warning: Compound ThunderEgg::Poisson::FineSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:27: warning: Compound FftwChunk is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:63: warning: Compound ThunderEgg::NestedLoop< D, 0, T, A > is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:149: warning: Compound ThunderEgg::Poisson::NormalSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:111: warning: Compound ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:36: warning: Compound ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:35: warning: Compound ThunderEgg::Schur::SchurMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:483: warning: Compound ThunderEgg::Schur::SchurHelperVG is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:32: warning: Compound ThunderEgg::SchurDomainOp is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:52: warning: Compound ThunderEgg::NestedLoop is not documented.
@@ -197,7 +197,6 @@ Preprocessing /home/travis/build/Thund/home/travis/build/ThunderEgg/ThunderEgg/s
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:38: warning: Compound ThunderEgg::Experimental::PBMatrix is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/CycleOpts.h:53: warning: Compound ThunderEgg::GMG::CycleOpts is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:95: warning: Compound ThunderEgg::Poisson::NeumannSH2d is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:31: warning: Compound ThunderEgg::Schur::TriLinInterp is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:53: warning: Compound ContigFftwSolver is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:73: warning: Compound ThunderEgg::NestedLoop< 0, -1, T, A > is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:30: warning: Compound ThunderEgg::Loop is not documented.
@@ -209,17 +208,7 @@ Preprocessing /home/travis/build/Thund/home/travis/build/ThunderEgg/ThunderEgg/s
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:40: warning: Compound FftwChunkX is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:44: warning: Compound FftwChunkY is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:48: warning: Compound FftwChunkZ is not documented.
-erEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
-Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h...
+.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h...
@@ -357,18 +346,28 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/RuntimeError.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceInterp.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceSet.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/QuadInterpolator.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h...
-Generating code for fi/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:50: warning: Member AmgxWrapper(std::string filename) (function) of class AmgxWrapper is not documented.
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVectorGenerator.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VectorGenerator.h...
+Generating file documentation...
+Generating docs for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Ty/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:50: warning: Member AmgxWrapper(std::string filename) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:51: warning: Member setMatrix(Mat A) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:53: warning: Member solve(Vec x, Vec b) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:63: warning: Member ContigFftwSolver(DomainCollection &dc) (function) of class ContigFftwSolver is not documented.
@@ -456,71 +455,7 @@ Generating code for fi/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Ex
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h:370: warning: argument 'local_index' of command @param is not found in the argument list of ThunderEgg::PatchInfo< D >::setBCGlobalIndex(Side< D > s, int global_index)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h:375: warning: The following parameters of ThunderEgg::PatchInfo::setBCGlobalIndex(Side< D > s, int global_index) are not documented:
   parameter 'global_index'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/QuadInterpolator.h:41: warning: Member interpolate(PatchInfo< 2 > &pinfo, Side< 2 > s, InterpCase icase, const Vec u, Vec interp) (function) of class ThunderEgg::QuadInterpolator is not documented.
-le /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVectorGenerator.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VectorGenerator.h...
-Generating file documentation...
-Generating docs for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h...
-Generating page documentation...
-Generating group documentation...
-Generating class documentation...
-Generating docs for compound AmgxWrapper...
-Generating docs for compound ContigFftwSolver...
-Generating docs for compound FftwChunk...
-Generating docs for compound FftwChunkX...
-Generating docs for compound FftwChunkY...
-Generating docs for compound FftwChunkZ...
-Generating docs for compound IfaceMatrixHelper...
-Generating namespace index...
-Generating docs for compound GMG::Helper2dSchur...
-Generating docs for compound GMG::Schur::ILCFineToCoarseMetadata...
-Generating docs for compound GMG::Schur::InterLevelComm...
-Generating docs for namespace ThunderEgg
-Generating docs for compound ThunderEgg::BiCGStab...
-Generating docs for compound ThunderEgg::BiCGStabPatchSolver...
-Generating docs for compound ThunderEgg::BiLinearGhostFiller...
-Generating docs for compound ThunderEgg::BiQuadraticGhostFiller...
-Generating docs for compound ThunderEgg::BufferReader...
-Generating docs for compound ThunderEgg::BufferWriter...
-Generating docs for compound ThunderEgg::CoarseNbrInfo...
-Generating docs for compound ThunderEgg::Domain...
-Generating docs for compound ThunderEgg::DomainGenerator...
-Generating docs for compound ThunderEgg::DomainTools...
-Generating docs for compound ThunderEgg::FineNbrInfo...
-Generating docs for compound ThunderEgg::GhostFiller...
-Generating docs for compound ThunderEgg::LocalData...
-Generating docs for compound ThunderEgg::LocalDataManager...
-Generating docs for compound ThunderEgg::Loop...
-Generating docs for compound ThunderEgg::Loop< start, start, T >...
-Generating docs for compound ThunderEgg::MPIGhostFiller...
-Generating docs for compound ThunderEgg::NbrInfo...
-Generating docs for compound ThunderEgg::NestedLoop...
-Generating docs for compound ThunderEgg::NestedLoop< 0, -1, T, A >...
-Generating docs for compound ThunderEgg::NestedLoop< D, 0, T, A >...
-Generating docs for compound ThunderEgg::NormalNbrInfo...
-Generating docs for compound ThunderEgg::Operator...
-Generating docs for compound ThunderEgg::Orthant...
-Generating docs for nested compound ThunderEgg::Orthant::Range...
-Generating docs for nested compound ThunderEgg::Orthant::Range::Iterator...
-Generating docs for compound ThunderEgg::P4estDomGen...
-Generating docs for compound ThunderEgg::PatchInfo...
-Generating docs for compound ThunderEgg::PatchOperator...
-Generating docs for compound ThunderEgg::PatchSolver...
-Generating docs for compound ThunderEgg::QuadInterpolator...
-Generating docs for compound ThunderEgg::RuntimeError...
-Generating docs for compound ThunderEg/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:43: warning: argument 'matrix' of command @param is not found in the argument list of ThunderEgg::SchurDomainOp< D >::SchurDomainOp(std::shared_ptr< Schur::SchurHelper< D >> helper, std::shared_ptr< Schur::IfaceInterp< D >> interp, std::shared_ptr< Schur::PatchOperator< D >> op)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:43: warning: argument 'matrix' of command @param is not found in the argument list of ThunderEgg::SchurDomainOp< D >::SchurDomainOp(std::shared_ptr< Schur::SchurHelper< D >> helper, std::shared_ptr< Schur::IfaceInterp< D >> interp, std::shared_ptr< Schur::PatchOperator< D >> op)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:47: warning: The following parameters of ThunderEgg::SchurDomainOp::SchurDomainOp(std::shared_ptr< Schur::SchurHelper< D >> helper, std::shared_ptr< Schur::IfaceInterp< D >> interp, std::shared_ptr< Schur::PatchOperator< D >> op) are not documented:
   parameter 'helper'
   parameter 'interp'
@@ -576,7 +511,79 @@ Generating docs for compound ThunderEg/home/travis/build/ThunderEgg/ThunderEgg/s
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:109: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
   parameter 'coarser_domain'
   parameter 'finer_domain'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:76: warning: argument 'dc' of command @param is not found in the argument list of ThunderEgg::GMG::Level< D >::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg)
+peDefs.h...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound AmgxWrapper...
+Generating docs for compound ContigFftwSolver...
+Generating docs for compound FftwChunk...
+Generating docs for compound FftwChunkX...
+Generating docs for compound FftwChunkY...
+Generating docs for compound FftwChunkZ...
+Generating docs for compound IfaceMatrixHelper...
+Generating namespace index...
+Generating docs for compound GMG::Helper2dSchur...
+Generating docs for compound GMG::Schur::ILCFineToCoarseMetadata...
+Generating docs for compound GMG::Schur::InterLevelComm...
+Generating docs for namespace ThunderEgg
+Generating docs for compound ThunderEgg::BiCGStab...
+Generating docs for compound ThunderEgg::BiCGStabPatchSolver...
+Generating docs for compound ThunderEgg::BiLinearGhostFiller...
+Generating docs for compound ThunderEgg::BiQuadraticGhostFiller...
+Generating docs for compound ThunderEgg::BufferReader...
+Generating docs for compound ThunderEgg::BufferWriter...
+Generating docs for compound ThunderEgg::CoarseNbrInfo...
+Generating docs for compound ThunderEgg::Domain...
+Generating docs for compound ThunderEgg::DomainGenerator...
+Generating docs for compound ThunderEgg::DomainTools...
+Generating docs for compound ThunderEgg::FineNbrInfo...
+Generating docs for compound ThunderEgg::GhostFiller...
+Generating docs for compound ThunderEgg::LocalData...
+Generating docs for compound ThunderEgg::LocalDataManager...
+Generating docs for compound ThunderEgg::Loop...
+Generating docs for compound ThunderEgg::Loop< start, start, T >...
+Generating docs for compound ThunderEgg::MPIGhostFiller...
+Generating docs for compound ThunderEgg::NbrInfo...
+Generating docs for compound ThunderEgg::NestedLoop...
+Generating docs for compound ThunderEgg::NestedLoop< 0, -1, T, A >...
+Generating docs for compound ThunderEgg::NestedLoop< D, 0, T, A >...
+Generating docs for compound ThunderEgg::NormalNbrInfo...
+Generating docs for compound ThunderEgg::Operator...
+Generating docs for compound ThunderEgg::Orthant...
+Generating docs for nested compound ThunderEgg::Orthant::Range...
+Generating docs for nested compound ThunderEgg::Orthant::Range::Iterator...
+Generating docs for compound ThunderEgg::P4estDomGen...
+Generating docs for compound ThunderEgg::PatchInfo...
+Generating docs for compound ThunderEgg::PatchOperator...
+Generating docs for compound ThunderEgg::PatchSolver...
+Generating docs for compound ThunderEgg::RuntimeError...
+Generating docs for compound ThunderEgg::SchurDomainOp...
+Generating docs for compound ThunderEgg::Serializable...
+Generating docs for compound ThunderEgg::Side...
+Generating docs for nested compound ThunderEgg::Side::Range...
+Generating docs for nested compound ThunderEgg::Side::Range::Iterator...
+Generating docs for compound ThunderEgg::SimpleGhostFiller...
+Generating docs for compound ThunderEgg::Timer...
+Generating docs for compound ThunderEgg::TriLinearGhostFiller...
+Generating docs for compound ThunderEgg::ValVector...
+Generating docs for compound ThunderEgg::ValVectorGenerator...
+Generating docs for compound ThunderEgg::Vector...
+Generating docs for compound ThunderEgg::VectorGenerator...
+Generating docs for compound ThunderEgg::Experimental::BlockJacobiSmoother...
+Generating docs for compound ThunderEgg::Experimental::DomGen...
+Generating docs for compound ThunderEgg::Experimental::Node...
+Generating docs for compound ThunderEgg::Experimental::PBMatrix...
+Generating docs for nested compound ThunderEgg::Experimental::PBMatrix::PBlock...
+Generating docs for compound ThunderEgg::Experimental::Tree...
+Generating docs for compound ThunderEgg::GMG::AvgRstr...
+Generating docs for compound ThunderEgg::GMG::Cycle...
+Generating docs for compound ThunderEgg::GMG::CycleBuilder...
+Generating docs for compound ThunderEgg::GMG::CycleOpts...
+Generating docs for compound ThunderEgg::GMG::DrctIntp...
+Generating docs for compound ThunderEgg::GMG::FFTBlockJacobiSmoother...
+Generating docs for compound ThunderEgg::GMG::InterLevelComm...
+Generating docs for compound ThunderEgg::GMG::In/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:76: warning: argument 'dc' of command @param is not found in the argument list of ThunderEgg::GMG::Level< D >::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:80: warning: The following parameters of ThunderEgg::GMG::Level::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg) are not documented:
   parameter 'domain'
   parameter 'vg'
@@ -639,44 +646,43 @@ Generating docs for compound ThunderEg/home/travis/build/ThunderEgg/ThunderEgg/s
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:37: warning: Member coeffs(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:38: warning: Member cols(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h:128: warning: Member solve(SchurInfo< D > &sinfo, std::shared_ptr< const Vector< D >> f, std::shared_ptr< Vector< D >> u, std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::BiCGStabSolver is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h:130: warning: Member solve(std::shared_ptr< const Vector< D >> f, std::shared_ptr< Vector< D >> u, std::shared_ptr< const Vector< D - 1 >> gamma) override (function) of class ThunderEgg::Schur::BiCGStabSolver is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h:137: warning: Member addPatch(SchurInfo< D > &sinfo) (function) of class ThunderEgg::Schur::BiCGStabSolver is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h:138: warning: Member getNewPatchSolver(GMG::CycleFactoryCtx< D > ctx) override (function) of class ThunderEgg::Schur::BiCGStabSolver is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BiCGStabSolver.h:120: warning: The following parameters of ThunderEgg::Schur::BiCGStabSolver::BiCGStabSolver(std::shared_ptr< SchurHelper< D >> sh, std::shared_ptr< PatchOperator< D >> op, double tol=1e-12, int max_it=1000) are not documented:
-  parameter 'sh'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h:41: warning: Member BilinearInterpolator(std::shared_ptr< SchurHelper< 2 >> sh) (function) of class ThunderEgg::Schur::BilinearInterpolator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h:45: warning: Member interpolateToInterface(std::shared_ptr< const Vector< 2 >> u, std::shared_ptr< Vector< 1 >> interp) override (function) of class ThunderEgg::Schur::BilinearInterpolator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h:47: warning: Member interpolate(const std::vector< std::shared_ptr< SchurInfo< 2 >>> &patches, std::shared_ptr< const Vector< 2 >> u, std::shared_ptr< Vector< 1 >> interp) (function) of class ThunderEgg::Schur::BilinearInterpolator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h:49: warning: Member interpolate(SchurInfo< 2 > &d, std::shared_ptr< const Vector< 2 >> u, std::shared_ptr< Vector< 1 >> interp) (function) of class ThunderEgg::Schur::BilinearInterpolator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/BilinearInterpolator.h:51: warning: Member interpolate(SchurInfo< 2 > &d, Side< 2 > s, int local_index, IfaceType< 2 > itype, std::shared_ptr< const Vector< 2 >> u, std::shared_ptr< Vector< 1 >> interp) (function) of class ThunderEgg::Schur::BilinearInterpolator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:314: warning: Member getIdxAndTypes(std::deque< int > &idx, std::deque< IfaceType< D >> &types) (function) of class ThunderEgg::Schur::FineIfaceInfo is not documented.
-g::SchurDomainOp...
-Generating docs for compound ThunderEgg::Serializable...
-Generating docs for compound ThunderEgg::Side...
-Generating docs for nested compound ThunderEgg::Side::Range...
-Generating docs for nested compound ThunderEgg::Side::Range::Iterator...
-Generating docs for compound ThunderEgg::SimpleGhostFiller...
-Generating docs for compound ThunderEgg::Timer...
-Generating docs for compound ThunderEgg::TriLinearGhostFiller...
-Generating docs for compound ThunderEgg::ValVector...
-Generating docs for compound ThunderEgg::ValVectorGenerator...
-Generating docs for compound ThunderEgg::Vector...
-Generating docs for compound ThunderEgg::VectorGenerator...
-Generating docs for compound ThunderEgg::Experimental::BlockJacobiSmoother...
-Generating docs for compound ThunderEgg::Experimental::DomGen...
-Generating docs for compound ThunderEgg::Experimental::Node...
-Generating docs for compound ThunderEgg::Experimental::PBMatrix...
-Generating docs for nested compound ThunderEgg::Experimental::PBMatrix::PBlock...
-Generating docs for compound ThunderEgg::Experimental::Tree...
-Generating docs for compound ThunderEgg::GMG::AvgRstr...
-Generating docs for compound ThunderEgg::GMG::Cycle...
-Generating docs for compound ThunderEgg::GMG::CycleBuilder...
-Generating docs for compound ThunderEgg::GMG::CycleOpts...
-Generating docs for compound ThunderEgg::GMG::DrctIntp...
-Generating docs for compound ThunderEgg::GMG::FFTBlockJacobiSmoother...
-Generating docs for compound ThunderEgg::GMG::InterLevelComm...
-Generating docs for compound ThunderEgg::GMG::Interpolator...
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:85: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:119: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:152: warning: Member getNewSchurVec() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:157: warning: Member getNewSchurDistVec() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:163: warning: Member getSchurVecLocalSize() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:167: warning: Member getSchurVecGlobalSize() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:172: warning: Member getIfaces() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:176: warning: Member getLengths() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:180: warning: Member getSchurInfoVector() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:184: warning: Member getDomain() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:78: warning: argument 'comm' of command @param is not found in the argument list of ThunderEgg::Schur::SchurHelper< D >::SchurHelper(std::shared_ptr< Domain< D >> domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:488: warning: Member SchurHelperVG(std::shared_ptr< SchurHelper< D+1 >> sh) (function) of class ThunderEgg::Schur::SchurHelperVG is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:442: warning: Member getNormalIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:453: warning: Member getCoarseIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:464: warning: Member getFineIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:475: warning: Member getNormalIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:486: warning: Member getCoarseIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:497: warning: Member getFineIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:519: warning: Member setLocalIndexes(const std::map< int, int > &rev_map) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:527: warning: Member setGlobalIndexes(const std::map< int, int > &rev_map) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:535: warning: Member getIfaceLocalIndex(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'off_proc_ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'incoming_procs' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:44: warning: Member SchurMatrixHelper(std::shared_ptr< SchurHelper< 3 >> sh, void *solver) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:49: warning: Member formCRSMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:50: warning: Member formPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:51: warning: Member getPBDiagInv(PC p) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:52: warning: Member getPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:53: warning: Member getPBDiagInv() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h:53: warning: Member SchurMatrixHelper2d(std::shared_ptr< SchurHelper< 2 >> sh) (function) of class ThunderEgg::Schur::SchurMatrixHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h:46: warning: Member SchurWrapOp(std::shared_ptr< Domain< D >> domain, std::shared_ptr< SchurHelper< D >> sh, std::shared_ptr< PatchSolver< D >> solver, std::shared_ptr< IfaceInterp< D >> interp) (function) of class ThunderEgg::Schur::SchurWrapOp is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:48: warning: Member addValue(int axis) const (function) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:46: warning: Member coeffs (variable) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
+terpolator...
 Generating docs for compound ThunderEgg::GMG::Level...
 Generating docs for compound ThunderEgg::GMG::LinearRestrictor...
 Generating docs for compound ThunderEgg::GMG::MPIInterpolator...
@@ -709,55 +715,11 @@ Generating docs for compound ThunderEgg::Poisson::NormalSH2d...
 Generating docs for compound ThunderEgg::Poisson::StarPatchOperator...
 Generating docs for compound ThunderEgg::Poisson::StencilHelper...
 Generating docs for compound ThunderEgg::Poisson::StencilHelper2d...
-Generating docs for compound ThunderEgg::Schur::BiCGStabSolver...
-Generating docs for compound ThunderEgg::Schur::BilinearInterpolator...
 Generating docs for compound ThunderEgg::Schur::CoarseIfaceInfo...
 Generating docs for compound ThunderEgg::Schur::FineIfaceInfo...
 Generating docs for compound ThunderEgg::Schur::IfaceInfo...
-Generating docs for compound ThunderEgg::Schur::IfaceInterp...
 Generating docs for compound ThunderEgg::Schur::IfaceSet...
-Generating docs for compound ThunderEgg::/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:59: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: The following parameters of ThunderEgg::Schur::PolyChebPrec::PolyChebPrec(std::shared_ptr< Domain< 3 >> domain, std::shared_ptr< SchurHelper< 3 >> sh, std::shared_ptr< IfaceInterp< 3 >> interp) are not documented:
-  parameter 'interp'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:85: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:119: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:152: warning: Member getNewSchurVec() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:157: warning: Member getNewSchurDistVec() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:163: warning: Member getSchurVecLocalSize() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:167: warning: Member getSchurVecGlobalSize() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:172: warning: Member getIfaces() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:176: warning: Member getLengths() const (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:180: warning: Member getSchurInfoVector() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:184: warning: Member getDomain() (function) of class ThunderEgg::Schur::SchurHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:78: warning: argument 'comm' of command @param is not found in the argument list of ThunderEgg::Schur::SchurHelper< D >::SchurHelper(std::shared_ptr< Domain< D >> domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:488: warning: Member SchurHelperVG(std::shared_ptr< SchurHelper< D+1 >> sh) (function) of class ThunderEgg::Schur::SchurHelperVG is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:442: warning: Member getNormalIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:453: warning: Member getCoarseIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:464: warning: Member getFineIfaceInfo(Side< D > s) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:475: warning: Member getNormalIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:486: warning: Member getCoarseIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:497: warning: Member getFineIfaceInfo(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:519: warning: Member setLocalIndexes(const std::map< int, int > &rev_map) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:527: warning: Member setGlobalIndexes(const std::map< int, int > &rev_map) (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:535: warning: Member getIfaceLocalIndex(Side< D > s) const (function) of class ThunderEgg::Schur::SchurInfo is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'off_proc_ifaces' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurInfo.h:502: warning: argument 'incoming_procs' of command @param is not found in the argument list of ThunderEgg::Schur::SchurInfo< D >::getIds()
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:46: warning: Member SchurMatrixHelper(std::shared_ptr< SchurHelper< 3 >> sh, void *solver, std::shared_ptr< IfaceInterp< 3 >> interp) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:53: warning: Member formCRSMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:54: warning: Member formPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:55: warning: Member getPBDiagInv(PC p) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:56: warning: Member getPBMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:57: warning: Member getPBDiagInv() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper2d.h:53: warning: Member SchurMatrixHelper2d(std::shared_ptr< SchurHelper< 2 >> sh) (function) of class ThunderEgg::Schur::SchurMatrixHelper2d is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurWrapOp.h:46: warning: Member SchurWrapOp(std::shared_ptr< Domain< D >> domain, std::shared_ptr< SchurHelper< D >> sh, std::shared_ptr< PatchSolver< D >> solver, std::shared_ptr< IfaceInterp< D >> interp) (function) of class ThunderEgg::Schur::SchurWrapOp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:36: warning: Member TriLinInterp(std::shared_ptr< SchurHelper< 3 >> sh) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:40: warning: Member interpolateToInterface(std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) override (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:42: warning: Member interpolate(SchurInfo< 3 > &d, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/TriLinInterp.h:44: warning: Member interpolate(SchurInfo< 3 > &d, Side< 3 > s, int local_index, IfaceType< 3 > itype, std::shared_ptr< const Vector< 3 >> u, std::shared_ptr< Vector< 2 >> interp) (function) of class ThunderEgg::Schur::TriLinInterp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:48: warning: Member addValue(int axis) const (function) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:46: warning: Member coeffs (variable) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
-Schur::IfaceType...
+Generating docs for compound ThunderEgg::Schur::IfaceType...
 Generating docs for compound ThunderEgg::Schur::NormalIfaceInfo...
 Generating docs for compound ThunderEgg::Schur::PolyChebPrec...
 Generating docs for compound ThunderEgg::Schur::SchurHelper...
@@ -766,7 +728,6 @@ Generating docs for compound ThunderEgg::Schur::SchurInfo...
 Generating docs for compound ThunderEgg::Schur::SchurMatrixHelper...
 Generating docs for compound ThunderEgg::Schur::SchurMatrixHelper2d...
 Generating docs for compound ThunderEgg::Schur::SchurWrapOp...
-Generating docs for compound ThunderEgg::Schur::TriLinInterp...
 Generating docs for compound ThunderEgg::VarPoisson::StarPatchOperator...
 Generating graph info page...
 Generating directory documentation...
@@ -787,289 +748,274 @@ finalizing index lists...
 writing tag file...
 Running dot...
 Generating dot graphs using 3 parallel threads...
-Running dot for graph 1/205
-Running dot for graph 2/205
-Running dot for graph 3/205
-Running dot for graph 4/205
-Running dot for graph 5/205
-Running dot for graph 6/205
-Running dot for graph 7/205
-Running dot for graph 8/205
-Running dot for graph 9/205
-Running dot for graph 10/205
-Running dot for graph 11/205
-Running dot for graph 12/205
-Running dot for graph 13/205
-Running dot for graph 14/205
-Running dot for graph 15/205
-Running dot for graph 16/205
-Running dot for graph 17/205
-Running dot for graph 18/205
-Running dot for graph 19/205
-Running dot for graph 20/205
-Running dot for graph 21/205
-Running dot for graph 22/205
-Running dot for graph 23/205
-Running dot for graph 24/205
-Running dot for graph 25/205
-Running dot for graph 26/205
-Running dot for graph 27/205
-Running dot for graph 28/205
-Running dot for graph 29/205
-Running dot for graph 30/205
-Running dot for graph 31/205
-Running dot for graph 32/205
-Running dot for graph 33/205
-Running dot for graph 34/205
-Running dot for graph 35/205
-Running dot for graph 36/205
-Running dot for graph 37/205
-Running dot for graph 38/205
-Running dot for graph 39/205
-Running dot for graph 40/205
-Running dot for graph 41/205
-Running dot for graph 42/205
-Running dot for graph 43/205
-Running dot for graph 44/205
-Running dot for graph 45/205
-Running dot for graph 46/205
-Running dot for graph 47/205
-Running dot for graph 48/205
-Running dot for graph 49/205
-Running dot for graph 50/205
-Running dot for graph 51/205
-Running dot for graph 52/205
-Running dot for graph 53/205
-Running dot for graph 54/205
-Running dot for graph 55/205
-Running dot for graph 56/205
-Running dot for graph 57/205
-Running dot for graph 58/205
-Running dot for graph 59/205
-Running dot for graph 60/205
-Running dot for graph 61/205
-Running dot for graph 62/205
-Running dot for graph 63/205
-Running dot for graph 64/205
-Running dot for graph 65/205
-Running dot for graph 66/205
-Running dot for graph 67/205
-Running dot for graph 68/205
-Running dot for graph 69/205
-Running dot for graph 70/205
-Running dot for graph 71/205
-Running dot for graph 72/205
-Running dot for graph 73/205
-Running dot for graph 74/205
-Running dot for graph 75/205
-Running dot for graph 76/205
-Running dot for graph 77/205
-Running dot for graph 78/205
-Running dot for graph 79/205
-Running dot for graph 80/205
-Running dot for graph 81/205
-Running dot for graph 82/205
-Running dot for graph 83/205
-Running dot for graph 84/205
-Running dot for graph 85/205
-Running dot for graph 86/205
-Running dot for graph 87/205
-Running dot for graph 88/205
-Running dot for graph 89/205
-Running dot for graph 90/205
-Running dot for graph 91/205
-Running dot for graph 92/205
-Running dot for graph 93/205
-Running dot for graph 94/205
-Running dot for graph 95/205
-Running dot for graph 96/205
-Running dot for graph 97/205
-Running dot for graph 98/205
-Running dot for graph 99/205
-Running dot for graph 100/205
-Running dot for graph 101/205
-Running dot for graph 102/205
-Running dot for graph 103/205
-Running dot for graph 104/205
-Running dot for graph 105/205
-Running dot for graph 106/205
-Running dot for graph 107/205
-Running dot for graph 108/205
-Running dot for graph 109/205
-Running dot for graph 110/205
-Running dot for graph 111/205
-Running dot for graph 112/205
-Running dot for graph 113/205
-Running dot for graph 114/205
-Running dot for graph 115/205
-Running dot for graph 116/205
-Running dot for graph 117/205
-Running dot for graph 118/205
-Running dot for graph 119/205
-Running dot for graph 120/205
-Running dot for graph 121/205
-Running dot for graph 122/205
-Running dot for graph 123/205
-Running dot for graph 124/205
-Running dot for graph 125/205
-Running dot for graph 126/205
-Running dot for graph 127/205
-Running dot for graph 128/205
-Running dot for graph 129/205
-Running dot for graph 130/205
-Running dot for graph 131/205
-Running dot for graph 132/205
-Running dot for graph 133/205
-Running dot for graph 134/205
-Running dot for graph 135/205
-Running dot for graph 136/205
-Running dot for graph 137/205
-Running dot for graph 138/205
-Running dot for graph 139/205
-Running dot for graph 140/205
-Running dot for graph 141/205
-Running dot for graph 142/205
-Running dot for graph 143/205
-Running dot for graph 144/205
-Running dot for graph 145/205
-Running dot for graph 146/205
-Running dot for graph 147/205
-Running dot for graph 148/205
-Running dot for graph 149/205
-Running dot for graph 150/205
-Running dot for graph 151/205
-Running dot for graph 152/205
-Running dot for graph 153/205
-Running dot for graph 154/205
-Running dot for graph 155/205
-Running dot for graph 156/205
-Running dot for graph 157/205
-Running dot for graph 158/205
-Running dot for graph 159/205
-Running dot for graph 160/205
-Running dot for graph 161/205
-Running dot for graph 162/205
-Running dot for graph 163/205
-Running dot for graph 164/205
-Running dot for graph 165/205
-Running dot for graph 166/205
-Running dot for graph 167/205
-Running dot for graph 168/205
-Running dot for graph 169/205
-Running dot for graph 170/205
-Running dot for graph 171/205
-Running dot for graph 172/205
-Running dot for graph 173/205
-Running dot for graph 174/205
-Running dot for graph 175/205
-Running dot for graph 176/205
-Running dot for graph 177/205
-Running dot for graph 178/205
-Running dot for graph 179/205
-Running dot for graph 180/205
-Running dot for graph 181/205
-Running dot for graph 182/205
-Running dot for graph 183/205
-Running dot for graph 184/205
-Running dot for graph 185/205
-Running dot for graph 186/205
-Running dot for graph 187/205
-Running dot for graph 188/205
-Running dot for graph 189/205
-Running dot for graph 190/205
-Running dot for graph 191/205
-Running dot for graph 192/205
-Running dot for graph 193/205
-Running dot for graph 194/205
-Running dot for graph 195/205
-Running dot for graph 196/205
-Running dot for graph 197/205
-Running dot for graph 198/205
-Running dot for graph 199/205
-Running dot for graph 200/205
-Running dot for graph 201/205
-Running dot for graph 202/205
-Running dot for graph 203/205
-Running dot for graph 204/205
-Running dot for graph 205/205
-Patching output file 1/79
-Patching output file 2/79
-Patching output file 3/79
-Patching output file 4/79
-Patching output file 5/79
-Patching output file 6/79
-Patching output file 7/79
-Patching output file 8/79
-Patching output file 9/79
-Patching output file 10/79
-Patching output file 11/79
-Patching output file 12/79
-Patching output file 13/79
-Patching output file 14/79
-Patching output file 15/79
-Patching output file 16/79
-Patching output file 17/79
-Patching output file 18/79
-Patching output file 19/79
-Patching output file 20/79
-Patching output file 21/79
-Patching output file 22/79
-Patching output file 23/79
-Patching output file 24/79
-Patching output file 25/79
-Patching output file 26/79
-Patching output file 27/79
-Patching output file 28/79
-Patching output file 29/79
-Patching output file 30/79
-Patching output file 31/79
-Patching output file 32/79
-Patching output file 33/79
-Patching output file 34/79
-Patching output file 35/79
-Patching output file 36/79
-Patching output file 37/79
-Patching output file 38/79
-Patching output file 39/79
-Patching output file 40/79
-Patching output file 41/79
-Patching output file 42/79
-Patching output file 43/79
-Patching output file 44/79
-Patching output file 45/79
-Patching output file 46/79
-Patching output file 47/79
-Patching output file 48/79
-Patching output file 49/79
-Patching output file 50/79
-Patching output file 51/79
-Patching output file 52/79
-Patching output file 53/79
-Patching output file 54/79
-Patching output file 55/79
-Patching output file 56/79
-Patching output file 57/79
-Patching output file 58/79
-Patching output file 59/79
-Patching output file 60/79
-Patching output file 61/79
-Patching output file 62/79
-Patching output file 63/79
-Patching output file 64/79
-Patching output file 65/79
-Patching output file 66/79
-Patching output file 67/79
-Patching output file 68/79
-Patching output file 69/79
-Patching output file 70/79
-Patching output file 71/79
-Patching output file 72/79
-Patching output file 73/79
-Patching output file 74/79
-Patching output file 75/79
-Patching output file 76/79
-Patching output file 77/79
-Patching output file 78/79
-Patching output file 79/79
-lookup cache used 2554/65536 hits=28321 misses=2716
+Running dot for graph 1/194
+Running dot for graph 2/194
+Running dot for graph 3/194
+Running dot for graph 4/194
+Running dot for graph 5/194
+Running dot for graph 6/194
+Running dot for graph 7/194
+Running dot for graph 8/194
+Running dot for graph 9/194
+Running dot for graph 10/194
+Running dot for graph 11/194
+Running dot for graph 12/194
+Running dot for graph 13/194
+Running dot for graph 14/194
+Running dot for graph 15/194
+Running dot for graph 16/194
+Running dot for graph 17/194
+Running dot for graph 18/194
+Running dot for graph 19/194
+Running dot for graph 20/194
+Running dot for graph 21/194
+Running dot for graph 22/194
+Running dot for graph 23/194
+Running dot for graph 24/194
+Running dot for graph 25/194
+Running dot for graph 26/194
+Running dot for graph 27/194
+Running dot for graph 28/194
+Running dot for graph 29/194
+Running dot for graph 30/194
+Running dot for graph 31/194
+Running dot for graph 32/194
+Running dot for graph 33/194
+Running dot for graph 34/194
+Running dot for graph 35/194
+Running dot for graph 36/194
+Running dot for graph 37/194
+Running dot for graph 38/194
+Running dot for graph 39/194
+Running dot for graph 40/194
+Running dot for graph 41/194
+Running dot for graph 42/194
+Running dot for graph 43/194
+Running dot for graph 44/194
+Running dot for graph 45/194
+Running dot for graph 46/194
+Running dot for graph 47/194
+Running dot for graph 48/194
+Running dot for graph 49/194
+Running dot for graph 50/194
+Running dot for graph 51/194
+Running dot for graph 52/194
+Running dot for graph 53/194
+Running dot for graph 54/194
+Running dot for graph 55/194
+Running dot for graph 56/194
+Running dot for graph 57/194
+Running dot for graph 58/194
+Running dot for graph 59/194
+Running dot for graph 60/194
+Running dot for graph 61/194
+Running dot for graph 62/194
+Running dot for graph 63/194
+Running dot for graph 64/194
+Running dot for graph 65/194
+Running dot for graph 66/194
+Running dot for graph 67/194
+Running dot for graph 68/194
+Running dot for graph 69/194
+Running dot for graph 70/194
+Running dot for graph 71/194
+Running dot for graph 72/194
+Running dot for graph 73/194
+Running dot for graph 74/194
+Running dot for graph 75/194
+Running dot for graph 76/194
+Running dot for graph 77/194
+Running dot for graph 78/194
+Running dot for graph 79/194
+Running dot for graph 80/194
+Running dot for graph 81/194
+Running dot for graph 82/194
+Running dot for graph 83/194
+Running dot for graph 84/194
+Running dot for graph 85/194
+Running dot for graph 86/194
+Running dot for graph 87/194
+Running dot for graph 88/194
+Running dot for graph 89/194
+Running dot for graph 90/194
+Running dot for graph 91/194
+Running dot for graph 92/194
+Running dot for graph 93/194
+Running dot for graph 94/194
+Running dot for graph 95/194
+Running dot for graph 96/194
+Running dot for graph 97/194
+Running dot for graph 98/194
+Running dot for graph 99/194
+Running dot for graph 100/194
+Running dot for graph 101/194
+Running dot for graph 102/194
+Running dot for graph 103/194
+Running dot for graph 104/194
+Running dot for graph 105/194
+Running dot for graph 106/194
+Running dot for graph 107/194
+Running dot for graph 108/194
+Running dot for graph 109/194
+Running dot for graph 110/194
+Running dot for graph 111/194
+Running dot for graph 112/194
+Running dot for graph 113/194
+Running dot for graph 114/194
+Running dot for graph 115/194
+Running dot for graph 116/194
+Running dot for graph 117/194
+Running dot for graph 118/194
+Running dot for graph 119/194
+Running dot for graph 120/194
+Running dot for graph 121/194
+Running dot for graph 122/194
+Running dot for graph 123/194
+Running dot for graph 124/194
+Running dot for graph 125/194
+Running dot for graph 126/194
+Running dot for graph 127/194
+Running dot for graph 128/194
+Running dot for graph 129/194
+Running dot for graph 130/194
+Running dot for graph 131/194
+Running dot for graph 132/194
+Running dot for graph 133/194
+Running dot for graph 134/194
+Running dot for graph 135/194
+Running dot for graph 136/194
+Running dot for graph 137/194
+Running dot for graph 138/194
+Running dot for graph 139/194
+Running dot for graph 140/194
+Running dot for graph 141/194
+Running dot for graph 142/194
+Running dot for graph 143/194
+Running dot for graph 144/194
+Running dot for graph 145/194
+Running dot for graph 146/194
+Running dot for graph 147/194
+Running dot for graph 148/194
+Running dot for graph 149/194
+Running dot for graph 150/194
+Running dot for graph 151/194
+Running dot for graph 152/194
+Running dot for graph 153/194
+Running dot for graph 154/194
+Running dot for graph 155/194
+Running dot for graph 156/194
+Running dot for graph 157/194
+Running dot for graph 158/194
+Running dot for graph 159/194
+Running dot for graph 160/194
+Running dot for graph 161/194
+Running dot for graph 162/194
+Running dot for graph 163/194
+Running dot for graph 164/194
+Running dot for graph 165/194
+Running dot for graph 166/194
+Running dot for graph 167/194
+Running dot for graph 168/194
+Running dot for graph 169/194
+Running dot for graph 170/194
+Running dot for graph 171/194
+Running dot for graph 172/194
+Running dot for graph 173/194
+Running dot for graph 174/194
+Running dot for graph 175/194
+Running dot for graph 176/194
+Running dot for graph 177/194
+Running dot for graph 178/194
+Running dot for graph 179/194
+Running dot for graph 180/194
+Running dot for graph 181/194
+Running dot for graph 182/194
+Running dot for graph 183/194
+Running dot for graph 184/194
+Running dot for graph 185/194
+Running dot for graph 186/194
+Running dot for graph 187/194
+Running dot for graph 188/194
+Running dot for graph 189/194
+Running dot for graph 190/194
+Running dot for graph 191/194
+Running dot for graph 192/194
+Running dot for graph 193/194
+Running dot for graph 194/194
+Patching output file 1/75
+Patching output file 2/75
+Patching output file 3/75
+Patching output file 4/75
+Patching output file 5/75
+Patching output file 6/75
+Patching output file 7/75
+Patching output file 8/75
+Patching output file 9/75
+Patching output file 10/75
+Patching output file 11/75
+Patching output file 12/75
+Patching output file 13/75
+Patching output file 14/75
+Patching output file 15/75
+Patching output file 16/75
+Patching output file 17/75
+Patching output file 18/75
+Patching output file 19/75
+Patching output file 20/75
+Patching output file 21/75
+Patching output file 22/75
+Patching output file 23/75
+Patching output file 24/75
+Patching output file 25/75
+Patching output file 26/75
+Patching output file 27/75
+Patching output file 28/75
+Patching output file 29/75
+Patching output file 30/75
+Patching output file 31/75
+Patching output file 32/75
+Patching output file 33/75
+Patching output file 34/75
+Patching output file 35/75
+Patching output file 36/75
+Patching output file 37/75
+Patching output file 38/75
+Patching output file 39/75
+Patching output file 40/75
+Patching output file 41/75
+Patching output file 42/75
+Patching output file 43/75
+Patching output file 44/75
+Patching output file 45/75
+Patching output file 46/75
+Patching output file 47/75
+Patching output file 48/75
+Patching output file 49/75
+Patching output file 50/75
+Patching output file 51/75
+Patching output file 52/75
+Patching output file 53/75
+Patching output file 54/75
+Patching output file 55/75
+Patching output file 56/75
+Patching output file 57/75
+Patching output file 58/75
+Patching output file 59/75
+Patching output file 60/75
+Patching output file 61/75
+Patching output file 62/75
+Patching output file 63/75
+Patching output file 64/75
+Patching output file 65/75
+Patching output file 66/75
+Patching output file 67/75
+Patching output file 68/75
+Patching output file 69/75
+Patching output file 70/75
+Patching output file 71/75
+Patching output file 72/75
+Patching output file 73/75
+Patching output file 74/75
+Patching output file 75/75
+lookup cache used 2396/65536 hits=26934 misses=2535
 finished...

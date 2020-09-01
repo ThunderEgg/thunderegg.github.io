@@ -1,9 +1,6 @@
 var searchData=
 [
   ['ifaceinfo',['IfaceInfo',['../classThunderEgg_1_1Schur_1_1IfaceInfo.html',1,'ThunderEgg::Schur']]],
-  ['ifaceinterp',['IfaceInterp',['../classThunderEgg_1_1Schur_1_1IfaceInterp.html',1,'ThunderEgg::Schur']]],
-  ['ifaceinterp_3c_202_20_3e',['IfaceInterp&lt; 2 &gt;',['../classThunderEgg_1_1Schur_1_1IfaceInterp.html',1,'ThunderEgg::Schur']]],
-  ['ifaceinterp_3c_203_20_3e',['IfaceInterp&lt; 3 &gt;',['../classThunderEgg_1_1Schur_1_1IfaceInterp.html',1,'ThunderEgg::Schur']]],
   ['ifacematrixhelper',['IfaceMatrixHelper',['../classIfaceMatrixHelper.html',1,'']]],
   ['ifaceset',['IfaceSet',['../structThunderEgg_1_1Schur_1_1IfaceSet.html',1,'ThunderEgg::Schur']]],
   ['ifacetype',['IfaceType',['../classThunderEgg_1_1Schur_1_1IfaceType.html',1,'ThunderEgg::Schur']]],
