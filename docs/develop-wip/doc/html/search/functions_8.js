@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ifaceinfo',['IfaceInfo',['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#aa4e23956afd428e4d2e3df400913aa46',1,'ThunderEgg::Schur::IfaceInfo']]],
   ['ifacematrixhelper',['IfaceMatrixHelper',['../classIfaceMatrixHelper.html#ab96294d3920e47cab43dc6312f41118c',1,'IfaceMatrixHelper']]],
   ['ifacetype',['IfaceType',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a2a35e03be2697b8459c1f226682b5024',1,'ThunderEgg::Schur::IfaceType::IfaceType()=default'],['../classThunderEgg_1_1Schur_1_1IfaceType.html#acea5433b4e5193d28acaa54e72dbbd6c',1,'ThunderEgg::Schur::IfaceType::IfaceType(const char val)'],['../classThunderEgg_1_1Schur_1_1IfaceType.html#a373051d6f1e4143bfe40ca74eb7f3785',1,'ThunderEgg::Schur::IfaceType::IfaceType(const char val, const Orthant&lt; D - 1 &gt; orthant)']]],
   ['infnorm',['infNorm',['../classThunderEgg_1_1Vector.html#a389db191afa20556b7481ae78ff84d1a',1,'ThunderEgg::Vector']]],

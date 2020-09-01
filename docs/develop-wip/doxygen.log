@@ -640,7 +640,7 @@ Genera/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFill
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:37: warning: Member coeffs(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:38: warning: Member cols(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/FineIfaceInfo.h:77: warning: Member getIdxAndTypes(std::deque< int > &idx, std::deque< IfaceType< D >> &types) (function) of class ThunderEgg::Schur::FineIfaceInfo is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/FineIfaceInfo.h:90: warning: Member getIdxAndTypes(std::deque< int > &idx, std::deque< IfaceType< D >> &types) (function) of class ThunderEgg::Schur::FineIfaceInfo is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:85: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:119: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
@@ -1029,5 +1029,5 @@ Patching output file 72/75
 Patching output file 73/75
 Patching output file 74/75
 Patching output file 75/75
-lookup cache used 2394/65536 hits=26391 misses=2533
+lookup cache used 2405/65536 hits=26529 misses=2544
 finished...

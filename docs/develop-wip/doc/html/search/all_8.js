@@ -5,7 +5,7 @@ var searchData=
   ['id_5flocal',['id_local',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#afbf771511b7482e3080545dfb6bf5ca4',1,'ThunderEgg::Schur::IfaceSet']]],
   ['ids',['ids',['../classThunderEgg_1_1FineNbrInfo.html#ada0e385a440831786fb363099d0da33a',1,'ThunderEgg::FineNbrInfo']]],
   ['iface_5finfo',['iface_info',['../structThunderEgg_1_1Schur_1_1SchurInfo.html#aa5a48cce1fd1515c78ef9f6a7a1758ff',1,'ThunderEgg::Schur::SchurInfo']]],
-  ['ifaceinfo',['IfaceInfo',['../classThunderEgg_1_1Schur_1_1IfaceInfo.html',1,'ThunderEgg::Schur']]],
+  ['ifaceinfo',['IfaceInfo',['../classThunderEgg_1_1Schur_1_1IfaceInfo.html',1,'ThunderEgg::Schur::IfaceInfo&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#aa4e23956afd428e4d2e3df400913aa46',1,'ThunderEgg::Schur::IfaceInfo::IfaceInfo()']]],
   ['ifacematrixhelper',['IfaceMatrixHelper',['../classIfaceMatrixHelper.html',1,'IfaceMatrixHelper'],['../classIfaceMatrixHelper.html#ab96294d3920e47cab43dc6312f41118c',1,'IfaceMatrixHelper::IfaceMatrixHelper()']]],
   ['ifaceset',['IfaceSet',['../structThunderEgg_1_1Schur_1_1IfaceSet.html',1,'ThunderEgg::Schur']]],
   ['ifacetype',['IfaceType',['../classThunderEgg_1_1Schur_1_1IfaceType.html',1,'ThunderEgg::Schur::IfaceType&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1IfaceType.html#a2a35e03be2697b8459c1f226682b5024',1,'ThunderEgg::Schur::IfaceType::IfaceType()=default'],['../classThunderEgg_1_1Schur_1_1IfaceType.html#acea5433b4e5193d28acaa54e72dbbd6c',1,'ThunderEgg::Schur::IfaceType::IfaceType(const char val)'],['../classThunderEgg_1_1Schur_1_1IfaceType.html#a373051d6f1e4143bfe40ca74eb7f3785',1,'ThunderEgg::Schur::IfaceType::IfaceType(const char val, const Orthant&lt; D - 1 &gt; orthant)']]],
