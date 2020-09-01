@@ -8,7 +8,7 @@ var searchData=
   ['_7enbrinfo',['~NbrInfo',['../classThunderEgg_1_1NbrInfo.html#afbc8023c274d906987aada0239822044',1,'ThunderEgg::NbrInfo']]],
   ['_7eoperator',['~Operator',['../classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047',1,'ThunderEgg::Operator']]],
   ['_7epatchoperator',['~PatchOperator',['../classThunderEgg_1_1PatchOperator.html#a944b92b49d15750cb796ce6589be1b7b',1,'ThunderEgg::PatchOperator']]],
-  ['_7epatchsolver',['~PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a83c9b911317e4e29e7ec0182d5796ff2',1,'ThunderEgg::PatchSolver::~PatchSolver()'],['../classThunderEgg_1_1Schur_1_1PatchSolver.html#aa16b9e60efe11b85233ecdb94bad9dc4',1,'ThunderEgg::Schur::PatchSolver::~PatchSolver()']]],
+  ['_7epatchsolver',['~PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a83c9b911317e4e29e7ec0182d5796ff2',1,'ThunderEgg::PatchSolver']]],
   ['_7erestrictor',['~Restrictor',['../classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11',1,'ThunderEgg::GMG::Restrictor']]],
   ['_7eserializable',['~Serializable',['../classThunderEgg_1_1Serializable.html#a3b39aed7f11caf84cda71c529eae1460',1,'ThunderEgg::Serializable']]],
   ['_7esmoother',['~Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html#a658ca92bced694154e23f7a8669941b0',1,'ThunderEgg::GMG::Smoother']]],
