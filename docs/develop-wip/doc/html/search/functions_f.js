@@ -25,7 +25,7 @@ var searchData=
   ['setlocalneighborindexes',['setLocalNeighborIndexes',['../structThunderEgg_1_1PatchInfo.html#aead49e8dbdd7ae6b801397b0edb99c7c',1,'ThunderEgg::PatchInfo']]],
   ['setneumann',['setNeumann',['../classThunderEgg_1_1Domain.html#a53b5a8977699d67ddb6c6969f6dcfabe',1,'ThunderEgg::Domain::setNeumann()'],['../structThunderEgg_1_1PatchInfo.html#ad135fa3be85a67565f5e87029633b5a0',1,'ThunderEgg::PatchInfo::setNeumann()']]],
   ['setoperator',['setOperator',['../classThunderEgg_1_1GMG_1_1Level.html#a19db233d6f8e287730d49923673452c9',1,'ThunderEgg::GMG::Level']]],
-  ['setorthant',['setOrthant',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a94c2361a0e55a9549264ac23a48bb00c',1,'ThunderEgg::Schur::IfaceType']]],
+  ['setorthant',['setOrthant',['../classThunderEgg_1_1Schur_1_1IfaceType.html#aeb7b6f5f6c2d85c6cc345e9f22142361',1,'ThunderEgg::Schur::IfaceType']]],
   ['setrestrictor',['setRestrictor',['../classThunderEgg_1_1GMG_1_1Level.html#a955ed494355d86d37999f0869552df36',1,'ThunderEgg::GMG::Level']]],
   ['setsmoother',['setSmoother',['../classThunderEgg_1_1GMG_1_1Level.html#a075ad6b41cffa4eb8373cfb24dcf385e',1,'ThunderEgg::GMG::Level']]],
   ['settimer',['setTimer',['../classThunderEgg_1_1PatchSolver.html#ac085e2df3570d0e34f5ff1e2c255779c',1,'ThunderEgg::PatchSolver']]],

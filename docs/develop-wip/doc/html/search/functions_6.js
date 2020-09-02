@@ -58,7 +58,7 @@ var searchData=
   ['getnumlocalcellswithghost',['getNumLocalCellsWithGhost',['../classThunderEgg_1_1Domain.html#a5eb26f4f7e0d702524c2b9489cfe1c13',1,'ThunderEgg::Domain']]],
   ['getnumlocalpatches',['getNumLocalPatches',['../classThunderEgg_1_1Domain.html#a49bcd058b44681aa58405a9b0a0a3a67',1,'ThunderEgg::Domain::getNumLocalPatches()'],['../classThunderEgg_1_1Vector.html#a7e6c4fae9d75f3f47e7c6b2e43d12a7c',1,'ThunderEgg::Vector::getNumLocalPatches()']]],
   ['getoperator',['getOperator',['../classThunderEgg_1_1GMG_1_1Level.html#a8d95fd697b47cf16b65174107d5c3787',1,'ThunderEgg::GMG::Level']]],
-  ['getorthant',['getOrthant',['../classThunderEgg_1_1Schur_1_1IfaceType.html#aaa5b2091806927185c3ced5002480e66',1,'ThunderEgg::Schur::IfaceType']]],
+  ['getorthant',['getOrthant',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a00ed4784158fc6d32364d0371e2b7ef4',1,'ThunderEgg::Schur::IfaceType']]],
   ['getpatcheswithghostparent',['getPatchesWithGhostParent',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#a5b7eb17d1ff6e1fd4980a38d3121274a',1,'ThunderEgg::GMG::InterLevelComm']]],
   ['getpatcheswithlocalparent',['getPatchesWithLocalParent',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#a5d49e263dbfd4d62066125c1e9829b38',1,'ThunderEgg::GMG::InterLevelComm']]],
   ['getpatchinfomap',['getPatchInfoMap',['../classThunderEgg_1_1Domain.html#af7cff0535eafb683d415a4add9052fee',1,'ThunderEgg::Domain::getPatchInfoMap()'],['../classThunderEgg_1_1Domain.html#ac4348ac82931aa9557b28a46f78a102e',1,'ThunderEgg::Domain::getPatchInfoMap() const']]],

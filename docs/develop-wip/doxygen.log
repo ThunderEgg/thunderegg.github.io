@@ -639,6 +639,12 @@ Generating docs for compound ThunderEgg::/home/travis/build/ThunderEgg/ThunderEg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:37: warning: Member coeffs(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:38: warning: Member cols(int i)=0 (function) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:33: warning: Member n (variable) of class ThunderEgg::Poisson::StencilHelper2d is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:96: warning: argument 'orthant' of command @param is not found in the argument list of ThunderEgg::Schur::IfaceType< D >::FineToCoarse(Orthant< D - 1 > orth_on_coarse)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:103: warning: The following parameters of ThunderEgg::Schur::IfaceType::FineToCoarse(Orthant< D - 1 > orth_on_coarse) are not documented:
+  parameter 'orth_on_coarse'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:117: warning: argument 'orthant' of command @param is not found in the argument list of ThunderEgg::Schur::IfaceType< D >::FineToFine(Orthant< D - 1 > orth_on_coarse)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:126: warning: The following parameters of ThunderEgg::Schur::IfaceType::FineToFine(Orthant< D - 1 > orth_on_coarse) are not documented:
+  parameter 'orth_on_coarse'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:85: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:119: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
@@ -1016,5 +1022,5 @@ Patching output file 72/75
 Patching output file 73/75
 Patching output file 74/75
 Patching output file 75/75
-lookup cache used 2354/65536 hits=26128 misses=2494
+lookup cache used 2388/65536 hits=26336 misses=2528
 finished...
