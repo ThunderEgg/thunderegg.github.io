@@ -1,6 +1,7 @@
 var searchData=
 [
   ['p4estdomgen',['P4estDomGen',['../classThunderEgg_1_1P4estDomGen.html#afe952d7c20a1a7f4edec79e530970584',1,'ThunderEgg::P4estDomGen']]],
+  ['patchifaceinfo',['PatchIfaceInfo',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#aeb695f40b94fcf144b68eb6278a1fece',1,'ThunderEgg::Schur::PatchIfaceInfo::PatchIfaceInfo()=default'],['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a823fb676f74455fb77b4e14d75a51687',1,'ThunderEgg::Schur::PatchIfaceInfo::PatchIfaceInfo(std::shared_ptr&lt; const PatchInfo&lt; D &gt;&gt; pinfo)']]],
   ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo']]],
   ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator']]],
   ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e',1,'ThunderEgg::PatchSolver']]],

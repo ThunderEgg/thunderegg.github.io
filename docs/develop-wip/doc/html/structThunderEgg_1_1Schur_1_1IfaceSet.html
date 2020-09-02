@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This is a set of <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a> objects for an interface.  
+<p>This is a set of <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects for an interface.  
  <a href="structThunderEgg_1_1Schur_1_1IfaceSet.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="IfaceSet_8h_source.html">IfaceSet.h</a>&gt;</code></p>
@@ -98,13 +98,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7de60f474aa00897ed4f15ab3980b39a"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a7de60f474aa00897ed4f15ab3980b39a">getNbrs</a> () const</td></tr>
 <tr class="memdesc:a7de60f474aa00897ed4f15ab3980b39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a set of neighboring interfaces. (The interfaces that are on patches connected to this interface)  <a href="#a7de60f474aa00897ed4f15ab3980b39a">More...</a><br /></td></tr>
 <tr class="separator:a7de60f474aa00897ed4f15ab3980b39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75626fce555b0af3416aab5c53b4a45"><td class="memItemLeft" align="right" valign="top"><a id="aa75626fce555b0af3416aab5c53b4a45"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#aa75626fce555b0af3416aab5c53b4a45">insert</a> (int <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#aa58c2fef3a141fb66b8807d8c04948bc">id</a>, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s, std::shared_ptr&lt; <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a>&lt; D &gt;&gt; sinfo)</td></tr>
-<tr class="memdesc:aa75626fce555b0af3416aab5c53b4a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Iface to this set. <br /></td></tr>
-<tr class="separator:aa75626fce555b0af3416aab5c53b4a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60fdc6098138ff4099771b9a5194146"><td class="memItemLeft" align="right" valign="top"><a id="ac60fdc6098138ff4099771b9a5194146"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#ac60fdc6098138ff4099771b9a5194146">insert</a> (int <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#aa58c2fef3a141fb66b8807d8c04948bc">id</a>, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html">PatchIfaceInfo</a>&lt; D &gt;&gt; sinfo)</td></tr>
+<tr class="memdesc:ac60fdc6098138ff4099771b9a5194146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Iface to this set. <br /></td></tr>
+<tr class="separator:ac60fdc6098138ff4099771b9a5194146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7131b5bd8bcd42402f647b6bab7f5b47"><td class="memItemLeft" align="right" valign="top"><a id="a7131b5bd8bcd42402f647b6bab7f5b47"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a7131b5bd8bcd42402f647b6bab7f5b47">merge</a> (<a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html">IfaceSet</a>&lt; D &gt; ifs)</td></tr>
-<tr class="memdesc:a7131b5bd8bcd42402f647b6bab7f5b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Ifaces in an <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of SchurInfo objects for an interface. ">IfaceSet</a> to this set. <br /></td></tr>
+<tr class="memdesc:a7131b5bd8bcd42402f647b6bab7f5b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an Ifaces in an <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of PatchIfaceInfo objects for an interface. ">IfaceSet</a> to this set. <br /></td></tr>
 <tr class="separator:a7131b5bd8bcd42402f647b6bab7f5b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a054c5295ef4e84b958c4f510ceb98d1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a054c5295ef4e84b958c4f510ceb98d1c">setLocalIndexes</a> (const std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
 <tr class="memdesc:a054c5295ef4e84b958c4f510ceb98d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the local indexes in the Iface objects.  <a href="#a054c5295ef4e84b958c4f510ceb98d1c">More...</a><br /></td></tr>
@@ -128,7 +128,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae42cd0b0e6f3624b4a533ac3adb5f142"><td class="memTemplParams" colspan="2">template&lt;class Iter &gt; </td></tr>
 <tr class="memitem:ae42cd0b0e6f3624b4a533ac3adb5f142"><td class="memTemplItemLeft" align="right" valign="top">static std::map&lt; int, <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html">IfaceSet</a>&lt; D &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#ae42cd0b0e6f3624b4a533ac3adb5f142">EnumerateIfaces</a> (Iter begin, Iter end)</td></tr>
-<tr class="memdesc:ae42cd0b0e6f3624b4a533ac3adb5f142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of SchurInfo objects for an interface. ">IfaceSet</a> objects from a given collection of <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a> objects.  <a href="#ae42cd0b0e6f3624b4a533ac3adb5f142">More...</a><br /></td></tr>
+<tr class="memdesc:ae42cd0b0e6f3624b4a533ac3adb5f142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of PatchIfaceInfo objects for an interface. ">IfaceSet</a> objects from a given collection of <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects.  <a href="#ae42cd0b0e6f3624b4a533ac3adb5f142">More...</a><br /></td></tr>
 <tr class="separator:ae42cd0b0e6f3624b4a533ac3adb5f142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -153,16 +153,16 @@ std::vector&lt; <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D
 std::vector&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceType.html">IfaceType</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#ad106138b01e1e0a4602ed88883b6a9b1">types</a></td></tr>
 <tr class="memdesc:ad106138b01e1e0a4602ed88883b6a9b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type of interface that this interface is on the patchinfo object <br /></td></tr>
 <tr class="separator:ad106138b01e1e0a4602ed88883b6a9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a107f00d4409bdd579a7adad2706c20ac"><td class="memItemLeft" align="right" valign="top"><a id="a107f00d4409bdd579a7adad2706c20ac"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a>&lt; D &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a107f00d4409bdd579a7adad2706c20ac">sinfos</a></td></tr>
-<tr class="memdesc:a107f00d4409bdd579a7adad2706c20ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">the set of <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> objects associated with this interface <br /></td></tr>
-<tr class="separator:a107f00d4409bdd579a7adad2706c20ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749f7f144582217bdb6686a875224774"><td class="memItemLeft" align="right" valign="top"><a id="a749f7f144582217bdb6686a875224774"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html">PatchIfaceInfo</a>&lt; D &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a749f7f144582217bdb6686a875224774">sinfos</a></td></tr>
+<tr class="memdesc:a749f7f144582217bdb6686a875224774"><td class="mdescLeft">&#160;</td><td class="mdescRight">the set of <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> objects associated with this interface <br /></td></tr>
+<tr class="separator:a749f7f144582217bdb6686a875224774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;size_t D&gt;<br />
 struct ThunderEgg::Schur::IfaceSet&lt; D &gt;</h3>
 
-<p>This is a set of <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a> objects for an interface. </p>
+<p>This is a set of <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects for an interface. </p>
 <p>This will contain information from each patch that the interface is on.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -248,7 +248,7 @@ template&lt;class Iter &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Create <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of SchurInfo objects for an interface. ">IfaceSet</a> objects from a given collection of <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html">SchurInfo</a> objects. </p>
+<p>Create <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of PatchIfaceInfo objects for an interface. ">IfaceSet</a> objects from a given collection of <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects. </p>
 <p>This method will communicate any necessary information over mpi</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -258,12 +258,12 @@ template&lt;class Iter &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">begin</td><td>the begining of the collection of std::shared_ptr&lt;SchurInfo&lt;D&gt;&gt; objects </td></tr>
-    <tr><td class="paramname">end</td><td>the end of the collection of std::shared_ptr&lt;SchurInfo&lt;D&gt;&gt; objects </td></tr>
+    <tr><td class="paramname">begin</td><td>the begining of the collection of std::shared_ptr&lt;PatchIfaceInfo&lt;D&gt;&gt; objects </td></tr>
+    <tr><td class="paramname">end</td><td>the end of the collection of std::shared_ptr&lt;PatchIfaceInfo&lt;D&gt;&gt; objects </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::map&lt;int, IfaceSet&lt;D&gt;&gt; a map of interface id to <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of SchurInfo objects for an interface. ">IfaceSet</a> oject </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>std::map&lt;int, IfaceSet&lt;D&gt;&gt; a map of interface id to <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html" title="This is a set of PatchIfaceInfo objects for an interface. ">IfaceSet</a> oject </dd></dl>
 
 </div>
 </div>

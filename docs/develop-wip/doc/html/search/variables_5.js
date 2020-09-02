@@ -4,6 +4,6 @@ var searchData=
   ['id_5fglobal',['id_global',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#a62bb29688aba4337af576cf6e280038c',1,'ThunderEgg::Schur::IfaceSet']]],
   ['id_5flocal',['id_local',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#afbf771511b7482e3080545dfb6bf5ca4',1,'ThunderEgg::Schur::IfaceSet']]],
   ['ids',['ids',['../classThunderEgg_1_1FineNbrInfo.html#ada0e385a440831786fb363099d0da33a',1,'ThunderEgg::FineNbrInfo']]],
-  ['iface_5finfo',['iface_info',['../structThunderEgg_1_1Schur_1_1SchurInfo.html#aa5a48cce1fd1515c78ef9f6a7a1758ff',1,'ThunderEgg::Schur::SchurInfo']]],
+  ['iface_5finfo',['iface_info',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a6957e27362ed43d8a5b27b3808003821',1,'ThunderEgg::Schur::PatchIfaceInfo']]],
   ['ifs',['ifs',['../structGMG_1_1Schur_1_1ILCFineToCoarseMetadata.html#acf42df37ee9ae286ce949bb588146b32',1,'GMG::Schur::ILCFineToCoarseMetadata']]]
 ];
