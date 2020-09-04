@@ -12,6 +12,6 @@ var searchData=
   ['tse',['tse',['../classThunderEgg_1_1Orthant.html#aea7a3bbe3320debf4c369e4e2cac7ae1',1,'ThunderEgg::Orthant']]],
   ['tsw',['tsw',['../classThunderEgg_1_1Orthant.html#a9d0bf5caecfcd7a8946cbb01181c59f9',1,'ThunderEgg::Orthant']]],
   ['twonorm',['twoNorm',['../classThunderEgg_1_1Vector.html#a184a43107d6526e16905123fd6d70566',1,'ThunderEgg::Vector']]],
-  ['typedefs_2eh',['TypeDefs.h',['../TypeDefs_8h.html',1,'']]],
-  ['types',['types',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#ad106138b01e1e0a4602ed88883b6a9b1',1,'ThunderEgg::Schur::IfaceSet']]]
+  ['type',['type',['../structThunderEgg_1_1Schur_1_1Interface_1_1SideTypePiinfo.html#a34d906a2b568d329c79649619c380547',1,'ThunderEgg::Schur::Interface::SideTypePiinfo']]],
+  ['typedefs_2eh',['TypeDefs.h',['../TypeDefs_8h.html',1,'']]]
 ];

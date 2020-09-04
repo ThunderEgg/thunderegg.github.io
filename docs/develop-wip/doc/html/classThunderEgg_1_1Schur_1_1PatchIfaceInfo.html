@@ -116,9 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4eb9ffabfd07d48b53d9c7026941b7a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html">CoarseIfaceInfo</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#ab4eb9ffabfd07d48b53d9c7026941b7a">getCoarseIfaceInfo</a> (<a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s) const</td></tr>
 <tr class="memdesc:ab4eb9ffabfd07d48b53d9c7026941b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html" title="Represents the interfaces where the neighbor is at a coarser refinement level. ">CoarseIfaceInfo</a> object on a given side of the patch.  <a href="#ab4eb9ffabfd07d48b53d9c7026941b7a">More...</a><br /></td></tr>
 <tr class="separator:ab4eb9ffabfd07d48b53d9c7026941b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c6de145bd4bc19f67876aa035b3af34"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html">FineIfaceInfo</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a5c6de145bd4bc19f67876aa035b3af34">getFineIfaceInfo</a> (<a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s)</td></tr>
-<tr class="memdesc:a5c6de145bd4bc19f67876aa035b3af34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html" title="Represents the interfaces where the neighbors are at a finer refinement level. ">FineIfaceInfo</a> object on a given side of the patch.  <a href="#a5c6de145bd4bc19f67876aa035b3af34">More...</a><br /></td></tr>
-<tr class="separator:a5c6de145bd4bc19f67876aa035b3af34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45040733a1ee628196c898207c74b91e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html">FineIfaceInfo</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a45040733a1ee628196c898207c74b91e">getFineIfaceInfo</a> (<a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; s) const</td></tr>
+<tr class="memdesc:a45040733a1ee628196c898207c74b91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html" title="Represents the interfaces where the neighbors are at a finer refinement level. ">FineIfaceInfo</a> object on a given side of the patch.  <a href="#a45040733a1ee628196c898207c74b91e">More...</a><br /></td></tr>
+<tr class="separator:a45040733a1ee628196c898207c74b91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4ea76b639df9212ba63b449d63cc37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a9d4ea76b639df9212ba63b449d63cc37">setLocalIndexesFromId</a> (const std::map&lt; int, int &gt; &amp;rev_map)</td></tr>
 <tr class="memdesc:a9d4ea76b639df9212ba63b449d63cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the local indexes from interface ids.  <a href="#a9d4ea76b639df9212ba63b449d63cc37">More...</a><br /></td></tr>
 <tr class="separator:a9d4ea76b639df9212ba63b449d63cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,8 +268,8 @@ template&lt;size_t D&gt; </div>
 
 </div>
 </div>
-<a id="a5c6de145bd4bc19f67876aa035b3af34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c6de145bd4bc19f67876aa035b3af34">&#9670;&nbsp;</a></span>getFineIfaceInfo()</h2>
+<a id="a45040733a1ee628196c898207c74b91e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45040733a1ee628196c898207c74b91e">&#9670;&nbsp;</a></span>getFineIfaceInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +284,7 @@ template&lt;size_t D&gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
