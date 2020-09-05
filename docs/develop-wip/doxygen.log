@@ -643,10 +643,6 @@ Generating docs for compo/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:117: warning: argument 'orthant' of command @param is not found in the argument list of ThunderEgg::Schur::IfaceType< D >::FineToFine(Orthant< D - 1 > orth_on_coarse)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:126: warning: The following parameters of ThunderEgg::Schur::IfaceType::FineToFine(Orthant< D - 1 > orth_on_coarse) are not documented:
   parameter 'orth_on_coarse'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Interface.h:190: warning: argument 'begin' of command @param is not found in the argument list of ThunderEgg::Schur::Interface< D >::EnumerateIfacesFromPiinfoVector(std::vector< std::shared_ptr< const PatchIfaceInfo< D >>> piinfos)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Interface.h:190: warning: argument 'end' of command @param is not found in the argument list of ThunderEgg::Schur::Interface< D >::EnumerateIfacesFromPiinfoVector(std::vector< std::shared_ptr< const PatchIfaceInfo< D >>> piinfos)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Interface.h:200: warning: The following parameters of ThunderEgg::Schur::Interface::EnumerateIfacesFromPiinfoVector(std::vector< std::shared_ptr< const PatchIfaceInfo< D >>> piinfos) are not documented:
-  parameter 'piinfos'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:85: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurHelper.h:119: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::SchurHelper is not documented.
@@ -1015,5 +1011,5 @@ Patching output file 72/75
 Patching output file 73/75
 Patching output file 74/75
 Patching output file 75/75
-lookup cache used 2390/65536 hits=26183 misses=2534
+lookup cache used 2392/65536 hits=26247 misses=2536
 finished...
