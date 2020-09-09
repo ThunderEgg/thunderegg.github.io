@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fftblockjacobismoother',['FFTBlockJacobiSmoother',['../classThunderEgg_1_1GMG_1_1FFTBlockJacobiSmoother.html',1,'ThunderEgg::GMG::FFTBlockJacobiSmoother&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1FFTBlockJacobiSmoother.html#a556c67857a31dc9147fd2a5e36344cdc',1,'ThunderEgg::GMG::FFTBlockJacobiSmoother::FFTBlockJacobiSmoother()']]],
+  ['fftblockjacobismoother',['FFTBlockJacobiSmoother',['../classThunderEgg_1_1GMG_1_1FFTBlockJacobiSmoother.html',1,'ThunderEgg::GMG::FFTBlockJacobiSmoother&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1FFTBlockJacobiSmoother.html#acaea9a774eb2d3789407edb4b132f7d4',1,'ThunderEgg::GMG::FFTBlockJacobiSmoother::FFTBlockJacobiSmoother()']]],
   ['fftwchunk',['FftwChunk',['../structFftwChunk.html',1,'']]],
   ['fftwchunkx',['FftwChunkX',['../structFftwChunkX.html',1,'']]],
   ['fftwchunky',['FftwChunkY',['../structFftwChunkY.html',1,'']]],

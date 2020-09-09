@@ -1,8 +1,6 @@
 var searchData=
 [
   ['schurdomainop',['SchurDomainOp',['../classThunderEgg_1_1SchurDomainOp.html',1,'ThunderEgg']]],
-  ['schurhelper',['SchurHelper',['../classThunderEgg_1_1Schur_1_1SchurHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurhelpervg',['SchurHelperVG',['../classThunderEgg_1_1Schur_1_1SchurHelperVG.html',1,'ThunderEgg::Schur']]],
   ['schurmatrixhelper',['SchurMatrixHelper',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper.html',1,'ThunderEgg::Schur']]],
   ['schurmatrixhelper2d',['SchurMatrixHelper2d',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper2d.html',1,'ThunderEgg::Schur']]],
   ['schurwrapop',['SchurWrapOp',['../classThunderEgg_1_1Schur_1_1SchurWrapOp.html',1,'ThunderEgg::Schur']]],

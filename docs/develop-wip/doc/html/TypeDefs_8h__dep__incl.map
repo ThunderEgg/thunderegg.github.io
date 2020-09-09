@@ -26,8 +26,8 @@
 <area shape="rect" id="node34" href="$MatrixHelper_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Poisson\l/MatrixHelper.h" alt="" coords="2156,451,2340,521"/>
 <area shape="rect" id="node35" href="$MatrixHelper2d_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Poisson\l/MatrixHelper2d.h" alt="" coords="2364,451,2548,521"/>
 <area shape="rect" id="node36" href="$IfaceMatrixHelper_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/IfaceMatrixHelper.h" alt="" coords="2572,451,2756,521"/>
-<area shape="rect" id="node37" href="$PolyChebPrec_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/PolyChebPrec.h" alt="" coords="3971,688,4155,759"/>
-<area shape="rect" id="node38" href="$SchurHelper_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/SchurHelper.h" alt="" coords="4299,569,4483,640"/>
+<area shape="rect" id="node37" href="$InterfaceDomain_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/InterfaceDomain.h" alt="" coords="4299,569,4483,640"/>
+<area shape="rect" id="node39" href="$PolyChebPrec_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/PolyChebPrec.h" alt="" coords="3971,688,4155,759"/>
 <area shape="rect" id="node6" href="$DomGen_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Experimental\l/DomGen.h" alt="" coords="3766,569,3983,640"/>
 <area shape="rect" id="node7" href="$P4estDomGen_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/P4estDomGen.h" alt="" coords="3507,577,3741,633"/>
 <area shape="rect" id="node9" href="$Poisson_2StarPatchOperator_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Poisson\l/StarPatchOperator.h" alt="" coords="2405,569,2589,640"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node28" href="$TriLinearGhostFiller_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/TriLinearGhost\lFiller.h" alt="" coords="1643,569,1866,640"/>
 <area shape="rect" id="node25" href="$VCycle_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/VCycle.h" alt="" coords="1405,695,1627,751"/>
 <area shape="rect" id="node32" href="$FFTWPatchSolver_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Poisson\l/FFTWPatchSolver.h" alt="" coords="3091,569,3275,640"/>
-<area shape="rect" id="node39" href="$FFTBlockJacobiSmoother_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/FFTBlock\lJacobiSmoother.h" alt="" coords="4658,688,4881,759"/>
+<area shape="rect" id="node38" href="$FFTBlockJacobiSmoother_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/FFTBlock\lJacobiSmoother.h" alt="" coords="4658,688,4881,759"/>
 <area shape="rect" id="node40" href="$SchurMatrixHelper_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/SchurMatrixHelper.h" alt="" coords="4905,688,5089,759"/>
 <area shape="rect" id="node41" href="$SchurMatrixHelper2d_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/SchurMatrixHelper2d.h" alt="" coords="5113,688,5297,759"/>
 <area shape="rect" id="node42" href="$SchurWrapOp_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Schur\l/SchurWrapOp.h" alt="" coords="4179,688,4363,759"/>

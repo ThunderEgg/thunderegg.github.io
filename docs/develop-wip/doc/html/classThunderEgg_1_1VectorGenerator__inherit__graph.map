@@ -1,4 +1,4 @@
 <map id="ThunderEgg::VectorGenerator&lt; D &gt;" name="ThunderEgg::VectorGenerator&lt; D &gt;">
-<area shape="rect" id="node2" href="$classThunderEgg_1_1Schur_1_1SchurHelperVG.html" title="ThunderEgg::Schur::\lSchurHelperVG\&lt; D \&gt;" alt="" coords="5,80,165,121"/>
-<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. " alt="" coords="190,87,463,114"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1Schur_1_1InterfaceDomainVG.html" title="ThunderEgg::Schur::\lInterfaceDomainVG\&lt; D \&gt;" alt="" coords="5,80,196,121"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. " alt="" coords="220,87,493,114"/>
 </map>

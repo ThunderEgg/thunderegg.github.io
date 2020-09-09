@@ -15,7 +15,7 @@ var searchData=
   ['pcshellcreator',['PCShellCreator',['../classThunderEgg_1_1PETSc_1_1PCShellCreator.html',1,'ThunderEgg::PETSc']]],
   ['piinfo',['piinfo',['../structThunderEgg_1_1Schur_1_1Interface_1_1SideTypePiinfo.html#acfd7949c51d785d1c9cfc292e80f1d84',1,'ThunderEgg::Schur::Interface::SideTypePiinfo']]],
   ['pinfo',['pinfo',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a78a05f066204a51a7da3ecaf529cd75f',1,'ThunderEgg::Schur::PatchIfaceInfo']]],
-  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html',1,'ThunderEgg::Schur::PolyChebPrec'],['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html#a6c4190f4b42397ed6e9f96a276d0a78d',1,'ThunderEgg::Schur::PolyChebPrec::PolyChebPrec()']]],
+  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html',1,'ThunderEgg::Schur::PolyChebPrec'],['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html#a51ab35b0a0d9fb23526949188e8d96f6',1,'ThunderEgg::Schur::PolyChebPrec::PolyChebPrec()']]],
   ['post_5fsweeps',['post_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a4c3f50e3d2915fa3ecd0fa2344db1326',1,'ThunderEgg::GMG::CycleOpts']]],
   ['pre_5fsweeps',['pre_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a734dad3e94d3b8e7458b0c070dac7109',1,'ThunderEgg::GMG::CycleOpts']]],
   ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],
