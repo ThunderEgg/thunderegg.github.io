@@ -189,7 +189,7 @@ Parsing file /home/travis/build/ThunderE/home/travis/build/ThunderEgg/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:111: warning: Compound ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:35: warning: Compound ThunderEgg::Schur::SchurMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SchurDomainOp.h:32: warning: Compound ThunderEgg::SchurDomainOp is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:477: warning: Compound ThunderEgg::Schur::InterfaceDomainVG is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:732: warning: Compound ThunderEgg::Schur::InterfaceDomainVG is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:52: warning: Compound ThunderEgg::NestedLoop is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:31: warning: Compound ThunderEgg::Poisson::StencilHelper2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:41: warning: Compound ThunderEgg::Poisson::DirichletSH2d is not documented.
@@ -589,14 +589,14 @@ Generating do/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimenta
   parameter 'ilc_in'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:47: warning: Member VecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:48: warning: Member ConstVecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/VCycle.h:72: warning: The following parameters of ThunderEgg::GMG::VCycle::VCycle(std::shared_ptr< Level< D >> finest_level, const CycleOpts &opts) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/VCycle.h:74: warning: The following parameters of ThunderEgg::GMG::VCycle::VCycle(std::shared_ptr< Level< D >> finest_level, const CycleOpts &opts) are not documented:
   parameter 'opts'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/VCycle.h:46: warning: The following parameters of ThunderEgg::GMG::VCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
   parameter 'f_vectors'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:47: warning: Member VecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:48: warning: Member ConstVecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:78: warning: The following parameters of ThunderEgg::GMG::WCycle::WCycle(std::shared_ptr< Level< D >> finest_level, const CycleOpts &opts) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:80: warning: The following parameters of ThunderEgg::GMG::WCycle::WCycle(std::shared_ptr< Level< D >> finest_level, const CycleOpts &opts) are not documented:
   parameter 'opts'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:47: warning: The following parameters of ThunderEgg::GMG::WCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
@@ -643,18 +643,11 @@ Generating do/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimenta
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:117: warning: argument 'orthant' of command @param is not found in the argument list of ThunderEgg::Schur::IfaceType< D >::FineToFine(Orthant< D - 1 > orth_on_coarse)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceType.h:126: warning: The following parameters of ThunderEgg::Schur::IfaceType::FineToFine(Orthant< D - 1 > orth_on_coarse) are not documented:
   parameter 'orth_on_coarse'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:372: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:406: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:439: warning: Member getNewSchurVec() (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:444: warning: Member getNewSchurDistVec() (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:450: warning: Member getSchurVecLocalSize() const (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:454: warning: Member getSchurVecGlobalSize() const (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:459: warning: Member getIfaces() const (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:463: warning: Member getLengths() const (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:467: warning: Member getPatchIfaceInfoVector() (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:471: warning: Member getDomain() (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:346: warning: argument 'comm' of command @param is not found in the argument list of ThunderEgg::Schur::InterfaceDomain< D >::InterfaceDomain(std::shared_ptr< Domain< D >> domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:482: warning: Member InterfaceDomainVG(std::shared_ptr< InterfaceDomain< D+1 >> sh) (function) of class ThunderEgg::Schur::InterfaceDomainVG is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:605: warning: Member updateInterfaceDist(std::shared_ptr< Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:639: warning: Member scatterInterfaceDist(std::shared_ptr< const Vector< D - 1 >> gamma) (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:672: warning: Member getNewGlobalInterfaceVector() (function) of class ThunderEgg::Schur::InterfaceDomain is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:567: warning: argument 'comm' of command @param is not found in the argument list of ThunderEgg::Schur::InterfaceDomain< D >::InterfaceDomain(std::shared_ptr< const Domain< D >> domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/InterfaceDomain.h:737: warning: Member InterfaceDomainVG(std::shared_ptr< InterfaceDomain< D+1 >> sh) (function) of class ThunderEgg::Schur::InterfaceDomainVG is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Schur::PolyChebPrec is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:44: warning: Member SchurMatrixHelper(std::shared_ptr< InterfaceDomain< 3 >> sh, void *solver) (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/SchurMatrixHelper.h:49: warning: Member formCRSMatrix() (function) of class ThunderEgg::Schur::SchurMatrixHelper is not documented.
@@ -1011,5 +1004,5 @@ Patching output file 72/75
 Patching output file 73/75
 Patching output file 74/75
 Patching output file 75/75
-lookup cache used 2386/65536 hits=26094 misses=2530
+lookup cache used 2387/65536 hits=26587 misses=2531
 finished...

@@ -77,42 +77,36 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa72cfaea2b33f322084db3f82aca1826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#aa72cfaea2b33f322084db3f82aca1826">InterfaceDomain</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
-<tr class="memdesc:aa72cfaea2b33f322084db3f82aca1826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given DomainCollection.  <a href="#aa72cfaea2b33f322084db3f82aca1826">More...</a><br /></td></tr>
-<tr class="separator:aa72cfaea2b33f322084db3f82aca1826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1880f13e447efe7f7a8c32f8390404d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a1880f13e447efe7f7a8c32f8390404d4">InterfaceDomain</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
+<tr class="memdesc:a1880f13e447efe7f7a8c32f8390404d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given DomainCollection.  <a href="#a1880f13e447efe7f7a8c32f8390404d4">More...</a><br /></td></tr>
+<tr class="separator:a1880f13e447efe7f7a8c32f8390404d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882878bcaab1a797a5cb553f5268ce12"><td class="memItemLeft" align="right" valign="top"><a id="a882878bcaab1a797a5cb553f5268ce12"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>updateInterfaceDist</b> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; gamma)</td></tr>
 <tr class="separator:a882878bcaab1a797a5cb553f5268ce12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a28a981cba60a21d892eb37b3e5f01e"><td class="memItemLeft" align="right" valign="top"><a id="a2a28a981cba60a21d892eb37b3e5f01e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>scatterInterfaceDist</b> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; gamma)</td></tr>
 <tr class="separator:a2a28a981cba60a21d892eb37b3e5f01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4271fe7f3ead9fdd97ab55eb27d7522b"><td class="memItemLeft" align="right" valign="top"><a id="a4271fe7f3ead9fdd97ab55eb27d7522b"></a>
-std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D - 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getNewSchurVec</b> ()</td></tr>
-<tr class="separator:a4271fe7f3ead9fdd97ab55eb27d7522b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e721ff14f0bc206582860e751570e07"><td class="memItemLeft" align="right" valign="top"><a id="a3e721ff14f0bc206582860e751570e07"></a>
-std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D - 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getNewSchurDistVec</b> ()</td></tr>
-<tr class="separator:a3e721ff14f0bc206582860e751570e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3b77515f955efcdaea860ffd073ae18"><td class="memItemLeft" align="right" valign="top"><a id="aa3b77515f955efcdaea860ffd073ae18"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getSchurVecLocalSize</b> () const</td></tr>
-<tr class="separator:aa3b77515f955efcdaea860ffd073ae18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a221a98ab64fdc3306efd9470222b4"><td class="memItemLeft" align="right" valign="top"><a id="a44a221a98ab64fdc3306efd9470222b4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getSchurVecGlobalSize</b> () const</td></tr>
-<tr class="separator:a44a221a98ab64fdc3306efd9470222b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b77f149aab80d11b590ec537fe6228"><td class="memItemLeft" align="right" valign="top"><a id="a83b77f149aab80d11b590ec537fe6228"></a>
-const std::map&lt; int, <a class="el" href="classThunderEgg_1_1Schur_1_1Interface.html">Interface</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getIfaces</b> () const</td></tr>
-<tr class="separator:a83b77f149aab80d11b590ec537fe6228"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac675a8fab640d5fb6950c788dda18547"><td class="memItemLeft" align="right" valign="top"><a id="ac675a8fab640d5fb6950c788dda18547"></a>
-const std::array&lt; int, D - 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getLengths</b> () const</td></tr>
-<tr class="separator:ac675a8fab640d5fb6950c788dda18547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d98914a7a43690ad6171b44641387cf"><td class="memItemLeft" align="right" valign="top"><a id="a2d98914a7a43690ad6171b44641387cf"></a>
-const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html">PatchIfaceInfo</a>&lt; D &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getPatchIfaceInfoVector</b> ()</td></tr>
-<tr class="separator:a2d98914a7a43690ad6171b44641387cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5cb68d4e4f8599e6486a366eca1411"><td class="memItemLeft" align="right" valign="top"><a id="aba5cb68d4e4f8599e6486a366eca1411"></a>
-std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getDomain</b> ()</td></tr>
-<tr class="separator:aba5cb68d4e4f8599e6486a366eca1411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dd5a5f975b063666eb8cf1d5f20f47a"><td class="memItemLeft" align="right" valign="top"><a id="a6dd5a5f975b063666eb8cf1d5f20f47a"></a>
+std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D - 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getNewGlobalInterfaceVector</b> ()</td></tr>
+<tr class="separator:a6dd5a5f975b063666eb8cf1d5f20f47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9313e5945117a127e08e971a99f7186b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a9313e5945117a127e08e971a99f7186b">getNumLocalInterfaces</a> () const</td></tr>
+<tr class="memdesc:a9313e5945117a127e08e971a99f7186b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local Interfaces on this rank.  <a href="#a9313e5945117a127e08e971a99f7186b">More...</a><br /></td></tr>
+<tr class="separator:a9313e5945117a127e08e971a99f7186b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add32dc59fe5155cd364aa55c7538d38b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#add32dc59fe5155cd364aa55c7538d38b">getNumGlobalInterfaces</a> () const</td></tr>
+<tr class="memdesc:add32dc59fe5155cd364aa55c7538d38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of Interfaces on all ranks.  <a href="#add32dc59fe5155cd364aa55c7538d38b">More...</a><br /></td></tr>
+<tr class="separator:add32dc59fe5155cd364aa55c7538d38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631ca840a61dccc51f643e830a1393c5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Schur_1_1Interface.html">Interface</a>&lt; D &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a631ca840a61dccc51f643e830a1393c5">getInterfaces</a> () const</td></tr>
+<tr class="memdesc:a631ca840a61dccc51f643e830a1393c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector Interfaces objects for this rank.  <a href="#a631ca840a61dccc51f643e830a1393c5">More...</a><br /></td></tr>
+<tr class="separator:a631ca840a61dccc51f643e830a1393c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274d7910541fc7841f26dffee37b0e9e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html">PatchIfaceInfo</a>&lt; D &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a274d7910541fc7841f26dffee37b0e9e">getPatchIfaceInfos</a> () const</td></tr>
+<tr class="memdesc:a274d7910541fc7841f26dffee37b0e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects for this rank.  <a href="#a274d7910541fc7841f26dffee37b0e9e">More...</a><br /></td></tr>
+<tr class="separator:a274d7910541fc7841f26dffee37b0e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf1cf1e543b577f58dec602189ab811"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#addf1cf1e543b577f58dec602189ab811">getDomain</a> () const</td></tr>
+<tr class="memdesc:addf1cf1e543b577f58dec602189ab811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>.  <a href="#addf1cf1e543b577f58dec602189ab811">More...</a><br /></td></tr>
+<tr class="separator:addf1cf1e543b577f58dec602189ab811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;size_t D&gt;<br />
+<div class="textblock"><h3>template&lt;int D&gt;<br />
 class ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</h3>
 
 <p>Represents the Schur compliment domain of the problem. </p>
@@ -124,13 +118,13 @@ class ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa72cfaea2b33f322084db3f82aca1826"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa72cfaea2b33f322084db3f82aca1826">&#9670;&nbsp;</a></span>InterfaceDomain()</h2>
+<a id="a1880f13e447efe7f7a8c32f8390404d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1880f13e447efe7f7a8c32f8390404d4">&#9670;&nbsp;</a></span>InterfaceDomain()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t D&gt; </div>
+template&lt;int D&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -138,14 +132,14 @@ template&lt;size_t D&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">InterfaceDomain</a> </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
           <td class="paramname"><em>domain</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -158,6 +152,159 @@ template&lt;size_t D&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="addf1cf1e543b577f58dec602189ab811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf1cf1e543b577f58dec602189ab811">&#9670;&nbsp;</a></span>getDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::getDomain </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;Domain&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object </dd></dl>
+
+</div>
+</div>
+<a id="a631ca840a61dccc51f643e830a1393c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631ca840a61dccc51f643e830a1393c5">&#9670;&nbsp;</a></span>getInterfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classThunderEgg_1_1Schur_1_1Interface.html">Interface</a>&lt;D&gt; &gt; &gt; <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::getInterfaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vector Interfaces objects for this rank. </p>
+<p>The location of each <a class="el" href="classThunderEgg_1_1Schur_1_1Interface.html" title="This is a set of PatchIfaceInfo objects for an interface. ">Interface</a> in the vector will coorespond to the Interafce's local index</p>
+<dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;std::shared_ptr&lt;const Interface&lt;D&gt;&gt;&gt; the vector of <a class="el" href="classThunderEgg_1_1Schur_1_1Interface.html" title="This is a set of PatchIfaceInfo objects for an interface. ">Interface</a> objects </dd></dl>
+
+</div>
+</div>
+<a id="add32dc59fe5155cd364aa55c7538d38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add32dc59fe5155cd364aa55c7538d38b">&#9670;&nbsp;</a></span>getNumGlobalInterfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::getNumGlobalInterfaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of Interfaces on all ranks. </p>
+<dl class="section return"><dt>Returns</dt><dd>int the number of Interfaces on all ranks </dd></dl>
+
+</div>
+</div>
+<a id="a9313e5945117a127e08e971a99f7186b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9313e5945117a127e08e971a99f7186b">&#9670;&nbsp;</a></span>getNumLocalInterfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::getNumLocalInterfaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the number of local Interfaces on this rank. </p>
+<dl class="section return"><dt>Returns</dt><dd>int the number of local Interfaces </dd></dl>
+
+</div>
+</div>
+<a id="a274d7910541fc7841f26dffee37b0e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a274d7910541fc7841f26dffee37b0e9e">&#9670;&nbsp;</a></span>getPatchIfaceInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;std::shared_ptr&lt;const <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html">PatchIfaceInfo</a>&lt;D&gt; &gt; &gt;&amp; <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html">ThunderEgg::Schur::InterfaceDomain</a>&lt; D &gt;::getPatchIfaceInfos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vector <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects for this rank. </p>
+<p>The location of each <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> in the vector will coorespond to the patch's local index</p>
+<dl class="section return"><dt>Returns</dt><dd>const std::vector&lt;std::shared_ptr&lt;const PatchIfaceInfo&lt;D&gt;&gt;&gt;&amp; the vector of <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects </dd></dl>
 
 </div>
 </div>
