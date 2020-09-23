@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['matrixhelper',['MatrixHelper',['../classThunderEgg_1_1Poisson_1_1MatrixHelper.html',1,'ThunderEgg::Poisson']]],
-  ['matrixhelper2d',['MatrixHelper2d',['../classThunderEgg_1_1Poisson_1_1MatrixHelper2d.html',1,'ThunderEgg::Poisson']]],
-  ['matshellcreator',['MatShellCreator',['../classThunderEgg_1_1PETSc_1_1MatShellCreator.html',1,'ThunderEgg::PETSc']]],
-  ['matwrapper',['MatWrapper',['../classThunderEgg_1_1PETSc_1_1MatWrapper.html',1,'ThunderEgg::PETSc']]],
-  ['mpighostfiller',['MPIGhostFiller',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpighostfiller_3c_202_20_3e',['MPIGhostFiller&lt; 2 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpighostfiller_3c_203_20_3e',['MPIGhostFiller&lt; 3 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpiinterpolator',['MPIInterpolator',['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html',1,'ThunderEgg::GMG']]],
-  ['mpirestrictor',['MPIRestrictor',['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html',1,'ThunderEgg::GMG']]]
+  ['nbrinfo',['NbrInfo',['../classThunderEgg_1_1NbrInfo.html',1,'ThunderEgg']]],
+  ['nestedloop',['NestedLoop',['../classThunderEgg_1_1NestedLoop.html',1,'ThunderEgg']]],
+  ['nestedloop_3c_200_2c_20_2d1_2c_20t_2c_20a_20_3e',['NestedLoop&lt; 0, -1, T, A &gt;',['../classThunderEgg_1_1NestedLoop_3_010_00_01-1_00_01T_00_01A_01_4.html',1,'ThunderEgg']]],
+  ['nestedloop_3c_20d_2c_200_2c_20t_2c_20a_20_3e',['NestedLoop&lt; D, 0, T, A &gt;',['../classThunderEgg_1_1NestedLoop_3_01D_00_010_00_01T_00_01A_01_4.html',1,'ThunderEgg']]],
+  ['neumannsh',['NeumannSH',['../classThunderEgg_1_1Poisson_1_1NeumannSH.html',1,'ThunderEgg::Poisson']]],
+  ['neumannsh2d',['NeumannSH2d',['../classThunderEgg_1_1Poisson_1_1NeumannSH2d.html',1,'ThunderEgg::Poisson']]],
+  ['node',['Node',['../structThunderEgg_1_1Experimental_1_1Node.html',1,'ThunderEgg::Experimental']]],
+  ['normalifaceinfo',['NormalIfaceInfo',['../classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html',1,'ThunderEgg::Schur']]],
+  ['normalnbrinfo',['NormalNbrInfo',['../classThunderEgg_1_1NormalNbrInfo.html',1,'ThunderEgg']]],
+  ['normalsh',['NormalSH',['../classThunderEgg_1_1Poisson_1_1NormalSH.html',1,'ThunderEgg::Poisson']]],
+  ['normalsh2d',['NormalSH2d',['../classThunderEgg_1_1Poisson_1_1NormalSH2d.html',1,'ThunderEgg::Poisson']]]
 ];
