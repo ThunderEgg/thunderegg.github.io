@@ -3,6 +3,8 @@ var searchData=
   ['scale',['scale',['../classThunderEgg_1_1Vector.html#a6877616af4a704251f55b4532aaf0701',1,'ThunderEgg::Vector']]],
   ['scalethenadd',['scaleThenAdd',['../classThunderEgg_1_1Vector.html#a4d0f414538d5cd5bca4a470a1c63f02a',1,'ThunderEgg::Vector']]],
   ['scalethenaddscaled',['scaleThenAddScaled',['../classThunderEgg_1_1Vector.html#a0ba120974316e6f8c7ed10226ee58613',1,'ThunderEgg::Vector::scaleThenAddScaled(double alpha, double beta, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; b)'],['../classThunderEgg_1_1Vector.html#a1554db2c675b3051137841dc0e97c24c',1,'ThunderEgg::Vector::scaleThenAddScaled(double alpha, double beta, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; b, double gamma, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; c)']]],
+  ['scatterfinish',['scatterFinish',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#a1ac4653eb2082040962415a402523d42',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
+  ['scatterstart',['scatterStart',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#afbfdba6505455eb7a49de7b9dc60debf',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
   ['schurdomainop',['SchurDomainOp',['../classThunderEgg_1_1SchurDomainOp.html#a1dd94c6bfa3bde250ba690ac38e63911',1,'ThunderEgg::SchurDomainOp']]],
   ['se',['se',['../classThunderEgg_1_1Orthant.html#a39b6429ab5ea1b015379bfd5895f7a05',1,'ThunderEgg::Orthant']]],
   ['sendghostpatchesfinish',['sendGhostPatchesFinish',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#afd3874fe4209c481c93792b03fcc9c2f',1,'ThunderEgg::GMG::InterLevelComm']]],

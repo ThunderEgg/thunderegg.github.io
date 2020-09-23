@@ -7,6 +7,7 @@ var searchData=
   ['_7elocaldatamanager',['~LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html#a51a51184c909a9eb9f5fcc5c15b2e17a',1,'ThunderEgg::LocalDataManager']]],
   ['_7enbrinfo',['~NbrInfo',['../classThunderEgg_1_1NbrInfo.html#afbc8023c274d906987aada0239822044',1,'ThunderEgg::NbrInfo']]],
   ['_7eoperator',['~Operator',['../classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047',1,'ThunderEgg::Operator']]],
+  ['_7epatchifacescatter',['~PatchIfaceScatter',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#a57cf6de0fdf1c0fc1bcfbb20f2b18ec8',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
   ['_7epatchoperator',['~PatchOperator',['../classThunderEgg_1_1PatchOperator.html#a944b92b49d15750cb796ce6589be1b7b',1,'ThunderEgg::PatchOperator']]],
   ['_7epatchsolver',['~PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a83c9b911317e4e29e7ec0182d5796ff2',1,'ThunderEgg::PatchSolver']]],
   ['_7erestrictor',['~Restrictor',['../classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11',1,'ThunderEgg::GMG::Restrictor']]],

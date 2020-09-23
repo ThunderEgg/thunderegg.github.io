@@ -2,6 +2,7 @@ var searchData=
 [
   ['p4estdomgen',['P4estDomGen',['../classThunderEgg_1_1P4estDomGen.html',1,'ThunderEgg']]],
   ['patchifaceinfo',['PatchIfaceInfo',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html',1,'ThunderEgg::Schur']]],
+  ['patchifacescatter',['PatchIfaceScatter',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html',1,'ThunderEgg::Schur']]],
   ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html',1,'ThunderEgg']]],
   ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html',1,'ThunderEgg']]],
   ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg']]],
