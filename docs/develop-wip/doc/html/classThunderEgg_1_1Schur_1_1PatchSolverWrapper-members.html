@@ -58,21 +58,22 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><b>Schur</b></li><li class="navelem"><a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html">SchurWrapOp</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><b>Schur</b></li><li class="navelem"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html">PatchSolverWrapper</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">ThunderEgg::Schur::SchurWrapOp&lt; D &gt; Member List</div>  </div>
+<div class="title">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html">ThunderEgg::Schur::SchurWrapOp&lt; D &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html#a36c50d2b07bab68a12df71fd0d95dc10">apply</a>(std::shared_ptr&lt; const Vector&lt; D - 1 &gt;&gt; x, std::shared_ptr&lt; Vector&lt; D - 1 &gt;&gt; b) const</td><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html">ThunderEgg::Schur::SchurWrapOp&lt; D &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#aed3720a09a0f44ebae6b53e549eddfaf">apply</a>(std::shared_ptr&lt; const Vector&lt; D - 1 &gt;&gt; x, std::shared_ptr&lt; Vector&lt; D - 1 &gt;&gt; b) const override</td><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html#a177aea0566939e97c5d510a6948fcc73">Operator&lt; D - 1 &gt;::apply</a>(std::shared_ptr&lt; const Vector&lt; D &gt;&gt; x, std::shared_ptr&lt; Vector&lt; D &gt;&gt; b) const=0</td><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html">ThunderEgg::Operator&lt; D - 1 &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SchurWrapOp</b>(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; InterfaceDomain&lt; D &gt;&gt; sh, std::shared_ptr&lt; PatchSolver&lt; D &gt;&gt; solver, std::shared_ptr&lt; IfaceInterp&lt; D &gt;&gt; interp) (defined in <a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html">ThunderEgg::Schur::SchurWrapOp&lt; D &gt;</a>)</td><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1SchurWrapOp.html">ThunderEgg::Schur::SchurWrapOp&lt; D &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047">~Operator</a>()</td><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html">ThunderEgg::Operator&lt; D - 1 &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a173fa6bf14fcfeb495112963e737585d">getSchurRHSFromDomainRHS</a>(std::shared_ptr&lt; const Vector&lt; D &gt;&gt; domain_b, std::shared_ptr&lt; Vector&lt; D - 1 &gt;&gt; schur_b) const</td><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a8097a6e9f2baa0b1036149f85dfc605f">PatchSolverWrapper</a>(std::shared_ptr&lt; const InterfaceDomain&lt; D &gt;&gt; iface_domain, std::shared_ptr&lt; const PatchSolver&lt; D &gt;&gt; solver)</td><td class="entry"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047">~Operator</a>()</td><td class="entry"><a class="el" href="classThunderEgg_1_1Operator.html">ThunderEgg::Operator&lt; D - 1 &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

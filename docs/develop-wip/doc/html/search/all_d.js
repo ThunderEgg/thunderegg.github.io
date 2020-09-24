@@ -12,6 +12,7 @@ var searchData=
   ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html',1,'ThunderEgg::PatchInfo&lt; D &gt;'],['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo::PatchInfo()']]],
   ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html',1,'ThunderEgg::PatchOperator&lt; D &gt;'],['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator::PatchOperator()']]],
   ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html',1,'ThunderEgg::PatchSolver&lt; D &gt;'],['../classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e',1,'ThunderEgg::PatchSolver::PatchSolver()']]],
+  ['patchsolverwrapper',['PatchSolverWrapper',['../classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html',1,'ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a8097a6e9f2baa0b1036149f85dfc605f',1,'ThunderEgg::Schur::PatchSolverWrapper::PatchSolverWrapper()']]],
   ['pblock',['PBlock',['../structThunderEgg_1_1Experimental_1_1PBMatrix_1_1PBlock.html',1,'ThunderEgg::Experimental::PBMatrix']]],
   ['pbmatrix',['PBMatrix',['../classThunderEgg_1_1Experimental_1_1PBMatrix.html',1,'ThunderEgg::Experimental']]],
   ['pcshellcreator',['PCShellCreator',['../classThunderEgg_1_1PETSc_1_1PCShellCreator.html',1,'ThunderEgg::PETSc']]],

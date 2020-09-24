@@ -7,7 +7,6 @@ var searchData=
   ['scatterstart',['scatterStart',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#afbfdba6505455eb7a49de7b9dc60debf',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
   ['schurmatrixhelper',['SchurMatrixHelper',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper.html',1,'ThunderEgg::Schur']]],
   ['schurmatrixhelper2d',['SchurMatrixHelper2d',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper2d.html',1,'ThunderEgg::Schur']]],
-  ['schurwrapop',['SchurWrapOp',['../classThunderEgg_1_1Schur_1_1SchurWrapOp.html',1,'ThunderEgg::Schur']]],
   ['se',['se',['../classThunderEgg_1_1Orthant.html#a39b6429ab5ea1b015379bfd5895f7a05',1,'ThunderEgg::Orthant']]],
   ['sendghostpatchesfinish',['sendGhostPatchesFinish',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#afd3874fe4209c481c93792b03fcc9c2f',1,'ThunderEgg::GMG::InterLevelComm']]],
   ['sendghostpatchesstart',['sendGhostPatchesStart',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#abe239456ee1960f71a0876f540f32a84',1,'ThunderEgg::GMG::InterLevelComm']]],
