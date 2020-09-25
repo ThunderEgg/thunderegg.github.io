@@ -1,7 +1,6 @@
 var searchData=
 [
   ['schurmatrixhelper',['SchurMatrixHelper',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurmatrixhelper2d',['SchurMatrixHelper2d',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper2d.html',1,'ThunderEgg::Schur']]],
   ['serializable',['Serializable',['../classThunderEgg_1_1Serializable.html',1,'ThunderEgg']]],
   ['side',['Side',['../classThunderEgg_1_1Side.html',1,'ThunderEgg']]],
   ['sidetypepiinfo',['SideTypePiinfo',['../classThunderEgg_1_1Schur_1_1Interface_1_1SideTypePiinfo.html',1,'ThunderEgg::Schur::Interface']]],
