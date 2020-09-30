@@ -445,6 +445,10 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/SimpleGhostFiller.h:37: warning: Member domain (variable) of class ThunderEgg::SimpleGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:37: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const LocalData< 3 > &local_data, const LocalData< 3 > &nbr_data, const Side< 3 > side, const NbrType nbr_type, const Orthant< 3 > orthant) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:42: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const LocalData< 3 > &local_data) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h:87: warning: The following parameters of ThunderEgg::ValVector::ValVector(MPI_Comm comm, const std::array< int, D > &lengths, int num_ghost_cells, int num_components, int num_patches) are not documented:
+  parameter 'num_components'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
 Generator.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/VecWrapperGenerator.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
@@ -552,9 +556,9 @@ Generat/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMa
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp.h:78: warning: argument 'ilc' of command @param is not found in the argument list of ThunderEgg::GMG::DrctIntp< D >::DrctIntp(std::shared_ptr< InterLevelComm< D >> ilc_in)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp.h:82: warning: The following parameters of ThunderEgg::GMG::DrctIntp::DrctIntp(std::shared_ptr< InterLevelComm< D >> ilc_in) are not documented:
   parameter 'ilc_in'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:104: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:104: warning: argument 'fine_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:109: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'fine_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:113: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
   parameter 'coarser_domain'
   parameter 'finer_domain'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:76: warning: argument 'dc' of command @param is not found in the argument list of ThunderEgg::GMG::Level< D >::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg)
@@ -585,6 +589,11 @@ Generat/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMa
   parameter 'u_vectors'
   parameter 'f_vectors'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:196: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:177: warning: The following parameters of ThunderEgg::PETSc::VecWrapper::getLocalData(int component_index, int patch_local_index) are not documented:
+  parameter 'component_index'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:190: warning: The following parameters of ThunderEgg::PETSc::VecWrapper::getLocalData(int component_index, int patch_local_index) const are not documented:
+  parameter 'component_index'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:223: warning: Member CoarseSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:269: warning: Member row(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:273: warning: Member size(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
@@ -971,5 +980,5 @@ Patching output file 71/74
 Patching output file 72/74
 Patching output file 73/74
 Patching output file 74/74
-lookup cache used 2404/65536 hits=27180 misses=2546
+lookup cache used 2408/65536 hits=27232 misses=2550
 finished...
