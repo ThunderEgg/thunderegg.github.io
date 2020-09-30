@@ -1,19 +1,11 @@
 var searchData=
 [
-  ['schurdomainop',['SchurDomainOp',['../classThunderEgg_1_1SchurDomainOp.html',1,'ThunderEgg']]],
-  ['schurhelper',['SchurHelper',['../classThunderEgg_1_1Schur_1_1SchurHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurhelpervg',['SchurHelperVG',['../classThunderEgg_1_1Schur_1_1SchurHelperVG.html',1,'ThunderEgg::Schur']]],
-  ['schurinfo',['SchurInfo',['../structThunderEgg_1_1Schur_1_1SchurInfo.html',1,'ThunderEgg::Schur']]],
-  ['schurmatrixhelper',['SchurMatrixHelper',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper.html',1,'ThunderEgg::Schur']]],
-  ['schurmatrixhelper2d',['SchurMatrixHelper2d',['../classThunderEgg_1_1Schur_1_1SchurMatrixHelper2d.html',1,'ThunderEgg::Schur']]],
-  ['schurwrapop',['SchurWrapOp',['../classThunderEgg_1_1Schur_1_1SchurWrapOp.html',1,'ThunderEgg::Schur']]],
-  ['schwarzprec',['SchwarzPrec',['../classThunderEgg_1_1SchwarzPrec.html',1,'ThunderEgg']]],
-  ['serializable',['Serializable',['../classThunderEgg_1_1Serializable.html',1,'ThunderEgg']]],
-  ['sevenptpatchoperator',['SevenPtPatchOperator',['../classThunderEgg_1_1Poisson_1_1Schur_1_1SevenPtPatchOperator.html',1,'ThunderEgg::Poisson::Schur']]],
-  ['side',['Side',['../classThunderEgg_1_1Side.html',1,'ThunderEgg']]],
-  ['simpleghostfiller',['SimpleGhostFiller',['../classThunderEgg_1_1SimpleGhostFiller.html',1,'ThunderEgg']]],
-  ['smoother',['Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html',1,'ThunderEgg::GMG']]],
-  ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html',1,'ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;'],['../classThunderEgg_1_1Poisson_1_1Schur_1_1StarPatchOperator.html',1,'ThunderEgg::Poisson::Schur::StarPatchOperator&lt; D &gt;']]],
-  ['stencilhelper',['StencilHelper',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html',1,'ThunderEgg::Poisson']]],
-  ['stencilhelper2d',['StencilHelper2d',['../classThunderEgg_1_1Poisson_1_1StencilHelper2d.html',1,'ThunderEgg::Poisson']]]
+  ['valvector',['ValVector',['../classThunderEgg_1_1ValVector.html',1,'ThunderEgg']]],
+  ['valvectorgenerator',['ValVectorGenerator',['../classThunderEgg_1_1ValVectorGenerator.html',1,'ThunderEgg::ValVectorGenerator&lt; D &gt;'],['../classThunderEgg_1_1Schur_1_1ValVectorGenerator.html',1,'ThunderEgg::Schur::ValVectorGenerator&lt; D &gt;']]],
+  ['vcycle',['VCycle',['../classThunderEgg_1_1GMG_1_1VCycle.html',1,'ThunderEgg::GMG']]],
+  ['veclocaldatamanager',['VecLocalDataManager',['../classThunderEgg_1_1PETSc_1_1VecLocalDataManager.html',1,'ThunderEgg::PETSc']]],
+  ['vector',['Vector',['../classThunderEgg_1_1Vector.html',1,'ThunderEgg']]],
+  ['vectorgenerator',['VectorGenerator',['../classThunderEgg_1_1VectorGenerator.html',1,'ThunderEgg']]],
+  ['vecwrapper',['VecWrapper',['../classThunderEgg_1_1PETSc_1_1VecWrapper.html',1,'ThunderEgg::PETSc']]],
+  ['vecwrappergenerator',['VecWrapperGenerator',['../classThunderEgg_1_1Schur_1_1VecWrapperGenerator.html',1,'ThunderEgg::Schur']]]
 ];

@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#a9828b8ea3d8c8a8b41b7efec877f975a">solveSinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const override</td></tr>
 <tr class="memdesc:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single solve over a patch.  <a href="#a9828b8ea3d8c8a8b41b7efec877f975a">More...</a><br /></td></tr>
 <tr class="separator:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbc86bbb378d309864d8f540240fab53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#adbc86bbb378d309864d8f540240fab53">addPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo)</td></tr>
+<tr class="memdesc:adbc86bbb378d309864d8f540240fab53"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a patch to the solver  <a href="#adbc86bbb378d309864d8f540240fab53">More...</a><br /></td></tr>
+<tr class="separator:adbc86bbb378d309864d8f540240fab53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classThunderEgg_1_1PatchSolver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThunderEgg_1_1PatchSolver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classThunderEgg_1_1PatchSolver.html">ThunderEgg::PatchSolver&lt; D &gt;</a></td></tr>
 <tr class="memitem:a1b3a09f8dc2b507b7acbbff3d2d4871e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e">PatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html#a7afb6d30749f2a268896930a3096bcb0">domain</a>, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt; <a class="el" href="classThunderEgg_1_1PatchSolver.html#a457e72d6f857b6c66087c3752c4df253">ghost_filler</a>)</td></tr>
 <tr class="memdesc:a1b3a09f8dc2b507b7acbbff3d2d4871e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1PatchSolver.html" title="Solves the problem on the patches using a specified interface value. ">PatchSolver</a> object.  <a href="classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e">More...</a><br /></td></tr>
@@ -158,7 +161,7 @@ std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">Timer</a>
 <tr class="separator:a984d15ea55e0a00fd778b8c0fccde3c8 inherit pro_attribs_classThunderEgg_1_1PatchSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;size_t D&gt;<br />
+<div class="textblock"><h3>template&lt;int D&gt;<br />
 class ThunderEgg::Poisson::FFTWPatchSolver&lt; D &gt;</h3>
 
 <p>This patch solver uses FFT transforms to solve for the Poisson equation. </p>
@@ -175,7 +178,7 @@ class ThunderEgg::Poisson::FFTWPatchSolver&lt; D &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t D&gt; </div>
+template&lt;int D&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -206,13 +209,50 @@ template&lt;size_t D&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adbc86bbb378d309864d8f540240fab53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbc86bbb378d309864d8f540240fab53">&#9670;&nbsp;</a></span>addPatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html">ThunderEgg::Poisson::FFTWPatchSolver</a>&lt; D &gt;::addPatch </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>pinfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add a patch to the solver </p>
+<p>This will calculate the necessary coefficients needed for the patch</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pinfo</td><td>the patch </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9828b8ea3d8c8a8b41b7efec877f975a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9828b8ea3d8c8a8b41b7efec877f975a">&#9670;&nbsp;</a></span>solveSinglePatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t D&gt; </div>
+template&lt;int D&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['level',['Level',['../classThunderEgg_1_1GMG_1_1Level.html',1,'ThunderEgg::GMG']]],
-  ['linearrestrictor',['LinearRestrictor',['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html',1,'ThunderEgg::GMG']]],
-  ['localdata',['LocalData',['../classThunderEgg_1_1LocalData.html',1,'ThunderEgg']]],
-  ['localdatamanager',['LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html',1,'ThunderEgg']]],
-  ['loop',['Loop',['../classThunderEgg_1_1Loop.html',1,'ThunderEgg']]],
-  ['loop_3c_20start_2c_20start_2c_20t_20_3e',['Loop&lt; start, start, T &gt;',['../classThunderEgg_1_1Loop_3_01start_00_01start_00_01T_01_4.html',1,'ThunderEgg']]]
+  ['matrixhelper',['MatrixHelper',['../classThunderEgg_1_1Poisson_1_1MatrixHelper.html',1,'ThunderEgg::Poisson']]],
+  ['matrixhelper2d',['MatrixHelper2d',['../classThunderEgg_1_1Poisson_1_1MatrixHelper2d.html',1,'ThunderEgg::Poisson']]],
+  ['matshellcreator',['MatShellCreator',['../classThunderEgg_1_1PETSc_1_1MatShellCreator.html',1,'ThunderEgg::PETSc']]],
+  ['matwrapper',['MatWrapper',['../classThunderEgg_1_1PETSc_1_1MatWrapper.html',1,'ThunderEgg::PETSc']]],
+  ['mpighostfiller',['MPIGhostFiller',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
+  ['mpighostfiller_3c_202_20_3e',['MPIGhostFiller&lt; 2 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
+  ['mpighostfiller_3c_203_20_3e',['MPIGhostFiller&lt; 3 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
+  ['mpiinterpolator',['MPIInterpolator',['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html',1,'ThunderEgg::GMG']]],
+  ['mpirestrictor',['MPIRestrictor',['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html',1,'ThunderEgg::GMG']]]
 ];

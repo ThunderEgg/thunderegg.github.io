@@ -1,5 +1,21 @@
 var searchData=
 [
-  ['wcycle',['WCycle',['../classThunderEgg_1_1GMG_1_1WCycle.html',1,'ThunderEgg::GMG::WCycle&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1WCycle.html#abfd083c50236aaa3150119dbcb6f4b2c',1,'ThunderEgg::GMG::WCycle::WCycle()']]],
-  ['west',['west',['../classThunderEgg_1_1Side.html#a153217f55ac24df802636fb366cf41f6',1,'ThunderEgg::Side']]]
+  ['_7edomaingenerator',['~DomainGenerator',['../classThunderEgg_1_1DomainGenerator.html#af1fec1ab0d5e09c5996a6ca336ba6c0a',1,'ThunderEgg::DomainGenerator']]],
+  ['_7eifaceinfo',['~IfaceInfo',['../classThunderEgg_1_1Schur_1_1IfaceInfo.html#ac8ae6917b6ec2b8e29414b8584352e27',1,'ThunderEgg::Schur::IfaceInfo']]],
+  ['_7einterlevelcomm',['~InterLevelComm',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#a975b14015ff76fd3677e0484cb9240f0',1,'ThunderEgg::GMG::InterLevelComm']]],
+  ['_7einterpolator',['~Interpolator',['../classThunderEgg_1_1GMG_1_1Interpolator.html#acbb09ada4eac8e0554e3a7aba8ad1501',1,'ThunderEgg::GMG::Interpolator']]],
+  ['_7elocaldatamanager',['~LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html#a51a51184c909a9eb9f5fcc5c15b2e17a',1,'ThunderEgg::LocalDataManager']]],
+  ['_7enbrinfo',['~NbrInfo',['../classThunderEgg_1_1NbrInfo.html#afbc8023c274d906987aada0239822044',1,'ThunderEgg::NbrInfo']]],
+  ['_7eoperator',['~Operator',['../classThunderEgg_1_1Operator.html#ab39411e3930fc78b6fa990c63b7b3047',1,'ThunderEgg::Operator']]],
+  ['_7epatchifacescatter',['~PatchIfaceScatter',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#a57cf6de0fdf1c0fc1bcfbb20f2b18ec8',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
+  ['_7epatchoperator',['~PatchOperator',['../classThunderEgg_1_1PatchOperator.html#a944b92b49d15750cb796ce6589be1b7b',1,'ThunderEgg::PatchOperator']]],
+  ['_7epatchsolver',['~PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a83c9b911317e4e29e7ec0182d5796ff2',1,'ThunderEgg::PatchSolver']]],
+  ['_7erestrictor',['~Restrictor',['../classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11',1,'ThunderEgg::GMG::Restrictor']]],
+  ['_7eserializable',['~Serializable',['../classThunderEgg_1_1Serializable.html#a3b39aed7f11caf84cda71c529eae1460',1,'ThunderEgg::Serializable']]],
+  ['_7esmoother',['~Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html#a658ca92bced694154e23f7a8669941b0',1,'ThunderEgg::GMG::Smoother']]],
+  ['_7estencilhelper',['~StencilHelper',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html#ab373a277be9d4b44dee457d16651a74a',1,'ThunderEgg::Poisson::StencilHelper']]],
+  ['_7eveclocaldatamanager',['~VecLocalDataManager',['../classThunderEgg_1_1PETSc_1_1VecLocalDataManager.html#a521fdaa5019519161a5f9a1491f045cf',1,'ThunderEgg::PETSc::VecLocalDataManager']]],
+  ['_7evector',['~Vector',['../classThunderEgg_1_1Vector.html#a82611c6436f802530cf5147681edc645',1,'ThunderEgg::Vector']]],
+  ['_7evectorgenerator',['~VectorGenerator',['../classThunderEgg_1_1VectorGenerator.html#ac944e50dfa48a320b65b656dd616bb48',1,'ThunderEgg::VectorGenerator']]],
+  ['_7evecwrapper',['~VecWrapper',['../classThunderEgg_1_1PETSc_1_1VecWrapper.html#a9bf2fcf098ac617f99beeae272f6fe6b',1,'ThunderEgg::PETSc::VecWrapper']]]
 ];

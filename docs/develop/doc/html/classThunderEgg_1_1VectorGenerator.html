@@ -79,8 +79,9 @@ Inheritance diagram for ThunderEgg::VectorGenerator&lt; D &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classThunderEgg_1_1VectorGenerator__inherit__graph.png" border="0" usemap="#ThunderEgg_1_1VectorGenerator_3_01D_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="ThunderEgg_1_1VectorGenerator_3_01D_01_4_inherit__map" id="ThunderEgg_1_1VectorGenerator_3_01D_01_4_inherit__map">
-<area shape="rect" id="node2" href="classThunderEgg_1_1Schur_1_1SchurHelperVG.html" title="ThunderEgg::Schur::\lSchurHelperVG\&lt; D \&gt;" alt="" coords="5,80,165,121"/>
-<area shape="rect" id="node3" href="classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. " alt="" coords="190,87,463,114"/>
+<area shape="rect" id="node2" href="classThunderEgg_1_1Schur_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given InterfaceDomain. " alt="" coords="349,5,537,47"/>
+<area shape="rect" id="node3" href="classThunderEgg_1_1Schur_1_1VecWrapperGenerator.html" title="Generates new VecWrapper objects for a given InterfaceDomain. " alt="" coords="341,71,545,112"/>
+<area shape="rect" id="node4" href="classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. " alt="" coords="307,137,580,163"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -90,12 +91,12 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VectorGenerator.html#ac944e50dfa48a320b65b656dd616bb48">~VectorGenerator</a> ()</td></tr>
 <tr class="memdesc:ac944e50dfa48a320b65b656dd616bb48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1VectorGenerator.html" title="Generates temporary work vectors. ">VectorGenerator</a> object. <br /></td></tr>
 <tr class="separator:ac944e50dfa48a320b65b656dd616bb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4c28370c4cca0e168fa1056905bc9dc"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VectorGenerator.html#aa4c28370c4cca0e168fa1056905bc9dc">getNewVector</a> ()=0</td></tr>
-<tr class="memdesc:aa4c28370c4cca0e168fa1056905bc9dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a>.  <a href="#aa4c28370c4cca0e168fa1056905bc9dc">More...</a><br /></td></tr>
-<tr class="separator:aa4c28370c4cca0e168fa1056905bc9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91a47be91a9d89dfcfab52d0cb65a58"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VectorGenerator.html#aa91a47be91a9d89dfcfab52d0cb65a58">getNewVector</a> () const =0</td></tr>
+<tr class="memdesc:aa91a47be91a9d89dfcfab52d0cb65a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a>.  <a href="#aa91a47be91a9d89dfcfab52d0cb65a58">More...</a><br /></td></tr>
+<tr class="separator:aa91a47be91a9d89dfcfab52d0cb65a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;size_t D&gt;<br />
+<div class="textblock"><h3>template&lt;int D&gt;<br />
 class ThunderEgg::VectorGenerator&lt; D &gt;</h3>
 
 <p>Generates temporary work vectors. </p>
@@ -107,13 +108,13 @@ class ThunderEgg::VectorGenerator&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa4c28370c4cca0e168fa1056905bc9dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4c28370c4cca0e168fa1056905bc9dc">&#9670;&nbsp;</a></span>getNewVector()</h2>
+<a id="aa91a47be91a9d89dfcfab52d0cb65a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91a47be91a9d89dfcfab52d0cb65a58">&#9670;&nbsp;</a></span>getNewVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t D&gt; </div>
+template&lt;int D&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -122,7 +123,7 @@ template&lt;size_t D&gt; </div>
           <td class="memname">virtual std::shared_ptr&lt;<a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">ThunderEgg::VectorGenerator</a>&lt; D &gt;::getNewVector </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -135,7 +136,7 @@ template&lt;size_t D&gt; </div>
 <p>Get a new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;Vector&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a> </dd></dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1SchurHelperVG.html#a5c47abad28d89ea5fdc1254d10f9fd35">ThunderEgg::Schur::SchurHelperVG&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#aefdf868928313c7708651761dde40d5b">ThunderEgg::ValVectorGenerator&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1Schur_1_1ValVectorGenerator.html#a1f675c5b0cc7a219a6afbf4debd34b32">ThunderEgg::Schur::ValVectorGenerator&lt; D &gt;</a>, <a class="el" href="classThunderEgg_1_1Schur_1_1VecWrapperGenerator.html#a80b4ff216a1cc25d5c35d4c5f2a233a4">ThunderEgg::Schur::VecWrapperGenerator&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#afdf6cbde0f7dd9978504511756082b0d">ThunderEgg::ValVectorGenerator&lt; D &gt;</a>.</p>
 
 </div>
 </div>

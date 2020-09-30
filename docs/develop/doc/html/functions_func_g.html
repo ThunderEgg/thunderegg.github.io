@@ -70,6 +70,9 @@ $(function() {
 <li>getBCLocalIndex()
 : <a class="el" href="structThunderEgg_1_1PatchInfo.html#ac3ef84bf5eca996d1fcdd154371160b2">ThunderEgg::PatchInfo&lt; D &gt;</a>
 </li>
+<li>getCoarseIfaceInfo()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a1a9c3d729ffbb318beda761f4f242520">ThunderEgg::Schur::PatchIfaceInfo&lt; D &gt;</a>
+</li>
 <li>getCoarseNbrInfo()
 : <a class="el" href="structThunderEgg_1_1PatchInfo.html#ab5c9d7f4603d8fa3f2cc4a1e8c4ea5e0">ThunderEgg::PatchInfo&lt; D &gt;</a>
 </li>
@@ -91,6 +94,7 @@ $(function() {
 : <a class="el" href="classThunderEgg_1_1GMG_1_1Level.html#a762ced6ee33b5f7aa9ea1bb5cf15d63b">ThunderEgg::GMG::Level&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1PatchOperator.html#ac6172fb36c02814eccdc61e840e2e007">ThunderEgg::PatchOperator&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1PatchSolver.html#a3870316711548792347613da2795740e">ThunderEgg::PatchSolver&lt; D &gt;</a>
+, <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#addf1cf1e543b577f58dec602189ab811">ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</a>
 </li>
 <li>getEnd()
 : <a class="el" href="classThunderEgg_1_1LocalData.html#a2814e7a2e8ae6f4c98616d2fd7beebc3">ThunderEgg::LocalData&lt; D &gt;</a>
@@ -98,8 +102,8 @@ $(function() {
 <li>getExteriorSides()
 : <a class="el" href="classThunderEgg_1_1Orthant.html#af5f9de82f6ef2e5d4f2c463643cd99fc">ThunderEgg::Orthant&lt; D &gt;</a>
 </li>
-<li>getFineDomains()
-: <a class="el" href="classGMG_1_1Schur_1_1InterLevelComm.html#aea6b58fcb3ad544026bc37471e0cfb0f">GMG::Schur::InterLevelComm&lt; D &gt;</a>
+<li>getFineIfaceInfo()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a0e8ffd2359b02861dcb78d72ec270564">ThunderEgg::Schur::PatchIfaceInfo&lt; D &gt;</a>
 </li>
 <li>getFineNbrInfo()
 : <a class="el" href="structThunderEgg_1_1PatchInfo.html#a8902fe2e484761f6e055997d47c462e8">ThunderEgg::PatchInfo&lt; D &gt;</a>
@@ -137,37 +141,21 @@ $(function() {
 <li>getGhostStart()
 : <a class="el" href="classThunderEgg_1_1LocalData.html#afe00ff1210db028b67fd9973796c4bcc">ThunderEgg::LocalData&lt; D &gt;</a>
 </li>
-<li>getGlobalIndexes()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a770f98cd59f790cadd59c30614269ee1">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#ada88d7878894c9dd4e47db2b7da00efe">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a465636f7eff0f0fdf7fc52239f60a4d5">ThunderEgg::Schur::IfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a28199e85347305e864ae9b9de33c3d39">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>
-</li>
 <li>getGlobalIndexMapVec()
 : <a class="el" href="classThunderEgg_1_1Domain.html#a67953e32b53b4c25e476e585b1c6dfa2">ThunderEgg::Domain&lt; D &gt;</a>
 </li>
 <li>getIdMapVec()
 : <a class="el" href="classThunderEgg_1_1Domain.html#add9509d1a5fab1399ec6ec74b632ca81">ThunderEgg::Domain&lt; D &gt;</a>
 </li>
-<li>getIds()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a07ca7fe641f04cba05505e93adea5647">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a7ce2601066c6945ffdfe3b89be53e971">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a3325bfa07d1393ba322221f652c9ee8e">ThunderEgg::Schur::IfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a663b8b6f383a042f895dda42e9b3fd92">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html#ab6c5b14df23f1f93f9d6c7309fd92fe5">ThunderEgg::Schur::SchurInfo&lt; D &gt;</a>
-</li>
-<li>getIfaceInfoPtr()
-: <a class="el" href="structThunderEgg_1_1Schur_1_1SchurInfo.html#a5be6998a787d68f1c09bc8d1dc06a4d0">ThunderEgg::Schur::SchurInfo&lt; D &gt;</a>
-</li>
-<li>getIfaceTypes()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#ab477715b1309c4dc05af1b51cf57cbfa">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a905e819909d18b0bf862defecdb592a4">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a8b345d9cd23528df3c5fe1413ba40856">ThunderEgg::Schur::IfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#af0b09dfc1da4437d3e2f486a16fe0278">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>
+<li>getIfaceInfo()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#acb4e6cae5116790a36859b9fa7f53030">ThunderEgg::Schur::PatchIfaceInfo&lt; D &gt;</a>
 </li>
 <li>getIndex()
 : <a class="el" href="classThunderEgg_1_1Orthant.html#a3fd3e740b2621bf2548747722020f41e">ThunderEgg::Orthant&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1Side.html#ab3fbe75ba3c1756a1002aac592e78052">ThunderEgg::Side&lt; D &gt;</a>
+</li>
+<li>getInterfaces()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a631ca840a61dccc51f643e830a1393c5">ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</a>
 </li>
 <li>getInteriorSides()
 : <a class="el" href="classThunderEgg_1_1Orthant.html#a6dc54229ef758e6e06844755eb677c56">ThunderEgg::Orthant&lt; D &gt;</a>
@@ -182,12 +170,6 @@ $(function() {
 : <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a10f3ba10658554a20bbde93b2b8d9142">ThunderEgg::PETSc::VecWrapper&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1ValVector.html#ad8917d26f784341a2bfbae52abb34d61">ThunderEgg::ValVector&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1Vector.html#ac3ad58ca252db2b050266d7bc8908dd8">ThunderEgg::Vector&lt; D &gt;</a>
-</li>
-<li>getLocalIndexes()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#a376720955b129f23e47c1891acff764d">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a9ee2b4ee3085402ac8e778252a57b598">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a61cbbf3522d39b5a40f03b39decd4a0a">ThunderEgg::Schur::IfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a5763c50774d2c8f976b0954a5c7eb34b">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>
 </li>
 <li>getMPIComm()
 : <a class="el" href="classThunderEgg_1_1Vector.html#a12d4925583070e6b513d1143c5ce8289">ThunderEgg::Vector&lt; D &gt;</a>
@@ -209,9 +191,6 @@ $(function() {
 , <a class="el" href="classThunderEgg_1_1NormalNbrInfo.html#a7c1d7fbff9e12125babf3d76e9cc1202">ThunderEgg::NormalNbrInfo&lt; D &gt;</a>
 , <a class="el" href="structThunderEgg_1_1PatchInfo.html#a8fa7d084388a5289d8cfa72101572dbd">ThunderEgg::PatchInfo&lt; D &gt;</a>
 </li>
-<li>getNbrs()
-: <a class="el" href="structThunderEgg_1_1Schur_1_1IfaceSet.html#a7de60f474aa00897ed4f15ab3980b39a">ThunderEgg::Schur::IfaceSet&lt; D &gt;</a>
-</li>
 <li>getNbrType()
 : <a class="el" href="classThunderEgg_1_1CoarseNbrInfo.html#ad6811304f75e57d2193d5c69ca92eb89">ThunderEgg::CoarseNbrInfo&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1FineNbrInfo.html#a38b1e61133a5f6d62812a7f5d9306375">ThunderEgg::FineNbrInfo&lt; D &gt;</a>
@@ -222,11 +201,11 @@ $(function() {
 <li>GetNewBCVector()
 : <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a85c01b66e42a3e175e4853736bddf00d">ThunderEgg::PETSc::VecWrapper&lt; D &gt;</a>
 </li>
-<li>getNewCoarseDistVec()
-: <a class="el" href="classGMG_1_1Schur_1_1InterLevelComm.html#a751da6d473eb7d688e8e22d1b3514da8">GMG::Schur::InterLevelComm&lt; D &gt;</a>
-</li>
 <li>getNewGhostVector()
 : <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html#a25c0103c2840c333b3d65d880bb8e4bc">ThunderEgg::GMG::InterLevelComm&lt; D &gt;</a>
+</li>
+<li>getNewLocalPatchIfaceVector()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#a9f9217d7e7d8371cd8fa101f6ff1db06">ThunderEgg::Schur::PatchIfaceScatter&lt; D &gt;</a>
 </li>
 <li>GetNewMatShell()
 : <a class="el" href="classThunderEgg_1_1PETSc_1_1MatShellCreator.html#a55722b4dd7969c0bb7ab5ae14b628524">ThunderEgg::PETSc::MatShellCreator&lt; D &gt;</a>
@@ -238,14 +217,24 @@ $(function() {
 : <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a26d72f0a293803f0efe4aec21c3b38f9">ThunderEgg::PETSc::VecWrapper&lt; D &gt;</a>
 </li>
 <li>getNewVector()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1SchurHelperVG.html#a5c47abad28d89ea5fdc1254d10f9fd35">ThunderEgg::Schur::SchurHelperVG&lt; D &gt;</a>
+: <a class="el" href="classThunderEgg_1_1Schur_1_1ValVectorGenerator.html#a1f675c5b0cc7a219a6afbf4debd34b32">ThunderEgg::Schur::ValVectorGenerator&lt; D &gt;</a>
+, <a class="el" href="classThunderEgg_1_1Schur_1_1VecWrapperGenerator.html#a80b4ff216a1cc25d5c35d4c5f2a233a4">ThunderEgg::Schur::VecWrapperGenerator&lt; D &gt;</a>
 </li>
 <li>GetNewVector()
 : <a class="el" href="classThunderEgg_1_1ValVector.html#a771a9dd82ed9255c9ddce9fe80f2a976">ThunderEgg::ValVector&lt; D &gt;</a>
 </li>
 <li>getNewVector()
-: <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#aefdf868928313c7708651761dde40d5b">ThunderEgg::ValVectorGenerator&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1VectorGenerator.html#aa4c28370c4cca0e168fa1056905bc9dc">ThunderEgg::VectorGenerator&lt; D &gt;</a>
+: <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#afdf6cbde0f7dd9978504511756082b0d">ThunderEgg::ValVectorGenerator&lt; D &gt;</a>
+, <a class="el" href="classThunderEgg_1_1VectorGenerator.html#aa91a47be91a9d89dfcfab52d0cb65a58">ThunderEgg::VectorGenerator&lt; D &gt;</a>
+</li>
+<li>getNewVecWrapper()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1VecWrapperGenerator.html#a69e22dbcfad0bda63517dc8a87c12c20">ThunderEgg::Schur::VecWrapperGenerator&lt; D &gt;</a>
+</li>
+<li>getNonConstPiinfo()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1Interface_1_1SideTypePiinfo.html#a963526c4dddee147e7a4c9e6e7aab7ca">ThunderEgg::Schur::Interface&lt; D &gt;::SideTypePiinfo</a>
+</li>
+<li>getNormalIfaceInfo()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a3f62a767fbf7ba40b6f3081719f08b6b">ThunderEgg::Schur::PatchIfaceInfo&lt; D &gt;</a>
 </li>
 <li>getNormalNbrInfo()
 : <a class="el" href="structThunderEgg_1_1PatchInfo.html#a32de7d97f981516498c288f189c6d264">ThunderEgg::PatchInfo&lt; D &gt;</a>
@@ -267,6 +256,9 @@ $(function() {
 <li>getNumGlobalCells()
 : <a class="el" href="classThunderEgg_1_1Domain.html#a0b25b3f53797ebc4832b7575b9c08611">ThunderEgg::Domain&lt; D &gt;</a>
 </li>
+<li>getNumGlobalInterfaces()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#add32dc59fe5155cd364aa55c7538d38b">ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</a>
+</li>
 <li>getNumGlobalPatches()
 : <a class="el" href="classThunderEgg_1_1Domain.html#a89b224c94def2efcc2dc0f575e99e6c4">ThunderEgg::Domain&lt; D &gt;</a>
 </li>
@@ -280,6 +272,9 @@ $(function() {
 <li>getNumLocalCellsWithGhost()
 : <a class="el" href="classThunderEgg_1_1Domain.html#a5eb26f4f7e0d702524c2b9489cfe1c13">ThunderEgg::Domain&lt; D &gt;</a>
 </li>
+<li>getNumLocalInterfaces()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a9313e5945117a127e08e971a99f7186b">ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</a>
+</li>
 <li>getNumLocalPatches()
 : <a class="el" href="classThunderEgg_1_1Domain.html#a49bcd058b44681aa58405a9b0a0a3a67">ThunderEgg::Domain&lt; D &gt;</a>
 , <a class="el" href="classThunderEgg_1_1Vector.html#a7e6c4fae9d75f3f47e7c6b2e43d12a7c">ThunderEgg::Vector&lt; D &gt;</a>
@@ -288,13 +283,16 @@ $(function() {
 : <a class="el" href="classThunderEgg_1_1GMG_1_1Level.html#a8d95fd697b47cf16b65174107d5c3787">ThunderEgg::GMG::Level&lt; D &gt;</a>
 </li>
 <li>getOrthant()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceType.html#aaa5b2091806927185c3ced5002480e66">ThunderEgg::Schur::IfaceType&lt; D &gt;</a>
+: <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceType.html#a00ed4784158fc6d32364d0371e2b7ef4">ThunderEgg::Schur::IfaceType&lt; D &gt;</a>
 </li>
 <li>getPatchesWithGhostParent()
 : <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html#a5b7eb17d1ff6e1fd4980a38d3121274a">ThunderEgg::GMG::InterLevelComm&lt; D &gt;</a>
 </li>
 <li>getPatchesWithLocalParent()
 : <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html#a5d49e263dbfd4d62066125c1e9829b38">ThunderEgg::GMG::InterLevelComm&lt; D &gt;</a>
+</li>
+<li>getPatchIfaceInfos()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a274d7910541fc7841f26dffee37b0e9e">ThunderEgg::Schur::InterfaceDomain&lt; D &gt;</a>
 </li>
 <li>getPatchInfoMap()
 : <a class="el" href="classThunderEgg_1_1Domain.html#af7cff0535eafb683d415a4add9052fee">ThunderEgg::Domain&lt; D &gt;</a>
@@ -307,13 +305,7 @@ $(function() {
 , <a class="el" href="classThunderEgg_1_1BufferWriter.html#acc5a86483353e0e8b436675b22e57182">ThunderEgg::BufferWriter</a>
 </li>
 <li>getPtr()
-: <a class="el" href="classThunderEgg_1_1LocalData.html#abe345bec8247aaafbec6af36cec08927">ThunderEgg::LocalData&lt; D &gt;</a>
-</li>
-<li>getRanks()
-: <a class="el" href="classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html#af13bfb306acecf68568f5f05803ae7ce">ThunderEgg::Schur::CoarseIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1FineIfaceInfo.html#a31c45afff2f6c6f01597753ec8f5c38a">ThunderEgg::Schur::FineIfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1IfaceInfo.html#a0909fc290473597470e4cc36034e674e">ThunderEgg::Schur::IfaceInfo&lt; D &gt;</a>
-, <a class="el" href="classThunderEgg_1_1Schur_1_1NormalIfaceInfo.html#a35066710ea76afc00f172574e7f788b9">ThunderEgg::Schur::NormalIfaceInfo&lt; D &gt;</a>
+: <a class="el" href="classThunderEgg_1_1LocalData.html#ab998dc0a5ffcd9bea69f94995df33c7a">ThunderEgg::LocalData&lt; D &gt;</a>
 </li>
 <li>getRealCoord()
 : <a class="el" href="structThunderEgg_1_1DomainTools.html#a9a895095485875a8b2752cb418e21338">ThunderEgg::DomainTools&lt; D &gt;</a>
@@ -327,8 +319,8 @@ $(function() {
 <li>getRestrictor()
 : <a class="el" href="classThunderEgg_1_1GMG_1_1Level.html#aa7748046a94715023ee13b92a7bddb44">ThunderEgg::GMG::Level&lt; D &gt;</a>
 </li>
-<li>getScatter()
-: <a class="el" href="classGMG_1_1Schur_1_1InterLevelComm.html#a0dc3c2075e1ae3ca3502d6b8a055fb33">GMG::Schur::InterLevelComm&lt; D &gt;</a>
+<li>getSchurRHSFromDomainRHS()
+: <a class="el" href="classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a173fa6bf14fcfeb495112963e737585d">ThunderEgg::Schur::PatchSolverWrapper&lt; D &gt;</a>
 </li>
 <li>getSliceOnSide()
 : <a class="el" href="classThunderEgg_1_1LocalData.html#a26c959ac42461e1b812058f057e47cbe">ThunderEgg::LocalData&lt; D &gt;</a>

@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classThunderEgg_1_1Schur_1_1PatchOperator.html" title="ThunderEgg::Schur::\lPatchOperator\&lt; 2 \&gt;" alt="" coords="5,5,157,47"/>
-<area shape="rect" id="node2" href="$classThunderEgg_1_1Poisson_1_1Schur_1_1FivePtPatchOperator.html" title="ThunderEgg::Poisson\l::Schur::FivePtPatchOperator" alt="" coords="205,5,411,47"/>
+<area shape="rect" id="node1" href="$classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. " alt="" coords="5,42,193,69"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. " alt="" coords="268,5,423,47"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. " alt="" coords="241,71,449,98"/>
 </map>

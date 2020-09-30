@@ -6,7 +6,7 @@ var searchData=
   ['matwrapper',['MatWrapper',['../classThunderEgg_1_1PETSc_1_1MatWrapper.html',1,'ThunderEgg::PETSc::MatWrapper&lt; D &gt;'],['../classThunderEgg_1_1PETSc_1_1MatWrapper.html#aa342e88e06c51a5fee7afd8559aa7d78',1,'ThunderEgg::PETSc::MatWrapper::MatWrapper()']]],
   ['max_5fid',['max_id',['../structThunderEgg_1_1Experimental_1_1Tree.html#a757a9b66c286d51aa53f28091d7b6166',1,'ThunderEgg::Experimental::Tree']]],
   ['max_5flevels',['max_levels',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#afdac54e5d727f51b5023d05f49cc3d92',1,'ThunderEgg::GMG::CycleOpts']]],
-  ['merge',['merge',['../structThunderEgg_1_1Schur_1_1IfaceSet.html#a7131b5bd8bcd42402f647b6bab7f5b47',1,'ThunderEgg::Schur::IfaceSet']]],
+  ['merge',['merge',['../classThunderEgg_1_1Schur_1_1Interface.html#acc03773a7d6f6d45bafccb19307a57c2',1,'ThunderEgg::Schur::Interface']]],
   ['mid_5fsweeps',['mid_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a1a9b370eea71bc131b5d4680f8cc14c2',1,'ThunderEgg::GMG::CycleOpts']]],
   ['mpighostfiller',['MPIGhostFiller',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg::MPIGhostFiller&lt; D &gt;'],['../classThunderEgg_1_1MPIGhostFiller.html#a7b44c890b3f15143a425174cd8b270f1',1,'ThunderEgg::MPIGhostFiller::MPIGhostFiller()']]],
   ['mpighostfiller_3c_202_20_3e',['MPIGhostFiller&lt; 2 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
