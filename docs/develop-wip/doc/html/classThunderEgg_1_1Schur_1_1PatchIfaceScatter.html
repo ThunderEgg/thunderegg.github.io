@@ -58,7 +58,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><b>Schur</b></li><li class="navelem"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html">PatchIfaceScatter</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><a class="el" href="namespaceThunderEgg_1_1Schur.html">Schur</a></li><li class="navelem"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html">PatchIfaceScatter</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Scatters between a global Schur compliment vector and a local patch iface vector.  
+<p>Scatters between a global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector and a local patch iface vector.  
  <a href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="PatchIfaceScatter_8h_source.html">PatchIfaceScatter.h</a>&gt;</code></p>
@@ -88,17 +88,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f9217d7e7d8371cd8fa101f6ff1db06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a nw local patch iface vector.  <a href="#a9f9217d7e7d8371cd8fa101f6ff1db06">More...</a><br /></td></tr>
 <tr class="separator:a9f9217d7e7d8371cd8fa101f6ff1db06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbfdba6505455eb7a49de7b9dc60debf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#afbfdba6505455eb7a49de7b9dc60debf">scatterStart</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; global_vector, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; local_patch_iface_vector)</td></tr>
-<tr class="memdesc:afbfdba6505455eb7a49de7b9dc60debf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the scatter from the global Schur compliment vector to the local patch iface vector.  <a href="#afbfdba6505455eb7a49de7b9dc60debf">More...</a><br /></td></tr>
+<tr class="memdesc:afbfdba6505455eb7a49de7b9dc60debf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the scatter from the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector to the local patch iface vector.  <a href="#afbfdba6505455eb7a49de7b9dc60debf">More...</a><br /></td></tr>
 <tr class="separator:afbfdba6505455eb7a49de7b9dc60debf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ac4653eb2082040962415a402523d42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#a1ac4653eb2082040962415a402523d42">scatterFinish</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; global_vector, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D - 1 &gt;&gt; local_patch_iface_vector)</td></tr>
-<tr class="memdesc:a1ac4653eb2082040962415a402523d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish the scatter from the global Schur compliment vector to the local patch iface vector.  <a href="#a1ac4653eb2082040962415a402523d42">More...</a><br /></td></tr>
+<tr class="memdesc:a1ac4653eb2082040962415a402523d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finish the scatter from the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector to the local patch iface vector.  <a href="#a1ac4653eb2082040962415a402523d42">More...</a><br /></td></tr>
 <tr class="separator:a1ac4653eb2082040962415a402523d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int D&gt;<br />
 class ThunderEgg::Schur::PatchIfaceScatter&lt; D &gt;</h3>
 
-<p>Scatters between a global Schur compliment vector and a local patch iface vector. </p>
+<p>Scatters between a global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector and a local patch iface vector. </p>
 <p>The scatters functions are split with a Start and Finish, this allows for local computation to occur while the communicating</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -210,11 +210,11 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Finish the scatter from the global Schur compliment vector to the local patch iface vector. </p>
+<p>Finish the scatter from the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector to the local patch iface vector. </p>
 <p>Will throw an exception if different vectors are passed from when scatterStart was called</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">global_vector</td><td>the global Schur compliment vector </td></tr>
+    <tr><td class="paramname">global_vector</td><td>the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector </td></tr>
     <tr><td class="paramname">local_patch_iface_vector</td><td>the the local patch iface vector </td></tr>
   </table>
   </dd>
@@ -258,12 +258,12 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Start the scatter from the global Schur compliment vector to the local patch iface vector. </p>
+<p>Start the scatter from the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector to the local patch iface vector. </p>
 <p>Interfaces that are local to this processor will be copied to the local_patch_iface_vector at the end of this call</p>
 <p>Will throw an exception if any communcation is in progress</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">global_vector</td><td>the global Schur compliment vector </td></tr>
+    <tr><td class="paramname">global_vector</td><td>the global <a class="el" href="namespaceThunderEgg_1_1Schur.html" title="Implements a Schur compliment system using the interfaces between patches. ">Schur</a> compliment vector </td></tr>
     <tr><td class="paramname">local_patch_iface_vector</td><td>the the local patch iface vector </td></tr>
   </table>
   </dd>

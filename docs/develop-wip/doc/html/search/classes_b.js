@@ -10,5 +10,5 @@ var searchData=
   ['pblock',['PBlock',['../structThunderEgg_1_1Experimental_1_1PBMatrix_1_1PBlock.html',1,'ThunderEgg::Experimental::PBMatrix']]],
   ['pbmatrix',['PBMatrix',['../classThunderEgg_1_1Experimental_1_1PBMatrix.html',1,'ThunderEgg::Experimental']]],
   ['pcshellcreator',['PCShellCreator',['../classThunderEgg_1_1PETSc_1_1PCShellCreator.html',1,'ThunderEgg::PETSc']]],
-  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Schur_1_1PolyChebPrec.html',1,'ThunderEgg::Schur']]]
+  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Experimental_1_1PolyChebPrec.html',1,'ThunderEgg::Experimental']]]
 ];
