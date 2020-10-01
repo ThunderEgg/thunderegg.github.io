@@ -189,9 +189,9 @@ virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#a771a9dd82ed9255c9ddce9fe80f2a976">GetNewVector</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
-<tr class="memdesc:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#a771a9dd82ed9255c9ddce9fe80f2a976">More...</a><br /></td></tr>
-<tr class="separator:a771a9dd82ed9255c9ddce9fe80f2a976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac159df2ad4bc765241437f94cf758d78"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVector.html#ac159df2ad4bc765241437f94cf758d78">GetNewVector</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain, int num_components)</td></tr>
+<tr class="memdesc:ac159df2ad4bc765241437f94cf758d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#ac159df2ad4bc765241437f94cf758d78">More...</a><br /></td></tr>
+<tr class="separator:ac159df2ad4bc765241437f94cf758d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int D&gt;<br />
@@ -265,6 +265,7 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">comm</td><td>the MPI_Comm to use </td></tr>
     <tr><td class="paramname">lengths</td><td>the nubmer of (non-ghost) cells in each direction of a patch </td></tr>
     <tr><td class="paramname">num_ghost_cells</td><td>the number of ghost cells padding each side of a patch </td></tr>
+    <tr><td class="paramname">num_components</td><td>the number of components for each cell </td></tr>
     <tr><td class="paramname">num_patches</td><td>the number of patches in this vector </td></tr>
   </table>
   </dd>
@@ -373,8 +374,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="a771a9dd82ed9255c9ddce9fe80f2a976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a771a9dd82ed9255c9ddce9fe80f2a976">&#9670;&nbsp;</a></span>GetNewVector()</h2>
+<a id="ac159df2ad4bc765241437f94cf758d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac159df2ad4bc765241437f94cf758d78">&#9670;&nbsp;</a></span>GetNewVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,8 +389,18 @@ template&lt;int D&gt; </div>
           <td class="memname">static std::shared_ptr&lt;<a class="el" href="classThunderEgg_1_1ValVector.html">ValVector</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1ValVector.html">ThunderEgg::ValVector</a>&lt; D &gt;::GetNewVector </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>domain</em></td><td>)</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_components</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -403,6 +414,7 @@ template&lt;int D&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">num_components</td><td>the number of components for each cell </td></tr>
   </table>
   </dd>
 </dl>

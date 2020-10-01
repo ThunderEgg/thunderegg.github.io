@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valvector',['ValVector',['../classThunderEgg_1_1ValVector.html#a5a4a91766738b5e93e0df4c4a118ac68',1,'ThunderEgg::ValVector']]],
-  ['valvectorgenerator',['ValVectorGenerator',['../classThunderEgg_1_1Schur_1_1ValVectorGenerator.html#a8bd27eb18a4509c8ec6e930644340fec',1,'ThunderEgg::Schur::ValVectorGenerator::ValVectorGenerator()'],['../classThunderEgg_1_1ValVectorGenerator.html#a3f5c7c04f7ad67a1fda3d38abce64e1a',1,'ThunderEgg::ValVectorGenerator::ValVectorGenerator()']]],
+  ['valvectorgenerator',['ValVectorGenerator',['../classThunderEgg_1_1Schur_1_1ValVectorGenerator.html#a8bd27eb18a4509c8ec6e930644340fec',1,'ThunderEgg::Schur::ValVectorGenerator::ValVectorGenerator()'],['../classThunderEgg_1_1ValVectorGenerator.html#a123a24ce00935ba42737d8c160032ebe',1,'ThunderEgg::ValVectorGenerator::ValVectorGenerator()']]],
   ['vcycle',['VCycle',['../classThunderEgg_1_1GMG_1_1VCycle.html#a928112bbf06b91b9bb7d95cdf7dfa2b5',1,'ThunderEgg::GMG::VCycle']]],
   ['veclocaldatamanager',['VecLocalDataManager',['../classThunderEgg_1_1PETSc_1_1VecLocalDataManager.html#a692c30f7f67cfebbf7412abe2b72b6a9',1,'ThunderEgg::PETSc::VecLocalDataManager']]],
   ['vector',['Vector',['../classThunderEgg_1_1Vector.html#a75cddb80e98a26bab143942348ea5156',1,'ThunderEgg::Vector']]],
