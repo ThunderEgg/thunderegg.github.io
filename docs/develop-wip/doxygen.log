@@ -586,12 +586,10 @@ Generat/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMa
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/WCycle.h:47: warning: The following parameters of ThunderEgg::GMG::WCycle::visit(const Level< D > &level, std::list< std::shared_ptr< Vector< D >>> &u_vectors, std::list< std::shared_ptr< const Vector< D >>> &f_vectors) const are not documented:
   parameter 'u_vectors'
   parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:196: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:195: warning: Member getNumGhostCells() const (function) of class ThunderEgg::PETSc::VecWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:177: warning: The following parameters of ThunderEgg::PETSc::VecWrapper::getLocalData(int component_index, int patch_local_index) are not documented:
-  parameter 'component_index'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:190: warning: The following parameters of ThunderEgg::PETSc::VecWrapper::getLocalData(int component_index, int patch_local_index) const are not documented:
-  parameter 'component_index'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc/VecWrapper.h:146: warning: The following parameters of ThunderEgg::PETSc::VecWrapper::GetNewVector(std::shared_ptr< const Domain< D >> domain, int num_components) are not documented:
+  parameter 'num_components'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:223: warning: Member CoarseSH2d(PatchInfo< 2 > &d, Side< 2 > s) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:269: warning: Member row(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:273: warning: Member size(int i) (function) of class ThunderEgg::Poisson::CoarseSH2d is not documented.
@@ -978,5 +976,5 @@ Patching output file 71/74
 Patching output file 72/74
 Patching output file 73/74
 Patching output file 74/74
-lookup cache used 2409/65536 hits=27215 misses=2551
+lookup cache used 2409/65536 hits=27225 misses=2551
 finished...

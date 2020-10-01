@@ -94,9 +94,9 @@ Collaboration diagram for ThunderEgg::PETSc::VecWrapper&lt; D &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba6c27729aa20a4dddfee1da175d0bd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#aba6c27729aa20a4dddfee1da175d0bd5">VecWrapper</a> (Vec vec_in, const std::array&lt; int, D &gt; &amp;lengths_in, int num_ghost_cells_in, bool own_in)</td></tr>
-<tr class="memdesc:aba6c27729aa20a4dddfee1da175d0bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object.  <a href="#aba6c27729aa20a4dddfee1da175d0bd5">More...</a><br /></td></tr>
-<tr class="separator:aba6c27729aa20a4dddfee1da175d0bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70cb3b43787acc0a505cb1aafdaa903"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#ac70cb3b43787acc0a505cb1aafdaa903">VecWrapper</a> (Vec vec, const std::array&lt; int, D &gt; &amp;lengths, int num_components, int num_ghost_cells, bool own)</td></tr>
+<tr class="memdesc:ac70cb3b43787acc0a505cb1aafdaa903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object.  <a href="#ac70cb3b43787acc0a505cb1aafdaa903">More...</a><br /></td></tr>
+<tr class="separator:ac70cb3b43787acc0a505cb1aafdaa903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a2cb722cbcebf813c30ca6561446d7a"><td class="memItemLeft" align="right" valign="top"><a id="a2a2cb722cbcebf813c30ca6561446d7a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>VecWrapper</b> (const <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a> &amp;)=delete</td></tr>
 <tr class="separator:a2a2cb722cbcebf813c30ca6561446d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,10 +114,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9bf2fcf098ac617f99beeae272f6fe6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object. <br /></td></tr>
 <tr class="separator:a9bf2fcf098ac617f99beeae272f6fe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02117cd9dc263875424b43791572cdfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a02117cd9dc263875424b43791572cdfb">getLocalData</a> (int component_index, int patch_local_index) override</td></tr>
-<tr class="memdesc:a02117cd9dc263875424b43791572cdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the given local patch index.  <a href="#a02117cd9dc263875424b43791572cdfb">More...</a><br /></td></tr>
+<tr class="memdesc:a02117cd9dc263875424b43791572cdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified patch and component.  <a href="#a02117cd9dc263875424b43791572cdfb">More...</a><br /></td></tr>
 <tr class="separator:a02117cd9dc263875424b43791572cdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ec2a6a3f66aa508289a6ae6493b1a91"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a0ec2a6a3f66aa508289a6ae6493b1a91">getLocalData</a> (int component_index, int patch_local_index) const override</td></tr>
-<tr class="memdesc:a0ec2a6a3f66aa508289a6ae6493b1a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the given local patch index.  <a href="#a0ec2a6a3f66aa508289a6ae6493b1a91">More...</a><br /></td></tr>
+<tr class="memdesc:a0ec2a6a3f66aa508289a6ae6493b1a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified patch and component.  <a href="#a0ec2a6a3f66aa508289a6ae6493b1a91">More...</a><br /></td></tr>
 <tr class="separator:a0ec2a6a3f66aa508289a6ae6493b1a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addad6afbf3ff0d9c4abce93ff8868325"><td class="memItemLeft" align="right" valign="top"><a id="addad6afbf3ff0d9c4abce93ff8868325"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getNumGhostCells</b> () const</td></tr>
@@ -205,9 +205,9 @@ virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a26d72f0a293803f0efe4aec21c3b38f9"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a26d72f0a293803f0efe4aec21c3b38f9">GetNewVector</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
-<tr class="memdesc:a26d72f0a293803f0efe4aec21c3b38f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#a26d72f0a293803f0efe4aec21c3b38f9">More...</a><br /></td></tr>
-<tr class="separator:a26d72f0a293803f0efe4aec21c3b38f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5814e57574a87ac879b37a39a4ddb7c"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#ac5814e57574a87ac879b37a39a4ddb7c">GetNewVector</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain, int num_components)</td></tr>
+<tr class="memdesc:ac5814e57574a87ac879b37a39a4ddb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#ac5814e57574a87ac879b37a39a4ddb7c">More...</a><br /></td></tr>
+<tr class="separator:ac5814e57574a87ac879b37a39a4ddb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c01b66e42a3e175e4853736bddf00d"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a>&lt; D - 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html#a85c01b66e42a3e175e4853736bddf00d">GetNewBCVector</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
 <tr class="memdesc:a85c01b66e42a3e175e4853736bddf00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new boundary condition vector for a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#a85c01b66e42a3e175e4853736bddf00d">More...</a><br /></td></tr>
 <tr class="separator:a85c01b66e42a3e175e4853736bddf00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,8 +224,8 @@ class ThunderEgg::PETSc::VecWrapper&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aba6c27729aa20a4dddfee1da175d0bd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba6c27729aa20a4dddfee1da175d0bd5">&#9670;&nbsp;</a></span>VecWrapper()</h2>
+<a id="ac70cb3b43787acc0a505cb1aafdaa903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70cb3b43787acc0a505cb1aafdaa903">&#9670;&nbsp;</a></span>VecWrapper()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,25 +239,31 @@ template&lt;int D&gt; </div>
           <td class="memname"><a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">ThunderEgg::PETSc::VecWrapper</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a> </td>
           <td>(</td>
           <td class="paramtype">Vec&#160;</td>
-          <td class="paramname"><em>vec_in</em>, </td>
+          <td class="paramname"><em>vec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::array&lt; int, D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>lengths_in</em>, </td>
+          <td class="paramname"><em>lengths</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_ghost_cells_in</em>, </td>
+          <td class="paramname"><em>num_components</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_ghost_cells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>own_in</em>&#160;</td>
+          <td class="paramname"><em>own</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -275,10 +281,11 @@ template&lt;int D&gt; </div>
 <p>Construct a new <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html" title="Wrap a PETSc Vec for use as a ThunderEgg Vector. ">VecWrapper</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vec_in</td><td>the allocated <a class="el" href="namespaceThunderEgg_1_1PETSc.html" title="A collection of wrappers for operating with PETSc. ">PETSc</a> vector </td></tr>
-    <tr><td class="paramname">lengths_in</td><td>the number of (non-ghost) cells in each direction of the patch </td></tr>
-    <tr><td class="paramname">num_ghost_cells_in</td><td>the number of ghost cells on each side of the patch </td></tr>
-    <tr><td class="paramname">own_in</td><td>whether or not to deallocate the <a class="el" href="namespaceThunderEgg_1_1PETSc.html" title="A collection of wrappers for operating with PETSc. ">PETSc</a> vector when this object is destroyed. </td></tr>
+    <tr><td class="paramname">vec</td><td>the allocated <a class="el" href="namespaceThunderEgg_1_1PETSc.html" title="A collection of wrappers for operating with PETSc. ">PETSc</a> vector </td></tr>
+    <tr><td class="paramname">lengths</td><td>the number of (non-ghost) cells in each direction of the patch </td></tr>
+    <tr><td class="paramname">num_ghost_cells</td><td>the number of ghost cells on each side of the patch </td></tr>
+    <tr><td class="paramname">num_components</td><td>the number of components for each cell </td></tr>
+    <tr><td class="paramname">own</td><td>whether or not to deallocate the <a class="el" href="namespaceThunderEgg_1_1PETSc.html" title="A collection of wrappers for operating with PETSc. ">PETSc</a> vector when this object is destroyed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -322,14 +329,15 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the given local patch index. </p>
+<p>Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified patch and component. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">component_index</td><td>the index of the component access </td></tr>
     <tr><td class="paramname">patch_local_index</td><td>the local index of the patch </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LocalData&lt;D&gt; the local data object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LocalData&lt;D&gt; the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object </dd></dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1Vector.html#aa2a4fe1febe50f7cd1dfd07a30f97c65">ThunderEgg::Vector&lt; D &gt;</a>.</p>
 
@@ -371,14 +379,15 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the given local patch index. </p>
+<p>Get the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object for the specified patch and component. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">component_index</td><td>the index of the component access </td></tr>
     <tr><td class="paramname">patch_local_index</td><td>the local index of the patch </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LocalData&lt;D&gt; the local data object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>LocalData&lt;D&gt; the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> object </dd></dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1Vector.html#a5f70ca8a5f463d9940ea3e7beeacd226">ThunderEgg::Vector&lt; D &gt;</a>.</p>
 
@@ -421,8 +430,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="a26d72f0a293803f0efe4aec21c3b38f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26d72f0a293803f0efe4aec21c3b38f9">&#9670;&nbsp;</a></span>GetNewVector()</h2>
+<a id="ac5814e57574a87ac879b37a39a4ddb7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5814e57574a87ac879b37a39a4ddb7c">&#9670;&nbsp;</a></span>GetNewVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,8 +445,18 @@ template&lt;int D&gt; </div>
           <td class="memname">static std::shared_ptr&lt;<a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">VecWrapper</a>&lt;D&gt; &gt; <a class="el" href="classThunderEgg_1_1PETSc_1_1VecWrapper.html">ThunderEgg::PETSc::VecWrapper</a>&lt; D &gt;::GetNewVector </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>domain</em></td><td>)</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_components</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
