@@ -8,7 +8,7 @@ var searchData=
   ['integrate',['integrate',['../classThunderEgg_1_1Domain.html#a9c28d3da027748e00fafb8cd089e1a62',1,'ThunderEgg::Domain']]],
   ['interface',['Interface',['../classThunderEgg_1_1Schur_1_1Interface.html#ac2634974a3bbd333ab6f9a8cd2472f47',1,'ThunderEgg::Schur::Interface::Interface()=default'],['../classThunderEgg_1_1Schur_1_1Interface.html#a70fe62a451fea3b9d5e115495cc0524a',1,'ThunderEgg::Schur::Interface::Interface(int id)']]],
   ['interfacedomain',['InterfaceDomain',['../classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a1880f13e447efe7f7a8c32f8390404d4',1,'ThunderEgg::Schur::InterfaceDomain']]],
-  ['interlevelcomm',['InterLevelComm',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#a4c521c14d97bdc172c64dcc9d01a4d75',1,'ThunderEgg::GMG::InterLevelComm']]],
+  ['interlevelcomm',['InterLevelComm',['../classThunderEgg_1_1GMG_1_1InterLevelComm.html#a9fb80a14974a728688d6965552761a10',1,'ThunderEgg::GMG::InterLevelComm']]],
   ['interpolate',['interpolate',['../classThunderEgg_1_1GMG_1_1Interpolator.html#aa953fc0c0fc982795c666b5d71826f1f',1,'ThunderEgg::GMG::Interpolator::interpolate()'],['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html#a19f533711fe49082ae194a35fc6a4500',1,'ThunderEgg::GMG::MPIInterpolator::interpolate()'],['../classThunderEgg_1_1GMG_1_1TriLinIntp.html#aa6d57faeac252781383af36d1d0ecf4a',1,'ThunderEgg::GMG::TriLinIntp::interpolate()']]],
   ['iscoarsetocoarse',['isCoarseToCoarse',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a5a514ba020cdfbdc0069542a8c64cfbc',1,'ThunderEgg::Schur::IfaceType']]],
   ['iscoarsetofine',['isCoarseToFine',['../classThunderEgg_1_1Schur_1_1IfaceType.html#a3637265def9b0d52bbfc615644f08a7a',1,'ThunderEgg::Schur::IfaceType']]],

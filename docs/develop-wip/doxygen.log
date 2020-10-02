@@ -554,9 +554,9 @@ Generat/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMa
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp.h:78: warning: argument 'ilc' of command @param is not found in the argument list of ThunderEgg::GMG::DrctIntp< D >::DrctIntp(std::shared_ptr< InterLevelComm< D >> ilc_in)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/DrctIntp.h:82: warning: The following parameters of ThunderEgg::GMG::DrctIntp::DrctIntp(std::shared_ptr< InterLevelComm< D >> ilc_in) are not documented:
   parameter 'ilc_in'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'fine_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain)
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:113: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'fine_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:114: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
   parameter 'coarser_domain'
   parameter 'finer_domain'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Level.h:76: warning: argument 'dc' of command @param is not found in the argument list of ThunderEgg::GMG::Level< D >::Level(std::shared_ptr< const Domain< D >> domain, std::shared_ptr< VectorGenerator< D >> vg)
@@ -976,5 +976,5 @@ Patching output file 71/74
 Patching output file 72/74
 Patching output file 73/74
 Patching output file 74/74
-lookup cache used 2403/65536 hits=27233 misses=2543
+lookup cache used 2403/65536 hits=27241 misses=2543
 finished...
