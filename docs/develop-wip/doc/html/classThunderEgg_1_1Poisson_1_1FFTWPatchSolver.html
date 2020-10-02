@@ -101,9 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a260813e223d08b019757dec0fb711501"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#a260813e223d08b019757dec0fb711501">FFTWPatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1PatchOperator.html">PatchOperator</a>&lt; D &gt;&gt; op_in)</td></tr>
 <tr class="memdesc:a260813e223d08b019757dec0fb711501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new FftwPatchSolver object.  <a href="#a260813e223d08b019757dec0fb711501">More...</a><br /></td></tr>
 <tr class="separator:a260813e223d08b019757dec0fb711501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#a9828b8ea3d8c8a8b41b7efec877f975a">solveSinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; u, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; f) const override</td></tr>
-<tr class="memdesc:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single solve over a patch.  <a href="#a9828b8ea3d8c8a8b41b7efec877f975a">More...</a><br /></td></tr>
-<tr class="separator:a9828b8ea3d8c8a8b41b7efec877f975a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb9dc04d5732a47258850135138ac2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#aefb9dc04d5732a47258850135138ac2e">solveSinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us) const override</td></tr>
+<tr class="memdesc:aefb9dc04d5732a47258850135138ac2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single solve over a patch.  <a href="#aefb9dc04d5732a47258850135138ac2e">More...</a><br /></td></tr>
+<tr class="separator:aefb9dc04d5732a47258850135138ac2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc86bbb378d309864d8f540240fab53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#adbc86bbb378d309864d8f540240fab53">addPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo)</td></tr>
 <tr class="memdesc:adbc86bbb378d309864d8f540240fab53"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a patch to the solver  <a href="#adbc86bbb378d309864d8f540240fab53">More...</a><br /></td></tr>
 <tr class="separator:adbc86bbb378d309864d8f540240fab53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,8 +246,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="a9828b8ea3d8c8a8b41b7efec877f975a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9828b8ea3d8c8a8b41b7efec877f975a">&#9670;&nbsp;</a></span>solveSinglePatch()</h2>
+<a id="aefb9dc04d5732a47258850135138ac2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb9dc04d5732a47258850135138ac2e">&#9670;&nbsp;</a></span>solveSinglePatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,14 +266,14 @@ template&lt;int D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&#160;</td>
-          <td class="paramname"><em>f</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>us</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -292,13 +292,13 @@ template&lt;int D&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pinfo</td><td>the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> for the patch </td></tr>
-    <tr><td class="paramname">u</td><td>the left hand side </td></tr>
-    <tr><td class="paramname">f</td><td>the right hand side </td></tr>
+    <tr><td class="paramname">us</td><td>the left hand side </td></tr>
+    <tr><td class="paramname">fs</td><td>the right hand side </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classThunderEgg_1_1PatchSolver.html#a05a3ed8addf865e7d07c876051e9bb6e">ThunderEgg::PatchSolver&lt; D &gt;</a>.</p>
+<p>Implements <a class="el" href="classThunderEgg_1_1PatchSolver.html#aa7c3ba720d2ca54accce7d7d1766fcee">ThunderEgg::PatchSolver&lt; D &gt;</a>.</p>
 
 </div>
 </div>

@@ -976,5 +976,5 @@ Patching output file 71/74
 Patching output file 72/74
 Patching output file 73/74
 Patching output file 74/74
-lookup cache used 2409/65536 hits=27237 misses=2551
+lookup cache used 2403/65536 hits=27233 misses=2543
 finished...
