@@ -11,6 +11,6 @@ var searchData=
   ['mpighostfiller',['MPIGhostFiller',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg::MPIGhostFiller&lt; D &gt;'],['../classThunderEgg_1_1MPIGhostFiller.html#a7b44c890b3f15143a425174cd8b270f1',1,'ThunderEgg::MPIGhostFiller::MPIGhostFiller()']]],
   ['mpighostfiller_3c_202_20_3e',['MPIGhostFiller&lt; 2 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
   ['mpighostfiller_3c_203_20_3e',['MPIGhostFiller&lt; 3 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpiinterpolator',['MPIInterpolator',['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html',1,'ThunderEgg::GMG::MPIInterpolator&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html#a9d6cecf3da5cd88729cd8ef8967b8112',1,'ThunderEgg::GMG::MPIInterpolator::MPIInterpolator()']]],
+  ['mpiinterpolator',['MPIInterpolator',['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html',1,'ThunderEgg::GMG::MPIInterpolator&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html#ae32ba1820bb12a99fce68ec2e313e278',1,'ThunderEgg::GMG::MPIInterpolator::MPIInterpolator()']]],
   ['mpirestrictor',['MPIRestrictor',['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html',1,'ThunderEgg::GMG::MPIRestrictor&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html#a8e7c1ef22c928768f12f0be515238886',1,'ThunderEgg::GMG::MPIRestrictor::MPIRestrictor()']]]
 ];

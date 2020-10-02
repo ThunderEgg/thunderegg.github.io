@@ -13,7 +13,7 @@
 <area shape="rect" id="node12" href="$ContigFftwSolver_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Experimental\l/ContigFftwSolver.h" alt="" coords="4276,451,4493,521"/>
 <area shape="rect" id="node13" href="$PolyChebPrec_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/Experimental\l/PolyChebPrec.h" alt="" coords="4197,688,4415,759"/>
 <area shape="rect" id="node14" href="$AvgRstr_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/AvgRstr.h" alt="" coords="597,695,823,751"/>
-<area shape="rect" id="node15" href="$DrctIntp_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/DrctIntp.h" alt="" coords="195,695,425,751"/>
+<area shape="rect" id="node15" href="$DirectInterpolator_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/DirectInterpolator.h" alt="" coords="165,695,455,751"/>
 <area shape="rect" id="node16" href="$InterLevelComm_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/InterLevel\lComm.h" alt="" coords="287,451,517,521"/>
 <area shape="rect" id="node17" href="$MPIInterpolator_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/MPIInterpolator.h" alt="" coords="398,577,673,633"/>
 <area shape="rect" id="node18" href="$MPIRestrictor_8h_source.html" title="/home/travis/build\l/ThunderEgg/ThunderEgg\l/src/ThunderEgg/GMG/MPIRestrictor.h" alt="" coords="747,577,1009,633"/>
