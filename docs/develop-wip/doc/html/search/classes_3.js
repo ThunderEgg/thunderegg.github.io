@@ -7,6 +7,5 @@ var searchData=
   ['domain',['Domain',['../classThunderEgg_1_1Domain.html',1,'ThunderEgg']]],
   ['domaingenerator',['DomainGenerator',['../classThunderEgg_1_1DomainGenerator.html',1,'ThunderEgg']]],
   ['domaingenerator_3c_202_20_3e',['DomainGenerator&lt; 2 &gt;',['../classThunderEgg_1_1DomainGenerator.html',1,'ThunderEgg']]],
-  ['domaintools',['DomainTools',['../structThunderEgg_1_1DomainTools.html',1,'ThunderEgg']]],
   ['domgen',['DomGen',['../classThunderEgg_1_1Experimental_1_1DomGen.html',1,'ThunderEgg::Experimental']]]
 ];

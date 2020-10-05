@@ -8,7 +8,6 @@ var searchData=
   ['domain',['Domain',['../classThunderEgg_1_1Domain.html',1,'ThunderEgg::Domain&lt; D &gt;'],['../classThunderEgg_1_1Domain.html#a8181b8fd68c3a6edc9971243c856088d',1,'ThunderEgg::Domain::Domain()'],['../classThunderEgg_1_1MPIGhostFiller.html#a9223de25229eefbb9f9cb0009f9b5d0d',1,'ThunderEgg::MPIGhostFiller::domain()'],['../classThunderEgg_1_1PatchOperator.html#acf4bbb6a3346a81f397e573051e279f9',1,'ThunderEgg::PatchOperator::domain()'],['../classThunderEgg_1_1PatchSolver.html#a7afb6d30749f2a268896930a3096bcb0',1,'ThunderEgg::PatchSolver::domain()']]],
   ['domaingenerator',['DomainGenerator',['../classThunderEgg_1_1DomainGenerator.html',1,'ThunderEgg']]],
   ['domaingenerator_3c_202_20_3e',['DomainGenerator&lt; 2 &gt;',['../classThunderEgg_1_1DomainGenerator.html',1,'ThunderEgg']]],
-  ['domaintools',['DomainTools',['../structThunderEgg_1_1DomainTools.html',1,'ThunderEgg']]],
   ['domgen',['DomGen',['../classThunderEgg_1_1Experimental_1_1DomGen.html',1,'ThunderEgg::Experimental::DomGen&lt; D &gt;'],['../classThunderEgg_1_1Experimental_1_1DomGen.html#ae380523b505b2639fe372c7bcf3cd56e',1,'ThunderEgg::Experimental::DomGen::DomGen()']]],
   ['dot',['dot',['../classThunderEgg_1_1Vector.html#a5f66a5d010d5f17aa1b9b38f7d873187',1,'ThunderEgg::Vector']]]
 ];
