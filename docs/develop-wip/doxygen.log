@@ -445,9 +445,8 @@ Generating code for file /ho/home/travis/build/ThunderEgg/ThunderEgg/src/Thunder
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:42: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const LocalData< 3 > &local_data) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/DomainTools.h:134: warning: Member _SetValues(std::shared_ptr< Domain< D >> domain, std::shared_ptr< Vector< D >> vec, int component_index, T func) (function) of namespace ThunderEgg::DomainTools is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/DomainTools.h:140: warning: Member _SetValues(std::shared_ptr< Domain< D >> domain, std::shared_ptr< Vector< D >> vec, int component_index, T func, Args... args) (function) of namespace ThunderEgg::DomainTools is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/DomainTools.h:147: warning: Member SetValues(std::shared_ptr< Domain< D >> domain, std::shared_ptr< Vector< D >> vec, T func, Args... args) (function) of namespace ThunderEgg::DomainTools is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/DomainTools.h:186: warning: argument 'component_index' of command @param is not found in the argument list of ThunderEgg::DomainTools::SetValues(std::shared_ptr< Domain< D >> domain, std::shared_ptr< Vector< D >> vec, T func, Args... args)
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/DomainTools.h:268: warning: argument 'component_index' of command @param is not found in the argument list of ThunderEgg::DomainTools::SetValuesWithGhost(std::shared_ptr< Domain< D >> domain, std::shared_ptr< Vector< D >> vec, T func, Args... args)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:114: warning: Member apply(Vec x, Vec b) (function) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:112: warning: Member D (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:113: warning: Member R (variable) of class ThunderEgg::Experimental::BlockJacobiSmoother is not documented.
@@ -963,5 +962,5 @@ Patching output file 70/73
 Patching output file 71/73
 Patching output file 72/73
 Patching output file 73/73
-lookup cache used 2398/65536 hits=27484 misses=2540
+lookup cache used 2399/65536 hits=27638 misses=2541
 finished...

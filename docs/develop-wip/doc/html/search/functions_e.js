@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['refineleaves',['refineLeaves',['../structThunderEgg_1_1Experimental_1_1Tree.html#aeb0a537b948ccbdff8ce95ea2de0a42e',1,'ThunderEgg::Experimental::Tree']]],
-  ['refinenode',['refineNode',['../structThunderEgg_1_1Experimental_1_1Tree.html#ab76ae65753efe795082ddcfec0b1b8c0',1,'ThunderEgg::Experimental::Tree']]],
-  ['restrict',['restrict',['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html#a0473eb28291d844833c4baf0627fc911',1,'ThunderEgg::GMG::MPIRestrictor::restrict()'],['../classThunderEgg_1_1GMG_1_1Restrictor.html#a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6',1,'ThunderEgg::GMG::Restrictor::restrict()']]],
-  ['row',['row',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html#ab876d1cf2f39645fb91ed1d2ee520380',1,'ThunderEgg::Poisson::StencilHelper::row()'],['../classThunderEgg_1_1Poisson_1_1DirichletSH.html#a8b299b335ae6407634e045cc2ab78ab4',1,'ThunderEgg::Poisson::DirichletSH::row()'],['../classThunderEgg_1_1Poisson_1_1NeumannSH.html#a1267c32e18810d2a000bbfd68467ae41',1,'ThunderEgg::Poisson::NeumannSH::row()'],['../classThunderEgg_1_1Poisson_1_1NormalSH.html#adbdf17e7b13138af2c2b3850a1722d60',1,'ThunderEgg::Poisson::NormalSH::row()'],['../classThunderEgg_1_1Poisson_1_1CoarseSH.html#a5542c7f9d11e20af686e527220edd381',1,'ThunderEgg::Poisson::CoarseSH::row()'],['../classThunderEgg_1_1Poisson_1_1FineSH.html#af62ca5df5973f10fd2a6a45c98d9f4e1',1,'ThunderEgg::Poisson::FineSH::row()']]],
-  ['runtimeerror',['RuntimeError',['../structThunderEgg_1_1RuntimeError.html#ab378c29886b69df7908db47d48c037c4',1,'ThunderEgg::RuntimeError']]]
+  ['p4estdomgen',['P4estDomGen',['../classThunderEgg_1_1P4estDomGen.html#afe952d7c20a1a7f4edec79e530970584',1,'ThunderEgg::P4estDomGen']]],
+  ['patchifaceinfo',['PatchIfaceInfo',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#aeb695f40b94fcf144b68eb6278a1fece',1,'ThunderEgg::Schur::PatchIfaceInfo::PatchIfaceInfo()=default'],['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a823fb676f74455fb77b4e14d75a51687',1,'ThunderEgg::Schur::PatchIfaceInfo::PatchIfaceInfo(std::shared_ptr&lt; const PatchInfo&lt; D &gt;&gt; pinfo)']]],
+  ['patchifacescatter',['PatchIfaceScatter',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#aa0c4ba7ccba53f8a8543328d73430a23',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
+  ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo']]],
+  ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator']]],
+  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e',1,'ThunderEgg::PatchSolver']]],
+  ['patchsolverwrapper',['PatchSolverWrapper',['../classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a8097a6e9f2baa0b1036149f85dfc605f',1,'ThunderEgg::Schur::PatchSolverWrapper']]],
+  ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Experimental_1_1PolyChebPrec.html#a2108887f14220d65649df3bb91023498',1,'ThunderEgg::Experimental::PolyChebPrec']]],
+  ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],
+  ['prepfiner',['prepFiner',['../classThunderEgg_1_1GMG_1_1Cycle.html#a7e0e1e63f0d98cc46c17ada5b8a4dbac',1,'ThunderEgg::GMG::Cycle']]]
 ];

@@ -1,16 +1,15 @@
 var searchData=
 [
-  ['matrixhelper',['MatrixHelper',['../classThunderEgg_1_1Poisson_1_1MatrixHelper.html',1,'ThunderEgg::Poisson::MatrixHelper'],['../classThunderEgg_1_1Poisson_1_1MatrixHelper.html#a6c9f2dd87d9fb8fcf3ec75a667b6b5c6',1,'ThunderEgg::Poisson::MatrixHelper::MatrixHelper()']]],
-  ['matrixhelper2d',['MatrixHelper2d',['../classThunderEgg_1_1Poisson_1_1MatrixHelper2d.html',1,'ThunderEgg::Poisson::MatrixHelper2d'],['../classThunderEgg_1_1Poisson_1_1MatrixHelper2d.html#aa8ff015e53e6cbddf369706b1da4384a',1,'ThunderEgg::Poisson::MatrixHelper2d::MatrixHelper2d()']]],
-  ['matshellcreator',['MatShellCreator',['../classThunderEgg_1_1PETSc_1_1MatShellCreator.html',1,'ThunderEgg::PETSc']]],
-  ['matwrapper',['MatWrapper',['../classThunderEgg_1_1PETSc_1_1MatWrapper.html',1,'ThunderEgg::PETSc::MatWrapper&lt; D &gt;'],['../classThunderEgg_1_1PETSc_1_1MatWrapper.html#aa342e88e06c51a5fee7afd8559aa7d78',1,'ThunderEgg::PETSc::MatWrapper::MatWrapper()']]],
-  ['max_5fid',['max_id',['../structThunderEgg_1_1Experimental_1_1Tree.html#a757a9b66c286d51aa53f28091d7b6166',1,'ThunderEgg::Experimental::Tree']]],
-  ['max_5flevels',['max_levels',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#afdac54e5d727f51b5023d05f49cc3d92',1,'ThunderEgg::GMG::CycleOpts']]],
-  ['merge',['merge',['../classThunderEgg_1_1Schur_1_1Interface.html#acc03773a7d6f6d45bafccb19307a57c2',1,'ThunderEgg::Schur::Interface']]],
-  ['mid_5fsweeps',['mid_sweeps',['../structThunderEgg_1_1GMG_1_1CycleOpts.html#a1a9b370eea71bc131b5d4680f8cc14c2',1,'ThunderEgg::GMG::CycleOpts']]],
-  ['mpighostfiller',['MPIGhostFiller',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg::MPIGhostFiller&lt; D &gt;'],['../classThunderEgg_1_1MPIGhostFiller.html#a7b44c890b3f15143a425174cd8b270f1',1,'ThunderEgg::MPIGhostFiller::MPIGhostFiller()']]],
-  ['mpighostfiller_3c_202_20_3e',['MPIGhostFiller&lt; 2 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpighostfiller_3c_203_20_3e',['MPIGhostFiller&lt; 3 &gt;',['../classThunderEgg_1_1MPIGhostFiller.html',1,'ThunderEgg']]],
-  ['mpiinterpolator',['MPIInterpolator',['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html',1,'ThunderEgg::GMG::MPIInterpolator&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1MPIInterpolator.html#ae32ba1820bb12a99fce68ec2e313e278',1,'ThunderEgg::GMG::MPIInterpolator::MPIInterpolator()']]],
-  ['mpirestrictor',['MPIRestrictor',['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html',1,'ThunderEgg::GMG::MPIRestrictor&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1MPIRestrictor.html#a8e7c1ef22c928768f12f0be515238886',1,'ThunderEgg::GMG::MPIRestrictor::MPIRestrictor()']]]
+  ['lengths',['lengths',['../structThunderEgg_1_1Experimental_1_1Node.html#a54ac2d2a9e2235e042a74725393b7cd0',1,'ThunderEgg::Experimental::Node']]],
+  ['level',['Level',['../classThunderEgg_1_1GMG_1_1Level.html',1,'ThunderEgg::GMG::Level&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1Level.html#a3adf6468dd55857dbb6052f058941fd8',1,'ThunderEgg::GMG::Level::Level()'],['../structThunderEgg_1_1Experimental_1_1Node.html#a97462630b4f994e4349a2a9bbd220c52',1,'ThunderEgg::Experimental::Node::level()']]],
+  ['levels',['levels',['../structThunderEgg_1_1Experimental_1_1Tree.html#ae16add77f1cda4f1a6aeada0b4c9a8c6',1,'ThunderEgg::Experimental::Tree']]],
+  ['linearrestrictor',['LinearRestrictor',['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html',1,'ThunderEgg::GMG::LinearRestrictor&lt; D &gt;'],['../classThunderEgg_1_1GMG_1_1LinearRestrictor.html#a5354d49a35d98fdc79b467352727e2ad',1,'ThunderEgg::GMG::LinearRestrictor::LinearRestrictor()']]],
+  ['local_5findex',['local_index',['../classThunderEgg_1_1CoarseNbrInfo.html#afc5ec7a0db579494fc147e94e4bd344f',1,'ThunderEgg::CoarseNbrInfo::local_index()'],['../classThunderEgg_1_1NormalNbrInfo.html#a5d734bead9ca8dc369997b64a6684738',1,'ThunderEgg::NormalNbrInfo::local_index()'],['../structThunderEgg_1_1PatchInfo.html#a16063a5feb7086e685dd7c2a2d53772f',1,'ThunderEgg::PatchInfo::local_index()'],['../classThunderEgg_1_1Schur_1_1Interface.html#a341d9e1e789e0e02ab1b5e0e25f5c112',1,'ThunderEgg::Schur::Interface::local_index()']]],
+  ['local_5findexes',['local_indexes',['../classThunderEgg_1_1FineNbrInfo.html#a04e1980d3c33ee33fce2727f8ef8f187',1,'ThunderEgg::FineNbrInfo']]],
+  ['localdata',['LocalData',['../classThunderEgg_1_1LocalData.html',1,'ThunderEgg::LocalData&lt; D &gt;'],['../classThunderEgg_1_1LocalData.html#a4d1a674516207d8dbae3508229abfb2f',1,'ThunderEgg::LocalData::LocalData()']]],
+  ['localdatamanager',['LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html',1,'ThunderEgg']]],
+  ['loop',['Loop',['../classThunderEgg_1_1Loop.html',1,'ThunderEgg']]],
+  ['loop_3c_20start_2c_20start_2c_20t_20_3e',['Loop&lt; start, start, T &gt;',['../classThunderEgg_1_1Loop_3_01start_00_01start_00_01T_01_4.html',1,'ThunderEgg']]],
+  ['lower',['lower',['../classThunderEgg_1_1Orthant.html#aff09bc5cbd4ab30dcf1014708b3d445d',1,'ThunderEgg::Orthant']]],
+  ['lowersideonaxis',['LowerSideOnAxis',['../classThunderEgg_1_1Side.html#a0483adf17b9f111f50f9271db6d5ab9e',1,'ThunderEgg::Side']]]
 ];
