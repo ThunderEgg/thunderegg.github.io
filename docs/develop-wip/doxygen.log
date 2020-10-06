@@ -422,12 +422,10 @@ Generating code f/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experim
   parameter 'max_it'
   parameter 'tolerance'
   parameter 'timer'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:34: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas, const std::vector< LocalData< 2 >> &nbr_datas, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:38: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:41: warning: Member BiLinearGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:99: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas, const std::vector< LocalData< 2 >> &nbr_datas, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:137: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:163: warning: Member BiQuadraticGhostFiller(std::shared_ptr< const Domain< 2 >> domain_in) (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:44: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas, const std::vector< LocalData< 2 >> &nbr_datas, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:48: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:45: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas, const std::vector< LocalData< 2 >> &nbr_datas, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:50: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:47: warning: Member patch_id_bc_map_vec (variable) of class ThunderEgg::Domain is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:173: warning: The following parameters of ThunderEgg::Domain::Domain(std::map< int, std::shared_ptr< PatchInfo< D >>> pinfo_map, std::array< int, D > ns_in, int num_ghost_cells_in, bool local_id_set=false, bool global_id_set=false) are not documented:
   parameter 'ns_in'
@@ -952,5 +950,5 @@ Patching output file 69/72
 Patching output file 70/72
 Patching output file 71/72
 Patching output file 72/72
-lookup cache used 2385/65536 hits=27596 misses=2527
+lookup cache used 2370/65536 hits=27456 misses=2512
 finished...
