@@ -93,9 +93,9 @@ Collaboration diagram for ThunderEgg::ValVectorGenerator&lt; D &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f5c7c04f7ad67a1fda3d38abce64e1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#a3f5c7c04f7ad67a1fda3d38abce64e1a">ValVectorGenerator</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain_in)</td></tr>
-<tr class="memdesc:a3f5c7c04f7ad67a1fda3d38abce64e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. ">ValVectorGenerator</a> object.  <a href="#a3f5c7c04f7ad67a1fda3d38abce64e1a">More...</a><br /></td></tr>
-<tr class="separator:a3f5c7c04f7ad67a1fda3d38abce64e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123a24ce00935ba42737d8c160032ebe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#a123a24ce00935ba42737d8c160032ebe">ValVectorGenerator</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain, int num_components)</td></tr>
+<tr class="memdesc:a123a24ce00935ba42737d8c160032ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. ">ValVectorGenerator</a> object.  <a href="#a123a24ce00935ba42737d8c160032ebe">More...</a><br /></td></tr>
+<tr class="separator:a123a24ce00935ba42737d8c160032ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdf6cbde0f7dd9978504511756082b0d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1ValVectorGenerator.html#afdf6cbde0f7dd9978504511756082b0d">getNewVector</a> () const override</td></tr>
 <tr class="memdesc:afdf6cbde0f7dd9978504511756082b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new <a class="el" href="classThunderEgg_1_1Vector.html" title="Vector class for use in thunderegg. ">Vector</a>.  <a href="#afdf6cbde0f7dd9978504511756082b0d">More...</a><br /></td></tr>
 <tr class="separator:afdf6cbde0f7dd9978504511756082b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,8 +117,8 @@ class ThunderEgg::ValVectorGenerator&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3f5c7c04f7ad67a1fda3d38abce64e1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5c7c04f7ad67a1fda3d38abce64e1a">&#9670;&nbsp;</a></span>ValVectorGenerator()</h2>
+<a id="a123a24ce00935ba42737d8c160032ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a123a24ce00935ba42737d8c160032ebe">&#9670;&nbsp;</a></span>ValVectorGenerator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,8 +132,18 @@ template&lt;int D&gt; </div>
           <td class="memname"><a class="el" href="classThunderEgg_1_1ValVectorGenerator.html">ThunderEgg::ValVectorGenerator</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1ValVectorGenerator.html">ValVectorGenerator</a> </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>domain_in</em></td><td>)</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_components</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -146,7 +156,8 @@ template&lt;int D&gt; </div>
 <p>Construct a new <a class="el" href="classThunderEgg_1_1ValVectorGenerator.html" title="Generates new ValVector objects for a given Domain. ">ValVectorGenerator</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">domain_in</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> to generate <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> objects for </td></tr>
+    <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> to generate <a class="el" href="classThunderEgg_1_1ValVector.html" title="Vector class the uses std::valarray for data storage. ">ValVector</a> objects for </td></tr>
+    <tr><td class="paramname">num_components</td><td>the number of components for each cell </td></tr>
   </table>
   </dd>
 </dl>

@@ -79,8 +79,8 @@ Inheritance diagram for ThunderEgg::GMG::MPIInterpolator&lt; D &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classThunderEgg_1_1GMG_1_1MPIInterpolator__inherit__graph.png" border="0" usemap="#ThunderEgg_1_1GMG_1_1MPIInterpolator_3_01D_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="ThunderEgg_1_1GMG_1_1MPIInterpolator_3_01D_01_4_inherit__map" id="ThunderEgg_1_1GMG_1_1MPIInterpolator_3_01D_01_4_inherit__map">
-<area shape="rect" id="node3" href="classThunderEgg_1_1GMG_1_1DrctIntp.html" title="Simple class that directly places values from coarse cell into the corresponding fine cells..." alt="" coords="29,155,267,181"/>
-<area shape="rect" id="node2" href="classThunderEgg_1_1GMG_1_1Interpolator.html" title="base class for interpolation operators from finer levels to coarser levels. " alt="" coords="17,5,279,32"/>
+<area shape="rect" id="node3" href="classThunderEgg_1_1GMG_1_1DirectInterpolator.html" title="Simple class that directly places values from coarse cell into the corresponding fine cells..." alt="" coords="5,155,307,181"/>
+<area shape="rect" id="node2" href="classThunderEgg_1_1GMG_1_1Interpolator.html" title="base class for interpolation operators from finer levels to coarser levels. " alt="" coords="25,5,287,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -94,9 +94,12 @@ Collaboration diagram for ThunderEgg::GMG::MPIInterpolator&lt; D &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d6cecf3da5cd88729cd8ef8967b8112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html#a9d6cecf3da5cd88729cd8ef8967b8112">MPIInterpolator</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html">InterLevelComm</a>&lt; D &gt;&gt; ilc_in)</td></tr>
-<tr class="memdesc:a9d6cecf3da5cd88729cd8ef8967b8112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html" title="Interpolator that implements the necessary mpi calls, derived classes only have to implement interpol...">MPIInterpolator</a> object.  <a href="#a9d6cecf3da5cd88729cd8ef8967b8112">More...</a><br /></td></tr>
-<tr class="separator:a9d6cecf3da5cd88729cd8ef8967b8112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32ba1820bb12a99fce68ec2e313e278"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html#ae32ba1820bb12a99fce68ec2e313e278">MPIInterpolator</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html">InterLevelComm</a>&lt; D &gt;&gt; ilc)</td></tr>
+<tr class="memdesc:ae32ba1820bb12a99fce68ec2e313e278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html" title="Interpolator that implements the necessary mpi calls, derived classes only have to implement interpol...">MPIInterpolator</a> object.  <a href="#ae32ba1820bb12a99fce68ec2e313e278">More...</a><br /></td></tr>
+<tr class="separator:ae32ba1820bb12a99fce68ec2e313e278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0953cce8bb0f029c8565aeb1b6c7eea6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html#a0953cce8bb0f029c8565aeb1b6c7eea6">interpolatePatches</a> (const std::vector&lt; std::pair&lt; int, std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt;&gt;&gt; &amp;patches, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; coarser_vector, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; finer_vector) const =0</td></tr>
+<tr class="memdesc:a0953cce8bb0f029c8565aeb1b6c7eea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate values from coarse vector to the finer vector.  <a href="#a0953cce8bb0f029c8565aeb1b6c7eea6">More...</a><br /></td></tr>
+<tr class="separator:a0953cce8bb0f029c8565aeb1b6c7eea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19f533711fe49082ae194a35fc6a4500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html#a19f533711fe49082ae194a35fc6a4500">interpolate</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; coarse, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; fine) const</td></tr>
 <tr class="memdesc:a19f533711fe49082ae194a35fc6a4500"><td class="mdescLeft">&#160;</td><td class="mdescRight">interpolation function  <a href="#a19f533711fe49082ae194a35fc6a4500">More...</a><br /></td></tr>
 <tr class="separator:a19f533711fe49082ae194a35fc6a4500"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,8 +115,8 @@ class ThunderEgg::GMG::MPIInterpolator&lt; D &gt;</h3>
 
 <p><a class="el" href="classThunderEgg_1_1GMG_1_1Interpolator.html" title="base class for interpolation operators from finer levels to coarser levels. ">Interpolator</a> that implements the necessary mpi calls, derived classes only have to implement interpolatePatches method. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9d6cecf3da5cd88729cd8ef8967b8112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d6cecf3da5cd88729cd8ef8967b8112">&#9670;&nbsp;</a></span>MPIInterpolator()</h2>
+<a id="ae32ba1820bb12a99fce68ec2e313e278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32ba1820bb12a99fce68ec2e313e278">&#9670;&nbsp;</a></span>MPIInterpolator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,13 +130,13 @@ template&lt;int D&gt; </div>
           <td class="memname"><a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html">ThunderEgg::GMG::MPIInterpolator</a>&lt; D &gt;::<a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html">MPIInterpolator</a> </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1GMG_1_1InterLevelComm.html">InterLevelComm</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ilc_in</em></td><td>)</td>
+          <td class="paramname"><em>ilc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -195,6 +198,63 @@ template&lt;int D&gt; </div>
 </dl>
 
 <p>Implements <a class="el" href="classThunderEgg_1_1GMG_1_1Interpolator.html#aa953fc0c0fc982795c666b5d71826f1f">ThunderEgg::GMG::Interpolator&lt; D &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a0953cce8bb0f029c8565aeb1b6c7eea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0953cce8bb0f029c8565aeb1b6c7eea6">&#9670;&nbsp;</a></span>interpolatePatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1GMG_1_1MPIInterpolator.html">ThunderEgg::GMG::MPIInterpolator</a>&lt; D &gt;::interpolatePatches </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; int, std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>patches</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>coarser_vector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>finer_vector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Interpolate values from coarse vector to the finer vector. </p>
+<p>The idea behind this is that this function will be called twice. Once to interpolate from the local values, and once to interpolate from the ghost values. The local values will be interpolated from first, while MPI communication is happening, and the ghost values will be interpolated from last.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">patches</td><td>pairs where the first value is the index in the coarse vector and the second value is a pointer to the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> object </td></tr>
+    <tr><td class="paramname">finer_vector</td><td>the finer vector </td></tr>
+    <tr><td class="paramname">coarser_vector</td><td>the coaser vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classThunderEgg_1_1GMG_1_1DirectInterpolator.html#af411ca4e0867974699d57811c7205d8b">ThunderEgg::GMG::DirectInterpolator&lt; D &gt;</a>.</p>
 
 </div>
 </div>

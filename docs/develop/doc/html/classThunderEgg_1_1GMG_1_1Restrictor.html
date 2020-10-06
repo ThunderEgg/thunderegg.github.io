@@ -79,9 +79,8 @@ Inheritance diagram for ThunderEgg::GMG::Restrictor&lt; D &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classThunderEgg_1_1GMG_1_1Restrictor__inherit__graph.png" border="0" usemap="#ThunderEgg_1_1GMG_1_1Restrictor_3_01D_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="ThunderEgg_1_1GMG_1_1Restrictor_3_01D_01_4_inherit__map" id="ThunderEgg_1_1GMG_1_1Restrictor_3_01D_01_4_inherit__map">
-<area shape="rect" id="node2" href="classThunderEgg_1_1GMG_1_1MPIRestrictor.html" title="Restrictor that implements the necessary mpi calls, derived classes only have to implement restrictor..." alt="" coords="131,80,401,107"/>
-<area shape="rect" id="node3" href="classThunderEgg_1_1GMG_1_1AvgRstr.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. " alt="" coords="5,155,241,181"/>
-<area shape="rect" id="node4" href="classThunderEgg_1_1GMG_1_1LinearRestrictor.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. " alt="" coords="266,155,554,181"/>
+<area shape="rect" id="node2" href="classThunderEgg_1_1GMG_1_1MPIRestrictor.html" title="Restrictor that implements the necessary mpi calls, derived classes only have to implement restrictor..." alt="" coords="14,80,285,107"/>
+<area shape="rect" id="node3" href="classThunderEgg_1_1GMG_1_1LinearRestrictor.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. " alt="" coords="5,155,293,181"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -91,9 +90,9 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11">~Restrictor</a> ()</td></tr>
 <tr class="memdesc:afe424ba528fe3aa85c26b4103c8dcc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1GMG_1_1Restrictor.html" title="Base class for multi-grid restriction operators. ">Restrictor</a> object. <br /></td></tr>
 <tr class="separator:afe424ba528fe3aa85c26b4103c8dcc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1Restrictor.html#a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6">restrict</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; coarse, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; fine) const =0</td></tr>
-<tr class="memdesc:a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that base classes have to implement.  <a href="#a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6">More...</a><br /></td></tr>
-<tr class="separator:a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69825202f83f42a42b7119d3a1d8e363"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1GMG_1_1Restrictor.html#a69825202f83f42a42b7119d3a1d8e363">restrict</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; fine, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; coarse) const =0</td></tr>
+<tr class="memdesc:a69825202f83f42a42b7119d3a1d8e363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual function that base classes have to implement.  <a href="#a69825202f83f42a42b7119d3a1d8e363">More...</a><br /></td></tr>
+<tr class="separator:a69825202f83f42a42b7119d3a1d8e363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int D&gt;<br />
@@ -101,8 +100,8 @@ class ThunderEgg::GMG::Restrictor&lt; D &gt;</h3>
 
 <p>Base class for multi-grid restriction operators. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f2d6fbf5cf6e7eb48e5f67ba4bbb9e6">&#9670;&nbsp;</a></span>restrict()</h2>
+<a id="a69825202f83f42a42b7119d3a1d8e363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69825202f83f42a42b7119d3a1d8e363">&#9670;&nbsp;</a></span>restrict()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -115,14 +114,14 @@ template&lt;int D&gt; </div>
         <tr>
           <td class="memname">virtual void <a class="el" href="classThunderEgg_1_1GMG_1_1Restrictor.html">ThunderEgg::GMG::Restrictor</a>&lt; D &gt;::restrict </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>coarse</em>, </td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>fine</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
-          <td class="paramname"><em>fine</em>&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt;&#160;</td>
+          <td class="paramname"><em>coarse</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -140,13 +139,13 @@ template&lt;int D&gt; </div>
 <p>Virtual function that base classes have to implement. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">coarse</td><td>the output vector that is restricted to. </td></tr>
     <tr><td class="paramname">fine</td><td>the input vector that is restricted. </td></tr>
+    <tr><td class="paramname">coarse</td><td>the output vector that is restricted to. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1GMG_1_1MPIRestrictor.html#a0473eb28291d844833c4baf0627fc911">ThunderEgg::GMG::MPIRestrictor&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1GMG_1_1MPIRestrictor.html#a60b0511136e615ef10f927caedb4d6d3">ThunderEgg::GMG::MPIRestrictor&lt; D &gt;</a>.</p>
 
 </div>
 </div>

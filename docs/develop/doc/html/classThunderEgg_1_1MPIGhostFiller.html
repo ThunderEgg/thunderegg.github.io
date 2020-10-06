@@ -97,12 +97,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b44c890b3f15143a425174cd8b270f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#a7b44c890b3f15143a425174cd8b270f1">MPIGhostFiller</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain_in, int side_cases_in)</td></tr>
 <tr class="memdesc:a7b44c890b3f15143a425174cd8b270f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1MPIGhostFiller.html" title="Parallell ghostfiller implimented with MPI. ">MPIGhostFiller</a> object.  <a href="#a7b44c890b3f15143a425174cd8b270f1">More...</a><br /></td></tr>
 <tr class="separator:a7b44c890b3f15143a425174cd8b270f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7be5e247752b835f222331559484646"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#ab7be5e247752b835f222331559484646">fillGhostCellsForNbrPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;local_data, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;nbr_data, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; side, const <a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464">NbrType</a> nbr_type, const <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D &gt; orthant) const =0</td></tr>
-<tr class="memdesc:ab7be5e247752b835f222331559484646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the ghost cells for the neighboring patch.  <a href="#ab7be5e247752b835f222331559484646">More...</a><br /></td></tr>
-<tr class="separator:ab7be5e247752b835f222331559484646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaa7de9be2812239ce10f87cf5d53b97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#aeaa7de9be2812239ce10f87cf5d53b97">fillGhostCellsForLocalPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;local_data) const =0</td></tr>
-<tr class="memdesc:aeaa7de9be2812239ce10f87cf5d53b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform any on this patches ghost cells.  <a href="#aeaa7de9be2812239ce10f87cf5d53b97">More...</a><br /></td></tr>
-<tr class="separator:aeaa7de9be2812239ce10f87cf5d53b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9d5a0602a0af3e2d8daa35453b5720"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#aaf9d5a0602a0af3e2d8daa35453b5720">fillGhostCellsForNbrPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;local_datas, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;nbr_datas, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; D &gt; side, const <a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464">NbrType</a> nbr_type, const <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; D &gt; orthant) const =0</td></tr>
+<tr class="memdesc:aaf9d5a0602a0af3e2d8daa35453b5720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the ghost cells for the neighboring patch.  <a href="#aaf9d5a0602a0af3e2d8daa35453b5720">More...</a><br /></td></tr>
+<tr class="separator:aaf9d5a0602a0af3e2d8daa35453b5720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a931e28c91006fab14d5b04dfe0511c98"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#a931e28c91006fab14d5b04dfe0511c98">fillGhostCellsForLocalPatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;local_datas) const =0</td></tr>
+<tr class="memdesc:a931e28c91006fab14d5b04dfe0511c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform any on this patches ghost cells.  <a href="#a931e28c91006fab14d5b04dfe0511c98">More...</a><br /></td></tr>
+<tr class="separator:a931e28c91006fab14d5b04dfe0511c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ca2c0676706d9f208d9b9c45138550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html#a05ca2c0676706d9f208d9b9c45138550">fillGhost</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; u) const</td></tr>
 <tr class="memdesc:a05ca2c0676706d9f208d9b9c45138550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill ghost cells on a vector.  <a href="#a05ca2c0676706d9f208d9b9c45138550">More...</a><br /></td></tr>
 <tr class="separator:a05ca2c0676706d9f208d9b9c45138550"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,8 +217,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="aeaa7de9be2812239ce10f87cf5d53b97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaa7de9be2812239ce10f87cf5d53b97">&#9670;&nbsp;</a></span>fillGhostCellsForLocalPatch()</h2>
+<a id="a931e28c91006fab14d5b04dfe0511c98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a931e28c91006fab14d5b04dfe0511c98">&#9670;&nbsp;</a></span>fillGhostCellsForLocalPatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,8 +237,8 @@ template&lt;int D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>local_data</em>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>local_datas</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -258,15 +258,15 @@ template&lt;int D&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pinfo</td><td>the patch </td></tr>
-    <tr><td class="paramname">local_data</td><td>the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> for the patch </td></tr>
+    <tr><td class="paramname">local_datas</td><td>the <a class="el" href="classThunderEgg_1_1LocalData.html" title="Array for acessing data of a patch. It supports variable striding. ">LocalData</a> for the patch </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ab7be5e247752b835f222331559484646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7be5e247752b835f222331559484646">&#9670;&nbsp;</a></span>fillGhostCellsForNbrPatch()</h2>
+<a id="aaf9d5a0602a0af3e2d8daa35453b5720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9d5a0602a0af3e2d8daa35453b5720">&#9670;&nbsp;</a></span>fillGhostCellsForNbrPatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,14 +285,14 @@ template&lt;int D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>local_data</em>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>local_datas</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nbr_data</em>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nbr_datas</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -329,8 +329,8 @@ template&lt;int D&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pinfo</td><td>the patch that ghost cells are being filled from </td></tr>
-    <tr><td class="paramname">local_data</td><td>the local data for patch that ghost cells are being filled from </td></tr>
-    <tr><td class="paramname">nbr_data</td><td>the local data for the neighboring patch, where ghost cells are being filled. </td></tr>
+    <tr><td class="paramname">local_datas</td><td>the local data for patch that ghost cells are being filled from </td></tr>
+    <tr><td class="paramname">nbr_datas</td><td>the local data for the neighboring patch, where ghost cells are being filled. </td></tr>
     <tr><td class="paramname">side</td><td>the sided that the neighboring patch is on </td></tr>
     <tr><td class="paramname">nbr_type</td><td>the type of neighbor </td></tr>
     <tr><td class="paramname">orthant</td><td>the orthant that the neighbors ghost cells lie on </td></tr>
