@@ -17,6 +17,7 @@ var searchData=
   ['setfiner',['setFiner',['../classThunderEgg_1_1GMG_1_1Level.html#a8011843cc44d9440ec68e8b1fc6e8804',1,'ThunderEgg::GMG::Level']]],
   ['setglobalindexes',['setGlobalIndexes',['../classThunderEgg_1_1CoarseNbrInfo.html#af6a9083a3496b22a2d5191316d3b39ac',1,'ThunderEgg::CoarseNbrInfo::setGlobalIndexes()'],['../classThunderEgg_1_1FineNbrInfo.html#a6eae383d03d138ed19e0d08c88d756bc',1,'ThunderEgg::FineNbrInfo::setGlobalIndexes()'],['../classThunderEgg_1_1NbrInfo.html#a31f7a92c6ecb0519dee8675ffcd2bb5e',1,'ThunderEgg::NbrInfo::setGlobalIndexes()'],['../classThunderEgg_1_1NormalNbrInfo.html#a944a6ecacf8af29d6a1ee97dcd08063d',1,'ThunderEgg::NormalNbrInfo::setGlobalIndexes()']]],
   ['setglobalneighborindexes',['setGlobalNeighborIndexes',['../structThunderEgg_1_1PatchInfo.html#a5dc1e5b5482226d0d4f86a1000c4e9ec',1,'ThunderEgg::PatchInfo']]],
+  ['setid',['setId',['../classThunderEgg_1_1Domain.html#aa8161a06fb19bb382adb5fe693290f5b',1,'ThunderEgg::Domain']]],
   ['setifaceinfo',['setIfaceInfo',['../classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html#a48dee1fa540e04de99d97466b12ca37c',1,'ThunderEgg::Schur::PatchIfaceInfo']]],
   ['setinterpolator',['setInterpolator',['../classThunderEgg_1_1GMG_1_1Level.html#a1a662be845a40e5f892447e49e21e37a',1,'ThunderEgg::GMG::Level']]],
   ['setlocalindexes',['setLocalIndexes',['../classThunderEgg_1_1CoarseNbrInfo.html#af91261ff5fdf43d2ea540ffe6c29e10f',1,'ThunderEgg::CoarseNbrInfo::setLocalIndexes()'],['../classThunderEgg_1_1FineNbrInfo.html#a4704677ff9423785b34c3edce0fd5144',1,'ThunderEgg::FineNbrInfo::setLocalIndexes()'],['../classThunderEgg_1_1NbrInfo.html#af25c528cd96c1353040e5793e5be633e',1,'ThunderEgg::NbrInfo::setLocalIndexes()'],['../classThunderEgg_1_1NormalNbrInfo.html#a13c39e75c432b9a9d71b0638b0c01abe',1,'ThunderEgg::NormalNbrInfo::setLocalIndexes()']]],
@@ -26,7 +27,7 @@ var searchData=
   ['setorthant',['setOrthant',['../classThunderEgg_1_1Schur_1_1IfaceType.html#aeb7b6f5f6c2d85c6cc345e9f22142361',1,'ThunderEgg::Schur::IfaceType']]],
   ['setrestrictor',['setRestrictor',['../classThunderEgg_1_1GMG_1_1Level.html#a955ed494355d86d37999f0869552df36',1,'ThunderEgg::GMG::Level']]],
   ['setsmoother',['setSmoother',['../classThunderEgg_1_1GMG_1_1Level.html#a075ad6b41cffa4eb8373cfb24dcf385e',1,'ThunderEgg::GMG::Level']]],
-  ['settimer',['setTimer',['../classThunderEgg_1_1PatchSolver.html#ac085e2df3570d0e34f5ff1e2c255779c',1,'ThunderEgg::PatchSolver']]],
+  ['settimer',['setTimer',['../classThunderEgg_1_1Domain.html#a240ee1cea1e7d72c9e5600e3ed59f9d8',1,'ThunderEgg::Domain']]],
   ['setvalues',['SetValues',['../namespaceThunderEgg_1_1DomainTools.html#afd4bd5743cf0e8a8d1944b044b7d9295',1,'ThunderEgg::DomainTools::SetValues(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func)'],['../namespaceThunderEgg_1_1DomainTools.html#a59164da5aa128ee86e03bb36a97c5f7f',1,'ThunderEgg::DomainTools::SetValues(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, T func, Args... args)']]],
   ['setvalueswithghost',['SetValuesWithGhost',['../namespaceThunderEgg_1_1DomainTools.html#ac51a232f65c800d78932f8e2480ac193',1,'ThunderEgg::DomainTools::SetValuesWithGhost(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func)'],['../namespaceThunderEgg_1_1DomainTools.html#a9dd0bc1e539ff3fea526874dfcc448ea',1,'ThunderEgg::DomainTools::SetValuesWithGhost(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, T func, Args... args)']]],
   ['setwithghost',['setWithGhost',['../classThunderEgg_1_1Vector.html#ade39eb6afa846478f7e9bf0c1edb72a5',1,'ThunderEgg::Vector']]],
@@ -39,7 +40,9 @@ var searchData=
   ['solvesinglepatch',['solveSinglePatch',['../classThunderEgg_1_1BiCGStabPatchSolver.html#a30fad73e6f25236361e2959c4c1513f1',1,'ThunderEgg::BiCGStabPatchSolver::solveSinglePatch()'],['../classThunderEgg_1_1PatchSolver.html#aa7c3ba720d2ca54accce7d7d1766fcee',1,'ThunderEgg::PatchSolver::solveSinglePatch()'],['../classThunderEgg_1_1Poisson_1_1DFTPatchSolver.html#a6a3df7f976a9f5cd2a594528faf68ffe',1,'ThunderEgg::Poisson::DFTPatchSolver::solveSinglePatch()'],['../classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html#aefb9dc04d5732a47258850135138ac2e',1,'ThunderEgg::Poisson::FFTWPatchSolver::solveSinglePatch()']]],
   ['south',['south',['../classThunderEgg_1_1Side.html#a6b40d3434577493affb92447615bfcb7',1,'ThunderEgg::Side']]],
   ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#afd7eee51cf4cf52172ced52d1d40b139',1,'ThunderEgg::Poisson::StarPatchOperator::StarPatchOperator()'],['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#aa1d744dcb324bea22e6e6f8453e954fe',1,'ThunderEgg::VarPoisson::StarPatchOperator::StarPatchOperator()']]],
-  ['start',['start',['../classThunderEgg_1_1Timer.html#a47964505fae48a2e82b43c96ba2f3e4a',1,'ThunderEgg::Timer']]],
-  ['stop',['stop',['../classThunderEgg_1_1Timer.html#a896fe7744262c4b8d7e777235708dd20',1,'ThunderEgg::Timer']]],
+  ['start',['start',['../classThunderEgg_1_1Timer.html#a08e989db6a92a75c31cf12d8fcb0e0c9',1,'ThunderEgg::Timer']]],
+  ['startdomaintiming',['startDomainTiming',['../classThunderEgg_1_1Timer.html#a92c911c10982ec5c02d55d5fc1a9ee5d',1,'ThunderEgg::Timer']]],
+  ['stop',['stop',['../classThunderEgg_1_1Timer.html#a428f16e37606616ffe810972a813c378',1,'ThunderEgg::Timer']]],
+  ['stopdomaintiming',['stopDomainTiming',['../classThunderEgg_1_1Timer.html#a487c8ac7e3ed0bedf08948b6a9ddc8ed',1,'ThunderEgg::Timer']]],
   ['sw',['sw',['../classThunderEgg_1_1Orthant.html#a3ed7f1e359b6f7cfd30bf5719c987ac3',1,'ThunderEgg::Orthant']]]
 ];
