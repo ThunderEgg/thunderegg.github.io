@@ -26,6 +26,7 @@ Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/Th
 Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PETSc
 Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson
 Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur
+Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/tpl
 Searching for files in directory /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson
 Reading and parsing tag files
 Parsing files
@@ -179,8 +180,7 @@ Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Patch
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PatchSolverWrapper.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/PatchSolverWrapper.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Schur.dox...
-Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/Schur.dox...
-Preprocessing /home/travis/build/ThunderEgg/Thunder/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:27: warning: Compound IfaceMatrixHelper is not documented.
+Parsing file /home/travis/build/ThunderEgg/Thu/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:27: warning: Compound IfaceMatrixHelper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Poisson/StencilHelper2d.h:327: warning: Compound ThunderEgg::Poisson::FineSH2d is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:27: warning: Compound FftwChunk is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:63: warning: Compound ThunderEgg::NestedLoop< D, 0, T, A > is not documented.
@@ -203,7 +203,8 @@ Preprocessing /home/travis/build/ThunderEgg/Thunder/home/travis/build/ThunderEgg
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:40: warning: Compound FftwChunkX is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:44: warning: Compound FftwChunkY is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:48: warning: Compound FftwChunkZ is not documented.
-Egg/src/ThunderEgg/Schur/ValVectorGenerator.h...
+nderEgg/src/ThunderEgg/Schur/Schur.dox...
+Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/ValVectorGenerator.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/ValVectorGenerator.h...
 Preprocessing /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/VecWrapperGenerator.h...
 Parsing file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/VecWrapperGenerator.h...
@@ -360,8 +361,7 @@ Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/VecWrapperGenerator.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Serializable.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h...
-Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h...
-Generating code f/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:50: warning: Member AmgxWrapper(std::string filename) (function) of class AmgxWrapper is not documented.
+Generating code /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:50: warning: Member AmgxWrapper(std::string filename) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:51: warning: Member setMatrix(Mat A) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/AmgxWrapper.h:53: warning: Member solve(Vec x, Vec b) (function) of class AmgxWrapper is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/ContigFftwSolver.h:63: warning: Member ContigFftwSolver(DomainCollection &dc) (function) of class ContigFftwSolver is not documented.
@@ -418,6 +418,13 @@ Generating code f/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experim
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:33: warning: argument 'comm' of command @param is not found in the argument list of IfaceMatrixHelper::IfaceMatrixHelper(DomainCollection dc)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:47: warning: Member loop(T lambda) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:80: warning: Member nested_loop(A start, A end, T lambda) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/NbrType.h:63: warning: Member NLOHMANN_JSON_SERIALIZE_ENUM(NbrType, {{NbrType::Normal, "NORMAL"}, {NbrType::Coarse, "COARSE"}, {NbrType::Fine, "FINE"}}) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:421: warning: Member to_json(nlohmann::json &j, const Side< 1 > &s) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:422: warning: Member to_json(nlohmann::json &j, const Side< 2 > &s) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:423: warning: Member to_json(nlohmann::json &j, const Side< 3 > &s) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:424: warning: Member from_json(const nlohmann::json &j, Side< 1 > &s) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:425: warning: Member from_json(const nlohmann::json &j, Side< 2 > &s) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:426: warning: Member from_json(const nlohmann::json &j, Side< 3 > &s) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiCGStab.h:49: warning: The following parameters of ThunderEgg::BiCGStab::solve(std::shared_ptr< VectorGenerator< D >> vg, std::shared_ptr< const Operator< D >> A, std::shared_ptr< Vector< D >> x, std::shared_ptr< const Vector< D >> b, std::shared_ptr< const Operator< D >> Mr=nullptr, int max_it=1000, double tolerance=1e-12, std::shared_ptr< ThunderEgg::Timer > timer=nullptr) are not documented:
   parameter 'max_it'
   parameter 'tolerance'
@@ -468,21 +475,8 @@ Generating code f/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experim
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PBMatrix.h:46: warning: Member operator<(const PBlock &l, const PBlock &r) (friend) of class ThunderEgg::Experimental::PBMatrix::PBlock is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/PolyChebPrec.h:56: warning: Member apply(std::shared_ptr< const Vector< 2 >> x, std::shared_ptr< Vector< 2 >> b) const (function) of class ThunderEgg::Experimental::PolyChebPrec is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experimental/OctTree.h:81: warning: Member zoltanBalanceDomains() (function) of class ThunderEgg::Experimental::Tree is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:47: warning: Member VecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:48: warning: Member ConstVecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:54: warning: The following parameters of ThunderEgg::GMG::Cycle::prepCoarser(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
-  parameter 'u_vectors'
-  parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:72: warning: The following parameters of ThunderEgg::GMG::Cycle::prepFiner(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
-  parameter 'u_vectors'
-  parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:85: warning: The following parameters of ThunderEgg::GMG::Cycle::smooth(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
-  parameter 'u_vectors'
-  parameter 'f_vectors'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:95: warning: The following parameters of ThunderEgg::GMG::Cycle::visit(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const=0 are not documented:
-  parameter 'u_vectors'
-  parameter 'f_vectors'
-or file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h...
+for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h...
+Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TypeDefs.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/ValVector.h...
 Generating code for file /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h...
@@ -549,8 +543,21 @@ Generating docs for compound ThunderEgg::Experimental::PBMatrix...
 Generating docs for nested compound ThunderEgg::Experimental::PBMatrix::PBlock...
 Generating docs for compound ThunderEgg::Experimental::PolyChebPrec...
 Generating docs for compound ThunderEgg::Experimental::Tree...
-Generating docs for compound ThunderEgg::GMG::Cycle...
-Generating docs for compound ThunderEgg::GMG::CycleBuilde/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain)
+Generating docs for/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:47: warning: Member VecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:48: warning: Member ConstVecList (typedef) of class ThunderEgg::GMG::Cycle is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:54: warning: The following parameters of ThunderEgg::GMG::Cycle::prepCoarser(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
+  parameter 'u_vectors'
+  parameter 'f_vectors'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:72: warning: The following parameters of ThunderEgg::GMG::Cycle::prepFiner(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
+  parameter 'u_vectors'
+  parameter 'f_vectors'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:85: warning: The following parameters of ThunderEgg::GMG::Cycle::smooth(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const are not documented:
+  parameter 'u_vectors'
+  parameter 'f_vectors'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/Cycle.h:95: warning: The following parameters of ThunderEgg::GMG::Cycle::visit(const Level< D > &level, VecList &u_vectors, ConstVecList &f_vectors) const=0 are not documented:
+  parameter 'u_vectors'
+  parameter 'f_vectors'
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'coarse_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:108: warning: argument 'fine_domain' of command @param is not found in the argument list of ThunderEgg::GMG::InterLevelComm< D >::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/GMG/InterLevelComm.h:114: warning: The following parameters of ThunderEgg::GMG::InterLevelComm::InterLevelComm(std::shared_ptr< const Domain< D >> coarser_domain, int num_coarser_components, std::shared_ptr< const Domain< D >> finer_domain) are not documented:
   parameter 'coarser_domain'
@@ -623,7 +630,8 @@ Generating docs for compound ThunderEgg::GMG::CycleBuilde/home/travis/build/Thun
   parameter 'orth_on_coarse'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:48: warning: Member addValue(int axis) const (function) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/VarPoisson/StarPatchOperator.h:46: warning: Member coeffs (variable) of class ThunderEgg::VarPoisson::StarPatchOperator is not documented.
-r...
+ compound ThunderEgg::GMG::Cycle...
+Generating docs for compound ThunderEgg::GMG::CycleBuilder...
 Generating docs for compound ThunderEgg::GMG::CycleOpts...
 Generating docs for compound ThunderEgg::GMG::DirectInterpolator...
 Generating docs for compound ThunderEgg::GMG::InterLevelComm...
@@ -950,5 +958,5 @@ Patching output file 69/72
 Patching output file 70/72
 Patching output file 71/72
 Patching output file 72/72
-lookup cache used 2382/65536 hits=27684 misses=2525
+lookup cache used 2387/65536 hits=27749 misses=2530
 finished...

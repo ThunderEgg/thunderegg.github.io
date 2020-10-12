@@ -220,6 +220,9 @@ template&lt;int D, typename T , typename A &gt; </td></tr>
 std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceThunderEgg.html#ac3feaf7e81ee8ea792999976323462ef">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464">NbrType</a> &amp;type)</td></tr>
 <tr class="memdesc:ac3feaf7e81ee8ea792999976323462ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">ostream operator that prints a string representation of NbrType enum. <br /></td></tr>
 <tr class="separator:ac3feaf7e81ee8ea792999976323462ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace08645eae4733615366b321bc077dbe"><td class="memItemLeft" align="right" valign="top"><a id="ace08645eae4733615366b321bc077dbe"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>NLOHMANN_JSON_SERIALIZE_ENUM</b> (<a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464">NbrType</a>, {{<a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464a960b44c579bc2f6818d2daaf9e4c16f0">NbrType::Normal</a>, &quot;NORMAL&quot;}, {NbrType::Coarse, &quot;COARSE&quot;}, {NbrType::Fine, &quot;FINE&quot;}})</td></tr>
+<tr class="separator:ace08645eae4733615366b321bc077dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4208a7ff8766f4045f1381753b51541"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceThunderEgg.html#aa4208a7ff8766f4045f1381753b51541">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; 1 &gt; &amp;o)</td></tr>
 <tr class="memdesc:aa4208a7ff8766f4045f1381753b51541"><td class="mdescLeft">&#160;</td><td class="mdescRight">ostream operator that prints a string representation of Orthant&lt;1&gt; enum.  <a href="#aa4208a7ff8766f4045f1381753b51541">More...</a><br /></td></tr>
 <tr class="separator:aa4208a7ff8766f4045f1381753b51541"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,6 +241,24 @@ std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <tr class="memitem:a47d27d0c6d32f028f4034b5f1fbe6920"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceThunderEgg.html#a47d27d0c6d32f028f4034b5f1fbe6920">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 3 &gt; &amp;s)</td></tr>
 <tr class="memdesc:a47d27d0c6d32f028f4034b5f1fbe6920"><td class="mdescLeft">&#160;</td><td class="mdescRight">ostream operator that prints a string representation of side enum.  <a href="#a47d27d0c6d32f028f4034b5f1fbe6920">More...</a><br /></td></tr>
 <tr class="separator:a47d27d0c6d32f028f4034b5f1fbe6920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52eb80edc1ef1d26648a2e1b0cb00707"><td class="memItemLeft" align="right" valign="top"><a id="a52eb80edc1ef1d26648a2e1b0cb00707"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 1 &gt; &amp;s)</td></tr>
+<tr class="separator:a52eb80edc1ef1d26648a2e1b0cb00707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdfa88cdfa8b4200067944fb41204c9"><td class="memItemLeft" align="right" valign="top"><a id="a4fdfa88cdfa8b4200067944fb41204c9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 2 &gt; &amp;s)</td></tr>
+<tr class="separator:a4fdfa88cdfa8b4200067944fb41204c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a86e1850f20ded41b51cbc24f7d3f5c"><td class="memItemLeft" align="right" valign="top"><a id="a1a86e1850f20ded41b51cbc24f7d3f5c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 3 &gt; &amp;s)</td></tr>
+<tr class="separator:a1a86e1850f20ded41b51cbc24f7d3f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84c63e95f6997d0c238face53b814e7"><td class="memItemLeft" align="right" valign="top"><a id="ac84c63e95f6997d0c238face53b814e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 1 &gt; &amp;s)</td></tr>
+<tr class="separator:ac84c63e95f6997d0c238face53b814e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8feb0200a91c3b0e2f30fa843a942e"><td class="memItemLeft" align="right" valign="top"><a id="aee8feb0200a91c3b0e2f30fa843a942e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 2 &gt; &amp;s)</td></tr>
+<tr class="separator:aee8feb0200a91c3b0e2f30fa843a942e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e991b73f8266e309158f33edce30140"><td class="memItemLeft" align="right" valign="top"><a id="a5e991b73f8266e309158f33edce30140"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 3 &gt; &amp;s)</td></tr>
+<tr class="separator:a5e991b73f8266e309158f33edce30140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="namespaceThunderEgg.html" title="The ThunderEgg namespace. ">ThunderEgg</a> namespace. </p>
