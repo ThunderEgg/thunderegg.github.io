@@ -419,6 +419,12 @@ Generating code /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experime
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:47: warning: Member loop(T lambda) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:80: warning: Member nested_loop(A start, A end, T lambda) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/NbrType.h:63: warning: Member NLOHMANN_JSON_SERIALIZE_ENUM(NbrType, {{NbrType::Normal, "NORMAL"}, {NbrType::Coarse, "COARSE"}, {NbrType::Fine, "FINE"}}) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:503: warning: Member to_json(nlohmann::json &j, const Orthant< 1 > &o) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:504: warning: Member to_json(nlohmann::json &j, const Orthant< 2 > &o) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:505: warning: Member to_json(nlohmann::json &j, const Orthant< 3 > &o) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:506: warning: Member from_json(const nlohmann::json &j, Orthant< 1 > &o) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:507: warning: Member from_json(const nlohmann::json &j, Orthant< 2 > &o) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Orthant.h:508: warning: Member from_json(const nlohmann::json &j, Orthant< 3 > &o) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:421: warning: Member to_json(nlohmann::json &j, const Side< 1 > &s) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:422: warning: Member to_json(nlohmann::json &j, const Side< 2 > &s) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Side.h:423: warning: Member to_json(nlohmann::json &j, const Side< 3 > &s) (function) of namespace ThunderEgg is not documented.
@@ -958,5 +964,5 @@ Patching output file 69/72
 Patching output file 70/72
 Patching output file 71/72
 Patching output file 72/72
-lookup cache used 2387/65536 hits=27749 misses=2530
+lookup cache used 2387/65536 hits=27812 misses=2530
 finished...
