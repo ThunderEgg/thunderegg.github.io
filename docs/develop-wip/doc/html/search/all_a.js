@@ -9,6 +9,7 @@ var searchData=
   ['localdata',['LocalData',['../classThunderEgg_1_1LocalData.html',1,'ThunderEgg::LocalData&lt; D &gt;'],['../classThunderEgg_1_1LocalData.html#a4d1a674516207d8dbae3508229abfb2f',1,'ThunderEgg::LocalData::LocalData()']]],
   ['localdatamanager',['LocalDataManager',['../classThunderEgg_1_1LocalDataManager.html',1,'ThunderEgg']]],
   ['loop',['Loop',['../classThunderEgg_1_1Loop.html',1,'ThunderEgg']]],
+  ['loop_3c_200_2c_20_2d1_2c_20t_20_3e',['Loop&lt; 0, -1, T &gt;',['../classThunderEgg_1_1Loop_3_010_00_01-1_00_01T_01_4.html',1,'ThunderEgg']]],
   ['loop_3c_20start_2c_20start_2c_20t_20_3e',['Loop&lt; start, start, T &gt;',['../classThunderEgg_1_1Loop_3_01start_00_01start_00_01T_01_4.html',1,'ThunderEgg']]],
   ['lower',['lower',['../classThunderEgg_1_1Orthant.html#aff09bc5cbd4ab30dcf1014708b3d445d',1,'ThunderEgg::Orthant']]],
   ['lowersideonaxis',['LowerSideOnAxis',['../classThunderEgg_1_1Side.html#a0483adf17b9f111f50f9271db6d5ab9e',1,'ThunderEgg::Side']]]

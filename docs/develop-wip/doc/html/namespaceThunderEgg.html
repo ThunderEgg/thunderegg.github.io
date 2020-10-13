@@ -127,6 +127,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Loop.html">Loop</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Loop_3_010_00_01-1_00_01T_01_4.html">Loop&lt; 0, -1, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Loop_3_01start_00_01start_00_01T_01_4.html">Loop&lt; start, start, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1MPIGhostFiller.html">MPIGhostFiller</a></td></tr>
@@ -208,6 +210,22 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ade21c537efda64b0436bcbc48cca79ba"><td class="memTemplParams" colspan="2"><a id="ade21c537efda64b0436bcbc48cca79ba"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:ade21c537efda64b0436bcbc48cca79ba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1CoarseNbrInfo.html">CoarseNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:ade21c537efda64b0436bcbc48cca79ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbf01b64c78aeb706c8f98305e6ea77"><td class="memTemplParams" colspan="2"><a id="a8dbf01b64c78aeb706c8f98305e6ea77"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:a8dbf01b64c78aeb706c8f98305e6ea77"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1CoarseNbrInfo.html">CoarseNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:a8dbf01b64c78aeb706c8f98305e6ea77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282bad82bf634ee3642d2040b468eabe"><td class="memTemplParams" colspan="2"><a id="a282bad82bf634ee3642d2040b468eabe"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:a282bad82bf634ee3642d2040b468eabe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">FineNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:a282bad82bf634ee3642d2040b468eabe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b8a62143902b7386237dc7dad10ec4"><td class="memTemplParams" colspan="2"><a id="af7b8a62143902b7386237dc7dad10ec4"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:af7b8a62143902b7386237dc7dad10ec4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1FineNbrInfo.html">FineNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:af7b8a62143902b7386237dc7dad10ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acef9671505b2d30d60b165d0e492448f"><td class="memTemplParams" colspan="2"><a id="acef9671505b2d30d60b165d0e492448f"></a>
 template&lt;int start, int stop, typename T &gt; </td></tr>
 <tr class="memitem:acef9671505b2d30d60b165d0e492448f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>loop</b> (T lambda)</td></tr>
@@ -223,6 +241,14 @@ std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <tr class="memitem:ace08645eae4733615366b321bc077dbe"><td class="memItemLeft" align="right" valign="top"><a id="ace08645eae4733615366b321bc077dbe"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>NLOHMANN_JSON_SERIALIZE_ENUM</b> (<a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464">NbrType</a>, {{<a class="el" href="namespaceThunderEgg.html#a49f4aa7867b8d56b98e80a1d04635464a960b44c579bc2f6818d2daaf9e4c16f0">NbrType::Normal</a>, &quot;NORMAL&quot;}, {NbrType::Coarse, &quot;COARSE&quot;}, {NbrType::Fine, &quot;FINE&quot;}})</td></tr>
 <tr class="separator:ace08645eae4733615366b321bc077dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f2f525cb3a3c015131ed0204593d4f"><td class="memTemplParams" colspan="2"><a id="a67f2f525cb3a3c015131ed0204593d4f"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:a67f2f525cb3a3c015131ed0204593d4f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="classThunderEgg_1_1NormalNbrInfo.html">NormalNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:a67f2f525cb3a3c015131ed0204593d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb479065498bdff9f31c8abbcdd9c2d"><td class="memTemplParams" colspan="2"><a id="a7cb479065498bdff9f31c8abbcdd9c2d"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:a7cb479065498bdff9f31c8abbcdd9c2d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1NormalNbrInfo.html">NormalNbrInfo</a>&lt; D &gt; &amp;n)</td></tr>
+<tr class="separator:a7cb479065498bdff9f31c8abbcdd9c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4208a7ff8766f4045f1381753b51541"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceThunderEgg.html#aa4208a7ff8766f4045f1381753b51541">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; 1 &gt; &amp;o)</td></tr>
 <tr class="memdesc:aa4208a7ff8766f4045f1381753b51541"><td class="mdescLeft">&#160;</td><td class="mdescRight">ostream operator that prints a string representation of Orthant&lt;1&gt; enum.  <a href="#aa4208a7ff8766f4045f1381753b51541">More...</a><br /></td></tr>
 <tr class="separator:aa4208a7ff8766f4045f1381753b51541"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +276,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const 
 <tr class="memitem:a59f8d97349534333c6db292a9f7ed7c1"><td class="memItemLeft" align="right" valign="top"><a id="a59f8d97349534333c6db292a9f7ed7c1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="classThunderEgg_1_1Orthant.html">Orthant</a>&lt; 3 &gt; &amp;o)</td></tr>
 <tr class="separator:a59f8d97349534333c6db292a9f7ed7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef54b0c2b9ae03e76a57b6c2b399e729"><td class="memTemplParams" colspan="2"><a id="aef54b0c2b9ae03e76a57b6c2b399e729"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:aef54b0c2b9ae03e76a57b6c2b399e729"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (nlohmann::json &amp;j, const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt; &amp;pinfo)</td></tr>
+<tr class="separator:aef54b0c2b9ae03e76a57b6c2b399e729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafa364082cdb36c9bab7f22c8a8a519"><td class="memTemplParams" colspan="2"><a id="afafa364082cdb36c9bab7f22c8a8a519"></a>
+template&lt;int D&gt; </td></tr>
+<tr class="memitem:afafa364082cdb36c9bab7f22c8a8a519"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const nlohmann::json &amp;j, <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt; &amp;pinfo)</td></tr>
+<tr class="separator:afafa364082cdb36c9bab7f22c8a8a519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088094634ab9291c133708b75c458df6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceThunderEgg.html#a088094634ab9291c133708b75c458df6">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classThunderEgg_1_1Side.html">Side</a>&lt; 1 &gt; &amp;s)</td></tr>
 <tr class="memdesc:a088094634ab9291c133708b75c458df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ostream operator that prints a string representation of side enum.  <a href="#a088094634ab9291c133708b75c458df6">More...</a><br /></td></tr>
 <tr class="separator:a088094634ab9291c133708b75c458df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
