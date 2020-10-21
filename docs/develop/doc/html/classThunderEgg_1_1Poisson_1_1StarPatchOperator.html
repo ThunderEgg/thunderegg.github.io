@@ -98,9 +98,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd7eee51cf4cf52172ced52d1d40b139"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#afd7eee51cf4cf52172ced52d1d40b139">StarPatchOperator</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain_in, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt; ghost_filler_in, bool neumann_in=false)</td></tr>
 <tr class="memdesc:afd7eee51cf4cf52172ced52d1d40b139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html" title="Implements 2nd order laplacian operator. ">StarPatchOperator</a> object.  <a href="#afd7eee51cf4cf52172ced52d1d40b139">More...</a><br /></td></tr>
 <tr class="separator:afd7eee51cf4cf52172ced52d1d40b139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abba07b21b9227fd59297ec6a64e17428"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#abba07b21b9227fd59297ec6a64e17428">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const override</td></tr>
-<tr class="memdesc:abba07b21b9227fd59297ec6a64e17428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#abba07b21b9227fd59297ec6a64e17428">More...</a><br /></td></tr>
-<tr class="separator:abba07b21b9227fd59297ec6a64e17428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aae57f3e71e7971054ad0c0d04f6e9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#a2aae57f3e71e7971054ad0c0d04f6e9e">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs, bool treat_interior_boundary_as_dirichlet) const override</td></tr>
+<tr class="memdesc:a2aae57f3e71e7971054ad0c0d04f6e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a2aae57f3e71e7971054ad0c0d04f6e9e">More...</a><br /></td></tr>
+<tr class="separator:a2aae57f3e71e7971054ad0c0d04f6e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6414915c60dffb729c02a4e9ba8447a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#af6414915c60dffb729c02a4e9ba8447a">addGhostToRHS</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const override</td></tr>
 <tr class="memdesc:af6414915c60dffb729c02a4e9ba8447a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the internal patch boundaries as an dirichlet boundary condition, and modify the RHS accordingly.  <a href="#af6414915c60dffb729c02a4e9ba8447a">More...</a><br /></td></tr>
 <tr class="separator:af6414915c60dffb729c02a4e9ba8447a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,8 +373,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="abba07b21b9227fd59297ec6a64e17428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abba07b21b9227fd59297ec6a64e17428">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
+<a id="a2aae57f3e71e7971054ad0c0d04f6e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aae57f3e71e7971054ad0c0d04f6e9e">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,7 +400,13 @@ template&lt;int D&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>fs</em>&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>treat_interior_boundary_as_dirichlet</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -422,11 +428,12 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">pinfo</td><td>the patch </td></tr>
     <tr><td class="paramname">us</td><td>the right hand side </td></tr>
     <tr><td class="paramname">fs</td><td>the left hand side </td></tr>
+    <tr><td class="paramname">treat_interior_boundary_as_dirichlet</td><td>if true, the stencil of the patch should be modified so that the interior boundaries are assumed to be zero, and the ghost values should not be used </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classThunderEgg_1_1PatchOperator.html#a7ba9cf407a6a43cf5caf2843abfdab23">ThunderEgg::PatchOperator&lt; D &gt;</a>.</p>
+<p>Implements <a class="el" href="classThunderEgg_1_1PatchOperator.html#a025fd04befbeab8b09126089c5a832bf">ThunderEgg::PatchOperator&lt; D &gt;</a>.</p>
 
 </div>
 </div>
