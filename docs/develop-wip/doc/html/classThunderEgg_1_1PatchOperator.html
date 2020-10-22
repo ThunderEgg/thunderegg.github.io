@@ -103,9 +103,9 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchOperator.html#a944b92b49d15750cb796ce6589be1b7b">~PatchOperator</a> ()</td></tr>
 <tr class="memdesc:a944b92b49d15750cb796ce6589be1b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1PatchOperator.html" title="This is an Operator where derived classes only have to implement the two virtual functions that opera...">PatchOperator</a> object. <br /></td></tr>
 <tr class="separator:a944b92b49d15750cb796ce6589be1b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba9cf407a6a43cf5caf2843abfdab23"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchOperator.html#a7ba9cf407a6a43cf5caf2843abfdab23">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const =0</td></tr>
-<tr class="memdesc:a7ba9cf407a6a43cf5caf2843abfdab23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a7ba9cf407a6a43cf5caf2843abfdab23">More...</a><br /></td></tr>
-<tr class="separator:a7ba9cf407a6a43cf5caf2843abfdab23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025fd04befbeab8b09126089c5a832bf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchOperator.html#a025fd04befbeab8b09126089c5a832bf">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs, bool treat_interior_boundary_as_dirichlet) const =0</td></tr>
+<tr class="memdesc:a025fd04befbeab8b09126089c5a832bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a025fd04befbeab8b09126089c5a832bf">More...</a><br /></td></tr>
+<tr class="separator:a025fd04befbeab8b09126089c5a832bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae26bb01da131fd880789ec27163d25cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchOperator.html#ae26bb01da131fd880789ec27163d25cc">addGhostToRHS</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const =0</td></tr>
 <tr class="memdesc:ae26bb01da131fd880789ec27163d25cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the internal patch boundaries as an dirichlet boundary condition, and modify the RHS accordingly.  <a href="#ae26bb01da131fd880789ec27163d25cc">More...</a><br /></td></tr>
 <tr class="separator:ae26bb01da131fd880789ec27163d25cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,7 +251,7 @@ template&lt;int D&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#af6414915c60dffb729c02a4e9ba8447a">ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a1f88b2efc56b4b7c80cc924552a81583">ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a1f88b2efc56b4b7c80cc924552a81583">ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#af6414915c60dffb729c02a4e9ba8447a">ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;</a>.</p>
 
 </div>
 </div>
@@ -305,8 +305,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="a7ba9cf407a6a43cf5caf2843abfdab23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba9cf407a6a43cf5caf2843abfdab23">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
+<a id="a025fd04befbeab8b09126089c5a832bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a025fd04befbeab8b09126089c5a832bf">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,7 +332,13 @@ template&lt;int D&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>fs</em>&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>treat_interior_boundary_as_dirichlet</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -354,11 +360,12 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">pinfo</td><td>the patch </td></tr>
     <tr><td class="paramname">us</td><td>the right hand side </td></tr>
     <tr><td class="paramname">fs</td><td>the left hand side </td></tr>
+    <tr><td class="paramname">treat_interior_boundary_as_dirichlet</td><td>if true, the stencil of the patch should be modified so that the interior boundaries are assumed to be zero, and the ghost values should not be used </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a092fd9cc34c305152712b22b459be81a">ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#abba07b21b9227fd59297ec6a64e17428">ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a70b6e5d2abc39386171298d80a69ba80">ThunderEgg::VarPoisson::StarPatchOperator&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#a2aae57f3e71e7971054ad0c0d04f6e9e">ThunderEgg::Poisson::StarPatchOperator&lt; D &gt;</a>.</p>
 
 </div>
 </div>

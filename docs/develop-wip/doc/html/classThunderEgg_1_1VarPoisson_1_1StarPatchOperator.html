@@ -100,9 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1d744dcb324bea22e6e6f8453e954fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#aa1d744dcb324bea22e6e6f8453e954fe">StarPatchOperator</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; coeffs_in, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain_in, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt;&gt; ghost_filler_in)</td></tr>
 <tr class="memdesc:aa1d744dcb324bea22e6e6f8453e954fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html" title="Implements a variable coefficient Laplacian f=Div[h*Grad[u]]. ">StarPatchOperator</a> object.  <a href="#aa1d744dcb324bea22e6e6f8453e954fe">More...</a><br /></td></tr>
 <tr class="separator:aa1d744dcb324bea22e6e6f8453e954fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a092fd9cc34c305152712b22b459be81a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a092fd9cc34c305152712b22b459be81a">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const override</td></tr>
-<tr class="memdesc:a092fd9cc34c305152712b22b459be81a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a092fd9cc34c305152712b22b459be81a">More...</a><br /></td></tr>
-<tr class="separator:a092fd9cc34c305152712b22b459be81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b6e5d2abc39386171298d80a69ba80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a70b6e5d2abc39386171298d80a69ba80">applySinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs, bool treat_interior_boundary_as_dirichlet) const override</td></tr>
+<tr class="memdesc:a70b6e5d2abc39386171298d80a69ba80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the operator to a single patch.  <a href="#a70b6e5d2abc39386171298d80a69ba80">More...</a><br /></td></tr>
+<tr class="separator:a70b6e5d2abc39386171298d80a69ba80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f88b2efc56b4b7c80cc924552a81583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#a1f88b2efc56b4b7c80cc924552a81583">addGhostToRHS</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs) const override</td></tr>
 <tr class="memdesc:a1f88b2efc56b4b7c80cc924552a81583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the internal patch boundaries as an dirichlet boundary condition, and modify the RHS accordingly.  <a href="#a1f88b2efc56b4b7c80cc924552a81583">More...</a><br /></td></tr>
 <tr class="separator:a1f88b2efc56b4b7c80cc924552a81583"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,8 +334,8 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
-<a id="a092fd9cc34c305152712b22b459be81a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a092fd9cc34c305152712b22b459be81a">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
+<a id="a70b6e5d2abc39386171298d80a69ba80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b6e5d2abc39386171298d80a69ba80">&#9670;&nbsp;</a></span>applySinglePatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +361,13 @@ template&lt;int D&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>fs</em>&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>treat_interior_boundary_as_dirichlet</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,11 +389,12 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">pinfo</td><td>the patch </td></tr>
     <tr><td class="paramname">us</td><td>the right hand side </td></tr>
     <tr><td class="paramname">fs</td><td>the left hand side </td></tr>
+    <tr><td class="paramname">treat_interior_boundary_as_dirichlet</td><td>if true, the stencil of the patch should be modified so that the interior boundaries are assumed to be zero, and the ghost values should not be used </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classThunderEgg_1_1PatchOperator.html#a7ba9cf407a6a43cf5caf2843abfdab23">ThunderEgg::PatchOperator&lt; D &gt;</a>.</p>
+<p>Implements <a class="el" href="classThunderEgg_1_1PatchOperator.html#a025fd04befbeab8b09126089c5a832bf">ThunderEgg::PatchOperator&lt; D &gt;</a>.</p>
 
 </div>
 </div>
