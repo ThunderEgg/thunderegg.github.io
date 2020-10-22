@@ -419,9 +419,9 @@ Generating code /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experime
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:33: warning: argument 'comm' of command @param is not found in the argument list of IfaceMatrixHelper::IfaceMatrixHelper(DomainCollection dc)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/CoarseNbrInfo.h:112: warning: Member to_json(nlohmann::json &j, const CoarseNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/CoarseNbrInfo.h:119: warning: Member from_json(const nlohmann::json &j, CoarseNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:628: warning: Member to_json(nlohmann::json &j, const Domain< D > &domain) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:637: warning: Member to_json< 2 >(nlohmann::json &j, const Domain< 2 > &domain) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:638: warning: Member to_json< 3 >(nlohmann::json &j, const Domain< 3 > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:629: warning: Member to_json(nlohmann::json &j, const Domain< D > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:638: warning: Member to_json< 2 >(nlohmann::json &j, const Domain< 2 > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:639: warning: Member to_json< 3 >(nlohmann::json &j, const Domain< 3 > &domain) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/FineNbrInfo.h:118: warning: Member to_json(nlohmann::json &j, const FineNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/FineNbrInfo.h:124: warning: Member from_json(const nlohmann::json &j, FineNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:52: warning: Member loop(T lambda) (function) of namespace ThunderEgg is not documented.
@@ -981,5 +981,5 @@ Patching output file 69/72
 Patching output file 70/72
 Patching output file 71/72
 Patching output file 72/72
-lookup cache used 2431/65536 hits=28197 misses=2578
+lookup cache used 2434/65536 hits=28226 misses=2581
 finished...

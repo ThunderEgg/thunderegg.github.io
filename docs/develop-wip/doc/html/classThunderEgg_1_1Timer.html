@@ -89,6 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a428f16e37606616ffe810972a813c378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a428f16e37606616ffe810972a813c378">stop</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:a428f16e37606616ffe810972a813c378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop a timing.  <a href="#a428f16e37606616ffe810972a813c378">More...</a><br /></td></tr>
 <tr class="separator:a428f16e37606616ffe810972a813c378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19bcc7f6568bfffc10b30084f4cfaeec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a19bcc7f6568bfffc10b30084f4cfaeec">addDomain</a> (int domain_id, nlohmann::json domain)</td></tr>
+<tr class="memdesc:a19bcc7f6568bfffc10b30084f4cfaeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a domain to to timer  <a href="#a19bcc7f6568bfffc10b30084f4cfaeec">More...</a><br /></td></tr>
+<tr class="separator:a19bcc7f6568bfffc10b30084f4cfaeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c911c10982ec5c02d55d5fc1a9ee5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a92c911c10982ec5c02d55d5fc1a9ee5d">startDomainTiming</a> (int domain_id, const std::string &amp;name)</td></tr>
 <tr class="memdesc:a92c911c10982ec5c02d55d5fc1a9ee5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a new <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing.  <a href="#a92c911c10982ec5c02d55d5fc1a9ee5d">More...</a><br /></td></tr>
 <tr class="separator:a92c911c10982ec5c02d55d5fc1a9ee5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +120,57 @@ Friends</h2></td></tr>
     A -&gt; B
     ------
     time(sec):</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a19bcc7f6568bfffc10b30084f4cfaeec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19bcc7f6568bfffc10b30084f4cfaeec">&#9670;&nbsp;</a></span>addDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderEgg::Timer::addDomain </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>domain_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nlohmann::json&#160;</td>
+          <td class="paramname"><em>domain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add a domain to to timer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">domain_id</td><td>the id of the domain </td></tr>
+    <tr><td class="paramname">domain</td><td>the domain </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">RuntimerError</td><td>if domain with same id was already added </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a08e989db6a92a75c31cf12d8fcb0e0c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08e989db6a92a75c31cf12d8fcb0e0c9">&#9670;&nbsp;</a></span>start()</h2>
 
@@ -190,6 +244,12 @@ Friends</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">domain_id</td><td>the id of the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
     <tr><td class="paramname">name</td><td>the name of the timing </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">RuntimerError</td><td>if domain was not added with addDomain </td></tr>
   </table>
   </dd>
 </dl>
@@ -280,7 +340,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">TimerException</td><td>if the domain id and name does not match the name of the last started timing. </td></tr>
+    <tr><td class="paramname"><a class="el" href="structThunderEgg_1_1RuntimeError.html" title="ThunderEgg runtime exception. ">RuntimeError</a></td><td>if the domain id and name does not match the name of the last started timing. </td></tr>
   </table>
   </dd>
 </dl>
