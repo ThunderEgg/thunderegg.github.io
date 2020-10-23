@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['savetofile',['saveToFile',['../classThunderEgg_1_1Timer.html#a37202e5a19c9cd805599d533f938ba3b',1,'ThunderEgg::Timer']]],
   ['scale',['scale',['../classThunderEgg_1_1Vector.html#a6877616af4a704251f55b4532aaf0701',1,'ThunderEgg::Vector']]],
   ['scalethenadd',['scaleThenAdd',['../classThunderEgg_1_1Vector.html#a4d0f414538d5cd5bca4a470a1c63f02a',1,'ThunderEgg::Vector']]],
   ['scalethenaddscaled',['scaleThenAddScaled',['../classThunderEgg_1_1Vector.html#a0ba120974316e6f8c7ed10226ee58613',1,'ThunderEgg::Vector::scaleThenAddScaled(double alpha, double beta, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; b)'],['../classThunderEgg_1_1Vector.html#a1554db2c675b3051137841dc0e97c24c',1,'ThunderEgg::Vector::scaleThenAddScaled(double alpha, double beta, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; b, double gamma, std::shared_ptr&lt; const Vector&lt; D &gt;&gt; c)']]],
