@@ -467,7 +467,7 @@ Generating code /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Experime
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h:371: warning: argument 'local_index' of command @param is not found in the argument list of ThunderEgg::PatchInfo< D >::setBCGlobalIndex(Side< D > s, int global_index)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/PatchInfo.h:376: warning: The following parameters of ThunderEgg::PatchInfo::setBCGlobalIndex(Side< D > s, int global_index) are not documented:
   parameter 'global_index'
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h:213: warning: Member to_json(nlohmann::json &j, const Timer &timer) (friend) of class ThunderEgg::Timer is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Timer.h:134: warning: Member to_json(nlohmann::json &j, const Timer &timer) (friend) of class ThunderEgg::Timer is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:37: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const std::vector< LocalData< 3 >> &local_datas, const std::vector< LocalData< 3 >> &nbr_datas, const Side< 3 > side, const NbrType nbr_type, const Orthant< 3 > orthant) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/TriLinearGhostFiller.h:42: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 3 >> pinfo, const std::vector< LocalData< 3 >> &local_datas) const override (function) of class ThunderEgg::TriLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Vector.h:87: warning: Member getNumComponents() const (function) of class ThunderEgg::Vector is not documented.
@@ -982,5 +982,5 @@ Patching output file 69/72
 Patching output file 70/72
 Patching output file 71/72
 Patching output file 72/72
-lookup cache used 2442/65536 hits=28266 misses=2589
+lookup cache used 2421/65536 hits=28068 misses=2564
 finished...
