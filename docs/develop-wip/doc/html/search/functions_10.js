@@ -43,7 +43,9 @@ var searchData=
   ['starpatchoperator',['StarPatchOperator',['../classThunderEgg_1_1Poisson_1_1StarPatchOperator.html#afd7eee51cf4cf52172ced52d1d40b139',1,'ThunderEgg::Poisson::StarPatchOperator::StarPatchOperator()'],['../classThunderEgg_1_1VarPoisson_1_1StarPatchOperator.html#aa1d744dcb324bea22e6e6f8453e954fe',1,'ThunderEgg::VarPoisson::StarPatchOperator::StarPatchOperator()']]],
   ['start',['start',['../classThunderEgg_1_1Timer.html#a08e989db6a92a75c31cf12d8fcb0e0c9',1,'ThunderEgg::Timer']]],
   ['startdomaintiming',['startDomainTiming',['../classThunderEgg_1_1Timer.html#a92c911c10982ec5c02d55d5fc1a9ee5d',1,'ThunderEgg::Timer']]],
+  ['startpatchtiming',['startPatchTiming',['../classThunderEgg_1_1Timer.html#a5dfbd100892227c0081c1b55a817c15d',1,'ThunderEgg::Timer']]],
   ['stop',['stop',['../classThunderEgg_1_1Timer.html#a428f16e37606616ffe810972a813c378',1,'ThunderEgg::Timer']]],
   ['stopdomaintiming',['stopDomainTiming',['../classThunderEgg_1_1Timer.html#a487c8ac7e3ed0bedf08948b6a9ddc8ed',1,'ThunderEgg::Timer']]],
+  ['stoppatchtiming',['stopPatchTiming',['../classThunderEgg_1_1Timer.html#ace4032c1b8e0998549885b97d5021b50',1,'ThunderEgg::Timer']]],
   ['sw',['sw',['../classThunderEgg_1_1Orthant.html#a3ed7f1e359b6f7cfd30bf5719c987ac3',1,'ThunderEgg::Orthant']]]
 ];

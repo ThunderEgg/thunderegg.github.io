@@ -101,6 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a487c8ac7e3ed0bedf08948b6a9ddc8ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a487c8ac7e3ed0bedf08948b6a9ddc8ed">stopDomainTiming</a> (int domain_id, const std::string &amp;name)</td></tr>
 <tr class="memdesc:a487c8ac7e3ed0bedf08948b6a9ddc8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop a <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing.  <a href="#a487c8ac7e3ed0bedf08948b6a9ddc8ed">More...</a><br /></td></tr>
 <tr class="separator:a487c8ac7e3ed0bedf08948b6a9ddc8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dfbd100892227c0081c1b55a817c15d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a5dfbd100892227c0081c1b55a817c15d">startPatchTiming</a> (int patch_id, int domain_id, const std::string &amp;name)</td></tr>
+<tr class="memdesc:a5dfbd100892227c0081c1b55a817c15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a new <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing.  <a href="#a5dfbd100892227c0081c1b55a817c15d">More...</a><br /></td></tr>
+<tr class="separator:a5dfbd100892227c0081c1b55a817c15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4032c1b8e0998549885b97d5021b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#ace4032c1b8e0998549885b97d5021b50">stopPatchTiming</a> (int patch_id, int domain_id, const std::string &amp;name)</td></tr>
+<tr class="memdesc:ace4032c1b8e0998549885b97d5021b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop a <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing.  <a href="#ace4032c1b8e0998549885b97d5021b50">More...</a><br /></td></tr>
+<tr class="separator:ace4032c1b8e0998549885b97d5021b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37202e5a19c9cd805599d533f938ba3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Timer.html#a37202e5a19c9cd805599d533f938ba3b">saveToFile</a> (const std::string &amp;filename) const</td></tr>
 <tr class="memdesc:a37202e5a19c9cd805599d533f938ba3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save a json representation of the timer to the file. This is collective over all processes.  <a href="#a37202e5a19c9cd805599d533f938ba3b">More...</a><br /></td></tr>
 <tr class="separator:a37202e5a19c9cd805599d533f938ba3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +279,56 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a5dfbd100892227c0081c1b55a817c15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dfbd100892227c0081c1b55a817c15d">&#9670;&nbsp;</a></span>startPatchTiming()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderEgg::Timer::startPatchTiming </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>patch_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>domain_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start a new <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">patch_id</td><td>the id of the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> </td></tr>
+    <tr><td class="paramname">domain_id</td><td>the id of the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">name</td><td>the name of the timing </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">RuntimerError</td><td>if domain was not added with addDomain </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a428f16e37606616ffe810972a813c378"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a428f16e37606616ffe810972a813c378">&#9670;&nbsp;</a></span>stop()</h2>
 
@@ -334,6 +390,56 @@ Friends</h2></td></tr>
 <p>Stop a <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">domain_id</td><td>the id of the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">name</td><td>the name of the timing</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="structThunderEgg_1_1RuntimeError.html" title="ThunderEgg runtime exception. ">RuntimeError</a></td><td>if the domain id and name does not match the name of the last started timing. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ace4032c1b8e0998549885b97d5021b50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4032c1b8e0998549885b97d5021b50">&#9670;&nbsp;</a></span>stopPatchTiming()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThunderEgg::Timer::stopPatchTiming </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>patch_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>domain_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop a <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> associated timing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">patch_id</td><td>the id of the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> </td></tr>
     <tr><td class="paramname">domain_id</td><td>the id of the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
     <tr><td class="paramname">name</td><td>the name of the timing</td></tr>
   </table>
