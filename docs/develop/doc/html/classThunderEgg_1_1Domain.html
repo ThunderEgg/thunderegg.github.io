@@ -150,6 +150,21 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a9c28d3da027748e00fafb8cd089e1a62"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#a9c28d3da027748e00fafb8cd089e1a62">integrate</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; u) const</td></tr>
 <tr class="memdesc:a9c28d3da027748e00fafb8cd089e1a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integrate a vector over the domain.  <a href="#a9c28d3da027748e00fafb8cd089e1a62">More...</a><br /></td></tr>
 <tr class="separator:a9c28d3da027748e00fafb8cd089e1a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240ee1cea1e7d72c9e5600e3ed59f9d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#a240ee1cea1e7d72c9e5600e3ed59f9d8">setTimer</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">Timer</a> &gt; timer) const</td></tr>
+<tr class="memdesc:a240ee1cea1e7d72c9e5600e3ed59f9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classThunderEgg_1_1Timer.html" title="Class for keeping track of parallel timings. ">Timer</a> object.  <a href="#a240ee1cea1e7d72c9e5600e3ed59f9d8">More...</a><br /></td></tr>
+<tr class="separator:a240ee1cea1e7d72c9e5600e3ed59f9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73755c374458b2798d6501129e3c6527"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">Timer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#a73755c374458b2798d6501129e3c6527">getTimer</a> () const</td></tr>
+<tr class="memdesc:a73755c374458b2798d6501129e3c6527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Timer.html" title="Class for keeping track of parallel timings. ">Timer</a> object.  <a href="#a73755c374458b2798d6501129e3c6527">More...</a><br /></td></tr>
+<tr class="separator:a73755c374458b2798d6501129e3c6527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb232394c128a25f3c8bb83482eca46d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#aeb232394c128a25f3c8bb83482eca46d">hasTimer</a> () const</td></tr>
+<tr class="memdesc:aeb232394c128a25f3c8bb83482eca46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> has a timer associated with it.  <a href="#aeb232394c128a25f3c8bb83482eca46d">More...</a><br /></td></tr>
+<tr class="separator:aeb232394c128a25f3c8bb83482eca46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8161a06fb19bb382adb5fe693290f5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#aa8161a06fb19bb382adb5fe693290f5b">setId</a> (int new_id)</td></tr>
+<tr class="memdesc:aa8161a06fb19bb382adb5fe693290f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the id of the domain.  <a href="#aa8161a06fb19bb382adb5fe693290f5b">More...</a><br /></td></tr>
+<tr class="separator:aa8161a06fb19bb382adb5fe693290f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac9319fd72c5775a0aae659f67d054e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Domain.html#adac9319fd72c5775a0aae659f67d054e">getId</a> () const</td></tr>
+<tr class="memdesc:adac9319fd72c5775a0aae659f67d054e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the domain's id.  <a href="#adac9319fd72c5775a0aae659f67d054e">More...</a><br /></td></tr>
+<tr class="separator:adac9319fd72c5775a0aae659f67d054e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -237,6 +252,96 @@ template&lt;int D&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adac9319fd72c5775a0aae659f67d054e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac9319fd72c5775a0aae659f67d054e">&#9670;&nbsp;</a></span>getId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classThunderEgg_1_1Domain.html">ThunderEgg::Domain</a>&lt; D &gt;::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the domain's id. </p>
+<dl class="section return"><dt>Returns</dt><dd>int the id </dd></dl>
+
+</div>
+</div>
+<a id="a73755c374458b2798d6501129e3c6527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73755c374458b2798d6501129e3c6527">&#9670;&nbsp;</a></span>getTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classThunderEgg_1_1Timer.html">Timer</a>&gt; <a class="el" href="classThunderEgg_1_1Domain.html">ThunderEgg::Domain</a>&lt; D &gt;::getTimer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="classThunderEgg_1_1Timer.html" title="Class for keeping track of parallel timings. ">Timer</a> object. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;Timer&gt; the timer </dd></dl>
+
+</div>
+</div>
+<a id="aeb232394c128a25f3c8bb83482eca46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb232394c128a25f3c8bb83482eca46d">&#9670;&nbsp;</a></span>hasTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classThunderEgg_1_1Domain.html">ThunderEgg::Domain</a>&lt; D &gt;::hasTimer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> has a timer associated with it. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> has a timer associated with it </dd></dl>
+
+</div>
+</div>
 <a id="a9c28d3da027748e00fafb8cd089e1a62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c28d3da027748e00fafb8cd089e1a62">&#9670;&nbsp;</a></span>integrate()</h2>
 
@@ -274,6 +379,42 @@ template&lt;int D&gt; </div>
 
 </div>
 </div>
+<a id="aa8161a06fb19bb382adb5fe693290f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8161a06fb19bb382adb5fe693290f5b">&#9670;&nbsp;</a></span>setId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classThunderEgg_1_1Domain.html">ThunderEgg::Domain</a>&lt; D &gt;::setId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>new_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the id of the domain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_id</td><td>the new id of the domain </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a53b5a8977699d67ddb6c6969f6dcfabe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53b5a8977699d67ddb6c6969f6dcfabe">&#9670;&nbsp;</a></span>setNeumann()</h2>
 
@@ -304,6 +445,42 @@ template&lt;int D&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inf</td><td>the function that determines boundary conditions </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a240ee1cea1e7d72c9e5600e3ed59f9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240ee1cea1e7d72c9e5600e3ed59f9d8">&#9670;&nbsp;</a></span>setTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int D&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classThunderEgg_1_1Domain.html">ThunderEgg::Domain</a>&lt; D &gt;::setTimer </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">Timer</a> &gt;&#160;</td>
+          <td class="paramname"><em>timer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="classThunderEgg_1_1Timer.html" title="Class for keeping track of parallel timings. ">Timer</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timer</td><td>the timer </td></tr>
   </table>
   </dd>
 </dl>
