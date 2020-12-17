@@ -12,6 +12,7 @@ var searchData=
   ['bne',['bne',['../classThunderEgg_1_1Orthant.html#ae52dd02bb9046cae888ae2584dfdd3a9',1,'ThunderEgg::Orthant']]],
   ['bnw',['bnw',['../classThunderEgg_1_1Orthant.html#a71d6b09805ca86372561079c7c3f86e5',1,'ThunderEgg::Orthant']]],
   ['bottom',['bottom',['../classThunderEgg_1_1Side.html#a4111bf82e1d38837967757ab246458c7',1,'ThunderEgg::Side']]],
+  ['breakdownerror',['BreakdownError',['../structThunderEgg_1_1BreakdownError.html',1,'ThunderEgg::BreakdownError'],['../structThunderEgg_1_1BreakdownError.html#af6963301777337ad6d5ae3e090542914',1,'ThunderEgg::BreakdownError::BreakdownError()']]],
   ['bse',['bse',['../classThunderEgg_1_1Orthant.html#a966c5dfea1a1985063075a85fd2661e4',1,'ThunderEgg::Orthant']]],
   ['bsw',['bsw',['../classThunderEgg_1_1Orthant.html#a4677d5ec9e89bd45889e564302904070',1,'ThunderEgg::Orthant']]],
   ['bufferreader',['BufferReader',['../classThunderEgg_1_1BufferReader.html',1,'ThunderEgg::BufferReader'],['../classThunderEgg_1_1BufferReader.html#a6d001689c6a4f230461eb6cd5446d96d',1,'ThunderEgg::BufferReader::BufferReader()']]],
