@@ -98,9 +98,9 @@ Collaboration diagram for ThunderEgg::BiCGStabPatchSolver&lt; D &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a76f8a40d612e607ecbfb7da196f392ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStabPatchSolver.html#a76f8a40d612e607ecbfb7da196f392ef">BiCGStabPatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1PatchOperator.html">PatchOperator</a>&lt; D &gt;&gt; op_in, double tol_in=1e-12, int max_it_in=1000)</td></tr>
-<tr class="memdesc:a76f8a40d612e607ecbfb7da196f392ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1BiCGStabPatchSolver.html" title="Solves the patches using a BiCGStab iterative solver on each patch. ">BiCGStabPatchSolver</a> object.  <a href="#a76f8a40d612e607ecbfb7da196f392ef">More...</a><br /></td></tr>
-<tr class="separator:a76f8a40d612e607ecbfb7da196f392ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66f35d59e388d5034492344484693f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStabPatchSolver.html#af66f35d59e388d5034492344484693f5">BiCGStabPatchSolver</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1PatchOperator.html">PatchOperator</a>&lt; D &gt;&gt; op_in, double tol_in=1e-12, int max_it_in=1000, bool continue_on_breakdown=false)</td></tr>
+<tr class="memdesc:af66f35d59e388d5034492344484693f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classThunderEgg_1_1BiCGStabPatchSolver.html" title="Solves the patches using a BiCGStab iterative solver on each patch. ">BiCGStabPatchSolver</a> object.  <a href="#af66f35d59e388d5034492344484693f5">More...</a><br /></td></tr>
+<tr class="separator:af66f35d59e388d5034492344484693f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30fad73e6f25236361e2959c4c1513f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStabPatchSolver.html#a30fad73e6f25236361e2959c4c1513f1">solveSinglePatch</a> (std::shared_ptr&lt; const <a class="el" href="structThunderEgg_1_1PatchInfo.html">PatchInfo</a>&lt; D &gt;&gt; pinfo, const std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;fs, std::vector&lt; <a class="el" href="classThunderEgg_1_1LocalData.html">LocalData</a>&lt; D &gt;&gt; &amp;us) const override</td></tr>
 <tr class="memdesc:a30fad73e6f25236361e2959c4c1513f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single solve over a patch.  <a href="#a30fad73e6f25236361e2959c4c1513f1">More...</a><br /></td></tr>
 <tr class="separator:a30fad73e6f25236361e2959c4c1513f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,8 +159,8 @@ class ThunderEgg::BiCGStabPatchSolver&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a76f8a40d612e607ecbfb7da196f392ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76f8a40d612e607ecbfb7da196f392ef">&#9670;&nbsp;</a></span>BiCGStabPatchSolver()</h2>
+<a id="af66f35d59e388d5034492344484693f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66f35d59e388d5034492344484693f5">&#9670;&nbsp;</a></span>BiCGStabPatchSolver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +186,13 @@ template&lt;int D&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_it_in</em> = <code>1000</code>&#160;</td>
+          <td class="paramname"><em>max_it_in</em> = <code>1000</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>continue_on_breakdown</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -207,6 +213,7 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">op_in</td><td>the <a class="el" href="classThunderEgg_1_1PatchOperator.html" title="This is an Operator where derived classes only have to implement the two virtual functions that opera...">PatchOperator</a> to use </td></tr>
     <tr><td class="paramname">tol_in</td><td>the tolerance to use for patch solves </td></tr>
     <tr><td class="paramname">max_it_in</td><td>the maximum number of iterations to use for patch solves </td></tr>
+    <tr><td class="paramname">continue_on_breakdown</td><td>continue on breakdown exception </td></tr>
   </table>
   </dd>
 </dl>
