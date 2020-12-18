@@ -4,6 +4,7 @@ var searchData=
   ['dftpatchsolver',['DFTPatchSolver',['../classThunderEgg_1_1Poisson_1_1DFTPatchSolver.html#a39a640fc0b38a9711ec8d91266ffe171',1,'ThunderEgg::Poisson::DFTPatchSolver']]],
   ['directinterpolator',['DirectInterpolator',['../classThunderEgg_1_1GMG_1_1DirectInterpolator.html#af5f6159956748c08c42b7f33e21d740c',1,'ThunderEgg::GMG::DirectInterpolator']]],
   ['dirichletsh',['DirichletSH',['../classThunderEgg_1_1Poisson_1_1DirichletSH.html#a4dc81e0aa68154cadcd54658a0b9f690',1,'ThunderEgg::Poisson::DirichletSH']]],
+  ['divergenceerror',['DivergenceError',['../structThunderEgg_1_1DivergenceError.html#a91f690b22c795ebdfb9365b440a3bb9b',1,'ThunderEgg::DivergenceError']]],
   ['domain',['Domain',['../classThunderEgg_1_1Domain.html#a8181b8fd68c3a6edc9971243c856088d',1,'ThunderEgg::Domain']]],
   ['domgen',['DomGen',['../classThunderEgg_1_1Experimental_1_1DomGen.html#ae380523b505b2639fe372c7bcf3cd56e',1,'ThunderEgg::Experimental::DomGen']]],
   ['dot',['dot',['../classThunderEgg_1_1Vector.html#a5f66a5d010d5f17aa1b9b38f7d873187',1,'ThunderEgg::Vector']]]

@@ -77,9 +77,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af65eb5e556f98eb07d45d35039b22861"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStab.html#af65eb5e556f98eb07d45d35039b22861">solve</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">VectorGenerator</a>&lt; D &gt;&gt; vg, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; A, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; x, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; b, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; Mr=nullptr, int max_it=1000, double tolerance=1e-12, std::shared_ptr&lt; ThunderEgg::Timer &gt; timer=nullptr)</td></tr>
-<tr class="memdesc:af65eb5e556f98eb07d45d35039b22861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an iterative solve.  <a href="#af65eb5e556f98eb07d45d35039b22861">More...</a><br /></td></tr>
-<tr class="separator:af65eb5e556f98eb07d45d35039b22861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2462cb26fb717e750ddd67bfc63242e7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStab.html#a2462cb26fb717e750ddd67bfc63242e7">solve</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">VectorGenerator</a>&lt; D &gt;&gt; vg, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; A, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; x, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; b, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; Mr=nullptr, int max_it=1000, double tolerance=1e-12, std::shared_ptr&lt; ThunderEgg::Timer &gt; timer=nullptr, bool output=false, std::ostream &amp;os=std::cout)</td></tr>
+<tr class="memdesc:a2462cb26fb717e750ddd67bfc63242e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an iterative solve.  <a href="#a2462cb26fb717e750ddd67bfc63242e7">More...</a><br /></td></tr>
+<tr class="separator:a2462cb26fb717e750ddd67bfc63242e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int D&gt;<br />
@@ -93,8 +93,8 @@ class ThunderEgg::BiCGStab&lt; D &gt;</h3>
   </dd>
 </dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af65eb5e556f98eb07d45d35039b22861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af65eb5e556f98eb07d45d35039b22861">&#9670;&nbsp;</a></span>solve()</h2>
+<a id="a2462cb26fb717e750ddd67bfc63242e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2462cb26fb717e750ddd67bfc63242e7">&#9670;&nbsp;</a></span>solve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,7 +150,19 @@ template&lt;int D&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">ThunderEgg::Timer</a> &gt;&#160;</td>
-          <td class="paramname"><em>timer</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>timer</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>output</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em> = <code>std::cout</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,7 +184,10 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">A</td><td>the matrix </td></tr>
     <tr><td class="paramname">x</td><td>the initial LHS guess. </td></tr>
     <tr><td class="paramname">b</td><td>the RHS vector. </td></tr>
-    <tr><td class="paramname">Mr</td><td>the right preconditioner. Set to nullptr if there is no right preconditioner.</td></tr>
+    <tr><td class="paramname">Mr</td><td>the right preconditioner. Set to nullptr if there is no right preconditioner. </td></tr>
+    <tr><td class="paramname">timer</td><td>the timer </td></tr>
+    <tr><td class="paramname">output</td><td>print output to std::cout </td></tr>
+    <tr><td class="paramname">os</td><td>the stream to output to</td></tr>
   </table>
   </dd>
 </dl>
