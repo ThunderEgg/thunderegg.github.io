@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classThunderEgg_1_1Poisson_1_1StencilHelper.html" title="Helps with adding stencil values at boundary patches. " alt="" coords="5,136,163,177"/>
-<area shape="rect" id="node2" href="$classThunderEgg_1_1Poisson_1_1CoarseSH.html" title="Adds stencil for ghost values that are on a coarse neighbor. " alt="" coords="211,5,368,47"/>
-<area shape="rect" id="node3" href="$classThunderEgg_1_1Poisson_1_1DirichletSH.html" title="Modifies stencil value for Dirichlet boundary conditions. " alt="" coords="211,71,368,112"/>
-<area shape="rect" id="node4" href="$classThunderEgg_1_1Poisson_1_1FineSH.html" title="ThunderEgg::Poisson\l::FineSH" alt="" coords="211,136,368,177"/>
-<area shape="rect" id="node5" href="$classThunderEgg_1_1Poisson_1_1NeumannSH.html" title="Modifies stencil value for Neumann boundary conditions. " alt="" coords="211,201,368,243"/>
-<area shape="rect" id="node6" href="$classThunderEgg_1_1Poisson_1_1NormalSH.html" title="Adds stencil for ghost values that are on a normal neighbor. " alt="" coords="211,267,368,308"/>
+<area shape="rect" id="node1" href="$classThunderEgg_1_1Poisson_1_1StencilHelper2d.html" title="ThunderEgg::Poisson\l::StencilHelper2d" alt="" coords="5,136,163,177"/>
+<area shape="rect" id="node2" href="$classThunderEgg_1_1Poisson_1_1CoarseSH2d.html" title="ThunderEgg::Poisson\l::CoarseSH2d" alt="" coords="211,5,368,47"/>
+<area shape="rect" id="node3" href="$classThunderEgg_1_1Poisson_1_1DirichletSH2d.html" title="ThunderEgg::Poisson\l::DirichletSH2d" alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node4" href="$classThunderEgg_1_1Poisson_1_1FineSH2d.html" title="ThunderEgg::Poisson\l::FineSH2d" alt="" coords="211,136,368,177"/>
+<area shape="rect" id="node5" href="$classThunderEgg_1_1Poisson_1_1NeumannSH2d.html" title="ThunderEgg::Poisson\l::NeumannSH2d" alt="" coords="211,201,368,243"/>
+<area shape="rect" id="node6" href="$classThunderEgg_1_1Poisson_1_1NormalSH2d.html" title="ThunderEgg::Poisson\l::NormalSH2d" alt="" coords="211,267,368,308"/>
 </map>

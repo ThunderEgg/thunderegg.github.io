@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cg',['CG',['../classThunderEgg_1_1Iterative_1_1CG.html',1,'ThunderEgg::Iterative']]],
   ['coarseifaceinfo',['CoarseIfaceInfo',['../classThunderEgg_1_1Schur_1_1CoarseIfaceInfo.html',1,'ThunderEgg::Schur']]],
   ['coarsenbrinfo',['CoarseNbrInfo',['../classThunderEgg_1_1CoarseNbrInfo.html',1,'ThunderEgg']]],
   ['coarsesh',['CoarseSH',['../classThunderEgg_1_1Poisson_1_1CoarseSH.html',1,'ThunderEgg::Poisson']]],

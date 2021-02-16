@@ -13,6 +13,7 @@ var searchData=
   ['_7erestrictor',['~Restrictor',['../classThunderEgg_1_1GMG_1_1Restrictor.html#afe424ba528fe3aa85c26b4103c8dcc11',1,'ThunderEgg::GMG::Restrictor']]],
   ['_7eserializable',['~Serializable',['../classThunderEgg_1_1Serializable.html#a3b39aed7f11caf84cda71c529eae1460',1,'ThunderEgg::Serializable']]],
   ['_7esmoother',['~Smoother',['../classThunderEgg_1_1GMG_1_1Smoother.html#a658ca92bced694154e23f7a8669941b0',1,'ThunderEgg::GMG::Smoother']]],
+  ['_7esolver',['~Solver',['../classThunderEgg_1_1Iterative_1_1Solver.html#a1e74bbaab4c31aec8ae27f871d233735',1,'ThunderEgg::Iterative::Solver']]],
   ['_7estencilhelper',['~StencilHelper',['../classThunderEgg_1_1Poisson_1_1StencilHelper.html#ab373a277be9d4b44dee457d16651a74a',1,'ThunderEgg::Poisson::StencilHelper']]],
   ['_7etimer',['~Timer',['../classThunderEgg_1_1Timer.html#a88458678a412355d440c78b008edb81b',1,'ThunderEgg::Timer']]],
   ['_7eveclocaldatamanager',['~VecLocalDataManager',['../classThunderEgg_1_1PETSc_1_1VecLocalDataManager.html#a521fdaa5019519161a5f9a1491f045cf',1,'ThunderEgg::PETSc::VecLocalDataManager']]],
