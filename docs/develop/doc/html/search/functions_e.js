@@ -5,7 +5,7 @@ var searchData=
   ['patchifacescatter',['PatchIfaceScatter',['../classThunderEgg_1_1Schur_1_1PatchIfaceScatter.html#aa0c4ba7ccba53f8a8543328d73430a23',1,'ThunderEgg::Schur::PatchIfaceScatter']]],
   ['patchinfo',['PatchInfo',['../structThunderEgg_1_1PatchInfo.html#acf21148ec598694ab3c9c159825c8b2b',1,'ThunderEgg::PatchInfo']]],
   ['patchoperator',['PatchOperator',['../classThunderEgg_1_1PatchOperator.html#af654d22705733cd74a6c0a3ef0e0f49b',1,'ThunderEgg::PatchOperator']]],
-  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e',1,'ThunderEgg::PatchSolver']]],
+  ['patchsolver',['PatchSolver',['../classThunderEgg_1_1Iterative_1_1PatchSolver.html#a24c034922816324a8c5695dc5968a043',1,'ThunderEgg::Iterative::PatchSolver::PatchSolver()'],['../classThunderEgg_1_1PatchSolver.html#a1b3a09f8dc2b507b7acbbff3d2d4871e',1,'ThunderEgg::PatchSolver::PatchSolver()']]],
   ['patchsolverwrapper',['PatchSolverWrapper',['../classThunderEgg_1_1Schur_1_1PatchSolverWrapper.html#a8097a6e9f2baa0b1036149f85dfc605f',1,'ThunderEgg::Schur::PatchSolverWrapper']]],
   ['polychebprec',['PolyChebPrec',['../classThunderEgg_1_1Experimental_1_1PolyChebPrec.html#a2108887f14220d65649df3bb91023498',1,'ThunderEgg::Experimental::PolyChebPrec']]],
   ['prepcoarser',['prepCoarser',['../classThunderEgg_1_1GMG_1_1Cycle.html#aafbf30ac50b07440181f34fc29301807',1,'ThunderEgg::GMG::Cycle']]],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ThunderEgg: ThunderEgg::BiCGStab&lt; D &gt; Class Template Reference</title>
+<title>ThunderEgg: ThunderEgg::Iterative::Solver&lt; D &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -58,43 +58,56 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><a class="el" href="classThunderEgg_1_1BiCGStab.html">BiCGStab</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespaceThunderEgg.html">ThunderEgg</a></li><li class="navelem"><b>Iterative</b></li><li class="navelem"><a class="el" href="classThunderEgg_1_1Iterative_1_1Solver.html">Solver</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="classThunderEgg_1_1BiCGStab-members.html">List of all members</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classThunderEgg_1_1Iterative_1_1Solver-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ThunderEgg::BiCGStab&lt; D &gt; Class Template Reference</div>  </div>
+<div class="title">ThunderEgg::Iterative::Solver&lt; D &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="namespaceThunderEgg.html" title="The ThunderEgg namespace. ">ThunderEgg</a> implementation of <a class="el" href="classThunderEgg_1_1BiCGStab.html" title="ThunderEgg implementation of BiCGStab iterative solver. ">BiCGStab</a> iterative solver.  
- <a href="classThunderEgg_1_1BiCGStab.html#details">More...</a></p>
+<p>Represents an iterative solver.  
+ <a href="classThunderEgg_1_1Iterative_1_1Solver.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="BiCGStab_8h_source.html">BiCGStab.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="Solver_8h_source.html">Solver.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for ThunderEgg::Iterative::Solver&lt; D &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="classThunderEgg_1_1Iterative_1_1Solver__inherit__graph.png" border="0" usemap="#ThunderEgg_1_1Iterative_1_1Solver_3_01D_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ThunderEgg_1_1Iterative_1_1Solver_3_01D_01_4_inherit__map" id="ThunderEgg_1_1Iterative_1_1Solver_3_01D_01_4_inherit__map">
+<area shape="rect" id="node2" href="classThunderEgg_1_1Iterative_1_1BiCGStab.html" title="ThunderEgg implementation of BiCGStab iterative solver. " alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="classThunderEgg_1_1Iterative_1_1CG.html" title="ThunderEgg implementation of CG iterative solver. " alt="" coords="192,95,355,136"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2462cb26fb717e750ddd67bfc63242e7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1BiCGStab.html#a2462cb26fb717e750ddd67bfc63242e7">solve</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">VectorGenerator</a>&lt; D &gt;&gt; vg, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; A, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; x, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; b, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; Mr=nullptr, int max_it=1000, double tolerance=1e-12, std::shared_ptr&lt; ThunderEgg::Timer &gt; timer=nullptr, bool output=false, std::ostream &amp;os=std::cout)</td></tr>
-<tr class="memdesc:a2462cb26fb717e750ddd67bfc63242e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an iterative solve.  <a href="#a2462cb26fb717e750ddd67bfc63242e7">More...</a><br /></td></tr>
-<tr class="separator:a2462cb26fb717e750ddd67bfc63242e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1e74bbaab4c31aec8ae27f871d233735"><td class="memItemLeft" align="right" valign="top"><a id="a1e74bbaab4c31aec8ae27f871d233735"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Iterative_1_1Solver.html#a1e74bbaab4c31aec8ae27f871d233735">~Solver</a> ()</td></tr>
+<tr class="memdesc:a1e74bbaab4c31aec8ae27f871d233735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the <a class="el" href="classThunderEgg_1_1Iterative_1_1Solver.html" title="Represents an iterative solver. ">Solver</a> object. <br /></td></tr>
+<tr class="separator:a1e74bbaab4c31aec8ae27f871d233735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a9d9eef078d783dcf7fda094a14e44"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Iterative_1_1Solver.html#a31a9d9eef078d783dcf7fda094a14e44">solve</a> (std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">VectorGenerator</a>&lt; D &gt;&gt; vg, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; A, std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; x, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Vector.html">Vector</a>&lt; D &gt;&gt; b, std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Operator.html">Operator</a>&lt; D &gt;&gt; Mr=nullptr, bool output=false, std::ostream &amp;os=std::cout) const =0</td></tr>
+<tr class="memdesc:a31a9d9eef078d783dcf7fda094a14e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an iterative solve.  <a href="#a31a9d9eef078d783dcf7fda094a14e44">More...</a><br /></td></tr>
+<tr class="separator:a31a9d9eef078d783dcf7fda094a14e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int D&gt;<br />
-class ThunderEgg::BiCGStab&lt; D &gt;</h3>
+class ThunderEgg::Iterative::Solver&lt; D &gt;</h3>
 
-<p><a class="el" href="namespaceThunderEgg.html" title="The ThunderEgg namespace. ">ThunderEgg</a> implementation of <a class="el" href="classThunderEgg_1_1BiCGStab.html" title="ThunderEgg implementation of BiCGStab iterative solver. ">BiCGStab</a> iterative solver. </p>
+<p>Represents an iterative solver. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">D</td><td>the number of Cartesian dimensions </td></tr>
+    <tr><td class="paramname">D</td><td>the number of cartesian dimensions </td></tr>
   </table>
   </dd>
 </dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2462cb26fb717e750ddd67bfc63242e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2462cb26fb717e750ddd67bfc63242e7">&#9670;&nbsp;</a></span>solve()</h2>
+<a id="a31a9d9eef078d783dcf7fda094a14e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a9d9eef078d783dcf7fda094a14e44">&#9670;&nbsp;</a></span>solve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -105,7 +118,7 @@ template&lt;int D&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int <a class="el" href="classThunderEgg_1_1BiCGStab.html">ThunderEgg::BiCGStab</a>&lt; D &gt;::solve </td>
+          <td class="memname">virtual int <a class="el" href="classThunderEgg_1_1Iterative_1_1Solver.html">ThunderEgg::Iterative::Solver</a>&lt; D &gt;::solve </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1VectorGenerator.html">VectorGenerator</a>&lt; D &gt;&gt;&#160;</td>
           <td class="paramname"><em>vg</em>, </td>
@@ -137,24 +150,6 @@ template&lt;int D&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_it</em> = <code>1000</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>tolerance</em> = <code>1e-12</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classThunderEgg_1_1Timer.html">ThunderEgg::Timer</a> &gt;&#160;</td>
-          <td class="paramname"><em>timer</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>output</em> = <code>false</code>, </td>
         </tr>
@@ -167,12 +162,12 @@ template&lt;int D&gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -185,18 +180,19 @@ template&lt;int D&gt; </div>
     <tr><td class="paramname">x</td><td>the initial LHS guess. </td></tr>
     <tr><td class="paramname">b</td><td>the RHS vector. </td></tr>
     <tr><td class="paramname">Mr</td><td>the right preconditioner. Set to nullptr if there is no right preconditioner. </td></tr>
-    <tr><td class="paramname">timer</td><td>the timer </td></tr>
-    <tr><td class="paramname">output</td><td>print output to std::cout </td></tr>
+    <tr><td class="paramname">output</td><td>print output to the provided stream </td></tr>
     <tr><td class="paramname">os</td><td>the stream to output to</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of iterations </dd></dl>
 
+<p>Implemented in <a class="el" href="classThunderEgg_1_1Iterative_1_1BiCGStab.html#a33afc5165826f532234fb4e89e0fbc42">ThunderEgg::Iterative::BiCGStab&lt; D &gt;</a>, and <a class="el" href="classThunderEgg_1_1Iterative_1_1CG.html#aa72519232d98745fdbb163d6e69b4215">ThunderEgg::Iterative::CG&lt; D &gt;</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/<a class="el" href="BiCGStab_8h_source.html">BiCGStab.h</a></li>
+<li>/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Iterative/<a class="el" href="Solver_8h_source.html">Solver.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

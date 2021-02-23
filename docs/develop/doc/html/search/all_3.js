@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cg',['CG',['../classThunderEgg_1_1Iterative_1_1CG.html',1,'ThunderEgg::Iterative']]],
   ['child_5fid',['child_id',['../structThunderEgg_1_1Experimental_1_1Node.html#aa0178b746633efd3cec8f76e8b7d1c71',1,'ThunderEgg::Experimental::Node']]],
   ['child_5fids',['child_ids',['../structThunderEgg_1_1PatchInfo.html#ab5c6d0678573d06af0e58f27ee5231d3',1,'ThunderEgg::PatchInfo']]],
   ['child_5franks',['child_ranks',['../structThunderEgg_1_1PatchInfo.html#a48eed678898ffb3fe25902f41365eab6',1,'ThunderEgg::PatchInfo']]],
