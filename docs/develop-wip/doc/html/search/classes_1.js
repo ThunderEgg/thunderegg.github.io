@@ -1,7 +1,6 @@
 var searchData=
 [
   ['bicgstab',['BiCGStab',['../classThunderEgg_1_1Iterative_1_1BiCGStab.html',1,'ThunderEgg::Iterative']]],
-  ['bicgstabpatchsolver',['BiCGStabPatchSolver',['../classThunderEgg_1_1BiCGStabPatchSolver.html',1,'ThunderEgg']]],
   ['bilinearghostfiller',['BiLinearGhostFiller',['../classThunderEgg_1_1BiLinearGhostFiller.html',1,'ThunderEgg']]],
   ['biquadraticghostfiller',['BiQuadraticGhostFiller',['../classThunderEgg_1_1BiQuadraticGhostFiller.html',1,'ThunderEgg']]],
   ['blockjacobismoother',['BlockJacobiSmoother',['../structThunderEgg_1_1Experimental_1_1BlockJacobiSmoother.html',1,'ThunderEgg::Experimental']]],
