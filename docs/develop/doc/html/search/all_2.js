@@ -4,7 +4,6 @@ var searchData=
   ['bc_5flocal_5findex',['bc_local_index',['../structThunderEgg_1_1PatchInfo.html#a487a3f657517a4c9f0bb7312fd5294c4',1,'ThunderEgg::PatchInfo']]],
   ['begin',['begin',['../classThunderEgg_1_1Orthant_1_1Range.html#a61d8b0f915d72afd054c49d0dc3d08f7',1,'ThunderEgg::Orthant::Range::begin()'],['../classThunderEgg_1_1Side_1_1Range.html#a0242de07b0d199528a78b9345975e689',1,'ThunderEgg::Side::Range::begin()']]],
   ['bicgstab',['BiCGStab',['../classThunderEgg_1_1Iterative_1_1BiCGStab.html',1,'ThunderEgg::Iterative']]],
-  ['bicgstabpatchsolver',['BiCGStabPatchSolver',['../classThunderEgg_1_1BiCGStabPatchSolver.html',1,'ThunderEgg::BiCGStabPatchSolver&lt; D &gt;'],['../classThunderEgg_1_1BiCGStabPatchSolver.html#af66f35d59e388d5034492344484693f5',1,'ThunderEgg::BiCGStabPatchSolver::BiCGStabPatchSolver()']]],
   ['bilinearghostfiller',['BiLinearGhostFiller',['../classThunderEgg_1_1BiLinearGhostFiller.html',1,'ThunderEgg::BiLinearGhostFiller'],['../classThunderEgg_1_1BiLinearGhostFiller.html#a5c2fdb0981fcbc4bab01f9ac904aca39',1,'ThunderEgg::BiLinearGhostFiller::BiLinearGhostFiller()']]],
   ['biquadraticghostfiller',['BiQuadraticGhostFiller',['../classThunderEgg_1_1BiQuadraticGhostFiller.html',1,'ThunderEgg::BiQuadraticGhostFiller'],['../classThunderEgg_1_1BiQuadraticGhostFiller.html#ac994c6b54ad1e7e6fed63db3c7e62a9f',1,'ThunderEgg::BiQuadraticGhostFiller::BiQuadraticGhostFiller()']]],
   ['blockjacobismoother',['BlockJacobiSmoother',['../structThunderEgg_1_1Experimental_1_1BlockJacobiSmoother.html',1,'ThunderEgg::Experimental']]],
