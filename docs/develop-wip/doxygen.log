@@ -420,9 +420,9 @@ Generating code for file/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Schur/IfaceMatrixHelper.h:33: warning: argument 'comm' of command @param is not found in the argument list of IfaceMatrixHelper::IfaceMatrixHelper(DomainCollection dc)
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/CoarseNbrInfo.h:112: warning: Member to_json(nlohmann::json &j, const CoarseNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/CoarseNbrInfo.h:119: warning: Member from_json(const nlohmann::json &j, CoarseNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:629: warning: Member to_json(nlohmann::json &j, const Domain< D > &domain) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:638: warning: Member to_json< 2 >(nlohmann::json &j, const Domain< 2 > &domain) (function) of namespace ThunderEgg is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:639: warning: Member to_json< 3 >(nlohmann::json &j, const Domain< 3 > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:635: warning: Member to_json(nlohmann::json &j, const Domain< D > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:644: warning: Member to_json< 2 >(nlohmann::json &j, const Domain< 2 > &domain) (function) of namespace ThunderEgg is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:645: warning: Member to_json< 3 >(nlohmann::json &j, const Domain< 3 > &domain) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/FineNbrInfo.h:118: warning: Member to_json(nlohmann::json &j, const FineNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/FineNbrInfo.h:124: warning: Member from_json(const nlohmann::json &j, FineNbrInfo< D > &n) (function) of namespace ThunderEgg is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Loops.h:52: warning: Member loop(T lambda) (function) of namespace ThunderEgg is not documented.
@@ -448,8 +448,9 @@ Generating code for file/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiLinearGhostFiller.h:48: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiLinearGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:45: warning: Member fillGhostCellsForNbrPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas, const std::vector< LocalData< 2 >> &nbr_datas, const Side< 2 > side, const NbrType nbr_type, const Orthant< 2 > orthant) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/BiQuadraticGhostFiller.h:50: warning: Member fillGhostCellsForLocalPatch(std::shared_ptr< const PatchInfo< 2 >> pinfo, const std::vector< LocalData< 2 >> &local_datas) const override (function) of class ThunderEgg::BiQuadraticGhostFiller is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:48: warning: Member patch_id_bc_map_vec (variable) of class ThunderEgg::Domain is not documented.
-/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:182: warning: The following parameters of ThunderEgg::Domain::Domain(std::map< int, std::shared_ptr< PatchInfo< D >>> pinfo_map, std::array< int, D > ns_in, int num_ghost_cells_in, bool local_id_set=false, bool global_id_set=false) are not documented:
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:54: warning: Member patch_id_bc_map_vec (variable) of class ThunderEgg::Domain is not documented.
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:40: warning: Invalid list item found
+/home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/Domain.h:188: warning: The following parameters of ThunderEgg::Domain::Domain(std::map< int, std::shared_ptr< PatchInfo< D >>> pinfo_map, std::array< int, D > ns_in, int num_ghost_cells_in, bool local_id_set=false, bool global_id_set=false) are not documented:
   parameter 'ns_in'
   parameter 'num_ghost_cells_in'
 /home/travis/build/ThunderEgg/ThunderEgg/src/ThunderEgg/LocalData.h:204: warning: Member operator()(Types... args) (function) of class ThunderEgg::LocalData is not documented.

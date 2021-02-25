@@ -116,7 +116,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memdesc:a83c9b911317e4e29e7ec0182d5796ff2 inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Patch Solver object. <br /></td></tr>
 <tr class="separator:a83c9b911317e4e29e7ec0182d5796ff2 inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3870316711548792347613da2795740e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#a3870316711548792347613da2795740e">getDomain</a> () const</td></tr>
-<tr class="memdesc:a3870316711548792347613da2795740e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object.  <a href="classThunderEgg_1_1PatchSolver.html#a3870316711548792347613da2795740e">More...</a><br /></td></tr>
+<tr class="memdesc:a3870316711548792347613da2795740e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> object.  <a href="classThunderEgg_1_1PatchSolver.html#a3870316711548792347613da2795740e">More...</a><br /></td></tr>
 <tr class="separator:a3870316711548792347613da2795740e inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9a1fae828954315f65ab594cc6a5213 inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1GhostFiller.html">GhostFiller</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1PatchSolver.html#ae9a1fae828954315f65ab594cc6a5213">getGhostFiller</a> () const</td></tr>
 <tr class="memdesc:ae9a1fae828954315f65ab594cc6a5213 inherit pub_methods_classThunderEgg_1_1PatchSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1GhostFiller.html" title="Fills ghost cells on patches. ">GhostFiller</a> object.  <a href="classThunderEgg_1_1PatchSolver.html#ae9a1fae828954315f65ab594cc6a5213">More...</a><br /></td></tr>
@@ -281,7 +281,7 @@ template&lt;int D&gt; </div>
 <p>Perform a single solve over a patch. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pinfo</td><td>the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> for the patch </td></tr>
+    <tr><td class="paramname">pinfo</td><td>the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains metadata for a patch. ">PatchInfo</a> for the patch </td></tr>
     <tr><td class="paramname">us</td><td>the left hand side </td></tr>
     <tr><td class="paramname">fs</td><td>the right hand side </td></tr>
   </table>

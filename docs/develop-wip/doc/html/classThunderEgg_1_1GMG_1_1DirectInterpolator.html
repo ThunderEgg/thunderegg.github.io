@@ -165,8 +165,8 @@ template&lt;int D&gt; </div>
 <p>Create new <a class="el" href="classThunderEgg_1_1GMG_1_1DirectInterpolator.html" title="Simple class that directly places values from coarse cell into the corresponding fine cells...">DirectInterpolator</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">coarse_domain</td><td>the coarser <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
-    <tr><td class="paramname">fine_domain</td><td>the finer <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">coarse_domain</td><td>the coarser <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">fine_domain</td><td>the finer <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> </td></tr>
     <tr><td class="paramname">num_components</td><td>the number of components in each cell </td></tr>
   </table>
   </dd>
@@ -221,7 +221,7 @@ template&lt;int D&gt; </div>
 <p>The idea behind this is that this function will be called twice. Once to interpolate from the local values, and once to interpolate from the ghost values. The local values will be interpolated from first, while MPI communication is happening, and the ghost values will be interpolated from last.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">patches</td><td>pairs where the first value is the index in the coarse vector and the second value is a pointer to the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> object </td></tr>
+    <tr><td class="paramname">patches</td><td>pairs where the first value is the index in the coarse vector and the second value is a pointer to the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains metadata for a patch. ">PatchInfo</a> object </td></tr>
     <tr><td class="paramname">finer_vector</td><td>the finer vector </td></tr>
     <tr><td class="paramname">coarser_vector</td><td>the coaser vector </td></tr>
   </table>
