@@ -171,8 +171,8 @@ template&lt;int D&gt; </div>
 <p>Create new <a class="el" href="classThunderEgg_1_1GMG_1_1LinearRestrictor.html" title="Restrictor that averages the corresponding fine cells into each coarse cell. ">LinearRestrictor</a> object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fine_domain</td><td>the finer <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
-    <tr><td class="paramname">coarse_domain</td><td>the coarser <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">fine_domain</td><td>the finer <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">coarse_domain</td><td>the coarser <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> </td></tr>
     <tr><td class="paramname">num_components</td><td>the number of components in each cell </td></tr>
     <tr><td class="paramname">extrapolate_boundary_ghosts</td><td>set to true if ghost values at the boundaries should be extrapolated </td></tr>
   </table>
@@ -228,7 +228,7 @@ template&lt;int D&gt; </div>
 <p>The idea behind this is that this function will be called twice. Once to fill in the ghost values, and once to fill in the local values. The ghost values will be filled first and the local values will be fill while MPI communication is happening.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">patches</td><td>pairs where the first value is the index in the coarse vector and the second value is a pointer to the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains useful information for a patch. ">PatchInfo</a> object </td></tr>
+    <tr><td class="paramname">patches</td><td>pairs where the first value is the index in the coarse vector and the second value is a pointer to the <a class="el" href="structThunderEgg_1_1PatchInfo.html" title="Contains metadata for a patch. ">PatchInfo</a> object </td></tr>
     <tr><td class="paramname">finer_vector</td><td>the finer vector </td></tr>
     <tr><td class="paramname">coarser_vector</td><td>the coaser vector </td></tr>
   </table>

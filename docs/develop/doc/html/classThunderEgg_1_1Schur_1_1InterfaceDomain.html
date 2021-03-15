@@ -78,7 +78,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1880f13e447efe7f7a8c32f8390404d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a1880f13e447efe7f7a8c32f8390404d4">InterfaceDomain</a> (std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt;&gt; domain)</td></tr>
-<tr class="memdesc:a1880f13e447efe7f7a8c32f8390404d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>.  <a href="#a1880f13e447efe7f7a8c32f8390404d4">More...</a><br /></td></tr>
+<tr class="memdesc:a1880f13e447efe7f7a8c32f8390404d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a>.  <a href="#a1880f13e447efe7f7a8c32f8390404d4">More...</a><br /></td></tr>
 <tr class="separator:a1880f13e447efe7f7a8c32f8390404d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9313e5945117a127e08e971a99f7186b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#a9313e5945117a127e08e971a99f7186b">getNumLocalInterfaces</a> () const</td></tr>
 <tr class="memdesc:a9313e5945117a127e08e971a99f7186b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of local Interfaces on this rank.  <a href="#a9313e5945117a127e08e971a99f7186b">More...</a><br /></td></tr>
@@ -93,7 +93,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a274d7910541fc7841f26dffee37b0e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector <a class="el" href="classThunderEgg_1_1Schur_1_1PatchIfaceInfo.html" title="This decorates a PatchInfo object with a IfaceInfo object for each side of the patch. ">PatchIfaceInfo</a> objects for this rank.  <a href="#a274d7910541fc7841f26dffee37b0e9e">More...</a><br /></td></tr>
 <tr class="separator:a274d7910541fc7841f26dffee37b0e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf1cf1e543b577f58dec602189ab811"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classThunderEgg_1_1Domain.html">Domain</a>&lt; D &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html#addf1cf1e543b577f58dec602189ab811">getDomain</a> () const</td></tr>
-<tr class="memdesc:addf1cf1e543b577f58dec602189ab811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>.  <a href="#addf1cf1e543b577f58dec602189ab811">More...</a><br /></td></tr>
+<tr class="memdesc:addf1cf1e543b577f58dec602189ab811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>.  <a href="#addf1cf1e543b577f58dec602189ab811">More...</a><br /></td></tr>
 <tr class="separator:addf1cf1e543b577f58dec602189ab811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -139,10 +139,10 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a>. </p>
+<p>Create a <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a> from a given <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> </td></tr>
+    <tr><td class="paramname">domain</td><td>the <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -175,8 +175,8 @@ template&lt;int D&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;Domain&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1Domain.html" title="Represents the domain of the problem. ">Domain</a> object </dd></dl>
+<p>Get the <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> object that cooresponds to this <a class="el" href="classThunderEgg_1_1Schur_1_1InterfaceDomain.html" title="Represents the Schur compliment domain of the problem. ">InterfaceDomain</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::shared_ptr&lt;Domain&lt;D&gt;&gt; the <a class="el" href="classThunderEgg_1_1Domain.html" title="Uses a collection of PatchInfo objects to represent the domain of the problem. ">Domain</a> object </dd></dl>
 
 </div>
 </div>
