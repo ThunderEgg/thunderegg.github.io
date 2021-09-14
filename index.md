@@ -1,1 +1,1 @@
-[Documentation](https://thunderegg.dev/docs/develop-wip/index.html)
+[Documentation](https://thunderegg.dev/ThunderEgg/docs/develop-wip/index.html)
