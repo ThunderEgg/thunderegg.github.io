@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['_5fsetvalues',['_SetValues',['../namespaceThunderEgg_1_1DomainTools.html#a82fcdc6a3c5c7140e6faf005b1171e0f',1,'ThunderEgg::DomainTools::_SetValues(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func)'],['../namespaceThunderEgg_1_1DomainTools.html#affcce3a51441ad7d7769fc53045effe7',1,'ThunderEgg::DomainTools::_SetValues(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func, Args... args)']]],
-  ['_5fsetvalueswithghost',['_SetValuesWithGhost',['../namespaceThunderEgg_1_1DomainTools.html#a481aee548abb1ac9218b0b88bdcbbab7',1,'ThunderEgg::DomainTools::_SetValuesWithGhost(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func)'],['../namespaceThunderEgg_1_1DomainTools.html#a5c8e4867346d3fcab5e4817e740be56a',1,'ThunderEgg::DomainTools::_SetValuesWithGhost(std::shared_ptr&lt; Domain&lt; D &gt;&gt; domain, std::shared_ptr&lt; Vector&lt; D &gt;&gt; vec, int component_index, T func, Args... args)']]]
-];
