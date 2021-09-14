@@ -1,6 +1,0 @@
-<map id="ThunderEgg::GMG::Smoother&lt; D &gt;" name="ThunderEgg::GMG::Smoother&lt; D &gt;">
-<area shape="rect" id="node2" href="$classThunderEgg_1_1PatchSolver.html" title="Solves the problem on the patches using a specified interface value. " alt="" coords="303,78,525,105"/>
-<area shape="rect" id="node3" href="$classThunderEgg_1_1Iterative_1_1PatchSolver.html" title="Solves the patches using a Iterative iterative solver on each patch. " alt="" coords="583,5,745,47"/>
-<area shape="rect" id="node4" href="$classThunderEgg_1_1Poisson_1_1DFTPatchSolver.html" title="This patch solver uses DFT transforms to solve for the Poisson equation. " alt="" coords="579,71,749,112"/>
-<area shape="rect" id="node5" href="$classThunderEgg_1_1Poisson_1_1FFTWPatchSolver.html" title="This patch solver uses FFT transforms to solve for the Poisson equation. " alt="" coords="573,136,755,177"/>
-</map>
